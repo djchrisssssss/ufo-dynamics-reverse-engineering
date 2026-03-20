@@ -170,7 +170,7 @@ All 56 quantitative data points have been verified against original sources. See
 
 ### APA
 
-Lai, K. (2026). *Reverse Engineering the Dynamics of UFOs: A Physics-Based Assessment of Unidentified Aerial Phenomena* (IRD-UAP-2026-001). DOI: pending.
+Lai, K. (2026). *Reverse Engineering the Dynamics of UFOs: A Physics-Based Assessment of Unidentified Aerial Phenomena* (IRD-UAP-2026-001). DOI: [10.5281/zenodo.19138271](https://doi.org/10.5281/zenodo.19138271).
 
 ### BibTeX
 
@@ -180,6 +180,7 @@ Lai, K. (2026). *Reverse Engineering the Dynamics of UFOs: A Physics-Based Asses
   author    = {Lai, Kris},
   year      = {2026},
   note      = {Document ID: IRD-UAP-2026-001. UNCLASSIFIED --- Open Source Analysis},
+  doi       = {10.5281/zenodo.19138271},
   url       = {https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering}
 }
 ```
