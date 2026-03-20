@@ -1,6 +1,6 @@
-# Reverse Engineering the Dynamics of Unidentified Aerial Phenomena
+# Reverse Engineering the Dynamics of UFOs
 
-# 不明空中現象動力學之逆向工程
+# UFO 動力學之逆向工程
 
 ---
 

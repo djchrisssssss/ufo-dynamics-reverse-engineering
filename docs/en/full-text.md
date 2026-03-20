@@ -6,7 +6,7 @@
 
 ---
 
-## Reverse Engineering the Dynamics of Unidentified Aerial Phenomena: A Physics-Based Assessment
+## Reverse Engineering the Dynamics of UFOs: A Physics-Based Assessment of Unidentified Aerial Phenomena
 
 **Document Identifier:** IRD-UAP-2026-001
 
@@ -138,7 +138,19 @@ Following the methodology of Intelligence Community Directive (ICD) 203, this re
 
 ## Section 1: Introduction and Historical Context
 
-### 1.1 The UAP Question: From Project Blue Book to AARO
+### 1.1 Terminology: UFO, UAP, and the Scope of This Document
+
+Before proceeding, a note on terminology is necessary. Two terms recur throughout this document and the broader literature:
+
+- **UFO (Unidentified Flying Object)** — The original term, coined in 1953 by USAF Captain Edward J. Ruppelt to replace the colloquial "flying saucer." A UFO refers specifically to an **observed airborne object** whose identity cannot be determined by the observer. The term implies a discrete physical object in flight.
+
+- **UAP (Unidentified Aerial Phenomena)** — The broader category adopted by the US Department of Defense (2020) and the intelligence community. UAP encompasses not only flying objects (UFOs) but also **airborne sensor anomalies, transmedium phenomena, underwater detections, and events that may not correspond to a physical object at all** (e.g., atmospheric plasma, electronic spoofing, optical illusions).
+
+In set-theoretic terms: **UFO ⊂ UAP**. Every UFO is a UAP, but not every UAP is a UFO. A radar return with no visual confirmation, an unexplained underwater sonar contact, or a satellite infrared anomaly would be classified as UAP but not necessarily as a UFO.
+
+**Convention in this document:** This report primarily uses **"UAP"** as the default term, consistent with current official nomenclature (ODNI, AARO, DoD). However, **"UFO"** is used where the context specifically refers to a discrete physical flying object — particularly in discussing propulsion mechanisms, vehicle geometry, warp bubble morphology, and materials analysis, where the physics presupposes a tangible craft. The title retains "UFO" for its universal recognizability and because this assessment focuses primarily on the physics of **physical flying objects**, not the full breadth of anomalous phenomena.
+
+### 1.2 The UAP Question: From Project Blue Book to AARO
 
 The systematic investigation of unidentified aerial phenomena by the United States government spans more than seven decades. Project Sign (1947), Project Grudge (1949), and Project Blue Book (1952–1969) collectively examined over 12,000 reports. Blue Book's final report, conducted under the direction of Dr. Edward Condon at the University of Colorado, concluded that further study was unlikely to advance scientific knowledge — a judgment that effectively ended official investigation for nearly four decades.¹⁰
 
@@ -150,7 +162,7 @@ In July 2022, the Department of Defense established the All-domain Anomaly Resol
 
 This report does not take a position on the origin of UAP. Instead, it asks a narrower question: **what does established physics tell us about the feasibility of the reported flight characteristics?**
 
-### 1.2 The AAWSAP/AATIP Program and the 38 DIRDs
+### 1.3 The AAWSAP/AATIP Program and the 38 DIRDs
 
 Between 2008 and 2010, the DIA commissioned 38 technical papers under the AAWSAP contract, each designated a Defense Intelligence Reference Document (DIRD). These papers were authored by recognized experts — including Dr. Harold Puthoff (EarthTech International), Dr. Eric Davis (EarthTech International), Dr. Friedwardt Winterberg (University of Nevada, Reno), and Dr. Ulf Leonhardt (University of St. Andrews) — and surveyed the frontiers of physics and engineering relevant to advanced aerospace propulsion.¹⁵
 
@@ -167,7 +179,7 @@ Thirty-seven of the 38 DIRDs were declassified and released via FOIA on March 25
 
 These documents serve as a crucial reference for this assessment, as they represent the most comprehensive official effort to map UAP observables onto known and theoretical physics.
 
-### 1.3 Scope and Methodology of This Assessment
+### 1.4 Scope and Methodology of This Assessment
 
 This report adopts the following methodology:
 
@@ -833,7 +845,8 @@ For establishing UAP as beyond-current-technology:
 | Transmedium | 跨介質 | Capability to operate across multiple physical media (air, water, space) |
 | Traversable wormhole | 可穿越蟲洞 | A topological shortcut through spacetime that permits passage |
 | Tritium | 氚（超重氫） | Hydrogen isotope with one proton and two neutrons |
-| UAP/UFO | 不明空中現象/不明飛行物 | Unidentified Aerial Phenomena / Unidentified Flying Object |
+| UAP | 不明空中現象 | Unidentified Aerial Phenomena — the broad category encompassing all unidentified airborne or transmedium anomalies (objects, sensor returns, optical events). Adopted by DoD/ODNI (2020). See §1.1 |
+| UFO | 不明飛行物 | Unidentified Flying Object — a subset of UAP referring specifically to a discrete physical airborne object of unknown identity. UFO ⊂ UAP. See §1.1 |
 | Unruh effect | 安魯效應 | Thermal radiation perceived by an accelerating observer in the quantum vacuum |
 | Warp bubble | 曲速泡泡 | Region of distorted spacetime enclosing a vehicle in the Alcubierre framework |
 | Weak energy condition | 弱能量條件 | The requirement that energy density be non-negative for all timelike observers |
