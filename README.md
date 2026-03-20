@@ -142,6 +142,30 @@ UFO-dynamics-reverse-engineering/
 
 ---
 
+## AI Collaboration & Data Verification / AI 協作與資料驗證
+
+This project was produced through a structured collaboration between the human author and **Claude** (Anthropic), using the **Claude Opus 4** and **Claude Sonnet 4** models. AI contributions included:
+
+本專案係由人類作者與 **Claude**（Anthropic）進行結構化協作所產出，使用 **Claude Opus 4** 及 **Claude Sonnet 4** 模型。AI 之貢獻包括：
+
+| Contribution / 貢獻 | Description / 說明 |
+|---------------------|--------------------|
+| Literature synthesis / 文獻綜整 | Cross-referencing 54 sources / 交叉比對 54 筆來源 |
+| Equation typesetting / 公式排版 | Markdown + LaTeX (REVTeX 4-2) formatting / 格式化 |
+| Structural organization / 結構組織 | 8-section architecture, bilingual parity / 八章節架構、雙語對照 |
+| Data infrastructure / 資料基礎設施 | JSON Schema, statistics, timelines, source registry / 驗證架構 |
+| Translation / 翻譯 | Full Traditional Chinese parallel text / 繁體中文全文翻譯 |
+
+**All scientific judgments, assessments, and conclusions are solely those of the human author.**
+
+**所有科學判斷、評估及結論均為人類作者之獨立意見。**
+
+All 56 quantitative data points have been verified against original sources. See the [verification reports](docs/en/verification-report.md) for full audit details.
+
+全部 56 個定量資料點均已對照原始來源進行驗證。完整審核詳見[驗證報告](docs/zh-TW/verification-report.md)。
+
+---
+
 ## How to Cite / 引用方式
 
 ### APA

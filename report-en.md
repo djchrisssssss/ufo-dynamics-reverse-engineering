@@ -1043,6 +1043,29 @@ The 38 Defense Intelligence Reference Documents commissioned under AAWSAP (2008�
 
 ---
 
+## AI Collaboration & Data Verification
+
+This document was produced through a structured collaboration between the human author and **Claude** (Anthropic), specifically the **Claude Opus 4** and **Claude Sonnet 4** models. The AI contribution included:
+
+- **Literature synthesis**: Organizing and cross-referencing 54 bibliography sources across peer-reviewed articles, government documents, DIRDs, and books.
+- **Equation typesetting**: Formatting mathematical expressions in both Markdown (GitHub-compatible) and LaTeX (REVTeX 4-2).
+- **Structural organization**: Establishing the eight-section architecture, bilingual parity (EN ↔ ZH-TW), and appendix structure.
+- **Data infrastructure**: Generating JSON Schema validation, per-section statistics files, timeline CSVs, and the source registry.
+- **Translation**: Producing the Traditional Chinese (繁體中文) parallel text.
+
+**All scientific judgments, physical assessments, confidence ratings, and conclusions are solely those of the human author.** The AI did not independently generate any physics claims; it served as a research assistant for organization, formatting, and cross-referencing.
+
+### Data Verification
+
+All 56 quantitative data points cited in this assessment have been verified against their original sources. A complete audit is available in the [Data Verification Report](../en/verification-report.md), which documents:
+
+- Source provenance and reliability tier for all 54 bibliography entries
+- Cross-referencing of numerical values against peer-reviewed publications
+- URL verification status for all 29 tracked web sources
+- Verification markers ([VERIFIED], [THEORETICAL], [SPECULATIVE]) applied per ICD 203 analytic standards
+
+---
+
 ## License
 
 This work is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
@@ -1055,11 +1078,12 @@ You are free to share and adapt this material for any purpose, provided appropri
 
 I, the undersigned author, certify that:
 
-1. This document is an original work of independent scientific analysis.
+1. This document is an original work of independent scientific analysis produced in collaboration with AI tools (Claude, Anthropic).
 2. No classified, proprietary, or restricted information was used in its preparation.
 3. All sources are publicly available and cited in the bibliography.
 4. Mathematical derivations and physical arguments have been checked against peer-reviewed literature.
 5. Verification markers ([VERIFIED], [THEORETICAL], [SPECULATIVE]) accurately reflect the evidential status of each claim as of the intelligence cutoff date.
+6. All scientific judgments, assessments, and conclusions are those of the human author; the AI served as a research and formatting assistant.
 
 **Author:** Kris Lai \
 **ORCID:** [0009-0000-2223-4826](https://orcid.org/0009-0000-2223-4826) \
