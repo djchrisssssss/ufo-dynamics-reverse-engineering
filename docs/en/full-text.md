@@ -378,7 +378,7 @@ For the Alcubierre metric with shaping function $f(r_s)$, the apparent profile o
 
 $$\gamma_{\text{eff}}(\psi) = \left(1 - v_s^2 f(r_s)^2 / c^2\right)^{-1/2}$$
 
-At low bubble velocities ($v_s \ll c$), $\gamma_{\text{eff}} \approx 1$ and the profile remains nearly undistorted. As $v_s \to c$, the profile is compressed along the velocity axis, transitioning through a sequence of apparent geometries.
+At low bubble velocities ( $v_s \ll c$ ), $\gamma_{\text{eff}} \approx 1$ and the profile remains nearly undistorted. As $v_s \to c$, the profile is compressed along the velocity axis, transitioning through a sequence of apparent geometries.
 
 The following morphology matrix maps bubble intensity regimes to the predicted apparent shape:
 
