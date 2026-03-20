@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UAP Physics Assessment Statistics",
+  "description": "Schema for quantitative data points in the UAP dynamics reverse engineering assessment",
+  "type": "object",
+  "required": ["section", "title", "last_updated", "statistics"],
+  "properties": {
+    "section": {
+      "type": "string",
+      "pattern": "^s[0-9]{2}$",
+      "description": "Section identifier (s01-s08, sA1-sA4 for appendices)"
+    },
+    "title": {
+      "type": "string",
+      "description": "Section title"
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO 8601 date of last data refresh"
+    },
+    "data_note": {
+      "type": "string",
+      "description": "Optional note about data compilation or verification status"
+    },
+    "statistics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "metric", "value", "unit", "date", "source", "verified"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^(s[0-9]{2}|sA[0-9])-[0-9]{3}$",
+            "description": "Unique identifier: section + sequential number"
+          },
+          "metric": {
+            "type": "string",
+            "description": "What is being measured"
+          },
+          "value": {
+            "oneOf": [
+              { "type": "number" },
+              { "type": "string" }
+            ],
+            "description": "Measured or reported value"
+          },
+          "unit": {
+            "type": "string",
+            "description": "Unit of measurement"
+          },
+          "date": {
+            "type": "string",
+            "description": "Date or period of measurement (ISO 8601 compatible)"
+          },
+          "source": {
+            "type": "object",
+            "required": ["name", "url"],
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "Source organization or publication"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri",
+                "description": "URL to source document"
+              },
+              "doi": {
+                "type": ["string", "null"],
+                "description": "DOI if available"
+              },
+              "accessed": {
+                "type": "string",
+                "format": "date",
+                "description": "Date the source was last accessed"
+              }
+            }
+          },
+          "context": {
+            "type": "string",
+            "description": "Additional context for the data point"
+          },
+          "confidence": {
+            "type": "string",
+            "enum": ["high", "moderate", "low"],
+            "description": "Confidence level per ICD 203 methodology"
+          },
+          "verification_status": {
+            "type": "string",
+            "enum": ["verified", "theoretical", "speculative"],
+            "description": "Physics verification status"
+          },
+          "verified": {
+            "type": "boolean",
+            "description": "Whether the data point has been independently verified"
+          },
+          "verification_note": {
+            "type": "string",
+            "description": "Verification methodology or cross-reference"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "section": "s06",
+  "title": "Advanced Materials and Structural Analysis",
+  "last_updated": "2026-03-20",
+  "data_note": "Materials data from peer-reviewed literature and AARO/ORNL analysis. Strong force parameters from QCD standard values.",
+  "statistics": [
+    {
+      "id": "s06-001",
+      "metric": "Carbon nanotube theoretical tensile strength",
+      "value": "100–200",
+      "unit": "GPa",
+      "date": "established",
+      "source": {
+        "name": "Theoretical calculations (molecular dynamics)",
+        "url": "https://doi.org/10.1038/s41565-018-0141-z",
+        "doi": "10.1038/s41565-018-0141-z",
+        "accessed": "2026-03-20"
+      },
+      "context": "Range depends on chirality, diameter, and defect density of individual nanotubes.",
+      "confidence": "high",
+      "verification_status": "theoretical",
+      "verified": true,
+      "verification_note": "Theoretical limit; individual tube measurements approach this range"
+    },
+    {
+      "id": "s06-002",
+      "metric": "Carbon nanotube experimental tensile strength",
+      "value": 80,
+      "unit": "GPa",
+      "date": "2018",
+      "source": {
+        "name": "Bai, Y. et al. Nature Nanotechnology 13, 589 (2018)",
+        "url": "https://doi.org/10.1038/s41565-018-0141-z",
+        "doi": "10.1038/s41565-018-0141-z",
+        "accessed": "2026-03-20"
+      },
+      "context": "Achieved in centimeter-long CNT bundles. Highest experimental measurement as of 2026.",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "Peer-reviewed publication in Nature Nanotechnology"
+    },
+    {
+      "id": "s06-003",
+      "metric": "Carbon nanotube Young's modulus",
+      "value": 1.1,
+      "unit": "TPa",
+      "date": "established",
+      "source": {
+        "name": "Multiple experimental measurements",
+        "url": "https://doi.org/10.1038/s41467-019-11760-8",
+        "doi": "10.1038/s41467-019-11760-8",
+        "accessed": "2026-03-20"
+      },
+      "context": "Among the stiffest known materials. Sets the theoretical tensile strength limit at ~E/10 ≈ 110 GPa.",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "Widely reproduced across multiple independent measurements"
+    },
+    {
+      "id": "s06-004",
+      "metric": "Carbon nanotube specific strength",
+      "value": 48000,
+      "unit": "kN·m/kg",
+      "date": "established",
+      "source": {
+        "name": "Derived from tensile strength and density (~1300 kg/m³)",
+        "url": "https://doi.org/10.1038/s41565-018-0141-z",
+        "doi": null,
+        "accessed": "2026-03-20"
+      },
+      "context": "Approximately 300× greater than high-carbon steel. Key metric for aerospace structural applications.",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "Calculated from measured tensile strength and known CNT density"
+    },
+    {
+      "id": "s06-005",
+      "metric": "Graphene monolayer tensile strength",
+      "value": 130,
+      "unit": "GPa",
+      "date": "2008",
+      "source": {
+        "name": "Lee, C. et al. Science 321, 385 (2008)",
+        "url": "https://doi.org/10.1126/science.1157996",
+        "doi": "10.1126/science.1157996",
+        "accessed": "2026-03-20"
+      },
+      "context": "Measured by AFM nanoindentation of suspended monolayer graphene membranes.",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "Peer-reviewed in Science; widely reproduced"
+    },
+    {
+      "id": "s06-006",
+      "metric": "Graphene Young's modulus",
+      "value": 1.0,
+      "unit": "TPa",
+      "date": "2008",
+      "source": {
+        "name": "Lee, C. et al. Science 321, 385 (2008)",
+        "url": "https://doi.org/10.1126/science.1157996",
+        "doi": "10.1126/science.1157996",
+        "accessed": "2026-03-20"
+      },
+      "context": "Stiffest known 2D material. Consistent with CNT measurements (same sp² carbon bonding).",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "Peer-reviewed in Science"
+    },
+    {
+      "id": "s06-007",
+      "metric": "Theoretical ultimate tensile strength limit (any material)",
+      "value": "~E/10",
+      "unit": "relationship to Young's modulus",
+      "date": "established",
+      "source": {
+        "name": "Frenkel (1926) theoretical analysis of ideal crystal strength",
+        "url": "https://doi.org/10.1007/BF01349680",
+        "doi": null,
+        "accessed": "2026-03-20"
+      },
+      "context": "For carbon-based materials (E ~ 1 TPa), this gives ~100 GPa, closely matching individual CNT measurements.",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "Classical result in materials science; validated by CNT and graphene data"
+    },
+    {
+      "id": "s06-008",
+      "metric": "Macroscale CNT fiber tensile strength",
+      "value": "few",
+      "unit": "GPa",
+      "date": "2024",
+      "source": {
+        "name": "Industry and academic CNT fiber data",
+        "url": "https://doi.org/10.1038/s41467-019-11760-8",
+        "doi": null,
+        "accessed": "2026-03-20"
+      },
+      "context": "Gap between single-tube (~80 GPa) and bulk fiber (~few GPa) due to defects, weak inter-tube shear, processing.",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "Widely reported in materials science literature"
+    },
+    {
+      "id": "s06-009",
+      "metric": "Defect-induced strength reduction in CNTs",
+      "value": 85,
+      "unit": "% (up to)",
+      "date": "2019",
+      "source": {
+        "name": "Zhang, R. et al. Nature Communications 10, 3848 (2019)",
+        "url": "https://doi.org/10.1038/s41467-019-11760-8",
+        "doi": "10.1038/s41467-019-11760-8",
+        "accessed": "2026-03-20"
+      },
+      "context": "Defect concentration is the primary factor limiting bulk CNT material performance.",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "Peer-reviewed in Nature Communications"
+    },
+    {
+      "id": "s06-010",
+      "metric": "Strong nuclear force coupling constant at nuclear scale",
+      "value": "~1",
+      "unit": "dimensionless",
+      "date": "established",
+      "source": {
+        "name": "Particle Data Group",
+        "url": "https://pdg.lbl.gov/",
+        "doi": null,
+        "accessed": "2026-03-20"
+      },
+      "context": "QCD coupling αs ≈ 1 at ~10⁻¹⁵ m scale. Compared to EM coupling α ≈ 1/137 ≈ 7.3 × 10⁻³.",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "Standard QCD; PDG recommended values"
+    },
+    {
+      "id": "s06-011",
+      "metric": "Electromagnetic fine structure constant",
+      "value": "~7.3e-3",
+      "unit": "dimensionless (α ≈ 1/137)",
+      "date": "established",
+      "source": {
+        "name": "Particle Data Group / CODATA",
+        "url": "https://pdg.lbl.gov/",
+        "doi": null,
+        "accessed": "2026-03-20"
+      },
+      "context": "Strong force bonds are ~100× stronger than electromagnetic bonds at relevant scales.",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "One of the most precisely measured constants in physics"
+    },
+    {
+      "id": "s06-012",
+      "metric": "Quark-gluon plasma existence duration in colliders",
+      "value": "~1e-23",
+      "unit": "seconds",
+      "date": "2024",
+      "source": {
+        "name": "RHIC/BNL and LHC/CERN heavy-ion collision data",
+        "url": "https://www.bnl.gov/rhic/",
+        "doi": null,
+        "accessed": "2026-03-20"
+      },
+      "context": "QGP produced in Au-Au and Pb-Pb collisions at RHIC and LHC. Too brief for materials application.",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "Extensively documented in RHIC and LHC experimental programs"
+    }
+  ]
+}

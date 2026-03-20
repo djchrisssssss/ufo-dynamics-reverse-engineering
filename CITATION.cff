@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+type: dataset
+title: "Reverse Engineering the Dynamics of Unidentified Aerial Phenomena: A Physics-Based Assessment"
+message: "If you reference this work, please cite it using the metadata from this file."
+authors:
+  - name: "Independent Research Initiative"
+date-released: "2026-03-20"
+version: "1.0.0"
+license: CC-BY-4.0
+repository-code: "https://github.com/example/ufo-dynamics-reverse-engineering"
+keywords:
+  - unidentified aerial phenomena
+  - UAP
+  - physics assessment
+  - general relativity
+  - warp drive
+  - Alcubierre metric
+  - nuclear fusion
+  - metamaterials
+  - dynamical Casimir effect
+  - spacetime engineering
+  - 不明空中現象
+  - 廣義相對論
+  - 曲速引擎
+  - 核融合
+  - 超穎材料
+  - 時空工程
+abstract: >-
+  A systematic physics-based assessment of reported UAP flight characteristics,
+  evaluating whether known or theoretically plausible mechanisms—including
+  Alcubierre warp metrics, nuclear fusion, and metamaterials—could account for
+  the Five Observables taxonomy. Concludes that barriers are primarily materials
+  science maturity, not fundamental physics violations.

@@ -1,0 +1,9 @@
+energy_source,specific_energy_j_per_kg,ratio_to_chemical,status,notes
+Chemical combustion (H₂-O₂),1.4e7,1,verified,"Standard reference baseline"
+Lithium-ion battery,7e5,0.05,verified,"Current commercial technology"
+Uranium-235 fission,8.2e13,6e6,verified,"Commercial nuclear power"
+Deuterium-tritium fusion,3.4e14,2.4e7,verified,"NIF demonstrated ignition 2022"
+Deuterium-deuterium fusion,8.7e13,6e6,theoretical,"Requires ~10x higher temp than DT"
+Proton-boron-11 (aneutronic),7.3e13,5e6,theoretical,"No neutron production; extremely high temp required"
+Matter-antimatter annihilation,9e16,6e9,theoretical,"Antimatter production rate: ~nanograms/year globally"
+Vacuum energy (theoretical max),unknown,unknown,speculative,"10^113 J/m³ theoretical; extraction mechanism unknown"

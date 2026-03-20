@@ -1,0 +1,8 @@
+theoretical_requirement,materials_barrier,current_state,gap_factor,category,source_ids
+Warp bubble wall at Planck-scale thickness (~1e-35 m),Nanofabrication precision,Best lithography: ~3 nm (1e-9 m),~1e26,fabrication,"src-002,src-001"
+Negative energy density at macroscopic scale,Casimir cavity engineering,Demonstrated at ~100 nm plate separation,~1e68 in energy density,exotic_matter,"src-014,src-015"
+Fusion plasma containment in compact volume,HTS magnets,HTS magnets demonstrated (SPARC) but not at reactor scale,~1e1-1e2 in field-to-size ratio,energy,"iter,cfs-sparc"
+Extreme-g structural integrity (>1000 g sustained),Bulk CNT composites,Individual CNTs: ~80 GPa; bulk fibers: ~3 GPa,~30x strength gap,materials,"src-027,src-028"
+Optical-frequency metamaterial cloaking,Low-loss nanoscale metamaterials,Microwave cloaking demonstrated; optical: excessive loss,Qualitative gap,stealth,"src-025,src-026"
+Broadband THz generation/detection,THz source and sensor technology,Narrow-band THz demonstrated,Coverage and sensitivity gaps,detection,""
+Fusion-to-spacetime energy conversion,Unknown transduction material/mechanism,No candidate mechanism identified,Undefined — most fundamental gap,physics,""

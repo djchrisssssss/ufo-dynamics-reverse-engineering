@@ -1,0 +1,296 @@
+{
+  "section": "s04",
+  "title": "Energy Sources — Nuclear Fusion and Beyond",
+  "last_updated": "2026-03-20",
+  "data_note": "Energy density values from standard nuclear/particle physics references. NIF data from LLNL press releases. Deuterium abundance from oceanographic surveys.",
+  "statistics": [
+    {
+      "id": "s04-001",
+      "metric": "Chemical combustion specific energy (H₂-O₂)",
+      "value": 1.4e7,
+      "unit": "J/kg",
+      "date": "established",
+      "source": {
+        "name": "Standard thermochemistry references",
+        "url": "https://webbook.nist.gov/chemistry/",
+        "doi": null,
+        "accessed": "2026-03-20"
+      },
+      "context": "Baseline reference for energy density comparison. Hydrogen-oxygen combustion represents the highest chemical energy density.",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "Standard thermochemical value; widely reproduced in literature"
+    },
+    {
+      "id": "s04-002",
+      "metric": "Uranium-235 fission specific energy",
+      "value": 8.2e13,
+      "unit": "J/kg",
+      "date": "established",
+      "source": {
+        "name": "Nuclear physics data tables",
+        "url": "https://www.nndc.bnl.gov/",
+        "doi": null,
+        "accessed": "2026-03-20"
+      },
+      "context": "Approximately 6 × 10⁶ times chemical combustion energy density. Basis of commercial nuclear fission power.",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "Cross-referenced with IAEA Nuclear Data Services"
+    },
+    {
+      "id": "s04-003",
+      "metric": "Deuterium-tritium fusion specific energy",
+      "value": 3.4e14,
+      "unit": "J/kg",
+      "date": "established",
+      "source": {
+        "name": "Nuclear physics data tables",
+        "url": "https://www.nndc.bnl.gov/",
+        "doi": null,
+        "accessed": "2026-03-20"
+      },
+      "context": "Approximately 2.4 × 10⁷ times chemical. Highest verified energy density of any known fuel source. NIF demonstrated ignition.",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "Confirmed by NIF ignition experiments (Dec 2022)"
+    },
+    {
+      "id": "s04-004",
+      "metric": "Deuterium-deuterium fusion specific energy",
+      "value": 8.7e13,
+      "unit": "J/kg",
+      "date": "established",
+      "source": {
+        "name": "Nuclear physics data tables",
+        "url": "https://www.nndc.bnl.gov/",
+        "doi": null,
+        "accessed": "2026-03-20"
+      },
+      "context": "Eliminates tritium supply bottleneck but requires ~10× higher plasma temperature (~10⁹ K vs ~10⁸ K).",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "Standard nuclear physics value"
+    },
+    {
+      "id": "s04-005",
+      "metric": "Proton-boron-11 aneutronic fusion specific energy",
+      "value": 7.3e13,
+      "unit": "J/kg",
+      "date": "established",
+      "source": {
+        "name": "Nuclear physics data tables",
+        "url": "https://www.nndc.bnl.gov/",
+        "doi": null,
+        "accessed": "2026-03-20"
+      },
+      "context": "Produces no neutrons (3 alpha particles + 8.7 MeV). Enables direct energy conversion. Requires ~10⁹ K.",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "Standard nuclear physics value; cross-section data from ENDF"
+    },
+    {
+      "id": "s04-006",
+      "metric": "Matter-antimatter annihilation specific energy",
+      "value": 9e16,
+      "unit": "J/kg",
+      "date": "established",
+      "source": {
+        "name": "E = mc² (Einstein 1905)",
+        "url": "https://doi.org/10.1002/andp.19053221004",
+        "doi": "10.1002/andp.19053221004",
+        "accessed": "2026-03-20"
+      },
+      "context": "Theoretical maximum for mass-to-energy conversion. Antimatter production rate globally is ~nanograms/year.",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "Direct consequence of mass-energy equivalence"
+    },
+    {
+      "id": "s04-007",
+      "metric": "DT fusion reaction energy per event",
+      "value": 17.6,
+      "unit": "MeV",
+      "date": "established",
+      "source": {
+        "name": "Nuclear physics data tables",
+        "url": "https://www.nndc.bnl.gov/",
+        "doi": null,
+        "accessed": "2026-03-20"
+      },
+      "context": "3.5 MeV to alpha particle, 14.1 MeV to neutron (80% of energy carried by neutron).",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "Extensively measured in nuclear physics experiments"
+    },
+    {
+      "id": "s04-008",
+      "metric": "NIF fusion gain (December 2022)",
+      "value": 1.54,
+      "unit": "dimensionless (target gain)",
+      "date": "2022-12-05",
+      "source": {
+        "name": "Lawrence Livermore National Laboratory",
+        "url": "https://www.llnl.gov/news/national-ignition-facility-achieves-fusion-ignition",
+        "doi": null,
+        "accessed": "2026-03-20"
+      },
+      "context": "First scientific breakeven: 2.05 MJ laser input → 3.15 MJ fusion output. Wall-plug gain still far below 1 (~300 MJ electrical input).",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "LLNL official announcement; independently confirmed by DOE"
+    },
+    {
+      "id": "s04-009",
+      "metric": "NIF fusion gain (April 2025)",
+      "value": 4.13,
+      "unit": "dimensionless (target gain)",
+      "date": "2025-04",
+      "source": {
+        "name": "Lawrence Livermore National Laboratory",
+        "url": "https://www.llnl.gov/news/",
+        "doi": null,
+        "accessed": "2026-03-20"
+      },
+      "context": "2.08 MJ laser input → 8.6 MJ fusion output. Progressive improvement from Dec 2022 baseline.",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "LLNL press release; DOE confirmation"
+    },
+    {
+      "id": "s04-010",
+      "metric": "NIF laser system electrical consumption",
+      "value": 300,
+      "unit": "MJ (approximate)",
+      "date": "2022",
+      "source": {
+        "name": "NIF Technical Overview",
+        "url": "https://lasers.llnl.gov/about/what-is-nif",
+        "doi": null,
+        "accessed": "2026-03-20"
+      },
+      "context": "~300 MJ electrical → ~2 MJ laser delivered to target. Wall-plug efficiency ~0.7%.",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "NIF technical documentation"
+    },
+    {
+      "id": "s04-011",
+      "metric": "Deuterium concentration in seawater",
+      "value": 33,
+      "unit": "g/m³",
+      "date": "established",
+      "source": {
+        "name": "Oceanographic data (1 in 6420 hydrogen atoms is deuterium)",
+        "url": "https://www.iaea.org/topics/isotope-hydrology",
+        "doi": null,
+        "accessed": "2026-03-20"
+      },
+      "context": "Deuterium is abundant: 1 in every 6,420 hydrogen atoms in ocean water.",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "IAEA isotope hydrology data; standard oceanographic measurement"
+    },
+    {
+      "id": "s04-012",
+      "metric": "Total deuterium in Earth's oceans",
+      "value": "4.6e13",
+      "unit": "tonnes",
+      "date": "established",
+      "source": {
+        "name": "Derived from ocean volume and deuterium concentration",
+        "url": "https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-water",
+        "doi": null,
+        "accessed": "2026-03-20"
+      },
+      "context": "Enough to power DD fusion for billions of years at current global energy consumption rates.",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "Calculated from ocean volume (~1.335 × 10⁹ km³) and deuterium concentration"
+    },
+    {
+      "id": "s04-013",
+      "metric": "Global tritium production from CANDU reactors",
+      "value": 4,
+      "unit": "kg/year (approximate)",
+      "date": "2024",
+      "source": {
+        "name": "CANDU reactor tritium production data",
+        "url": "https://www.cnl.ca/",
+        "doi": null,
+        "accessed": "2026-03-20"
+      },
+      "context": "Tritium supply bottleneck is a key limitation for DT fusion. Half-life of 12.3 years further constrains stockpiling.",
+      "confidence": "moderate",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "Estimated from published CANDU heavy water reactor data; exact figures vary by source"
+    },
+    {
+      "id": "s04-014",
+      "metric": "Tritium half-life",
+      "value": 12.3,
+      "unit": "years",
+      "date": "established",
+      "source": {
+        "name": "Nuclear Data Evaluation, NNDC",
+        "url": "https://www.nndc.bnl.gov/",
+        "doi": null,
+        "accessed": "2026-03-20"
+      },
+      "context": "Radioactive decay: ³H → ³He + e⁻ + ν̄ₑ. Constrains tritium stockpiling for DT fusion.",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "Standard nuclear data; precisely measured"
+    },
+    {
+      "id": "s04-015",
+      "metric": "Quantum vacuum energy theoretical density",
+      "value": "~1e113",
+      "unit": "J/m³",
+      "date": "theoretical",
+      "source": {
+        "name": "QFT calculation (Planck-scale cutoff)",
+        "url": "https://doi.org/10.1103/RevModPhys.61.1",
+        "doi": "10.1103/RevModPhys.61.1",
+        "accessed": "2026-03-20"
+      },
+      "context": "Naive QFT calculation. 10¹²⁰ times larger than observed cosmological constant — the cosmological constant problem.",
+      "confidence": "low",
+      "verification_status": "theoretical",
+      "verified": true,
+      "verification_note": "Theoretical calculation; the discrepancy with observation is itself well-verified"
+    },
+    {
+      "id": "s04-016",
+      "metric": "Cosmological constant discrepancy factor",
+      "value": "~1e120",
+      "unit": "dimensionless",
+      "date": "established",
+      "source": {
+        "name": "Weinberg (1989) Reviews of Modern Physics",
+        "url": "https://doi.org/10.1103/RevModPhys.61.1",
+        "doi": "10.1103/RevModPhys.61.1",
+        "accessed": "2026-03-20"
+      },
+      "context": "One of the deepest unsolved problems in physics. Ratio of theoretical vacuum energy to observed dark energy.",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified": true,
+      "verification_note": "Well-characterized discrepancy; independently confirmed by multiple analyses"
+    }
+  ]
+}
