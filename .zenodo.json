@@ -1,0 +1,41 @@
+{
+  "title": "Reverse Engineering the Dynamics of UFOs: A Physics-Based Assessment of Unidentified Aerial Phenomena",
+  "description": "A systematic physics-based assessment of reported UFO/UAP flight characteristics, evaluating whether known or theoretically plausible physical mechanisms — including Alcubierre warp metrics, nuclear fusion, dynamical Casimir effect, and metamaterials — could account for the Five Observables taxonomy. Concludes that barriers are primarily materials science maturity, not fundamental physics violations. Bilingual: English and Traditional Chinese (繁體中文).",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "creators": [
+    {
+      "name": "Lai, Kris",
+      "orcid": "0009-0000-2223-4826",
+      "affiliation": "Scallop Labs"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "UFO",
+    "UAP",
+    "unidentified aerial phenomena",
+    "physics assessment",
+    "general relativity",
+    "warp drive",
+    "Alcubierre metric",
+    "warp bubble morphology",
+    "nuclear fusion",
+    "metamaterials",
+    "dynamical Casimir effect",
+    "spacetime engineering",
+    "Five Observables",
+    "AATIP",
+    "DIRD"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "language": "eng",
+  "notes": "Document ID: IRD-UAP-2026-001. UNCLASSIFIED — Open Source Analysis. Bilingual (English / Traditional Chinese)."
+}

@@ -4,6 +4,28 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.1.0] — 2026-03-21
+
+### Added
+- **Section 1.1 — Background and Motivation**: Origin story referencing Luis Elizondo's *Imminent: Inside the Pentagon's Hunt for UFOs* (2024), explaining how the Five Observables and DIRD physics motivated this assessment
+- **Section 1.2 — Terminology**: Formal definitions of UFO and UAP with set-theoretic relationship (UFO ⊂ UAP); usage convention for the document
+- **Section 3.x — Warp Bubble Morphology**: New subsection on warp bubble intensity profiles, observed shape paradox, and morphology classification matrix
+- **Bibliography entry #53/54**: Elizondo's *Imminent* added to all reference lists and BibTeX
+- **Background section in README**: Bilingual (EN/ZH-TW) origin story
+- **Certificate of Authorship**: Five-point declaration in report footers
+- **`.zenodo.json`**: Zenodo metadata for automated DOI minting
+
+### Changed
+- **Document headers**: Reformatted from intelligence-report style to academic paper style (title, author with ORCID, abstract, methodology & scope)
+- **Titles**: Changed from "UAP" to "UFO" in main titles for precision and recognizability
+- **Section numbering**: Renumbered §1 subsections (Background → 1.1, Terminology → 1.2, Blue Book → 1.3, AAWSAP → 1.4, Scope → 1.5)
+- **CITATION.cff**: Updated with full author metadata (name, email, ORCID, affiliation)
+- **README.md**: Academic format with author section, documents table, BibTeX citation
+
+### Fixed
+- **Transformation optics formula** (§6.1): Empty `\frac{}{}`  denominator replaced with correct flat notation
+- **Inline math rendering** (§2–§6): Added spaces between CJK punctuation and `$` delimiters to fix GitHub math parser failures (10 instances)
+
 ## [1.0.0] — 2026-03-20
 
 ### Added
