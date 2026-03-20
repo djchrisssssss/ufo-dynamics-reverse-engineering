@@ -4,6 +4,24 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.1.1] — 2026-03-21
+
+### Added
+- **DOI**: [10.5281/zenodo.19138271](https://doi.org/10.5281/zenodo.19138271) — Zenodo archive with persistent identifier
+- **DOI badge** on README
+- **AI Collaboration & Data Verification** section in all reports, LaTeX, and README — specifying Claude Opus 4 and Claude Sonnet 4 as collaborating models
+- **Compiled PDF** (`latex/ufo_dynamics_RV.pdf`) from Overleaf
+
+### Changed
+- **Abstract** refined: near-term barriers are engineering/materials constraints; controlled energy-to-curvature transduction is an unresolved physics gap
+- **Data verification** updated to 43/44 cross-checked data points (one contested estimate retained as low-confidence)
+- **Document ID removed**: `IRD-UAP-2026-001` replaced by DOI as sole persistent identifier
+- **ZH-TW readability**: replaced formal 係 with 是 (4 instances)
+
+### Fixed
+- **LaTeX citation keys**: renamed to consistent `AuthorYear` format; DIRD keys to `DIRD_` prefix; fixed `\orcid{}`, `\SIrange`, and confidence table
+- **Inline math rendering**: `\text{}` → `\mathrm{}` in subscripts for GitHub compatibility (`\mathcal{E}_\mathrm{shell}`, `\gamma_\mathrm{eff}`)
+
 ## [1.1.0] — 2026-03-21
 
 ### Added
