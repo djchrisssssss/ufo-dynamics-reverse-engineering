@@ -1,6 +1,6 @@
 # Data Verification Report
 
-**Document:** IRD-UAP-2026-001
+**DOI:** [10.5281/zenodo.19138271](https://doi.org/10.5281/zenodo.19138271)
 **Report Date:** 2026-03-20
 **Auditor:** Automated + Manual Review
 
