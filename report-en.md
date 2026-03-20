@@ -134,7 +134,13 @@ Following the methodology of Intelligence Community Directive (ICD) 203, this re
 
 ## Section 1: Introduction and Historical Context
 
-### 1.1 Terminology: UFO, UAP, and the Scope of This Document
+### 1.1 Background and Motivation
+
+This work originated from a close reading of ***Imminent: Inside the Pentagon's Hunt for UFOs*** (William Morrow, 2024) by **Luis Elizondo** — the former U.S. Army counterintelligence officer who directed the Pentagon's Advanced Aerospace Threat Identification Program (AATIP) from 2008 to 2017. Elizondo's book is the first insider account from the person who actually ran the U.S. government's modern UFO investigation program. It documents how the "Five Observables" taxonomy was created, the commissioning of 38 classified Defense Intelligence Reference Documents (DIRDs) by world-class physicists, the specific radar and sensor cases that defied conventional explanation, and the internal political battles that led to his resignation in protest.
+
+After reading the book, we realized that the physical claims described — instantaneous acceleration, transmedium travel, absence of sonic booms — are not vague anecdotes but structured, sensor-corroborated observations that can be rigorously evaluated against known physics. This assessment was born from that realization: taking Elizondo's observational framework and the DIRD physics as a starting point, then systematically mapping each claimed observable onto established general relativity, quantum field theory, nuclear physics, and materials science to determine what is physically possible, what is theoretically plausible, and where the true engineering gaps lie.
+
+### 1.2 Terminology: UFO, UAP, and the Scope of This Document
 
 Before proceeding, a note on terminology is necessary. Two terms recur throughout this document and the broader literature:
 
@@ -146,7 +152,7 @@ In set-theoretic terms: **UFO ⊂ UAP**. Every UFO is a UAP, but not every UAP i
 
 **Convention in this document:** This report primarily uses **"UAP"** as the default term, consistent with current official nomenclature (ODNI, AARO, DoD). However, **"UFO"** is used where the context specifically refers to a discrete physical flying object — particularly in discussing propulsion mechanisms, vehicle geometry, warp bubble morphology, and materials analysis, where the physics presupposes a tangible craft. The title retains "UFO" for its universal recognizability and because this assessment focuses primarily on the physics of **physical flying objects**, not the full breadth of anomalous phenomena.
 
-### 1.2 The UAP Question: From Project Blue Book to AARO
+### 1.3 The UAP Question: From Project Blue Book to AARO
 
 The systematic investigation of unidentified aerial phenomena by the United States government spans more than seven decades. Project Sign (1947), Project Grudge (1949), and Project Blue Book (1952–1969) collectively examined over 12,000 reports. Blue Book's final report, conducted under the direction of Dr. Edward Condon at the University of Colorado, concluded that further study was unlikely to advance scientific knowledge — a judgment that effectively ended official investigation for nearly four decades.¹⁰
 
@@ -158,7 +164,7 @@ In July 2022, the Department of Defense established the All-domain Anomaly Resol
 
 This report does not take a position on the origin of UAP. Instead, it asks a narrower question: **what does established physics tell us about the feasibility of the reported flight characteristics?**
 
-### 1.3 The AAWSAP/AATIP Program and the 38 DIRDs
+### 1.4 The AAWSAP/AATIP Program and the 38 DIRDs
 
 Between 2008 and 2010, the DIA commissioned 38 technical papers under the AAWSAP contract, each designated a Defense Intelligence Reference Document (DIRD). These papers were authored by recognized experts — including Dr. Harold Puthoff (EarthTech International), Dr. Eric Davis (EarthTech International), Dr. Friedwardt Winterberg (University of Nevada, Reno), and Dr. Ulf Leonhardt (University of St. Andrews) — and surveyed the frontiers of physics and engineering relevant to advanced aerospace propulsion.¹⁵
 
@@ -175,7 +181,7 @@ Thirty-seven of the 38 DIRDs were declassified and released via FOIA on March 25
 
 These documents serve as a crucial reference for this assessment, as they represent the most comprehensive official effort to map UAP observables onto known and theoretical physics.
 
-### 1.4 Scope and Methodology of This Assessment
+### 1.5 Scope and Methodology of This Assessment
 
 This report adopts the following methodology:
 
