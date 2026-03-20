@@ -888,6 +888,7 @@ AAWSAP 下委託之 38 份國防情報參考文件（2008–2010）：
 48. [BOOK] Misner, C.W., Thorne, K.S. & Wheeler, J.A. *Gravitation.* W.H. Freeman, 1973.
 49. [BOOK] Wald, R.M. *General Relativity.* Univ. of Chicago Press, 1984.
 50. [BOOK] Visser, M. *Lorentzian Wormholes.* AIP Press, 1995.
+51. [BOOK] Elizondo, L. *Imminent: Inside the Pentagon's Hunt for UFOs.* William Morrow / HarperCollins, 2024. — 前 AATIP 計畫主持人之首部內部紀實；本評估中五大可觀測特徵分類法及 DIRD 委託背景之主要來源。
 
 ---
 

@@ -1035,10 +1035,11 @@ The 38 Defense Intelligence Reference Documents commissioned under AAWSAP (2008�
 50. [BOOK] Birrell, N.D. & Davies, P.C.W. *Quantum Fields in Curved Space.* Cambridge University Press, 1982.
 51. [BOOK] Visser, M. *Lorentzian Wormholes: From Einstein to Hawking.* AIP Press, 1995.
 52. [BOOK] Kaku, M. *Physics of the Impossible.* Doubleday, 2008.
+53. [BOOK] Elizondo, L. *Imminent: Inside the Pentagon's Hunt for UFOs.* William Morrow / HarperCollins, 2024. — First insider account by the former AATIP program director; primary source for the Five Observables taxonomy and DIRD commissioning context used throughout this assessment.
 
 ## Preprints [PRE]
 
-53. [PRE] Schützhold, R. "The analogy between the dynamical Casimir effect and Hawking/Unruh radiation." arXiv: 1110.6064 (2011).
+54. [PRE] Schützhold, R. "The analogy between the dynamical Casimir effect and Hawking/Unruh radiation." arXiv: 1110.6064 (2011).
 
 ---
 
