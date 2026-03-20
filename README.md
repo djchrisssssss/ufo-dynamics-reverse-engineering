@@ -161,7 +161,7 @@ UFO-dynamics-reverse-engineering/
 
 This project was produced through a structured collaboration between the human author and **Claude** (Anthropic), using the **Claude Opus 4** and **Claude Sonnet 4** models. AI contributions included:
 
-本專案係由人類作者與 **Claude**（Anthropic）進行結構化協作所產出，使用 **Claude Opus 4** 及 **Claude Sonnet 4** 模型。AI 之貢獻包括：
+本專案是由人類作者與 **Claude**（Anthropic）進行結構化協作所產出，使用 **Claude Opus 4** 及 **Claude Sonnet 4** 模型。AI 之貢獻包括：
 
 | Contribution / 貢獻 | Description / 說明 |
 |---------------------|--------------------|
