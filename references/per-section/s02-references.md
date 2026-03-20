@@ -9,7 +9,7 @@
 3. [src-025] Pendry, J.B. "Negative refraction makes a perfect lens." *PRL* 85, 3966 (2000).
    - DOI: https://doi.org/10.1103/PhysRevLett.85.3966
 4. [src-026] Pendry, J.B., Schurig, D. & Smith, D.R. "Controlling electromagnetic fields." *Science* 312, 1780 (2006).
-5. [DIRD_Green] Green, K. "Anomalous Acute and Subacute Field Effects on Human Biological Tissues." DIRD #26.
+5. [src-040] Green, K. "Anomalous Acute and Subacute Field Effects on Human Biological Tissues." DIRD #26.
 6. NASA Technical Brief OCHMO-TB-024, "Acceleration."
 
 ## Data Points Referenced

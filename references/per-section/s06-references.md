@@ -13,7 +13,7 @@
 8. [src-029] Witten, E. "Cosmic separation of phases." *PRD* 30, 272 (1984).
 9. [src-030] Bodmer, A.R. "Collapsed nuclei." *PRD* 4, 1601 (1971).
 10. [src-034] AARO/ORNL. "Synopsis: Analysis of a Metallic Specimen." 2022.
-11. [DIRD_Shvets] Shvets, G. "Metamaterials for Aerospace Applications." DIRD #22.
+11. [src-043] Shvets, G. "Metamaterials for Aerospace Applications." DIRD #22.
 
 ## Data Points Referenced
 

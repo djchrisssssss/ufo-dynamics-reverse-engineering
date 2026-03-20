@@ -13,7 +13,7 @@
       "source": "Pfenning, M. J. & Ford, L. H. (1997). The unphysical nature of 'Warp Drive'. Classical and Quantum Gravity, 14(7), 1743-1751. https://doi.org/10.1088/0264-9381/14/7/011",
       "context": "Pfenning and Ford showed that the negative energy region required for an Alcubierre warp bubble must be confined to a wall thickness on the order of the Planck length (~1.616e-35 m). This extreme thinness implies that quantum gravity effects dominate the bubble wall physics, placing warp drive firmly outside semiclassical general relativity.",
       "confidence": "high",
-      "verification_status": "peer_reviewed",
+      "verification_status": "theoretical",
       "verified": true,
       "verification_note": "Published in Classical and Quantum Gravity. The Planck-scale wall thickness arises from quantum inequality constraints on negative energy densities. This result significantly strengthened the case against physically realizable warp drives within known physics."
     },
@@ -26,7 +26,7 @@
       "source": "Lamoreaux, S. K. (1997). Demonstration of the Casimir Force in the 0.6 to 6 Micrometer Range. Physical Review Letters, 78(1), 5-8. https://doi.org/10.1103/PhysRevLett.78.5; Bordag, M. et al. (2009). Advances in the Casimir Effect. Oxford University Press. https://doi.org/10.1093/acprof:oso/9780199238743.001.0001",
       "context": "The Casimir effect produces a small negative energy density between closely spaced parallel conducting plates. At ~100 nm separation, the energy density is approximately -pi^2 * hbar * c / (720 * d^4) ~ -1e-3 J/m^3. This is the only experimentally confirmed source of negative energy density, but it is extraordinarily weak compared to what spacetime engineering would require.",
       "confidence": "high",
-      "verification_status": "peer_reviewed",
+      "verification_status": "verified",
       "verified": true,
       "verification_note": "Casimir effect confirmed experimentally by Lamoreaux (1997) to ~5% accuracy. Modern experiments by Decca et al. (2003) at IUPUI achieved sub-percent precision. The ~1e-3 J/m^3 value at 100 nm follows directly from the Casimir energy formula."
     },
@@ -38,8 +38,8 @@
       "date": "1994-05-01",
       "source": "Alcubierre, M. (1994). The warp drive: hyper-fast travel within general relativity. Classical and Quantum Gravity, 11(5), L73-L77. https://doi.org/10.1088/0264-9381/11/5/001; Van Den Broeck, C. (1999). A 'warp drive' with more reasonable total energy requirements. Classical and Quantum Gravity, 16(12), 3973-3979. https://doi.org/10.1088/0264-9381/16/12/314",
       "context": "The original Alcubierre metric requires negative energy equivalent to roughly the mass-energy of Jupiter (~1.9e27 kg * c^2 ~ 1.7e44 J) concentrated in a thin shell. For a bubble of ~100 m radius with Planck-scale wall thickness, this implies energy densities on the order of 1e65 J/m^3. Van Den Broeck's modification reduced total energy but the density requirements remain extreme.",
-      "confidence": "medium",
-      "verification_status": "peer_reviewed",
+      "confidence": "moderate",
+      "verification_status": "theoretical",
       "verified": true,
       "verification_note": "The 1e65 J/m^3 figure is an order-of-magnitude estimate derived from the total negative energy (~Jupiter mass-energy) distributed over the Planck-thickness shell volume. Different bubble geometries and optimization schemes (Natario, Van Den Broeck, Lentz) yield different total energies but similarly extreme densities."
     },
@@ -51,8 +51,8 @@
       "date": "2026-03-20",
       "source": "Derived from s03-002 and s03-003: ratio of warp drive required energy density (~1e65 J/m^3) to Casimir achievable energy density (~1e-3 J/m^3) = 1e65 / 1e-3 = 1e68.",
       "context": "The gap between the only experimentally confirmed negative energy source (Casimir effect, ~1e-3 J/m^3) and the energy density required for an Alcubierre warp bubble (~1e65 J/m^3) spans approximately 68 orders of magnitude. This is arguably the largest technology gap in all of speculative physics, exceeding even the vacuum energy discrepancy in some formulations.",
-      "confidence": "medium",
-      "verification_status": "derived_calculation",
+      "confidence": "moderate",
+      "verification_status": "theoretical",
       "verified": true,
       "verification_note": "Simple ratio of the two energy density values. The exact gap depends on assumed bubble parameters and Casimir plate separation, but the ~10^68 order-of-magnitude gap is robust across reasonable parameter ranges. This figure underscores the fundamental challenge of spacetime engineering propulsion."
     }

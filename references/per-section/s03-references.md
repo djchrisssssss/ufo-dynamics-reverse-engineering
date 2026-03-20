@@ -19,9 +19,9 @@
    - arXiv: https://arxiv.org/abs/1306.0533
 10. [src-014] Casimir, H.B.G. "On the attraction between two perfectly conducting plates." *Proc. KNAW* 51, 793 (1948).
 11. [src-015] Lamoreaux, S.K. "Demonstration of the Casimir Force." *PRL* 78, 5 (1997).
-12. [DIRD_Puthoff] Puthoff, H. "Advanced Space Propulsion Based on Vacuum Engineering." DIRD #15.
-13. [DIRD_Davis_Wormholes] Davis, E. "Traversable Wormholes, Stargates, and Negative Energy." DIRD #18.
-14. [DIRD_ObousyDavis] Obousy, R. & Davis, E. "Warp Drive, Dark Energy, and Extra Dimensions." DIRD #13.
+12. [src-037] Puthoff, H. "Advanced Space Propulsion Based on Vacuum Engineering." DIRD #15.
+13. [src-038] Davis, E. "Traversable Wormholes, Stargates, and Negative Energy." DIRD #18.
+14. [src-036] Obousy, R. & Davis, E. "Warp Drive, Dark Energy, and Extra Dimensions." DIRD #13.
 
 ## Data Points Referenced
 

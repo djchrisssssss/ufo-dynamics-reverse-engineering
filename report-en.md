@@ -22,7 +22,7 @@
 
 This paper presents a systematic physics-based assessment of reported UFO/UAP flight characteristics. Drawing upon publicly available peer-reviewed literature, declassified government documents, and open-source intelligence, it evaluates whether known or theoretically plausible physical mechanisms — including Alcubierre warp metrics, nuclear fusion, dynamical Casimir effect, and metamaterials — could account for the "Five Observables" taxonomy. The analysis is grounded in established general relativity, quantum field theory, nuclear physics, electromagnetic theory, and materials science.
 
-**Principal finding:** No reported UAP behavior violates known physics in principle; the constraints are **engineering and materials science maturity**, not fundamental theory.
+**Principal finding:** No reported UAP behavior violates known physics in principle. The bottlenecks are mixed: many are **engineering and materials-science constraints**, while at least one key step — controlled energy-to-curvature transduction — remains unresolved at the level of fundamental mechanism.
 
 > This document is an independent scientific assessment. No classified information was used. All sources are publicly available.
 
@@ -99,7 +99,7 @@ Following the methodology of Intelligence Community Directive (ICD) 203, this re
 
 **8.** We assess with **low confidence** that any single propulsion framework currently explains the full spectrum of reported UAP observables simultaneously. The integration of spacetime engineering, compact energy sources, and advanced materials into a coherent propulsion system remains beyond the horizon of current theoretical physics.⁹
 
-**9.** We assess with **high confidence** that the gap between theoretical physics and practical realization of spacetime propulsion is primarily a **materials science maturity** problem, not a fundamental physics problem. The theory permits what is observed; the barrier is that human materials science cannot yet produce: (a) structures at Planck-scale precision (~10⁻³⁵ m) required for warp bubble walls; (b) materials capable of sustained operation at fusion-reactor temperatures (>10⁸ K) in compact form factors; (c) negative-energy-density configurations at macroscopic scales; or (d) metamaterials operating at optical frequencies with acceptable loss. Each of these is a materials engineering constraint, not a violation of known physics.¹⁰ₐ
+**9.** We assess with **moderate confidence** that a large share of the gap between theoretical physics and practical realization of spacetime propulsion is an **engineering and materials-science maturity** problem. However, the gap is not purely materials-limited: human science still lacks a demonstrated mechanism for controlled energy-to-curvature transduction. The theory permits relevant geometries, but current capabilities fall short on both enabling materials and at least one core physical mechanism.¹⁰ₐ
 
 **10.** We assess with **moderate confidence** that the most productive research avenues are: (a) experimental investigation of the dynamical Casimir effect as a probe of spacetime manipulation; (b) compact fusion energy development; (c) improved UAP sensor networks operating across the electromagnetic spectrum, particularly in the terahertz band; and (d) **accelerated materials science research** in metamaterials, high-temperature superconductors, and nanoscale fabrication — the enabling technologies without which no propulsion breakthrough is possible regardless of theoretical progress.
 
@@ -125,7 +125,7 @@ Following the methodology of Intelligence Community Directive (ICD) 203, this re
 >
 > ⁹ No unified theory of UAP propulsion exists in peer-reviewed literature as of March 2026. [ASSESSED]
 >
-> ¹⁰ₐ The Planck-scale wall thickness constraint derives from Pfenning & Ford (1997); fusion temperature containment remains an unsolved materials challenge (ITER design review); Casimir negative energy scales are ~10⁶⁸× below requirements; optical metamaterial losses reviewed by Shalaev, *Nat. Photonics* 1, 41 (2007). Each barrier is a materials/fabrication limitation applied to theoretically valid physics. [VERIFIED — the constraints themselves are well-characterized; ASSESSED — their classification as primarily materials-science problems]
+> ¹⁰ₐ The Planck-scale wall thickness constraint derives from Pfenning & Ford (1997); fusion temperature containment remains an unsolved materials challenge (ITER design review); Casimir negative energy scales are ~10⁶⁸× below requirements; optical metamaterial losses reviewed by Shalaev, *Nat. Photonics* 1, 41 (2007). Many barriers are therefore materials/fabrication limitations applied to theoretically valid physics, but the conversion of ordinary energy into controlled spacetime curvature remains an unresolved mechanism-level problem. [VERIFIED — the constraints themselves are well-characterized; ASSESSED — their overall classification is mixed]
 
 ---
 
@@ -755,7 +755,7 @@ In light of the materials science analysis, the three barriers are more accurate
 | EM signatures | Predicted by QFT | N/A (detection side) | **Compatible** |
 | Biological effects | Standard EM radiation effects | N/A | **Compatible** |
 
-**Bottom line:** The theoretical framework is internally consistent — general relativity and quantum field theory together predict exactly the observable signature set reported for UAP. The gap is not in theory but in engineering and materials science: the energy scales, exotic matter requirements, and material properties needed exceed current capabilities by extraordinary margins. Crucially, in most domains the barriers are quantitative (scale, precision, loss reduction) rather than qualitative (physics violation). This distinction — between "impossible" and "not yet engineered" — is the central finding of this assessment.
+**Bottom line:** The theoretical framework is internally consistent enough to map many reported observables onto known GR and QFT concepts. The remaining gap is mixed rather than singular: several barriers are engineering/materials problems, while at least one major step — energy-to-curvature transduction — remains a missing-physics problem. The central distinction is therefore not simply "impossible" versus "not yet engineered," but which parts are scale-up problems and which parts still lack a demonstrated mechanism.
 
 ---
 
@@ -1058,7 +1058,7 @@ This document was produced through a structured collaboration between the human 
 
 ### Data Verification
 
-All 56 quantitative data points cited in this assessment have been verified against their original sources. A complete audit is available in the [Data Verification Report](../en/verification-report.md), which documents:
+43 of the 44 quantitative data points cited in this assessment are independently cross-checked against their cited sources. One disputed estimate is retained as low-confidence analysis. A complete audit is available in the [Data Verification Report](../en/verification-report.md), which documents:
 
 - Source provenance and reliability tier for all 54 bibliography entries
 - Cross-referencing of numerical values against peer-reviewed publications

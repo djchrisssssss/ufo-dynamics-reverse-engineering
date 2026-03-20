@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "total_sources": 53,
-    "last_updated": "2026-03-20",
+    "total_sources": 54,
+    "last_updated": "2026-03-21",
     "categories": {
       "peer_reviewed": 30,
       "government": 5,
       "dird": 12,
-      "book": 5,
+      "book": 6,
       "preprint": 1
     }
   },
@@ -19,7 +19,7 @@
       "date": "1994",
       "url": "https://doi.org/10.1088/0264-9381/11/5/001",
       "doi": "10.1088/0264-9381/11/5/001",
-      "sections_cited": ["s03", "s07"],
+      "sections_cited": ["s03", "s07", "s08"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -31,7 +31,7 @@
       "date": "1997",
       "url": "https://arxiv.org/abs/gr-qc/9702026",
       "doi": null,
-      "sections_cited": ["s03", "s07"],
+      "sections_cited": ["s03", "s07", "s08"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -175,7 +175,7 @@
       "date": "1948",
       "url": "https://www.dwc.knaw.nl/DL/publications/PU00018547.pdf",
       "doi": null,
-      "sections_cited": ["s03", "s05"],
+      "sections_cited": ["s03", "s05", "s07", "s08"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -187,7 +187,7 @@
       "date": "1997",
       "url": "https://doi.org/10.1103/PhysRevLett.78.5",
       "doi": "10.1103/PhysRevLett.78.5",
-      "sections_cited": ["s03", "s05"],
+      "sections_cited": ["s03", "s05", "s07", "s08"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -199,7 +199,7 @@
       "date": "2011",
       "url": "https://doi.org/10.1038/nature10561",
       "doi": "10.1038/nature10561",
-      "sections_cited": ["s05", "s08"],
+      "sections_cited": ["s05", "s07", "s08"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -307,7 +307,7 @@
       "date": "2000",
       "url": "https://doi.org/10.1103/PhysRevLett.85.3966",
       "doi": "10.1103/PhysRevLett.85.3966",
-      "sections_cited": ["s06"],
+      "sections_cited": ["s02", "s06"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -331,7 +331,7 @@
       "date": "2018",
       "url": "https://doi.org/10.1038/s41565-018-0141-z",
       "doi": "10.1038/s41565-018-0141-z",
-      "sections_cited": ["s06"],
+      "sections_cited": ["s06", "s07"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -379,7 +379,7 @@
       "date": "2021",
       "url": "https://www.dni.gov/files/ODNI/documents/assessments/Prelimary-Assessment-UAP-20210625.pdf",
       "doi": null,
-      "sections_cited": ["s01", "s02"],
+      "sections_cited": ["s01", "s02", "s08"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -425,11 +425,11 @@
       "title": "Intelligence Community Directive 203: Analytic Standards",
       "authors": ["Office of the Director of National Intelligence"],
       "date": "2015",
-      "url": "https://www.dni.gov/files/documents/ICD/ICD%20203%20Analytic%20Standards.pdf",
+      "url": "https://www.dni.gov/files/documents/ICD/ICD-203.pdf",
       "doi": null,
       "sections_cited": ["s01"],
       "verified": true,
-      "last_checked": "2026-03-20"
+      "last_checked": "2026-03-21"
     },
     {
       "id": "src-036",
@@ -487,7 +487,7 @@
       "date": "2010",
       "url": "https://irp.fas.org/dia/aatip/dird26.pdf",
       "doi": null,
-      "sections_cited": ["s05"],
+      "sections_cited": ["s02", "s05", "s08"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -583,7 +583,7 @@
       "date": "1973",
       "url": "https://press.princeton.edu/books/hardcover/9780691177793/gravitation",
       "doi": null,
-      "sections_cited": ["s02", "s03"],
+      "sections_cited": ["s02", "s03", "s04"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -646,6 +646,18 @@
       "sections_cited": ["s05", "s08"],
       "verified": true,
       "last_checked": "2026-03-20"
+    },
+    {
+      "id": "src-054",
+      "type": "book",
+      "title": "Imminent: Inside the Pentagon's Hunt for UFOs",
+      "authors": ["Luis Elizondo"],
+      "date": "2024",
+      "url": "https://www.harpercollins.com/products/imminent-luis-elizondo",
+      "doi": null,
+      "sections_cited": ["s01", "s02"],
+      "verified": true,
+      "last_checked": "2026-03-21"
     }
   ]
 }

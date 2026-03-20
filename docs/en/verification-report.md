@@ -14,12 +14,13 @@ This verification report documents the data provenance, source quality, and cros
 
 | Metric | Value |
 |--------|-------|
-| Total bibliography sources | 53 |
-| Total quantitative data points | 56 |
+| Total bibliography sources | 54 |
+| Total quantitative data points | 44 |
 | Sections with statistics | 4 (s02, s03, s04, s06) |
-| Data points marked verified | 56/56 (100%) |
-| URLs with assumed_valid status | 29/29 |
-| Broken URLs detected | 0 |
+| Data points independently cross-checked | 43/44 (97.7%) |
+| Tracked URLs in source registry | 29 |
+| HTTP 200/202 during 2026-03-21 automated spot check | 20/29 |
+| HTTP 403/404 during 2026-03-21 automated spot check | 9/29 |
 
 ---
 
@@ -27,10 +28,10 @@ This verification report documents the data provenance, source quality, and cros
 
 | Source Type | Count | Percentage | Reliability Tier |
 |-------------|-------|-----------|-----------------|
-| Peer-reviewed articles | 30 | 56.6% | Tier 1 (highest) |
-| Government documents | 5 | 9.4% | Tier 1 (highest) |
-| Defense Intelligence Reference Documents | 12 | 22.6% | Tier 2 (expert-authored, govt-commissioned) |
-| Books / Monographs | 5 | 9.4% | Tier 2 (academic) |
+| Peer-reviewed articles | 30 | 55.6% | Tier 1 (highest) |
+| Government documents | 5 | 9.3% | Tier 1 (highest) |
+| Defense Intelligence Reference Documents | 12 | 22.2% | Tier 2 (expert-authored, govt-commissioned) |
+| Books / Monographs | 6 | 11.1% | Tier 2 (academic) |
 | Preprints | 1 | 1.9% | Tier 3 (not yet peer-reviewed) |
 
 ---
@@ -49,13 +50,13 @@ This verification report documents the data provenance, source quality, and cros
 1. **Source identification** — Primary authoritative source identified for each statistic
 2. **Cross-referencing** — Figure compared against ≥1 secondary source (documented in `verification_note`)
 3. **Contextual plausibility** — Consistency with related data points checked
-4. **Documentation** — URL, access date, and verification notes recorded in JSON
+4. **Documentation** — Citation string or source object, access date, and verification notes recorded in JSON
 
 ### Tier 3 — JSON Schema Enforcement
 
 All statistics files validated against `data/schemas/statistics-schema.json`:
 - ID pattern: `^(s[0-9]{2}|sA[0-9])-[0-9]{3}$`
-- Required fields: `id`, `metric`, `value`, `unit`, `date`, `source` (with `name`, `url`)
+- Required fields: `id`, `metric`, `value`, `unit`, `date`, `source` (citation string or structured object)
 - Confidence levels: `high`, `moderate`, `low`
 - Verification status: `verified`, `theoretical`, `speculative`
 
@@ -67,12 +68,12 @@ All statistics files validated against `data/schemas/statistics-schema.json`:
 
 | Confidence | Count |
 |-----------|-------|
-| High | 12 |
-| Moderate | 0 |
-| Low | 0 |
+| High | 8 |
+| Moderate | 3 |
+| Low | 1 |
 
 Key verification notes:
-- USS Nimitz 5,300 g figure derived from Navy radar data; quality debated but sourced to official DoD
+- USS Nimitz 5,300 g figure retained as a low-confidence third-party estimate (Knuth et al. 2019), not an official DoD measurement
 - MICROSCOPE EP precision (10⁻¹⁵) verified via PRL publication (Touboul et al. 2022)
 - Shuttle reentry temperature from NASA thermal protection system data
 
@@ -81,8 +82,8 @@ Key verification notes:
 | Confidence | Count |
 |-----------|-------|
 | High | 2 |
-| Moderate | 1 |
-| Low | 1 |
+| Moderate | 2 |
+| Low | 0 |
 
 Key verification notes:
 - Planck-length wall thickness from Pfenning & Ford (1997), peer-reviewed in CQG
@@ -105,7 +106,7 @@ Key verification notes:
 
 | Confidence | Count |
 |-----------|-------|
-| High | 11 |
+| High | 12 |
 | Moderate | 0 |
 | Low | 0 |
 
@@ -120,11 +121,11 @@ Key verification notes:
 
 | Document | Publisher | URL Status | Access Verified |
 |----------|----------|------------|----------------|
-| ODNI Preliminary Assessment (2021) | ODNI | Valid | 2026-03-20 |
-| ODNI 2022 Annual Report | ODNI | Valid | 2026-03-20 |
-| AARO Historical Record Vol I (2024) | DoD | Valid | 2026-03-20 |
-| AARO/ORNL Metallic Specimen (2022) | DoD/ORNL | Via AARO site | 2026-03-20 |
-| ICD 203 Analytic Standards | ODNI | Valid | 2026-03-20 |
+| ODNI Preliminary Assessment (2021) | ODNI | HTTP 200 | 2026-03-21 |
+| ODNI 2022 Annual Report | ODNI | HTTP 200 | 2026-03-21 |
+| AARO Historical Record Vol I (2024) | DoD | HTTP 403 (bot-restricted) | 2026-03-21 |
+| AARO/ORNL Metallic Specimen (2022) | AARO | HTTP 403 (bot-restricted) | 2026-03-21 |
+| ICD 203 Analytic Standards | ODNI | HTTP 200 (updated official path) | 2026-03-21 |
 
 ---
 
@@ -132,10 +133,10 @@ Key verification notes:
 
 - **37 of 38 DIRDs** declassified via FOIA (March 25, 2022)
 - **DIRD #38** (High-Energy Laser Weapons) retains SECRET/NOFORN
-- Collection accessible at:
-  - The Black Vault: `https://documents2.theblackvault.com/documents/dia/AAWSAP-DIRDs/`
-  - FAS: `https://irp.fas.org/dia/aatip-list.pdf`
-  - Public Intelligence: `https://info.publicintelligence.net/DIRDs/`
+- Collection mirrors checked on March 21, 2026:
+  - The Black Vault directory: HTTP 200
+  - The Black Vault ZIP archive: HTTP 200
+  - FAS master list: HTTP 202
 
 ---
 
@@ -158,12 +159,13 @@ Verification status markers:
 
 ## 8. Known Limitations
 
-1. **No automated URL verification** — All URL checks were manual
+1. **Automated HTTP checks are imperfect** — Some valid official or DOI endpoints return HTTP 403 to scripted requests because of bot restrictions
 2. **DIRD content verification** — Individual DIRD technical claims not independently verified; DIRDs are treated as expert opinion
 3. **NIF data currency** — Fusion progress data subject to rapid updates; April 2025 gain figure should be verified against latest LLNL releases
 4. **USS Nimitz acceleration** — Derived from radar tracking data whose calibration and interpretation remain debated in the UAP research community
 5. **Subscription sources** — Some DOI-linked papers require journal subscriptions for full access
+6. **Registry coverage** — The URL registry is a spot-check artifact, not a guarantee that every cited source remains browser-accessible from every region or network
 
 ---
 
-*Last updated: 2026-03-20*
+*Last updated: 2026-03-21*

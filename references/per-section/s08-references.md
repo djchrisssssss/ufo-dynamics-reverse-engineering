@@ -8,6 +8,7 @@
 4. [nif-ignition] NIF — Compact fusion as enabling technology
 5. [iter] ITER — Magnetic confinement fusion pathway
 6. [cfs-sparc] CFS — HTS magnet breakthrough
+7. [src-040] Green, K. "Anomalous Acute and Subacute Field Effects on Human Biological Tissues." DIRD #26.
 
 ## Key Unknowns
 
@@ -15,7 +16,7 @@
 |---------|-------------|-----------------|
 | Macroscopic negative energy? | Most important open question | src-014, src-015, src-002 |
 | Positive-energy spacetime manipulation? | Open in modified gravity | src-004, src-005 |
-| Actual UAP EM spectrum? | Underdetermined hypotheses | src-031, DIRD_Green |
+| Actual UAP EM spectrum? | Underdetermined hypotheses | src-031, src-040 |
 | Energy source bridging gap? | ~10⁴⁶× gap (fusion → warp) | src-001, nif-ignition |
 
 ## Definitive Evidence Criteria

@@ -11,7 +11,7 @@
    - DOI: https://doi.org/10.1007/BF02345020
 6. [src-021] Steinhauer, J. "Observation of quantum Hawking radiation." *Nature Phys.* 12, 959 (2016).
 7. [src-053] Schutzhold, R. "The analogy between DCE and Hawking/Unruh radiation." arXiv: 1110.6064 (2011).
-8. [DIRD_Green] Green, K. "Anomalous Acute and Subacute Field Effects on Human Biological Tissues." DIRD #26.
+8. [src-040] Green, K. "Anomalous Acute and Subacute Field Effects on Human Biological Tissues." DIRD #26.
 
 ## Data Points Referenced
 

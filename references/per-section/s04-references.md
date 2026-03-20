@@ -8,11 +8,11 @@
    - URL: https://www.iter.org/
 3. [cfs-sparc] Commonwealth Fusion Systems. SPARC project.
    - URL: https://www.cfs.energy/
-4. [DIRD_Miley] Miley, G. "Inertial Electrostatic Confinement Fusion." DIRD #9.
-5. [DIRD_Davis_Vacuum] Davis, E. "Concepts for Extracting Energy from the Quantum Vacuum." DIRD #24.
-6. [DIRD_Davis_Tomography] Davis, E. "Quantum Tomography of Negative Energy States in the Vacuum." DIRD #36.
-7. [DIRD_Culbreth] Culbreth, W. "Aneutronic Fusion Propulsion." DIRD #30.
-8. [DIRD_Winterberg] Winterberg, F. "Advanced Nuclear Propulsion for Manned Deep Space Missions." DIRD #11.
+4. [src-042] Miley, G. "Inertial Electrostatic Confinement Fusion." DIRD #9.
+5. [src-045] Davis, E. "Concepts for Extracting Energy from the Quantum Vacuum." DIRD #24.
+6. [src-046] Davis, E. "Quantum Tomography of Negative Energy States in the Vacuum." DIRD #36.
+7. [src-047] Culbreth, W. "Aneutronic Fusion Propulsion." DIRD #30.
+8. [src-039] Winterberg, F. "Advanced Nuclear Propulsion for Manned Deep Space Missions." DIRD #11.
 
 ## Data Points Referenced
 

@@ -31,7 +31,7 @@ UFO-dynamics-reverse-engineering/
 │       ├── energy-density-comparison.csv
 │       └── materials-gap-analysis.csv
 ├── references/
-│   ├── bibliography.json             # Master bibliography (53 sources)
+│   ├── bibliography.json             # Master bibliography (54 sources)
 │   ├── source-registry.json          # URL verification registry
 │   └── per-section/                  # Per-section reference lists
 │       ├── s01-references.md
@@ -44,7 +44,7 @@ UFO-dynamics-reverse-engineering/
 │       └── s08-references.md
 ├── latex/
 │   ├── main.tex                      # REVTeX 4-2 formatted paper
-│   ├── references.bib                # BibTeX bibliography (53 entries)
+│   ├── references.bib                # BibTeX bibliography (54 entries)
 │   └── figures/                      # Placeholder for diagrams
 ├── report-en.md                      # Original English report (legacy)
 ├── report-zh-TW.md                   # Original Chinese report (legacy)
@@ -109,6 +109,13 @@ pdflatex main.tex
 bibtex main
 pdflatex main.tex
 pdflatex main.tex
+```
+
+## Validation
+
+```bash
+python3 scripts/validate_repository.py
+python3 scripts/validate_repository.py --check-urls
 ```
 
 ## Commit Convention

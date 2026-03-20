@@ -31,9 +31,9 @@
 
 ## Abstract / 摘要
 
-A systematic physics-based assessment of reported UFO/UAP flight characteristics. Evaluates whether known or theoretically plausible physical mechanisms — including Alcubierre warp metrics, nuclear fusion, dynamical Casimir effect, and metamaterials — could account for the "Five Observables" taxonomy. Concludes that barriers are primarily **materials science maturity**, not fundamental physics violations.
+A systematic physics-based assessment of reported UFO/UAP flight characteristics. Evaluates whether known or theoretically plausible physical mechanisms — including Alcubierre warp metrics, nuclear fusion, dynamical Casimir effect, and metamaterials — could account for the "Five Observables" taxonomy. Concludes that most near-term barriers are **engineering and materials-science constraints**, while controlled energy-to-curvature transduction remains an unresolved physics gap.
 
-以物理學為基礎，系統性評估已報告之 UFO/UAP 飛行特徵。評估已知或理論上合理之物理機制——包括阿乎庫比耶曲速度規、核融合、動態卡西米爾效應及超穎材料——能否解釋「五大可觀測特徵」分類法。結論為障礙主要在於**材料科學成熟度**，而非基礎物理學之違反。
+以物理學為基礎，系統性評估已報告之 UFO/UAP 飛行特徵。評估已知或理論上合理之物理機制——包括阿乎庫比耶曲速度規、核融合、動態卡西米爾效應及超穎材料——能否解釋「五大可觀測特徵」分類法。結論為，多數近期障礙屬於**工程與材料科學限制**，但可控的能量到曲率轉換仍是未解的物理缺口。
 
 > This is an independent scientific assessment. No classified information was used. All sources are publicly available.
 
@@ -72,10 +72,10 @@ After reading the book, we realized that the physical claims described — insta
 | Directory | Contents | 內容 |
 |-----------|----------|------|
 | `data/schemas/` | JSON Schema for statistics validation | 資料驗證 Schema |
-| `data/statistics/` | Per-section quantitative data (56 data points) | 各節定量資料 |
+| `data/statistics/` | Per-section quantitative data (44 data points) | 各節定量資料 |
 | `data/timelines/` | UAP investigation history; DIRD catalog (CSV) | 調查歷程時間軸 |
 | `data/comparisons/` | Energy density; materials gap analysis (CSV) | 能量密度與材料差距比較 |
-| `references/bibliography.json` | Master bibliography (53 sources) | 主參考書目 |
+| `references/bibliography.json` | Master bibliography (54 sources) | 主參考書目 |
 | `references/source-registry.json` | URL verification registry (29 URLs) | URL 驗證登錄 |
 | `references/per-section/` | Per-section reference documentation | 各節參考文獻 |
 
@@ -83,10 +83,10 @@ After reading the book, we realized that the physical claims described — insta
 
 | Type / 類型 | Count | % |
 |-------------|-------|---|
-| Peer-reviewed / 同儕審查 | 30 | 56.6% |
-| Government / 政府文件 | 5 | 9.4% |
-| DIRD / 國防情報參考文件 | 12 | 22.6% |
-| Books / 學術專書 | 5 | 9.4% |
+| Peer-reviewed / 同儕審查 | 30 | 55.6% |
+| Government / 政府文件 | 5 | 9.3% |
+| DIRD / 國防情報參考文件 | 12 | 22.2% |
+| Books / 學術專書 | 6 | 11.1% |
 | Preprints / 預印本 | 1 | 1.9% |
 
 ### Key Government Sources / 主要政府來源
@@ -94,7 +94,7 @@ After reading the book, we realized that the physical claims described — insta
 - [ODNI Preliminary Assessment (2021)](https://www.dni.gov/files/ODNI/documents/assessments/Prelimary-Assessment-UAP-20210625.pdf)
 - [ODNI 2022 Annual Report](https://www.dni.gov/files/ODNI/documents/assessments/Unclassified-2022-Annual-Report-UAP.pdf)
 - [AARO Historical Record Vol I (2024)](https://media.defense.gov/2024/Mar/08/2003409233/-1/-1/0/DOPSR-2024-0175-HISTORICAL-RECORD-REPORT-VOLUME-I-2024.PDF)
-- [ICD 203 Analytic Standards](https://www.dni.gov/files/ODNI/documents/ICD/ICD%20203%20Analytic%20Standards.pdf)
+- [ICD 203 Analytic Standards](https://www.dni.gov/files/documents/ICD/ICD-203.pdf)
 - [DIRD Collection (Black Vault FOIA)](https://documents2.theblackvault.com/documents/dia/AAWSAP-DIRDs/)
 - [DIRD Master List (FAS)](https://irp.fas.org/dia/aatip-list.pdf)
 
@@ -108,6 +108,19 @@ The assessment is also available as a two-column academic paper formatted with R
 cd latex/
 pdflatex main.tex && bibtex main && pdflatex main.tex && pdflatex main.tex
 ```
+
+---
+
+## Validation / 驗證
+
+```bash
+python3 scripts/validate_repository.py
+python3 scripts/validate_repository.py --check-urls
+```
+
+The validation script checks bibliography counts, source-registry metadata, statistics-schema compliance, and optional live HTTP spot checks.
+
+驗證腳本會檢查書目計數、來源註冊 metadata、統計資料 schema 相容性，並可選擇執行即時 HTTP 抽查。
 
 ---
 
@@ -129,12 +142,12 @@ UFO-dynamics-reverse-engineering/
 │   ├── timelines/                   # Historical events (2 CSVs)
 │   └── comparisons/                 # Cross-domain analysis (2 CSVs)
 ├── references/
-│   ├── bibliography.json            # 53 sources
+│   ├── bibliography.json            # 54 sources
 │   ├── source-registry.json         # URL verification
 │   └── per-section/                 # 8 reference files
 ├── latex/
 │   ├── main.tex                     # REVTeX 4-2 paper
-│   ├── references.bib               # 53 BibTeX entries
+│   ├── references.bib               # 54 BibTeX entries
 │   └── figures/
 ├── CLAUDE.md
 ├── CITATION.cff
@@ -162,9 +175,9 @@ This project was produced through a structured collaboration between the human a
 
 **所有科學判斷、評估及結論均為人類作者之獨立意見。**
 
-All 56 quantitative data points have been verified against original sources. See the [verification reports](docs/en/verification-report.md) for full audit details.
+43 of 44 quantitative data points are independently cross-checked against cited sources; one contested estimate is retained as low-confidence analysis. See the [verification reports](docs/en/verification-report.md) for the current audit details.
 
-全部 56 個定量資料點均已對照原始來源進行驗證。完整審核詳見[驗證報告](docs/zh-TW/verification-report.md)。
+44 個定量資料點中有 43 個已對照引用來源完成交叉檢查；另有 1 個具爭議之估計值以低信心分析保留。完整審核詳見[驗證報告](docs/zh-TW/verification-report.md)。
 
 ---
 

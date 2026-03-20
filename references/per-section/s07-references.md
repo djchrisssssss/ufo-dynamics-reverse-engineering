@@ -26,6 +26,6 @@ This section synthesizes references from all preceding sections. Key sources:
 
 ## Notes
 
-- Central thesis: barriers are primarily materials science maturity, not fundamental physics violations.
+- Central thesis: many barriers are engineering and materials-science limits, but energy-to-curvature transduction remains a missing-physics problem.
 - Exception: the energy-to-curvature transduction gap is a missing-physics problem, not a materials problem.
 - Historical precedent (semiconductor theory → transistor: ~15 years; superconductivity → HTS: ~75 years) suggests materials gaps eventually close, but timescales are unpredictable.

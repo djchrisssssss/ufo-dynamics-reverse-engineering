@@ -54,28 +54,36 @@
             "description": "Date or period of measurement (ISO 8601 compatible)"
           },
           "source": {
-            "type": "object",
-            "required": ["name", "url"],
-            "properties": {
-              "name": {
+            "oneOf": [
+              {
                 "type": "string",
-                "description": "Source organization or publication"
+                "description": "Human-readable source citation"
               },
-              "url": {
-                "type": "string",
-                "format": "uri",
-                "description": "URL to source document"
-              },
-              "doi": {
-                "type": ["string", "null"],
-                "description": "DOI if available"
-              },
-              "accessed": {
-                "type": "string",
-                "format": "date",
-                "description": "Date the source was last accessed"
+              {
+                "type": "object",
+                "required": ["name", "url"],
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "description": "Source organization or publication"
+                  },
+                  "url": {
+                    "type": "string",
+                    "format": "uri",
+                    "description": "URL to source document"
+                  },
+                  "doi": {
+                    "type": ["string", "null"],
+                    "description": "DOI if available"
+                  },
+                  "accessed": {
+                    "type": "string",
+                    "format": "date",
+                    "description": "Date the source was last accessed"
+                  }
+                }
               }
-            }
+            ]
           },
           "context": {
             "type": "string",

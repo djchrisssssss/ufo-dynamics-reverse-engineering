@@ -1,212 +1,212 @@
 {
   "metadata": {
-    "total_urls": 45,
-    "last_audit": "2026-03-20",
-    "audit_method": "manual_verification"
+    "total_urls": 29,
+    "last_audit": "2026-03-21",
+    "audit_method": "manual_verification + automated_http_spot_check"
   },
   "urls": [
     {
       "url": "https://doi.org/10.1088/0264-9381/11/5/001",
       "source_id": "src-001",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
       "notes": "IOP Publishing — stable DOI"
     },
     {
       "url": "https://arxiv.org/abs/gr-qc/9702026",
       "source_id": "src-002",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
       "notes": "arXiv — stable preprint archive"
     },
     {
       "url": "https://doi.org/10.1088/1361-6382/abe692",
       "source_id": "src-004",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
       "notes": "IOP Publishing — stable DOI"
     },
     {
       "url": "https://doi.org/10.1103/PhysRevD.105.064038",
       "source_id": "src-005",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "access_restricted",
+      "last_checked": "2026-03-21",
       "notes": "APS — stable DOI"
     },
     {
       "url": "https://doi.org/10.1088/1361-6382/abdf6e",
       "source_id": "src-006",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
       "notes": "IOP Publishing — stable DOI"
     },
     {
       "url": "https://doi.org/10.1098/rsta.1920.0009",
       "source_id": "src-010",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "access_restricted",
+      "last_checked": "2026-03-21",
       "notes": "Royal Society — stable DOI, historical"
     },
     {
       "url": "https://doi.org/10.1038/nature10561",
       "source_id": "src-016",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
       "notes": "Nature — stable DOI"
     },
     {
       "url": "https://doi.org/10.1007/BF02345020",
       "source_id": "src-019",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
       "notes": "Springer — stable DOI"
     },
     {
       "url": "https://doi.org/10.1103/PhysRevLett.85.3966",
       "source_id": "src-025",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "access_restricted",
+      "last_checked": "2026-03-21",
       "notes": "APS — stable DOI"
     },
     {
       "url": "https://arxiv.org/abs/1306.0533",
       "source_id": "src-009",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
       "notes": "arXiv — stable preprint archive"
     },
     {
       "url": "https://www.dni.gov/files/ODNI/documents/assessments/Prelimary-Assessment-UAP-20210625.pdf",
       "source_id": "src-031",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
       "notes": "ODNI — US Government official document. Note: filename contains typo 'Prelimary' in original URL"
     },
     {
       "url": "https://www.dni.gov/files/ODNI/documents/assessments/Unclassified-2022-Annual-Report-UAP.pdf",
       "source_id": "src-032",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
       "notes": "ODNI — US Government official document"
     },
     {
       "url": "https://media.defense.gov/2024/Mar/08/2003409233/-1/-1/0/DOPSR-2024-0175-HISTORICAL-RECORD-REPORT-VOLUME-I-2024.PDF",
       "source_id": "src-033",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "access_restricted",
+      "last_checked": "2026-03-21",
       "notes": "DoD — AARO Historical Record Report"
     },
     {
       "url": "https://www.aaro.mil/",
       "source_id": "src-034",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "access_restricted",
+      "last_checked": "2026-03-21",
       "notes": "AARO official website — ORNL synopsis referenced within"
     },
     {
-      "url": "https://www.dni.gov/files/ODNI/documents/ICD/ICD%20203%20Analytic%20Standards.pdf",
+      "url": "https://www.dni.gov/files/documents/ICD/ICD-203.pdf",
       "source_id": "src-035",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
-      "notes": "ODNI — Intelligence Community Directive"
+      "status": "reachable",
+      "last_checked": "2026-03-21",
+      "notes": "ODNI — Intelligence Community Directive, updated official document path"
     },
     {
       "url": "https://irp.fas.org/dia/aatip-list.pdf",
       "source_id": "dird-index",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
       "notes": "FAS — DIRD master list (declassified)"
     },
     {
       "url": "https://documents2.theblackvault.com/documents/dia/AAWSAP-DIRDs/",
       "source_id": "dird-collection",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
       "notes": "The Black Vault — FOIA-released DIRD collection"
     },
     {
       "url": "https://www.llnl.gov/news/national-ignition-facility-achieves-fusion-ignition",
       "source_id": "nif-ignition",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
       "notes": "LLNL — NIF ignition announcement Dec 2022"
     },
     {
       "url": "https://lasers.llnl.gov/about/what-is-nif",
       "source_id": "nif-about",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
       "notes": "LLNL — NIF technical overview"
     },
     {
       "url": "https://www.iter.org/",
       "source_id": "iter",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
       "notes": "ITER — International fusion project official site"
     },
     {
       "url": "https://www.cfs.energy/",
       "source_id": "cfs-sparc",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
       "notes": "Commonwealth Fusion Systems — SPARC project"
     },
     {
       "url": "https://arxiv.org/abs/1110.6064",
       "source_id": "src-053",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
       "notes": "arXiv — stable preprint archive"
     },
     {
       "url": "https://ntrs.nasa.gov/",
       "source_id": "nasa-ntrs",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
       "notes": "NASA Technical Reports Server — acceleration and thermal data"
     },
     {
       "url": "https://www.congress.gov/bill/117th-congress/senate-bill/3600",
       "source_id": "ndaa-2023",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
-      "notes": "Congress.gov — NDAA 2023 with UAP provisions"
+      "status": "access_restricted",
+      "last_checked": "2026-03-21",
+      "notes": "Congress.gov — NDAA 2023 with UAP provisions; currently returns HTTP 403 to scripted requests"
     },
     {
       "url": "https://oversight.house.gov/hearing/unidentified-anomalous-phenomena-implications-on-national-security-public-safety-and-government-transparency/",
       "source_id": "house-uap-hearing-2023",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
       "notes": "House Oversight Committee — July 2023 UAP hearing"
     },
     {
       "url": "https://www.nytimes.com/2017/12/16/us/politics/pentagon-program-ufo-harry-reid.html",
       "source_id": "nyt-aatip-2017",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "access_restricted",
+      "last_checked": "2026-03-21",
       "notes": "NYT — original AATIP disclosure (may require subscription)"
     },
     {
       "url": "https://doi.org/10.1103/PhysRevLett.116.061102",
       "source_id": "src-012",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "access_restricted",
+      "last_checked": "2026-03-21",
       "notes": "APS — LIGO gravitational wave detection"
     },
     {
       "url": "https://doi.org/10.1103/PhysRevLett.129.121102",
       "source_id": "src-013",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
+      "status": "access_restricted",
+      "last_checked": "2026-03-21",
       "notes": "APS — MICROSCOPE equivalence principle test"
     },
     {
-      "url": "https://info.publicintelligence.net/DIRDs/",
-      "source_id": "dird-publicintel",
-      "status": "assumed_valid",
-      "last_checked": "2026-03-20",
-      "notes": "Public Intelligence — alternate DIRD archive"
+      "url": "https://documents2.theblackvault.com/documents/dia/AAWSAP-DIRDs/AAWSAP-DIRDs-1-37.zip",
+      "source_id": "dird-zip-archive",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
+      "notes": "The Black Vault — ZIP archive backup for the FOIA-released DIRD collection"
     }
   ]
 }
