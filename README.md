@@ -37,6 +37,18 @@ A systematic physics-based assessment of reported UFO/UAP flight characteristics
 
 ---
 
+## Background / 背景
+
+This work originated from a close reading of ***Imminent: Inside the Pentagon's Hunt for UFOs*** (William Morrow, 2024) by **Luis Elizondo** — the former U.S. Army counterintelligence officer who directed the Pentagon's Advanced Aerospace Threat Identification Program (AATIP) from 2008 to 2017. Elizondo's book is the first insider account from the person who actually ran the U.S. government's modern UFO investigation program. It documents how the "Five Observables" taxonomy was created, the commissioning of 38 classified Defense Intelligence Reference Documents (DIRDs) by world-class physicists, the specific radar and sensor cases that defied conventional explanation, and the internal political battles that led to his resignation in protest.
+
+After reading the book, we realized that the physical claims described — instantaneous acceleration, transmedium travel, absence of sonic booms — are not vague anecdotes but structured, sensor-corroborated observations that can be rigorously evaluated against known physics. This assessment was born from that realization: taking Elizondo's observational framework and the DIRD physics as a starting point, then systematically mapping each claimed observable onto established general relativity, quantum field theory, nuclear physics, and materials science to determine what is physically possible, what is theoretically plausible, and where the true engineering gaps lie.
+
+本作品起源於對 **Luis Elizondo** 所著 ***《Imminent: Inside the Pentagon's Hunt for UFOs》***（William Morrow, 2024）的深入研讀。Elizondo 曾任美國陸軍反情報特別探員，於 2008 至 2017 年間主持五角大廈「先進航太威脅識別計畫」（AATIP），是美國政府現代 UFO 調查計畫的實際負責人。本書是首部由計畫主持人以第一手視角撰寫的內部紀實，記錄了「五大可觀測特徵」分類法的建立過程、38 份由頂尖物理學家撰寫之國防情報參考文件（DIRD）的委託始末、挑戰傳統解釋的具體雷達與感測器案例，以及最終促使他辭職抗議的國防部內部政治角力。
+
+閱讀本書後我們意識到，書中所描述的物理特徵——瞬間加速、跨介質飛行、無音爆——並非模糊的軼事傳聞，而是結構化的、有感測器佐證的觀測紀錄，完全可以用已知物理學進行嚴謹檢驗。本評估即誕生於此認知：以 Elizondo 的觀測框架與 DIRD 物理學為起點，系統性地將每項聲稱之可觀測特徵對應至已建立之廣義相對論、量子場論、核物理學及材料科學，判定何者在物理上可能、何者在理論上合理、以及真正的工程差距究竟在何處。
+
+---
+
 ## Sections / 章節概覽
 
 | # | Section | 節標題 | Key Topics |
