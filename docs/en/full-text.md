@@ -350,6 +350,45 @@ Despite the engineering challenges, the warp bubble concept provides the most pa
 
 The elegance of this framework lies in its economy: a **single mechanism** (local spacetime distortion) simultaneously explains **all** reported observables. This does not prove that UAP use warp bubbles, but it demonstrates that the Five Observables are not independently inexplicable — they are precisely the **expected signature set** of a spacetime distortion engine.⁵⁷
 
+#### 3.3.1 Warp Bubble Intensity and Observed Morphology
+
+A key prediction of the warp bubble framework is that the **apparent shape** of a vehicle as seen by external observers is not determined by the physical geometry of the craft itself, but by the **intensity of the surrounding spacetime distortion**. As the bubble's energy density increases, the curvature gradient at the bubble wall steepens, altering the geodesic paths of photons traversing the region and thus changing the visual profile perceived by distant observers.
+
+**Physical mechanism.** Light rays passing through or near the warp bubble are deflected by the local spacetime curvature according to the geodesic equation. The deflection angle $\theta$ at the bubble boundary depends on the metric perturbation amplitude:
+
+$$\theta \sim \frac{4 G \, \mathcal{E}_{\text{shell}}}{c^4 \, b}$$
+
+where $\mathcal{E}_{\text{shell}}$ is the energy density integrated over the bubble wall cross-section and $b$ is the photon's impact parameter. As $\mathcal{E}_{\text{shell}}$ increases, photon trajectories are bent more severely, producing progressively distorted visual profiles.
+
+For the Alcubierre metric with shaping function $f(r_s)$, the apparent profile observed at angle $\psi$ relative to the direction of motion depends on the bubble velocity parameter $v_s$ and the wall thickness parameter $\sigma$. The effective contraction factor along the direction of travel is:
+
+$$\gamma_{\text{eff}}(\psi) = \left(1 - v_s^2 f(r_s)^2 / c^2\right)^{-1/2}$$
+
+At low bubble velocities ($v_s \ll c$), $\gamma_{\text{eff}} \approx 1$ and the profile remains nearly undistorted. As $v_s \to c$, the profile is compressed along the velocity axis, transitioning through a sequence of apparent geometries.
+
+The following morphology matrix maps bubble intensity regimes to the predicted apparent shape:
+
+| Bubble Regime | Effective $v_s / c$ | Front/Rear Profile | Apparent Shape | Physical Mechanism |
+|--------------|--------------------|--------------------|----------------|-------------------|
+| **I — Low Power** | $\ll 0.1$ | Slightly oblate | Disc / saucer | Minimal curvature; photon paths nearly rectilinear; physical geometry dominates |
+| **II — Moderate Power** | $\sim 0.1 - 0.3$ | Spherical | Sphere / orb | Moderate curvature produces roughly isotropic lensing; all viewing angles yield similar profile |
+| **III — High Power** | $\sim 0.3 - 0.6$ | Prolate (egg-shaped) | Ovoid / tic-tac | Asymmetric contraction ahead vs. expansion behind; front surface appears compressed |
+| **IV — Very High Power** | $\sim 0.6 - 0.9$ | Elongated ellipsoid | Cigar / cylinder | Strong Lorentz-like contraction along velocity axis; lateral profile stretched |
+| **V — Extreme Power** | $\to 1.0$ | Infinite elongation | Streak / beam | Curvature approaches horizon formation; photon capture at leading edge; visual profile extends to infinity |
+
+**Resolving the shape paradox.** Witness reports describe UAP in widely inconsistent shapes — disc, sphere, tic-tac, cigar, luminous streak — often for what tracking data suggests is the same object at different times. Within the warp bubble framework, this is not a contradiction but an **expected consequence**: the same craft operating at different bubble intensities would genuinely appear as different shapes to external observers, because the photon geodesics traversing the bubble change with intensity.
+
+This is analogous to gravitational lensing in astrophysics, where a single background galaxy can appear as an arc, ring, or multiple point images depending on the mass distribution of the foreground lens. The lens geometry determines the image geometry — not the source geometry. Similarly, the warp bubble geometry determines the apparent craft geometry.
+
+**Observable predictions:**
+
+1. Shape transitions should correlate with acceleration events (bubble intensity changes during maneuvers)
+2. Objects should appear most disc-like when stationary or slow-moving, and most elongated when at high velocity
+3. The transition from sphere → ovoid → cigar should be continuous, not abrupt
+4. Optical spectroscopy during shape transitions should reveal wavelength-dependent distortion (shorter wavelengths deflected more, producing chromatic fringing)
+
+**Assessment:** The warp bubble morphology matrix provides a **theoretically consistent** explanation for the diversity of reported UAP shapes within a single-vehicle framework. The predictions are **testable** with calibrated multi-spectral imaging. Verification would constitute strong evidence for the spacetime distortion hypothesis.
+
 ### 3.4 Negative Energy and the Quantum Vacuum
 
 The central obstacle to practical spacetime engineering is the exotic matter requirement. What does physics say about negative energy?
