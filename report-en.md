@@ -372,13 +372,13 @@ A key prediction of the warp bubble framework is that the **apparent shape** of 
 
 $$\theta \sim \frac{4 G \, \mathcal{E}_\mathrm{shell}}{c^4 \, b}$$
 
-where $\mathcal{E}_\mathrm{shell}$ is the energy density integrated over the bubble wall cross-section and $b$ is the photon's impact parameter. As $\mathcal{E}_\mathrm{shell}$ increases, photon trajectories are bent more severely, producing progressively distorted visual profiles.
+where $\mathcal{E}_{\mathrm{shell}}$ is the energy density integrated over the bubble wall cross-section and $b$ is the photon's impact parameter. As $\mathcal{E}_{\mathrm{shell}}$ increases, photon trajectories are bent more severely, producing progressively distorted visual profiles.
 
 For the Alcubierre metric with shaping function $f(r_s)$, the apparent profile observed at angle $\psi$ relative to the direction of motion depends on the bubble velocity parameter $v_s$ and the wall thickness parameter $\sigma$. The effective contraction factor along the direction of travel is:
 
 $$\gamma_\mathrm{eff}(\psi) = \left(1 - v_s^2 f(r_s)^2 / c^2\right)^{-1/2}$$
 
-At low bubble velocities ( $v_s \ll c$ ), $\gamma_\mathrm{eff} \approx 1$ and the profile remains nearly undistorted. As $v_s \to c$, the profile is compressed along the velocity axis, transitioning through a sequence of apparent geometries.
+At low bubble velocities ( $v_s \ll c$ ), $\gamma_{\mathrm{eff}} \approx 1$ and the profile remains nearly undistorted. As $v_s \to c$, the profile is compressed along the velocity axis, transitioning through a sequence of apparent geometries.
 
 The following morphology matrix maps bubble intensity regimes to the predicted apparent shape:
 
