@@ -6,11 +6,11 @@
 
 *— A Physics-Based Assessment of Unidentified Aerial Phenomena*
 
-![AI-generated illustrative banner for UFO Dynamics Reverse Engineering](https://raw.githubusercontent.com/djchrisssssss/ufo-dynamics-reverse-engineering/master/assets/ufo-dynamics-banner.png)
+![Public-release UAP footage still for UFO Dynamics Reverse Engineering](https://raw.githubusercontent.com/djchrisssssss/ufo-dynamics-reverse-engineering/master/assets/uap-public-release-still.jpg)
 
-*Banner image: AI-generated illustrative concept image created with Gemini. It is visual artwork only, not documentary evidence, sensor data, or claimed UAP imagery.*
+*Banner image: publicly released UAP footage still used here as contextual illustration.*
 
-*Banner 圖片：由 Gemini 協助生成之 AI 示意圖，僅用於視覺呈現，並非紀錄照片、感測器資料或任何聲稱之 UAP 影像證據。*
+*Banner 圖片：公開釋出之 UAP 影像截圖，於此作為情境性視覺說明使用。*
 
 ---
 
@@ -169,9 +169,9 @@ UFO-dynamics-reverse-engineering/
 
 ## AI Collaboration & Data Verification / AI 協作與資料驗證
 
-This project was produced through a structured collaboration between the human author and multiple AI systems, including **Claude** (Anthropic), **Codex**, **GPT-5.4**, and **Gemini**. Claude Opus 4 and Claude Sonnet 4 supported literature synthesis, structure, and translation; Codex and GPT-5.4 assisted repository optimization, validation, metadata consistency checks, and disclosure/reporting refinements; Gemini assisted generation of the project's non-evidentiary banner artwork. AI contributions included:
+This project was produced through a structured collaboration between the human author and multiple AI systems, including **Claude** (Anthropic), **Codex**, and **GPT-5.4**. Claude Opus 4 and Claude Sonnet 4 supported literature synthesis, structure, and translation; Codex and GPT-5.4 assisted repository optimization, validation, metadata consistency checks, and disclosure/reporting refinements. AI contributions included:
 
-本專案是由人類作者與多個 AI 系統進行結構化協作所產出，包括 **Claude**（Anthropic）、**Codex**、**GPT-5.4** 與 **Gemini**。其中 Claude Opus 4 與 Claude Sonnet 4 主要協助文獻綜整、結構編排與翻譯；Codex 與 GPT-5.4 則協助 repo 優化、驗證流程、metadata 一致性檢查，以及 AI 揭露與報告修訂；Gemini 則協助生成本專案的非證據性 banner 視覺圖像。AI 之貢獻包括：
+本專案是由人類作者與多個 AI 系統進行結構化協作所產出，包括 **Claude**（Anthropic）、**Codex** 與 **GPT-5.4**。其中 Claude Opus 4 與 Claude Sonnet 4 主要協助文獻綜整、結構編排與翻譯；Codex 與 GPT-5.4 則協助 repo 優化、驗證流程、metadata 一致性檢查，以及 AI 揭露與報告修訂。AI 之貢獻包括：
 
 | Contribution / 貢獻 | Description / 說明 |
 |---------------------|--------------------|
@@ -180,7 +180,6 @@ This project was produced through a structured collaboration between the human a
 | Structural organization / 結構組織 | 8-section architecture, bilingual parity / 八章節架構、雙語對照 |
 | Data infrastructure / 資料基礎設施 | JSON Schema, statistics, timelines, source registry / 驗證架構 |
 | Optimization & verification / 優化與驗證 | Repository cleanup, validation hardening, metadata consistency, disclosure updates / repo 整理、驗證補強、metadata 一致性與揭露更新 |
-| Illustrative image generation / 示意圖生成 | Project banner generated with Gemini as non-evidentiary visual artwork / 以 Gemini 生成專案 banner，僅作非證據性的視覺示意 |
 | Translation / 翻譯 | Full Traditional Chinese parallel text / 繁體中文全文翻譯 |
 
 **All scientific judgments, assessments, and conclusions are solely those of the human author.**
