@@ -1118,7 +1118,7 @@ The warp bubble hypothesis, as applied to UAP in this assessment, generates spec
 
 ## AI Collaboration & Data Verification
 
-This document was produced through a structured collaboration between the human author and multiple AI systems, including **Claude** (Anthropic), **Codex**, and **GPT-4.5**. Claude Opus 4 and Claude Sonnet 4 primarily supported literature synthesis, structure, and translation; Codex and GPT-4.5 assisted repository optimization, validation, metadata consistency checks, and disclosure/reporting refinements. The AI contribution included:
+This document was produced through a structured collaboration between the human author and multiple AI systems, including **Claude** (Anthropic), **Codex**, and **GPT-5.4**. Claude Opus 4 and Claude Sonnet 4 primarily supported literature synthesis, structure, and translation; Codex and GPT-5.4 assisted repository optimization, validation, metadata consistency checks, and disclosure/reporting refinements. The AI contribution included:
 
 - **Literature synthesis**: Organizing and cross-referencing 59 bibliography sources across peer-reviewed articles, government documents, DIRDs, and books.
 - **Equation typesetting**: Formatting mathematical expressions in both Markdown (GitHub-compatible) and LaTeX (REVTeX 4-2).
@@ -1152,7 +1152,7 @@ You are free to share and adapt this material for any purpose, provided appropri
 
 I, the undersigned author, certify that:
 
-1. This document is an original work of independent scientific analysis produced in collaboration with AI tools (Claude, Anthropic, Codex, GPT-4.5).
+1. This document is an original work of independent scientific analysis produced in collaboration with AI tools (Claude, Anthropic, Codex, GPT-5.4).
 2. No classified, proprietary, or restricted information was used in its preparation.
 3. All sources are publicly available and cited in the bibliography.
 4. Mathematical derivations and physical arguments have been checked against peer-reviewed literature.
