@@ -121,6 +121,18 @@ def validate_source_registry(errors: list[str]) -> dict[str, int]:
             f"source-registry contains unsupported statuses: {', '.join(invalid_statuses)}"
         )
 
+    url_to_ids: dict[str, list[str]] = {}
+    for entry in urls:
+        url_to_ids.setdefault(entry["url"], []).append(entry["source_id"])
+    duplicate_urls = {
+        url: source_ids for url, source_ids in url_to_ids.items() if len(source_ids) > 1
+    }
+    for url, source_ids in sorted(duplicate_urls.items()):
+        errors.append(
+            "source-registry contains duplicate url "
+            f"{url} for source_ids {', '.join(source_ids)}"
+        )
+
     return {"total_urls": total_urls}
 
 

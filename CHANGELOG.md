@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.2.2] — 2026-03-22
+
+### Changed
+- **Citation metadata** realigned to version 1.2.2 and the Zenodo concept DOI (`10.5281/zenodo.19138270`) so repository citations no longer point at an outdated version-specific archive
+- **AARO source links** regularized to direct official PDF endpoints for the ORNL metallic specimen synopsis and parallax/forced perspective information paper
+- **Compiled PDF delivery** moved to the GitHub Actions `ufo-dynamics-paper` artifact; the committed binary PDF was removed to avoid stale release snapshots
+
+### Fixed
+- **Source registry duplication**: validator now fails on duplicate tracked URLs, preventing repeated endpoint entries from silently inflating audit counts
+- **Version drift** across `CITATION.cff`, `.zenodo.json`, LaTeX acknowledgments, and citation examples
+
 ## [1.2.1] — 2026-03-21
 
 ### Added

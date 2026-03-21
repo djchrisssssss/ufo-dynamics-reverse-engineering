@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19138271.svg)](https://doi.org/10.5281/zenodo.19138271)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19138270.svg)](https://doi.org/10.5281/zenodo.19138270)
 
 # Reverse Engineering the Dynamics of UFOs
 
@@ -109,6 +109,10 @@ cd latex/
 pdflatex main.tex && bibtex main && pdflatex main.tex && pdflatex main.tex
 ```
 
+Compiled PDFs are published through the GitHub Actions `ufo-dynamics-paper` artifact rather than committed to the repository, preventing stale binary snapshots.
+
+已編譯 PDF 由 GitHub Actions 的 `ufo-dynamics-paper` artifact 提供，不再直接提交到 repo，以避免過期的二進位檔案。
+
 ---
 
 ## Validation / 驗證
@@ -186,7 +190,7 @@ This project was produced through a structured collaboration between the human a
 
 ### APA
 
-Lai, K. (2026). *Reverse Engineering the Dynamics of UFOs: A Physics-Based Assessment of Unidentified Aerial Phenomena.* DOI: [10.5281/zenodo.19138271](https://doi.org/10.5281/zenodo.19138271).
+Lai, K. (2026). *Reverse Engineering the Dynamics of UFOs: A Physics-Based Assessment of Unidentified Aerial Phenomena* (Version 1.2.2). DOI: [10.5281/zenodo.19138270](https://doi.org/10.5281/zenodo.19138270).
 
 ### BibTeX
 
@@ -195,8 +199,9 @@ Lai, K. (2026). *Reverse Engineering the Dynamics of UFOs: A Physics-Based Asses
   title     = {Reverse Engineering the Dynamics of UFOs: A Physics-Based Assessment of Unidentified Aerial Phenomena},
   author    = {Lai, Kris},
   year      = {2026},
+  version   = {1.2.2},
   note      = {UNCLASSIFIED --- Open Source Analysis},
-  doi       = {10.5281/zenodo.19138271},
+  doi       = {10.5281/zenodo.19138270},
   url       = {https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering}
 }
 ```

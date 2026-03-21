@@ -1,7 +1,7 @@
 {
   "metadata": {
     "total_sources": 59,
-    "last_updated": "2026-03-21",
+    "last_updated": "2026-03-22",
     "categories": {
       "peer_reviewed": 31,
       "government": 9,
@@ -413,11 +413,11 @@
       "title": "Analysis of a Metallic Specimen (Synopsis)",
       "authors": ["All-domain Anomaly Resolution Office", "Oak Ridge National Laboratory"],
       "date": "2022",
-      "url": "https://www.aaro.mil/",
+      "url": "https://www.aaro.mil/Portals/136/PDFs/Information%20Papers/ORNL-Synopsis_Analysis_of_a_Metallic_Specimen.pdf",
       "doi": null,
       "sections_cited": ["s06"],
       "verified": true,
-      "last_checked": "2026-03-20"
+      "last_checked": "2026-03-22"
     },
     {
       "id": "src-035",
@@ -701,11 +701,11 @@
       "title": "AARO: Assessment of Reported Parallax and Forced Perspective Effects on UAP Observations",
       "authors": ["All-domain Anomaly Resolution Office"],
       "date": "2024",
-      "url": "https://www.aaro.mil/",
+      "url": "https://www.aaro.mil/Portals/136/PDFs/Information%20Papers/AARO_Effect_of_Forced_Perspective_and_Parallax_View_on_UAP_Observations_2024.pdf",
       "doi": null,
       "sections_cited": ["s02"],
       "verified": true,
-      "last_checked": "2026-03-21"
+      "last_checked": "2026-03-22"
     },
     {
       "id": "src-059",

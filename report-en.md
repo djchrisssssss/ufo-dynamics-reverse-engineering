@@ -11,7 +11,7 @@
 - ORCID: [0009-0000-2223-4826](https://orcid.org/0009-0000-2223-4826)
 - Affiliation: [Scallop Labs](https://www.scallop.io/)
 
-**DOI:** [10.5281/zenodo.19138271](https://doi.org/10.5281/zenodo.19138271) \
+**DOI:** [10.5281/zenodo.19138270](https://doi.org/10.5281/zenodo.19138270) \
 **Date:** March 2026 \
 **Classification:** UNCLASSIFIED — OPEN SOURCE ANALYSIS
 
@@ -1162,7 +1162,7 @@ I, the undersigned author, certify that:
 **Author:** Kris Lai \
 **ORCID:** [0009-0000-2223-4826](https://orcid.org/0009-0000-2223-4826) \
 **Date:** March 2026 \
-**DOI:** [10.5281/zenodo.19138271](https://doi.org/10.5281/zenodo.19138271)
+**DOI:** [10.5281/zenodo.19138270](https://doi.org/10.5281/zenodo.19138270)
 
 ---
 

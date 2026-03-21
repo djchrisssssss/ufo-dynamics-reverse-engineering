@@ -97,11 +97,11 @@
       "notes": "DoD — AARO Historical Record Report"
     },
     {
-      "url": "https://www.aaro.mil/",
+      "url": "https://www.aaro.mil/Portals/136/PDFs/Information%20Papers/ORNL-Synopsis_Analysis_of_a_Metallic_Specimen.pdf",
       "source_id": "src-034",
       "status": "access_restricted",
-      "last_checked": "2026-03-21",
-      "notes": "AARO official website — ORNL synopsis referenced within"
+      "last_checked": "2026-03-22",
+      "notes": "AARO/ORNL direct PDF — metallic specimen synopsis; currently returns HTTP 403 to scripted requests"
     },
     {
       "url": "https://www.dni.gov/files/documents/ICD/ICD-203.pdf",
@@ -230,11 +230,11 @@
       "notes": "UK National Archives web archive — preserved copy of the MOD Project Condign publication page"
     },
     {
-      "url": "https://www.aaro.mil/",
+      "url": "https://www.aaro.mil/Portals/136/PDFs/Information%20Papers/AARO_Effect_of_Forced_Perspective_and_Parallax_View_on_UAP_Observations_2024.pdf",
       "source_id": "src-058",
       "status": "access_restricted",
-      "last_checked": "2026-03-21",
-      "notes": "AARO — parallax/forced perspective analysis (same base URL as src-034)"
+      "last_checked": "2026-03-22",
+      "notes": "AARO direct PDF — parallax and forced perspective paper; currently returns HTTP 403 to scripted requests"
     },
     {
       "url": "https://lasers.llnl.gov/science/achieving-fusion-ignition",

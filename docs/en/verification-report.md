@@ -1,6 +1,6 @@
 # Data Verification Report
 
-**DOI:** [10.5281/zenodo.19138271](https://doi.org/10.5281/zenodo.19138271)
+**DOI:** [10.5281/zenodo.19138270](https://doi.org/10.5281/zenodo.19138270)
 **Report Date:** 2026-03-22
 **Auditor:** Automated + Manual Review
 
@@ -124,7 +124,7 @@ Key verification notes:
 | ODNI Preliminary Assessment (2021) | ODNI | HTTP 200 | 2026-03-21 |
 | ODNI 2022 Annual Report | ODNI | HTTP 200 | 2026-03-21 |
 | AARO Historical Record Vol I (2024) | DoD | HTTP 403 (bot-restricted) | 2026-03-21 |
-| AARO/ORNL Metallic Specimen (2022) | AARO | HTTP 403 (bot-restricted) | 2026-03-21 |
+| AARO/ORNL Metallic Specimen (2022) | AARO | HTTP 403 (bot-restricted) | 2026-03-22 |
 | ICD 203 Analytic Standards | ODNI | HTTP 200 (updated official path) | 2026-03-21 |
 
 ---
