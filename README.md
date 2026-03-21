@@ -159,9 +159,9 @@ UFO-dynamics-reverse-engineering/
 
 ## AI Collaboration & Data Verification / AI 協作與資料驗證
 
-This project was produced through a structured collaboration between the human author and **Claude** (Anthropic), using the **Claude Opus 4** and **Claude Sonnet 4** models. AI contributions included:
+This project was produced through a structured collaboration between the human author and multiple AI systems, including **Claude** (Anthropic), **Codex**, and **GPT-4.5**. Claude Opus 4 and Claude Sonnet 4 supported literature synthesis, structure, and translation; Codex and GPT-4.5 assisted repository optimization, validation, metadata consistency checks, and disclosure/reporting refinements. AI contributions included:
 
-本專案是由人類作者與 **Claude**（Anthropic）進行結構化協作所產出，使用 **Claude Opus 4** 及 **Claude Sonnet 4** 模型。AI 之貢獻包括：
+本專案是由人類作者與多個 AI 系統進行結構化協作所產出，包括 **Claude**（Anthropic）、**Codex** 與 **GPT-4.5**。其中 Claude Opus 4 與 Claude Sonnet 4 主要協助文獻綜整、結構編排與翻譯；Codex 與 GPT-4.5 則協助 repo 優化、驗證流程、metadata 一致性檢查，以及 AI 揭露與報告修訂。AI 之貢獻包括：
 
 | Contribution / 貢獻 | Description / 說明 |
 |---------------------|--------------------|
@@ -169,6 +169,7 @@ This project was produced through a structured collaboration between the human a
 | Equation typesetting / 公式排版 | Markdown + LaTeX (REVTeX 4-2) formatting / 格式化 |
 | Structural organization / 結構組織 | 8-section architecture, bilingual parity / 八章節架構、雙語對照 |
 | Data infrastructure / 資料基礎設施 | JSON Schema, statistics, timelines, source registry / 驗證架構 |
+| Optimization & verification / 優化與驗證 | Repository cleanup, validation hardening, metadata consistency, disclosure updates / repo 整理、驗證補強、metadata 一致性與揭露更新 |
 | Translation / 翻譯 | Full Traditional Chinese parallel text / 繁體中文全文翻譯 |
 
 **All scientific judgments, assessments, and conclusions are solely those of the human author.**
