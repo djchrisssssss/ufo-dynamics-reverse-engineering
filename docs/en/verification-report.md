@@ -1,7 +1,7 @@
 # Data Verification Report
 
 **DOI:** [10.5281/zenodo.19138271](https://doi.org/10.5281/zenodo.19138271)
-**Report Date:** 2026-03-20
+**Report Date:** 2026-03-22
 **Auditor:** Automated + Manual Review
 
 ---
@@ -19,8 +19,8 @@ This verification report documents the data provenance, source quality, and cros
 | Sections with statistics | 4 (s02, s03, s04, s06) |
 | Data points independently cross-checked | 43/45 (95.6%) |
 | Tracked URLs in source registry | 34 |
-| HTTP 200/202 during 2026-03-21 automated spot check | 20/29 |
-| HTTP 403/404 during 2026-03-21 automated spot check | 9/29 |
+| HTTP 200/202 during 2026-03-22 automated spot check | 23/34 |
+| HTTP 403/404 during 2026-03-22 automated spot check | 11/34 |
 
 ---
 
@@ -70,7 +70,7 @@ All statistics files validated against `data/schemas/statistics-schema.json`:
 |-----------|-------|
 | High | 8 |
 | Moderate | 3 |
-| Low | 1 |
+| Low | 2 |
 
 Key verification notes:
 - USS Nimitz 5,300 g figure retained as a low-confidence third-party estimate (Knuth et al. 2019), not an official DoD measurement
@@ -168,4 +168,4 @@ Verification status markers:
 
 ---
 
-*Last updated: 2026-03-21*
+*Last updated: 2026-03-22*

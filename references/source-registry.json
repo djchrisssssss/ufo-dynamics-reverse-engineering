@@ -1,7 +1,7 @@
 {
   "metadata": {
     "total_urls": 34,
-    "last_audit": "2026-03-21",
+    "last_audit": "2026-03-22",
     "audit_method": "manual_verification + automated_http_spot_check"
   },
   "urls": [
@@ -211,9 +211,9 @@
     {
       "url": "https://doi.org/10.3390/e21100939",
       "source_id": "src-055",
-      "status": "reachable",
-      "last_checked": "2026-03-21",
-      "notes": "MDPI — Knuth et al. (2019) UAP flight characteristics estimation"
+      "status": "access_restricted",
+      "last_checked": "2026-03-22",
+      "notes": "MDPI — Knuth et al. (2019) UAP flight characteristics estimation; currently returns HTTP 403 to scripted requests"
     },
     {
       "url": "https://science.nasa.gov/uap/",
@@ -223,11 +223,11 @@
       "notes": "NASA — UAP Independent Study Team report page"
     },
     {
-      "url": "https://www.gov.uk/government/publications/unidentified-aerial-phenomena-in-the-uk-air-defence-region",
+      "url": "https://webarchive.nationalarchives.gov.uk/ukgwa/20121110115327/http://www.mod.uk/DefenceInternet/FreedomOfInformation/PublicationScheme/SearchPublicationScheme/UnidentifiedAerialPhenomenauapInTheUkAirDefenceRegion.htm",
       "source_id": "src-057",
       "status": "reachable",
-      "last_checked": "2026-03-21",
-      "notes": "UK Government — Project Condign declassified report"
+      "last_checked": "2026-03-22",
+      "notes": "UK National Archives web archive — preserved copy of the MOD Project Condign publication page"
     },
     {
       "url": "https://www.aaro.mil/",

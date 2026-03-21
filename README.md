@@ -115,7 +115,7 @@ pdflatex main.tex && bibtex main && pdflatex main.tex && pdflatex main.tex
 
 ```bash
 python3 scripts/validate_repository.py
-python3 scripts/validate_repository.py --check-urls
+python3 scripts/validate_repository.py --check-urls --enforce-url-status
 ```
 
 The validation script checks bibliography counts, source-registry metadata, statistics-schema compliance, and optional live HTTP spot checks.
@@ -142,12 +142,12 @@ UFO-dynamics-reverse-engineering/
 │   ├── timelines/                   # Historical events (2 CSVs)
 │   └── comparisons/                 # Cross-domain analysis (2 CSVs)
 ├── references/
-│   ├── bibliography.json            # 54 sources
+│   ├── bibliography.json            # 59 sources
 │   ├── source-registry.json         # URL verification
 │   └── per-section/                 # 8 reference files
 ├── latex/
 │   ├── main.tex                     # REVTeX 4-2 paper
-│   ├── references.bib               # 54 BibTeX entries
+│   ├── references.bib               # 59 BibTeX entries
 │   └── figures/
 ├── CLAUDE.md
 ├── CITATION.cff
@@ -165,7 +165,7 @@ This project was produced through a structured collaboration between the human a
 
 | Contribution / 貢獻 | Description / 說明 |
 |---------------------|--------------------|
-| Literature synthesis / 文獻綜整 | Cross-referencing 54 sources / 交叉比對 54 筆來源 |
+| Literature synthesis / 文獻綜整 | Cross-referencing 59 sources / 交叉比對 59 筆來源 |
 | Equation typesetting / 公式排版 | Markdown + LaTeX (REVTeX 4-2) formatting / 格式化 |
 | Structural organization / 結構組織 | 8-section architecture, bilingual parity / 八章節架構、雙語對照 |
 | Data infrastructure / 資料基礎設施 | JSON Schema, statistics, timelines, source registry / 驗證架構 |
@@ -177,7 +177,7 @@ This project was produced through a structured collaboration between the human a
 
 43 of 45 quantitative data points are independently cross-checked against cited sources; two contested estimates are retained as low-confidence analysis. See the [verification reports](docs/en/verification-report.md) for the current audit details.
 
-44 個定量資料點中有 43 個已對照引用來源完成交叉檢查；另有 1 個具爭議之估計值以低信心分析保留。完整審核詳見[驗證報告](docs/zh-TW/verification-report.md)。
+45 個定量資料點中有 43 個已對照引用來源完成交叉檢查；另有 2 個具爭議之估計值以低信心分析保留。完整審核詳見[驗證報告](docs/zh-TW/verification-report.md)。
 
 ---
 

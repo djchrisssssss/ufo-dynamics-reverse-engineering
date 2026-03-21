@@ -213,6 +213,7 @@ def validate_statistics(errors: list[str]) -> dict[str, int]:
 
     total_points = 0
     verified_points = 0
+    confidence_by_section: dict[str, Counter] = {}
     for path in sorted((ROOT / "data/statistics").glob("*.json")):
         data = json.loads(path.read_text())
         validation_errors = sorted(
@@ -225,8 +226,15 @@ def validate_statistics(errors: list[str]) -> dict[str, int]:
         stats = data["statistics"]
         total_points += len(stats)
         verified_points += sum(1 for stat in stats if stat["verified"])
+        confidence_by_section[path.stem.split("-")[0]] = Counter(
+            stat["confidence"] for stat in stats
+        )
 
-    return {"total_points": total_points, "verified_points": verified_points}
+    return {
+        "total_points": total_points,
+        "verified_points": verified_points,
+        "confidence_by_section": confidence_by_section,
+    }
 
 
 def validate_docs(
@@ -240,13 +248,20 @@ def validate_docs(
     total_urls = registry_summary["total_urls"]
     total_points = stats_summary["total_points"]
     verified_points = stats_summary["verified_points"]
+    disputed_points = total_points - verified_points
     verified_percentage = f"{(verified_points / total_points) * 100:.1f}%"
     books_percentage = f"{(total_books / total_sources) * 100:.1f}%"
+    s02_counts = stats_summary["confidence_by_section"]["s02"]
+    s02_total = sum(s02_counts.values())
 
     expectations = {
         "README.md": [
             f"Master bibliography ({total_sources} sources)",
             f"{verified_points} of {total_points} quantitative data points are independently cross-checked",
+            f"│   ├── bibliography.json            # {total_sources} sources",
+            f"│   ├── references.bib               # {total_sources} BibTeX entries",
+            f"Cross-referencing {total_sources} sources / 交叉比對 {total_sources} 筆來源",
+            f"{total_points} 個定量資料點中有 {verified_points} 個已對照引用來源完成交叉檢查；另有 {disputed_points} 個具爭議之估計值以低信心分析保留。",
         ],
         "CLAUDE.md": [
             f"Master bibliography ({total_sources} sources)",
@@ -255,30 +270,57 @@ def validate_docs(
         "docs/en/full-text.md": [
             f"{verified_points} of the {total_points} quantitative data points cited in this assessment are independently cross-checked",
             f"Source provenance and reliability tier for all {total_sources} bibliography entries",
+            f"Organizing and cross-referencing {total_sources} bibliography sources across peer-reviewed articles, government documents, DIRDs, and books.",
+            "59. [GOV] Lawrence Livermore National Laboratory. \"NIF Sets New Records for Energy Yield and Target Gain.\" 2025.",
         ],
         "docs/zh-TW/full-text.md": [
             f"本評估引用的 {total_points} 個定量資料點中，有 {verified_points} 個已對照其引用來源完成獨立交叉檢查",
             f"全部 {total_sources} 筆參考書目之來源出處及可靠性層級",
+            f"組織並交叉比對 {total_sources} 筆參考書目來源",
+            "59. [GOV] Lawrence Livermore National Laboratory. \"NIF Sets New Records for Energy Yield and Target Gain.\" 2025.",
         ],
         "report-en.md": [
             f"{verified_points} of the {total_points} quantitative data points cited in this assessment are independently cross-checked",
             f"Source provenance and reliability tier for all {total_sources} bibliography entries",
+            f"Organizing and cross-referencing {total_sources} bibliography sources across peer-reviewed articles, government documents, DIRDs, and books.",
+            "59. [GOV] Lawrence Livermore National Laboratory. \"NIF Sets New Records for Energy Yield and Target Gain.\" 2025.",
         ],
         "report-zh-TW.md": [
             f"本評估引用的 {total_points} 個定量資料點中，有 {verified_points} 個已對照其引用來源完成獨立交叉檢查",
             f"全部 {total_sources} 筆參考書目之來源出處及可靠性層級",
+            f"組織並交叉比對 {total_sources} 筆參考書目來源",
+            "59. [GOV] Lawrence Livermore National Laboratory. \"NIF Sets New Records for Energy Yield and Target Gain.\" 2025.",
         ],
         "docs/en/verification-report.md": [
             f"| Total bibliography sources | {total_sources} |",
             f"| Data points independently cross-checked | {verified_points}/{total_points} ({verified_percentage}) |",
             f"| Tracked URLs in source registry | {total_urls} |",
             f"| Books / Monographs | {total_books} | {books_percentage} | Tier 2 (academic) |",
+            "\n".join(
+                [
+                    f"### Section 2: Observable Characteristics ({s02_total} data points)",
+                    "",
+                    "| Confidence | Count |",
+                    "|-----------|-------|",
+                    f"| High | {s02_counts.get('high', 0)} |",
+                    f"| Moderate | {s02_counts.get('moderate', 0)} |",
+                    f"| Low | {s02_counts.get('low', 0)} |",
+                ]
+            ),
         ],
         "docs/zh-TW/verification-report.md": [
             f"| 參考文獻總數 | {total_sources} |",
             f"| 已獨立交叉檢查之資料點 | {verified_points}/{total_points} ({verified_percentage}) |",
             f"| 來源註冊中的追蹤 URL | {total_urls} |",
             f"| 學術專書 | {total_books} | {books_percentage} | 第二層（學術） |",
+            f"高度信心：{s02_counts.get('high', 0)} 個、中度信心：{s02_counts.get('moderate', 0)} 個、低度信心：{s02_counts.get('low', 0)} 個",
+        ],
+        ".zenodo.json": [
+            f"{verified_points} of {total_points} quantitative data points are independently cross-checked",
+            "contested estimates are retained as low-confidence analysis",
+        ],
+        "latex/main.tex": [
+            f"synthesis and cross-referencing of {total_sources} bibliography sources",
         ],
     }
 
@@ -306,6 +348,32 @@ def check_urls(timeout: int, enforce_registry_status: bool, errors: list[str]) -
             )
 
     return summary
+
+
+def validate_live_url_docs(summary: Counter, total_urls: int, errors: list[str]) -> None:
+    registry = load_json("references/source-registry.json")
+    audit_date = registry["metadata"]["last_audit"]
+    reachable = summary.get("200", 0) + summary.get("202", 0)
+    restricted_or_missing = summary.get("403", 0) + summary.get("404", 0)
+
+    expectations = {
+        "docs/en/verification-report.md": [
+            f"| HTTP 200/202 during {audit_date} automated spot check | {reachable}/{total_urls} |",
+            f"| HTTP 403/404 during {audit_date} automated spot check | {restricted_or_missing}/{total_urls} |",
+            f"*Last updated: {audit_date}*",
+        ],
+        "docs/zh-TW/verification-report.md": [
+            f"| {audit_date} 自動 HTTP 抽查之 200/202 回應 | {reachable}/{total_urls} |",
+            f"| {audit_date} 自動 HTTP 抽查之 403/404 回應 | {restricted_or_missing}/{total_urls} |",
+            f"*最後更新：{audit_date}*",
+        ],
+    }
+
+    for relative_path, snippets in expectations.items():
+        text = read_text(relative_path)
+        for snippet in snippets:
+            if snippet not in text:
+                errors.append(f"{relative_path} is missing expected snippet: {snippet}")
 
 
 def main() -> int:
@@ -337,6 +405,7 @@ def main() -> int:
 
     if args.check_urls:
         summary = check_urls(args.url_timeout, args.enforce_url_status, errors)
+        validate_live_url_docs(summary, registry_summary["total_urls"], errors)
     else:
         summary = None
 

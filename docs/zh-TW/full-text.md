@@ -954,8 +954,22 @@ AAWSAP 下委託之 38 份國防情報參考文件（2008–2010）：
 
 48. [BOOK] Misner, C.W., Thorne, K.S. & Wheeler, J.A. *Gravitation.* W.H. Freeman, 1973.
 49. [BOOK] Wald, R.M. *General Relativity.* Univ. of Chicago Press, 1984.
-50. [BOOK] Visser, M. *Lorentzian Wormholes.* AIP Press, 1995.
-51. [BOOK] Elizondo, L. *Imminent: Inside the Pentagon's Hunt for UFOs.* William Morrow / HarperCollins, 2024. — 前 AATIP 計畫主持人之首部內部紀實；本評估中五大可觀測特徵分類法及 DIRD 委託背景之主要來源。
+50. [BOOK] Birrell, N.D. & Davies, P.C.W. *Quantum Fields in Curved Space.* Cambridge University Press, 1982.
+51. [BOOK] Visser, M. *Lorentzian Wormholes: From Einstein to Hawking.* AIP Press, 1995.
+52. [BOOK] Kaku, M. *Physics of the Impossible.* Doubleday, 2008.
+53. [BOOK] Elizondo, L. *Imminent: Inside the Pentagon's Hunt for UFOs.* William Morrow / HarperCollins, 2024. — 前 AATIP 計畫主持人之首部內部紀實；本評估中五大可觀測特徵分類法及 DIRD 委託背景之主要來源。
+
+## 預印本 [PRE]
+
+54. [PRE] Schützhold, R. "The analogy between the dynamical Casimir effect and Hawking/Unruh radiation." arXiv: 1110.6064 (2011).
+
+## 新增來源 [ADD]
+
+55. [PR] Knuth, K.H., Powell, R.M. & Reali, P.A. "Estimating Flight Characteristics of Anomalous Unidentified Aerial Vehicles." *Entropy* 21, 939 (2019). DOI: 10.3390/e21100939
+56. [GOV] NASA UAP Independent Study Team. "NASA Unidentified Anomalous Phenomena Independent Study Team Report." 2023.
+57. [GOV] UK Ministry of Defence. "Unidentified Aerial Phenomena in the UK Air Defence Region (Project Condign)." 2000。英國國家檔案館網路典藏版。
+58. [GOV] All-domain Anomaly Resolution Office. "Assessment of Reported Parallax and Forced Perspective Effects on UAP Observations." 2024.
+59. [GOV] Lawrence Livermore National Laboratory. "NIF Sets New Records for Energy Yield and Target Gain." 2025.
 
 ---
 
@@ -963,7 +977,7 @@ AAWSAP 下委託之 38 份國防情報參考文件（2008–2010）：
 
 本文件是由人類作者與 **Claude**（Anthropic 公司）進行結構化協作所產出，具體使用之模型為 **Claude Opus 4** 及 **Claude Sonnet 4**。AI 之貢獻包括：
 
-- **文獻綜整**：組織並交叉比對 54 筆參考書目來源，涵蓋同儕審查論文、政府文件、DIRD 及學術專書。
+- **文獻綜整**：組織並交叉比對 59 筆參考書目來源，涵蓋同儕審查論文、政府文件、DIRD、學術專書及新增政府/期刊來源。
 - **公式排版**：以 Markdown（GitHub 相容格式）及 LaTeX（REVTeX 4-2）格式化數學表達式。
 - **結構組織**：建立八章節架構、雙語對照（EN ↔ ZH-TW）及附錄結構。
 - **資料基礎設施**：產生 JSON Schema 驗證、各節統計資料檔、時間軸 CSV 及來源登錄。
@@ -973,7 +987,7 @@ AAWSAP 下委託之 38 份國防情報參考文件（2008–2010）：
 
 ### 資料驗證
 
-本評估引用的 45 個定量資料點中，有 43 個已對照其引用來源完成獨立交叉檢查；另有 1 個具爭議的估計值以低信心分析保留。完整審核記錄見[資料驗證報告](../zh-TW/verification-report.md)，其內容涵蓋：
+本評估引用的 45 個定量資料點中，有 43 個已對照其引用來源完成獨立交叉檢查；另有 2 個具爭議的估計值以低信心分析保留。完整審核記錄見[資料驗證報告](../zh-TW/verification-report.md)，其內容涵蓋：
 
 - 全部 59 筆參考書目之來源出處及可靠性層級
 - 數值資料與同儕審查出版物之交叉比對

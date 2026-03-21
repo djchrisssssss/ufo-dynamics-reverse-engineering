@@ -1106,13 +1106,21 @@ The warp bubble hypothesis, as applied to UAP in this assessment, generates spec
 
 54. [PRE] Schützhold, R. "The analogy between the dynamical Casimir effect and Hawking/Unruh radiation." arXiv: 1110.6064 (2011).
 
+## Additional Sources [ADD]
+
+55. [PR] Knuth, K.H., Powell, R.M. & Reali, P.A. "Estimating Flight Characteristics of Anomalous Unidentified Aerial Vehicles." *Entropy* 21, 939 (2019). DOI: 10.3390/e21100939
+56. [GOV] NASA UAP Independent Study Team. "NASA Unidentified Anomalous Phenomena Independent Study Team Report." 2023.
+57. [GOV] UK Ministry of Defence. "Unidentified Aerial Phenomena in the UK Air Defence Region (Project Condign)." 2000. National Archives web archive edition.
+58. [GOV] All-domain Anomaly Resolution Office. "Assessment of Reported Parallax and Forced Perspective Effects on UAP Observations." 2024.
+59. [GOV] Lawrence Livermore National Laboratory. "NIF Sets New Records for Energy Yield and Target Gain." 2025.
+
 ---
 
 ## AI Collaboration & Data Verification
 
 This document was produced through a structured collaboration between the human author and **Claude** (Anthropic), specifically the **Claude Opus 4** and **Claude Sonnet 4** models. The AI contribution included:
 
-- **Literature synthesis**: Organizing and cross-referencing 54 bibliography sources across peer-reviewed articles, government documents, DIRDs, and books.
+- **Literature synthesis**: Organizing and cross-referencing 59 bibliography sources across peer-reviewed articles, government documents, DIRDs, and books.
 - **Equation typesetting**: Formatting mathematical expressions in both Markdown (GitHub-compatible) and LaTeX (REVTeX 4-2).
 - **Structural organization**: Establishing the eight-section architecture, bilingual parity (EN ↔ ZH-TW), and appendix structure.
 - **Data infrastructure**: Generating JSON Schema validation, per-section statistics files, timeline CSVs, and the source registry.
