@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## [1.1.1.1] — 2026-03-21
+## [1.2.1] — 2026-03-21
 
 ### Added
 - **Section 2.2 — Observational Data Quality Assessment**: Data provenance table grading Nimitz (B), Gimbal (C), GoFast (C−); sensitivity analysis on 5,300 g estimate (800–5,300 g range); conditional analytical framing
@@ -23,7 +23,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - **Section numbering** in §2: renumbered 2.2–2.6 → 2.3–2.7 to accommodate new §2.2
 - **Bibliography metadata**: total_sources updated from 54 to 59; categories updated
 - **NIF April 2025 data** (s04-009): URL updated to specific LLNL ignition page, verification note enriched
-- **LaTeX version** bumped to 1.1.1.1
+- **LaTeX version** bumped to 1.2.1
 
 ### Fixed
 - **5,300 g attribution**: corrected from ODNI2021 to Knuth et al. 2019 throughout §2 and statistics

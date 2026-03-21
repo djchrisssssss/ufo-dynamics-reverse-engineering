@@ -35,7 +35,7 @@
 | s04-015 | Vacuum energy theoretical density | ~10¹¹³ J/m³ | QFT calculation |
 | s04-016 | Cosmological constant discrepancy | ~10¹²⁰ | src-048 (MTW) |
 
-## Additional Sources (v1.1.1.1)
+## Additional Sources (v1.2.1)
 
 9. [src-059] Lawrence Livermore National Laboratory. "NIF Sets New Records for Energy Yield and Target Gain." April 2025.
    - URL: https://lasers.llnl.gov/science/achieving-fusion-ignition

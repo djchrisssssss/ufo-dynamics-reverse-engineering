@@ -29,7 +29,7 @@
 | s02-011 | Dynamic pressure in water at 100 m/s | ~5 MPa | Fluid dynamics calculation |
 | s02-012 | Shkval torpedo speed | ~200 knots | Russian Navy specifications |
 
-## Additional Sources (v1.1.1.1)
+## Additional Sources (v1.2.1)
 
 7. [src-055] Knuth, K.H., Powell, R.M. & Reali, P.A. "Estimating Flight Characteristics of Anomalous Unidentified Aerial Vehicles." *Entropy* 21(10), 939 (2019).
    - DOI: https://doi.org/10.3390/e21100939
