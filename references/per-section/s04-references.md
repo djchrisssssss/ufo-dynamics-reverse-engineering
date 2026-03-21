@@ -35,8 +35,14 @@
 | s04-015 | Vacuum energy theoretical density | ~10¹¹³ J/m³ | QFT calculation |
 | s04-016 | Cosmological constant discrepancy | ~10¹²⁰ | src-048 (MTW) |
 
+## Additional Sources (v1.1.1.1)
+
+9. [src-059] Lawrence Livermore National Laboratory. "NIF Sets New Records for Energy Yield and Target Gain." April 2025.
+   - URL: https://lasers.llnl.gov/science/achieving-fusion-ignition
+
 ## Notes
 
 - NIF "wall-plug" gain remains far below unity (~300 MJ electrical → ~2 MJ laser → ~8.6 MJ fusion for Apr 2025 shot).
+- NIF April 2025 gain of 4.13 independently verified against LLNL and DOE sources as of March 2026 (src-059).
 - ITER targets Q = 10 (500 MW fusion from 50 MW heating) by the 2030s.
 - Hero of Alexandria's aeolipile analogy illustrates the ~2000-year gap between principle and practical realization.

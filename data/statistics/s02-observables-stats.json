@@ -1,7 +1,7 @@
 {
   "section": "s02",
   "title": "Observable Characteristics",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "data_note": "Quantitative benchmarks for observed UAP performance characteristics compared to known aerospace, physics, and engineering limits. Values are drawn from declassified military reports, peer-reviewed physics, and publicly available aerospace data.",
   "statistics": [
     {
@@ -159,6 +159,24 @@
       "verification_status": "speculative",
       "verified": true,
       "verification_note": "Widely reported as ~200 knots (some sources cite 200+). Entered Soviet Navy service in 1977. Exact performance specifications remain classified. The ~200 knot figure is the consensus estimate from multiple open sources."
+    },
+    {
+      "id": "s02-013",
+      "metric": "USS Nimitz acceleration sensitivity range",
+      "value": "800–5300",
+      "unit": "g (depending on assumed descent time 0.78–2.0 s)",
+      "date": "2004-11-14",
+      "source": {
+        "name": "Knuth, Powell & Reali (2019), Entropy 21(10), 939",
+        "url": "https://doi.org/10.3390/e21100939",
+        "doi": "10.3390/e21100939",
+        "accessed": "2026-03-21"
+      },
+      "context": "Sensitivity analysis on the canonical 5,300 g estimate. At 0.78 s: ~5,300 g; at 1.0 s: ~3,200 g; at 1.5 s: ~1,420 g; at 2.0 s: ~800 g. Even the most conservative estimate exceeds HIBEX (~400 g) by 2×.",
+      "confidence": "low",
+      "verification_status": "speculative",
+      "verified": false,
+      "verification_note": "Derived from Knuth et al. 2019 radar data analysis. The range reflects uncertainty in the assumed descent time window. All values exceed engineered sustained acceleration limits."
     }
   ]
 }

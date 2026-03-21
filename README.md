@@ -56,14 +56,14 @@ After reading the book, we realized that the physical claims described — insta
 | # | Section | 節標題 | Key Topics |
 |---|---------|--------|------------|
 | 1 | Introduction & Historical Context | 導論與歷史脈絡 | Terminology (UFO ⊂ UAP); Blue Book → AATIP → AARO; 38 DIRDs |
-| 2 | Observable Characteristics | 可觀測特徵 | Five Observables; geodesic equation; equivalence principle |
+| 2 | Observable Characteristics | 可觀測特徵 | Five Observables; data quality assessment; geodesic equation; equivalence principle; alternative frameworks |
 | 3 | Propulsion Mechanisms | 推進機制 | Alcubierre metric; warp bubble morphology; exotic matter; wormholes |
 | 4 | Energy Sources | 能量來源 | DT/DD fusion; NIF ignition; heavy water; vacuum energy |
 | 5 | Electromagnetic Signatures | 電磁特徵 | Dynamical Casimir; Unruh; Hawking; THz gap; biological effects |
 | 6 | Advanced Materials | 先進材料 | Metamaterials; CNT; graphene; Bi-Mg analysis; QCD bonding |
 | 7 | Integrated Model | 整合模型 | Single-mechanism synthesis; materials gap analysis |
 | 8 | Intelligence Gaps | 情報缺口 | Research priorities; definitive evidence criteria |
-| A | Appendices | 附錄 | Glossary; equations; DIRD list; confidence definitions |
+| A–E | Appendices | 附錄 | Glossary; equations; DIRD list; confidence definitions; falsification criteria |
 
 ---
 
@@ -72,22 +72,22 @@ After reading the book, we realized that the physical claims described — insta
 | Directory | Contents | 內容 |
 |-----------|----------|------|
 | `data/schemas/` | JSON Schema for statistics validation | 資料驗證 Schema |
-| `data/statistics/` | Per-section quantitative data (44 data points) | 各節定量資料 |
+| `data/statistics/` | Per-section quantitative data (45 data points) | 各節定量資料 |
 | `data/timelines/` | UAP investigation history; DIRD catalog (CSV) | 調查歷程時間軸 |
 | `data/comparisons/` | Energy density; materials gap analysis (CSV) | 能量密度與材料差距比較 |
-| `references/bibliography.json` | Master bibliography (54 sources) | 主參考書目 |
-| `references/source-registry.json` | URL verification registry (29 URLs) | URL 驗證登錄 |
+| `references/bibliography.json` | Master bibliography (59 sources) | 主參考書目 |
+| `references/source-registry.json` | URL verification registry (34 URLs) | URL 驗證登錄 |
 | `references/per-section/` | Per-section reference documentation | 各節參考文獻 |
 
 ### Source Breakdown / 來源分布
 
 | Type / 類型 | Count | % |
 |-------------|-------|---|
-| Peer-reviewed / 同儕審查 | 30 | 55.6% |
-| Government / 政府文件 | 5 | 9.3% |
-| DIRD / 國防情報參考文件 | 12 | 22.2% |
-| Books / 學術專書 | 6 | 11.1% |
-| Preprints / 預印本 | 1 | 1.9% |
+| Peer-reviewed / 同儕審查 | 31 | 52.5% |
+| Government / 政府文件 | 9 | 15.3% |
+| DIRD / 國防情報參考文件 | 12 | 20.3% |
+| Books / 學術專書 | 6 | 10.2% |
+| Preprints / 預印本 | 1 | 1.7% |
 
 ### Key Government Sources / 主要政府來源
 
@@ -175,7 +175,7 @@ This project was produced through a structured collaboration between the human a
 
 **所有科學判斷、評估及結論均為人類作者之獨立意見。**
 
-43 of 44 quantitative data points are independently cross-checked against cited sources; one contested estimate is retained as low-confidence analysis. See the [verification reports](docs/en/verification-report.md) for the current audit details.
+43 of 45 quantitative data points are independently cross-checked against cited sources; two contested estimates are retained as low-confidence analysis. See the [verification reports](docs/en/verification-report.md) for the current audit details.
 
 44 個定量資料點中有 43 個已對照引用來源完成交叉檢查；另有 1 個具爭議之估計值以低信心分析保留。完整審核詳見[驗證報告](docs/zh-TW/verification-report.md)。
 

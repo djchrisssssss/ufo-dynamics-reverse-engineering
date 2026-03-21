@@ -153,18 +153,18 @@
       "metric": "NIF fusion gain (April 2025)",
       "value": 4.13,
       "unit": "dimensionless (target gain)",
-      "date": "2025-04",
+      "date": "2025-04-07",
       "source": {
         "name": "Lawrence Livermore National Laboratory",
-        "url": "https://www.llnl.gov/news/",
+        "url": "https://lasers.llnl.gov/science/achieving-fusion-ignition",
         "doi": null,
-        "accessed": "2026-03-20"
+        "accessed": "2026-03-21"
       },
-      "context": "2.08 MJ laser input → 8.6 MJ fusion output. Progressive improvement from Dec 2022 baseline.",
+      "context": "2.08 MJ laser input → 8.6 MJ fusion output. Shot date: April 7, 2025. 8th ignition event. Prior record: gain 2.44 (Feb 2025). Progressive improvement from Dec 2022 baseline.",
       "confidence": "high",
       "verification_status": "verified",
       "verified": true,
-      "verification_note": "LLNL press release; DOE confirmation"
+      "verification_note": "LLNL official announcement and DOE confirmation. Independently verified March 2026 against LLNL ignition achievements page (src-059)."
     },
     {
       "id": "s04-010",

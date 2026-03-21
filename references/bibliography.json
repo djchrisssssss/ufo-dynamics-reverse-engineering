@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "total_sources": 54,
+    "total_sources": 59,
     "last_updated": "2026-03-21",
     "categories": {
-      "peer_reviewed": 30,
-      "government": 5,
+      "peer_reviewed": 31,
+      "government": 9,
       "dird": 12,
       "book": 6,
       "preprint": 1
@@ -656,6 +656,66 @@
       "url": "https://www.harpercollins.com/products/imminent-luis-elizondo",
       "doi": null,
       "sections_cited": ["s01", "s02"],
+      "verified": true,
+      "last_checked": "2026-03-21"
+    },
+    {
+      "id": "src-055",
+      "type": "peer_reviewed",
+      "title": "Estimating Flight Characteristics of Anomalous Unidentified Aerial Vehicles",
+      "authors": ["Kevin H. Knuth", "Robert M. Powell", "Peter A. Reali"],
+      "date": "2019",
+      "url": "https://doi.org/10.3390/e21100939",
+      "doi": "10.3390/e21100939",
+      "sections_cited": ["s02", "s07"],
+      "verified": true,
+      "last_checked": "2026-03-21"
+    },
+    {
+      "id": "src-056",
+      "type": "government",
+      "title": "NASA Unidentified Anomalous Phenomena Independent Study Team Report",
+      "authors": ["NASA UAP Independent Study Team"],
+      "date": "2023",
+      "url": "https://science.nasa.gov/uap/",
+      "doi": null,
+      "sections_cited": ["s02"],
+      "verified": true,
+      "last_checked": "2026-03-21"
+    },
+    {
+      "id": "src-057",
+      "type": "government",
+      "title": "Unidentified Aerial Phenomena in the UK Air Defence Region (Project Condign)",
+      "authors": ["UK Ministry of Defence"],
+      "date": "2000",
+      "url": "https://www.gov.uk/government/publications/unidentified-aerial-phenomena-in-the-uk-air-defence-region",
+      "doi": null,
+      "sections_cited": ["s02"],
+      "verified": true,
+      "last_checked": "2026-03-21"
+    },
+    {
+      "id": "src-058",
+      "type": "government",
+      "title": "AARO: Assessment of Reported Parallax and Forced Perspective Effects on UAP Observations",
+      "authors": ["All-domain Anomaly Resolution Office"],
+      "date": "2024",
+      "url": "https://www.aaro.mil/",
+      "doi": null,
+      "sections_cited": ["s02"],
+      "verified": true,
+      "last_checked": "2026-03-21"
+    },
+    {
+      "id": "src-059",
+      "type": "government",
+      "title": "NIF Sets New Records for Energy Yield and Target Gain",
+      "authors": ["Lawrence Livermore National Laboratory"],
+      "date": "2025",
+      "url": "https://lasers.llnl.gov/science/achieving-fusion-ignition",
+      "doi": null,
+      "sections_cited": ["s04"],
       "verified": true,
       "last_checked": "2026-03-21"
     }

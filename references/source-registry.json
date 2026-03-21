@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_urls": 29,
+    "total_urls": 34,
     "last_audit": "2026-03-21",
     "audit_method": "manual_verification + automated_http_spot_check"
   },
@@ -207,6 +207,41 @@
       "status": "reachable",
       "last_checked": "2026-03-21",
       "notes": "The Black Vault — ZIP archive backup for the FOIA-released DIRD collection"
+    },
+    {
+      "url": "https://doi.org/10.3390/e21100939",
+      "source_id": "src-055",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
+      "notes": "MDPI — Knuth et al. (2019) UAP flight characteristics estimation"
+    },
+    {
+      "url": "https://science.nasa.gov/uap/",
+      "source_id": "src-056",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
+      "notes": "NASA — UAP Independent Study Team report page"
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/unidentified-aerial-phenomena-in-the-uk-air-defence-region",
+      "source_id": "src-057",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
+      "notes": "UK Government — Project Condign declassified report"
+    },
+    {
+      "url": "https://www.aaro.mil/",
+      "source_id": "src-058",
+      "status": "access_restricted",
+      "last_checked": "2026-03-21",
+      "notes": "AARO — parallax/forced perspective analysis (same base URL as src-034)"
+    },
+    {
+      "url": "https://lasers.llnl.gov/science/achieving-fusion-ignition",
+      "source_id": "src-059",
+      "status": "reachable",
+      "last_checked": "2026-03-21",
+      "notes": "LLNL — NIF ignition achievements page including April 2025 records"
     }
   ]
 }

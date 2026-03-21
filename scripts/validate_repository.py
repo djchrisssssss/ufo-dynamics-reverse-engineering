@@ -241,6 +241,7 @@ def validate_docs(
     total_points = stats_summary["total_points"]
     verified_points = stats_summary["verified_points"]
     verified_percentage = f"{(verified_points / total_points) * 100:.1f}%"
+    books_percentage = f"{(total_books / total_sources) * 100:.1f}%"
 
     expectations = {
         "README.md": [
@@ -271,13 +272,13 @@ def validate_docs(
             f"| Total bibliography sources | {total_sources} |",
             f"| Data points independently cross-checked | {verified_points}/{total_points} ({verified_percentage}) |",
             f"| Tracked URLs in source registry | {total_urls} |",
-            f"| Books / Monographs | {total_books} | 11.1% | Tier 2 (academic) |",
+            f"| Books / Monographs | {total_books} | {books_percentage} | Tier 2 (academic) |",
         ],
         "docs/zh-TW/verification-report.md": [
             f"| 參考文獻總數 | {total_sources} |",
             f"| 已獨立交叉檢查之資料點 | {verified_points}/{total_points} ({verified_percentage}) |",
             f"| 來源註冊中的追蹤 URL | {total_urls} |",
-            f"| 學術專書 | {total_books} | 11.1% | 第二層（學術） |",
+            f"| 學術專書 | {total_books} | {books_percentage} | 第二層（學術） |",
         ],
     }
 

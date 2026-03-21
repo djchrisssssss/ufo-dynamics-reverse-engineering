@@ -16,7 +16,7 @@
 
 | ID | Metric | Value | Source |
 |----|--------|-------|--------|
-| s02-001 | USS Nimitz apparent acceleration | ~5,300 g | Navy radar data (src-031) |
+| s02-001 | USS Nimitz apparent acceleration | ~5,300 g | Knuth et al. 2019 (src-055) |
 | s02-002 | Human sustained g-tolerance | ~9 g | NASA OCHMO-TB-024 |
 | s02-003 | Human brief g-tolerance | ~20 g | NASA medical literature |
 | s02-004 | HIBEX missile max acceleration | ~400 g | US Army missile program records |
@@ -29,8 +29,19 @@
 | s02-011 | Dynamic pressure in water at 100 m/s | ~5 MPa | Fluid dynamics calculation |
 | s02-012 | Shkval torpedo speed | ~200 knots | Russian Navy specifications |
 
+## Additional Sources (v1.1.1.1)
+
+7. [src-055] Knuth, K.H., Powell, R.M. & Reali, P.A. "Estimating Flight Characteristics of Anomalous Unidentified Aerial Vehicles." *Entropy* 21(10), 939 (2019).
+   - DOI: https://doi.org/10.3390/e21100939
+8. [src-056] NASA UAP Independent Study Team. "NASA Unidentified Anomalous Phenomena Independent Study Team Report." NASA, September 2023.
+   - URL: https://science.nasa.gov/uap/
+9. [src-057] UK Ministry of Defence. "Unidentified Aerial Phenomena in the UK Air Defence Region (Project Condign)." 2000 (declassified 2006).
+   - URL: https://www.gov.uk/government/publications/unidentified-aerial-phenomena-in-the-uk-air-defence-region
+10. [src-058] All-domain Anomaly Resolution Office. "Assessment of Reported Parallax and Forced Perspective Effects on UAP Observations." 2024.
+
 ## Notes
 
-- The USS Nimitz 5,300 g figure is derived from radar tracking data (descent from ~28,000 ft to ~50 ft in ~0.78 s). The radar data quality and calibration have been debated.
+- The USS Nimitz 5,300 g figure derives from Knuth et al. (2019) Bayesian analysis of SPY-1 radar tracking data (descent from ~28,000 ft to ~50 ft in ~0.78 s). The estimate is sensitive to assumed descent time (see Section 2.2 sensitivity analysis). Raw radar data remains classified.
 - The Five Observables taxonomy was codified by Luis Elizondo during his AATIP tenure; it is not an official DOD classification system.
 - Gravitational lensing at UAP scale requires energy densities ~10²⁵× beyond current technology — effectively ruling out conventional gravitational explanations for visual distortions.
+- AARO parallax analysis (2024) demonstrated that the GoFast video is consistent with a wind-speed object at ~13,000 ft altitude, illustrating the importance of sensor artifact assessment.

@@ -14,11 +14,11 @@ This verification report documents the data provenance, source quality, and cros
 
 | Metric | Value |
 |--------|-------|
-| Total bibliography sources | 54 |
-| Total quantitative data points | 44 |
+| Total bibliography sources | 59 |
+| Total quantitative data points | 45 |
 | Sections with statistics | 4 (s02, s03, s04, s06) |
-| Data points independently cross-checked | 43/44 (97.7%) |
-| Tracked URLs in source registry | 29 |
+| Data points independently cross-checked | 43/45 (95.6%) |
+| Tracked URLs in source registry | 34 |
 | HTTP 200/202 during 2026-03-21 automated spot check | 20/29 |
 | HTTP 403/404 during 2026-03-21 automated spot check | 9/29 |
 
@@ -28,11 +28,11 @@ This verification report documents the data provenance, source quality, and cros
 
 | Source Type | Count | Percentage | Reliability Tier |
 |-------------|-------|-----------|-----------------|
-| Peer-reviewed articles | 30 | 55.6% | Tier 1 (highest) |
-| Government documents | 5 | 9.3% | Tier 1 (highest) |
-| Defense Intelligence Reference Documents | 12 | 22.2% | Tier 2 (expert-authored, govt-commissioned) |
-| Books / Monographs | 6 | 11.1% | Tier 2 (academic) |
-| Preprints | 1 | 1.9% | Tier 3 (not yet peer-reviewed) |
+| Peer-reviewed articles | 31 | 52.5% | Tier 1 (highest) |
+| Government documents | 9 | 15.3% | Tier 1 (highest) |
+| Defense Intelligence Reference Documents | 12 | 20.3% | Tier 2 (expert-authored, govt-commissioned) |
+| Books / Monographs | 6 | 10.2% | Tier 2 (academic) |
+| Preprints | 1 | 1.7% | Tier 3 (not yet peer-reviewed) |
 
 ---
 
@@ -64,7 +64,7 @@ All statistics files validated against `data/schemas/statistics-schema.json`:
 
 ## 4. Per-Section Verification Summary
 
-### Section 2: Observable Characteristics (12 data points)
+### Section 2: Observable Characteristics (13 data points)
 
 | Confidence | Count |
 |-----------|-------|
@@ -98,7 +98,7 @@ Key verification notes:
 | Low | 1 |
 
 Key verification notes:
-- NIF data from official LLNL press releases and DOE confirmations
+- NIF data from official LLNL press releases and DOE confirmations. April 2025 gain 4.13 (2.08 MJ → 8.6 MJ, shot date April 7, 2025) independently verified against LLNL ignition achievements page as of March 2026.
 - Energy densities from standard nuclear physics data tables (NNDC/BNL)
 - Vacuum energy density is theoretical (QFT calculation with Planck-scale cutoff)
 
@@ -161,7 +161,7 @@ Verification status markers:
 
 1. **Automated HTTP checks are imperfect** — Some valid official or DOI endpoints return HTTP 403 to scripted requests because of bot restrictions
 2. **DIRD content verification** — Individual DIRD technical claims not independently verified; DIRDs are treated as expert opinion
-3. **NIF data currency** — Fusion progress data subject to rapid updates; April 2025 gain figure should be verified against latest LLNL releases
+3. **NIF data currency** — Fusion progress data subject to rapid updates. The April 2025 gain 4.13 figure has been independently verified against LLNL and DOE sources as of March 2026 (src-059). Future shots may surpass this record.
 4. **USS Nimitz acceleration** — Derived from radar tracking data whose calibration and interpretation remain debated in the UAP research community
 5. **Subscription sources** — Some DOI-linked papers require journal subscriptions for full access
 6. **Registry coverage** — The URL registry is a spot-check artifact, not a guarantee that every cited source remains browser-accessible from every region or network
