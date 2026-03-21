@@ -383,7 +383,7 @@ $$ds^2 = -c^2 dt^2 + (dx - v_s f(r_s) dt)^2 + dy^2 + dz^2$$
 
 $$\theta \sim \frac{4 G \, \mathcal{E}_\mathrm{shell}}{c^4 \, b}$$
 
-其中 $\mathcal{E}_{\mathrm{shell}}$ 為泡壁截面上之積分能量密度， $b$ 為光子之衝擊參數。隨 $\mathcal{E}_{\mathrm{shell}}$ 增加，光子軌跡被更嚴重地彎曲，產生漸進扭曲之視覺輪廓。
+其中 $E_{\mathrm{shell}}$ 為泡壁截面上之積分能量密度， $b$ 為光子之衝擊參數。隨 $E_{\mathrm{shell}}$ 增加，光子軌跡被更嚴重地彎曲，產生漸進扭曲之視覺輪廓。
 
 對於具有整形函數 $f(r_s)$ 之阿乎庫比耶度規，在運動方向角度 $\psi$ 處觀測之表觀輪廓取決於泡泡速度參數 $v_s$ 及壁厚參數 $\sigma$。沿運動方向之有效收縮因子為：
 

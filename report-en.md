@@ -415,7 +415,7 @@ A key prediction of the warp bubble framework is that the **apparent shape** of 
 
 $$\theta \sim \frac{4 G \, \mathcal{E}_\mathrm{shell}}{c^4 \, b}$$
 
-where $\mathcal{E}_{\mathrm{shell}}$ is the energy density integrated over the bubble wall cross-section and $b$ is the photon's impact parameter. As $\mathcal{E}_{\mathrm{shell}}$ increases, photon trajectories are bent more severely, producing progressively distorted visual profiles.
+where $E_{\mathrm{shell}}$ is the energy density integrated over the bubble wall cross-section and $b$ is the photon's impact parameter. As $E_{\mathrm{shell}}$ increases, photon trajectories are bent more severely, producing progressively distorted visual profiles.
 
 For the Alcubierre metric with shaping function $f(r_s)$, the apparent profile observed at angle $\psi$ relative to the direction of motion depends on the bubble velocity parameter $v_s$ and the wall thickness parameter $\sigma$. The effective contraction factor along the direction of travel is:
 
