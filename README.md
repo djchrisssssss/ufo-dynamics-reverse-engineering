@@ -6,7 +6,7 @@
 
 *— A Physics-Based Assessment of Unidentified Aerial Phenomena*
 
-![UFO Dynamics Reverse Engineering banner](./banner.png)
+![UFO Dynamics Reverse Engineering banner](./assets/ufo-dynamics-banner.png)
 
 ---
 
