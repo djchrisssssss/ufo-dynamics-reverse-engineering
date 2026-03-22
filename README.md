@@ -27,11 +27,11 @@
 
 | Document | Language | Description |
 |----------|----------|-------------|
-| [`docs/en/full-text.md`](docs/en/full-text.md) | English | Full assessment in Markdown |
-| [`docs/zh-TW/full-text.md`](docs/zh-TW/full-text.md) | 繁體中文 | 完整評估報告 |
-| [`docs/en/verification-report.md`](docs/en/verification-report.md) | English | Data verification report |
-| [`docs/zh-TW/verification-report.md`](docs/zh-TW/verification-report.md) | 繁體中文 | 資料驗證報告 |
-| [`latex/main.tex`](latex/main.tex) | English | REVTeX 4-2 academic paper |
+| [`docs/en/full-text.md`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/en/full-text.md) | English | Full assessment in Markdown |
+| [`docs/zh-TW/full-text.md`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/zh-TW/full-text.md) | 繁體中文 | 完整評估報告 |
+| [`docs/en/verification-report.md`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/en/verification-report.md) | English | Data verification report |
+| [`docs/zh-TW/verification-report.md`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/zh-TW/verification-report.md) | 繁體中文 | 資料驗證報告 |
+| [`latex/main.tex`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/latex/main.tex) | English | REVTeX 4-2 academic paper |
 
 ---
 
@@ -186,9 +186,9 @@ This project was produced through a structured collaboration between the human a
 
 **所有科學判斷、評估及結論均為人類作者之獨立意見。**
 
-43 of 45 quantitative data points are independently cross-checked against cited sources; two contested estimates are retained as low-confidence analysis. See the [verification reports](docs/en/verification-report.md) for the current audit details.
+43 of 45 quantitative data points are independently cross-checked against cited sources; two contested estimates are retained as low-confidence analysis. See the [verification reports](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/en/verification-report.md) for the current audit details.
 
-45 個定量資料點中有 43 個已對照引用來源完成交叉檢查；另有 2 個具爭議之估計值以低信心分析保留。完整審核詳見[驗證報告](docs/zh-TW/verification-report.md)。
+45 個定量資料點中有 43 個已對照引用來源完成交叉檢查；另有 2 個具爭議之估計值以低信心分析保留。完整審核詳見[驗證報告](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/zh-TW/verification-report.md)。
 
 ---
 
@@ -212,7 +212,7 @@ Lai, K. (2026). *Reverse Engineering the Dynamics of UFOs: A Physics-Based Asses
 }
 ```
 
-See also: [CITATION.cff](CITATION.cff)
+See also: [CITATION.cff](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/CITATION.cff)
 
 ---
 

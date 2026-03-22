@@ -50,7 +50,7 @@ Each claim is evaluated against the hierarchy of scientific evidence, annotated 
 - Witness credibility assessment or sociological analysis
 - Classified sensor data or unreleased government analyses
 
-**Evidence Hierarchy and DIRD Weighting.** This assessment draws on sources of varying evidential authority. Peer-reviewed articles published in recognized journals (e.g., *Physical Review*, *Nature*, *Classical and Quantum Gravity*) carry the highest evidential weight. Government documents from ODNI, AARO, and DoD are treated as authoritative primary sources for observational claims and policy context. The 37 declassified Defense Intelligence Reference Documents (DIRDs), while authored by recognized physicists and commissioned by the DIA, were not subject to independent peer review in the conventional sense; they are treated as Tier 2 expert technical assessments whose theoretical claims are cross-checked against peer-reviewed literature wherever possible. Preprints carry the lowest evidential weight. This tiering is detailed in the [Data Verification Report](verification-report.md).
+**Evidence Hierarchy and DIRD Weighting.** This assessment draws on sources of varying evidential authority. Peer-reviewed articles published in recognized journals (e.g., *Physical Review*, *Nature*, *Classical and Quantum Gravity*) carry the highest evidential weight. Government documents from ODNI, AARO, and DoD are treated as authoritative primary sources for observational claims and policy context. The 37 declassified Defense Intelligence Reference Documents (DIRDs), while authored by recognized physicists and commissioned by the DIA, were not subject to independent peer review in the conventional sense; they are treated as Tier 2 expert technical assessments whose theoretical claims are cross-checked against peer-reviewed literature wherever possible. Preprints carry the lowest evidential weight. This tiering is detailed in the [Data Verification Report](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/en/verification-report.md).
 
 **Intelligence Cutoff Date:** March 2026
 
@@ -1131,7 +1131,7 @@ This document was produced through a structured collaboration between the human 
 
 ### Data Verification
 
-43 of the 45 quantitative data points cited in this assessment are independently cross-checked against their cited sources. Two disputed estimates are retained as low-confidence analysis. A complete audit is available in the [Data Verification Report](../en/verification-report.md), which documents:
+43 of the 45 quantitative data points cited in this assessment are independently cross-checked against their cited sources. Two disputed estimates are retained as low-confidence analysis. A complete audit is available in the [Data Verification Report](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/en/verification-report.md), which documents:
 
 - Source provenance and reliability tier for all 59 bibliography entries
 - Cross-referencing of numerical values against peer-reviewed publications

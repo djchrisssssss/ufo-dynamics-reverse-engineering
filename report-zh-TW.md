@@ -52,7 +52,7 @@
 - 目擊者可信度評估或社會學分析
 - 機密感測器數據或未公開之政府分析
 
-**證據層級與 DIRD 加權。** 本評估引用具不同證據權威之來源。發表於公認期刊（如 *Physical Review*、*Nature*、*Classical and Quantum Gravity*）之同儕審查文章具最高證據權重。來自 ODNI、AARO 及美國國防部之政府文件就觀測主張及政策脈絡而言視為權威之一級來源。37 份解密之國防情報參考文件（DIRD）雖由公認物理學家撰寫並由 DIA 委託，但未經傳統意義之獨立同儕審查；本文將其視為第二層專家技術評估，其理論主張盡可能與同儕審查文獻交叉比對。預印本具最低證據權重。此分層機制詳載於[資料驗證報告](verification-report.md)。
+**證據層級與 DIRD 加權。** 本評估引用具不同證據權威之來源。發表於公認期刊（如 *Physical Review*、*Nature*、*Classical and Quantum Gravity*）之同儕審查文章具最高證據權重。來自 ODNI、AARO 及美國國防部之政府文件就觀測主張及政策脈絡而言視為權威之一級來源。37 份解密之國防情報參考文件（DIRD）雖由公認物理學家撰寫並由 DIA 委託，但未經傳統意義之獨立同儕審查；本文將其視為第二層專家技術評估，其理論主張盡可能與同儕審查文獻交叉比對。預印本具最低證據權重。此分層機制詳載於[資料驗證報告](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/zh-TW/verification-report.md)。
 
 **情報截止日期：** 2026 年 3 月
 
@@ -988,7 +988,7 @@ AAWSAP 下委託之 38 份國防情報參考文件（2008–2010）：
 
 ### 資料驗證
 
-本評估引用的 45 個定量資料點中，有 43 個已對照其引用來源完成獨立交叉檢查；另有 2 個具爭議的估計值以低信心分析保留。完整審核記錄見[資料驗證報告](../zh-TW/verification-report.md)，其內容涵蓋：
+本評估引用的 45 個定量資料點中，有 43 個已對照其引用來源完成獨立交叉檢查；另有 2 個具爭議的估計值以低信心分析保留。完整審核記錄見[資料驗證報告](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/zh-TW/verification-report.md)，其內容涵蓋：
 
 - 全部 59 筆參考書目之來源出處及可靠性層級
 - 數值資料與同儕審查出版物之交叉比對
