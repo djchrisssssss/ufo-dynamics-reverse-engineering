@@ -83,6 +83,7 @@ After reading the book, we realized that the physical claims described — insta
 | `data/comparisons/` | Energy density; materials gap analysis (CSV) | 能量密度與材料差距比較 |
 | `references/bibliography.json` | Master bibliography (59 sources) | 主參考書目 |
 | `references/source-registry.json` | URL verification registry (34 URLs) | URL 驗證登錄 |
+| `references/note-map.json` | Canonical note-to-source map (`ref-*` / `KJ-*` -> `src-*` + auxiliary IDs) | canonical 註記與來源對照表 |
 | `references/per-section/` | Per-section reference documentation | 各節參考文獻 |
 
 ## How to Trace Citations / 如何查找引用
@@ -96,14 +97,16 @@ To trace a citation back to the original source:
 若要從正文追到原始來源，請依照以下路徑：
 
 1. Start from the canonical reading version: [`docs/en/full-text.md`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/en/full-text.md) or [`docs/zh-TW/full-text.md`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/zh-TW/full-text.md).
-2. Identify the section where the note appears, then open the matching file under `references/per-section/` such as `s03-references.md`.
-3. Use that per-section file to find the corresponding `[src-xxx]` source entry.
-4. If you need the underlying citation record, check [`latex/main.tex`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/latex/main.tex) for the original `\cite{...}` key and [`latex/references.bib`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/latex/references.bib) for the full BibTeX entry.
+2. Open [`references/note-map.json`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/references/note-map.json) to map the note ID directly to one or more `src-*` entries and any auxiliary source IDs.
+3. Identify the section where the note appears, then open the matching file under `references/per-section/` such as `s03-references.md`.
+4. Use that per-section file to read the corresponding `[src-xxx]` source entry in human-readable form.
+5. If you need the underlying citation record, check [`latex/main.tex`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/latex/main.tex) for the original `\cite{...}` key and [`latex/references.bib`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/latex/references.bib) for the full BibTeX entry.
 
 1. 從 canonical 閱讀版本開始：[`docs/en/full-text.md`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/en/full-text.md) 或 [`docs/zh-TW/full-text.md`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/zh-TW/full-text.md)。
-2. 先判斷該註記出現在第幾節，再打開 `references/per-section/` 下對應的檔案，例如 `s03-references.md`。
-3. 在該節 reference 檔中找到對應的 `[src-xxx]` 來源條目。
-4. 如果需要更底層的引用資訊，再到 [`latex/main.tex`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/latex/main.tex) 看原始 `\cite{...}` key，並到 [`latex/references.bib`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/latex/references.bib) 看完整 BibTeX。
+2. 先打開 [`references/note-map.json`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/references/note-map.json)，把註記 ID 直接對到一個或多個 `src-*` 以及必要的輔助來源 ID。
+3. 再判斷該註記出現在第幾節，打開 `references/per-section/` 下對應的檔案，例如 `s03-references.md`。
+4. 在該節 reference 檔中閱讀對應的 `[src-xxx]` 來源條目。
+5. 如果需要更底層的引用資訊，再到 [`latex/main.tex`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/latex/main.tex) 看原始 `\cite{...}` key，並到 [`latex/references.bib`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/latex/references.bib) 看完整 BibTeX。
 
 Example:
 

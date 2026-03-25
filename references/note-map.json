@@ -1,0 +1,1201 @@
+{
+  "metadata": {
+    "last_updated": "2026-03-26",
+    "description": "Maps canonical Markdown note IDs to bibliography-backed src IDs and auxiliary source identifiers.",
+    "total_notes": 120,
+    "total_key_judgments": 11,
+    "total_auxiliary_sources": 35
+  },
+  "auxiliary_sources": {
+    "nyt-aatip-2017": {
+      "type": "news",
+      "title": "Glowing Auras and Black Money: The Pentagon's Mysterious U.F.O. Program",
+      "url": "https://www.nytimes.com/2017/12/16/us/politics/pentagon-program-ufo-harry-reid.html"
+    },
+    "dird-index": {
+      "type": "index",
+      "title": "AATIP DIRD Master List",
+      "url": "https://irp.fas.org/dia/aatip-list.pdf"
+    },
+    "dird-collection": {
+      "type": "archive",
+      "title": "AAWSAP DIRD Collection (FOIA Released)",
+      "url": "https://documents2.theblackvault.com/documents/dia/AAWSAP-DIRDs/"
+    },
+    "nasa-ochmo-tb-024": {
+      "type": "technical_brief",
+      "title": "NASA OCHMO Technical Brief OCHMO-TB-024: Acceleration"
+    },
+    "human-acceleration-literature": {
+      "type": "background",
+      "title": "Human acceleration tolerance and crash survivability literature"
+    },
+    "hibex-program-records": {
+      "type": "program_record",
+      "title": "US Army HIBEX interceptor program acceleration records"
+    },
+    "standard-atmosphere": {
+      "type": "reference",
+      "title": "Standard atmosphere reference values for sea-level speed of sound"
+    },
+    "nasa-shuttle-thermal-data": {
+      "type": "technical_reference",
+      "title": "NASA Space Shuttle reentry thermal protection data"
+    },
+    "reentry-plasma-literature": {
+      "type": "background",
+      "title": "Atmospheric reentry plasma sheath and hypersonic EM signature literature"
+    },
+    "dod-stealth-program-records": {
+      "type": "program_record",
+      "title": "DoD and open-source records on F-117 radar cross-section performance"
+    },
+    "microwave-cloaking-literature": {
+      "type": "background",
+      "title": "Microwave-frequency metamaterial cloaking demonstration literature"
+    },
+    "fluid-dynamics-constants": {
+      "type": "reference",
+      "title": "Standard fluid density and dynamic pressure reference values"
+    },
+    "supercavitation-literature": {
+      "type": "background",
+      "title": "Supercavitation hydrodynamics literature"
+    },
+    "russian-shkval-spec": {
+      "type": "program_record",
+      "title": "Publicly reported VA-111 Shkval performance specifications"
+    },
+    "standard-thermochemistry-and-nuclear-data": {
+      "type": "reference",
+      "title": "Standard thermochemistry and nuclear reaction energy reference data"
+    },
+    "fusion-plasma-physics": {
+      "type": "background",
+      "title": "Fusion plasma physics and Lawson criterion literature"
+    },
+    "nif-ignition": {
+      "type": "lab_release",
+      "title": "National Ignition Facility Achieves Fusion Ignition",
+      "url": "https://www.llnl.gov/news/national-ignition-facility-achieves-fusion-ignition"
+    },
+    "iter": {
+      "type": "program_site",
+      "title": "ITER Organization official project information",
+      "url": "https://www.iter.org/"
+    },
+    "cfs-sparc": {
+      "type": "program_site",
+      "title": "Commonwealth Fusion Systems SPARC project information",
+      "url": "https://www.cfs.energy/"
+    },
+    "candu-reactor-data": {
+      "type": "industry_reference",
+      "title": "CANDU reactor tritium production and handling data"
+    },
+    "oceanographic-deuterium-data": {
+      "type": "reference",
+      "title": "Oceanographic deuterium abundance reference data"
+    },
+    "heavy-water-production": {
+      "type": "industry_reference",
+      "title": "Industrial heavy-water production references"
+    },
+    "heavy-water-history": {
+      "type": "historical_reference",
+      "title": "Historical references on heavy water in the Manhattan Project and Norwegian sabotage operations"
+    },
+    "hero-aeolipile-history": {
+      "type": "historical_reference",
+      "title": "Historical references on Hero of Alexandria's aeolipile"
+    },
+    "thz-sensor-literature": {
+      "type": "background",
+      "title": "Terahertz generation, detection, and sensor gap literature"
+    },
+    "emp-effects-literature": {
+      "type": "background",
+      "title": "Electromagnetic pulse and high-power microwave effects literature"
+    },
+    "champ-program": {
+      "type": "program_record",
+      "title": "Counter-electronics High Power Microwave Advanced Missile Project (CHAMP)"
+    },
+    "lee-graphene-2008": {
+      "type": "peer_reviewed_aux",
+      "title": "Measurement of the elastic properties and intrinsic strength of monolayer graphene"
+    },
+    "materials-strength-theory": {
+      "type": "background",
+      "title": "Theoretical materials-strength limit literature (ultimate strength ~E/10)"
+    },
+    "betterton-krohl-patent-1938": {
+      "type": "patent",
+      "title": "Betterton-Krohl process patent and industrial metallurgy references"
+    },
+    "qcd-reference": {
+      "type": "background",
+      "title": "Quantum chromodynamics reference literature"
+    },
+    "qgp-collider-literature": {
+      "type": "background",
+      "title": "RHIC/LHC quark-gluon plasma experimental literature"
+    },
+    "semiconductor-history": {
+      "type": "historical_reference",
+      "title": "Historical references on semiconductor theory, transistor, and integrated circuit development"
+    },
+    "hts-history": {
+      "type": "historical_reference",
+      "title": "Historical references on superconductivity, high-temperature superconductors, and HTS magnets"
+    },
+    "analog-gravity-literature": {
+      "type": "background",
+      "title": "Analog gravity and metamaterial curved-spacetime simulation literature"
+    }
+  },
+  "notes": {
+    "ref-010": {
+      "section": "s01",
+      "src_ids": [
+        "src-033"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-011": {
+      "section": "s01",
+      "src_ids": [
+        "src-033"
+      ],
+      "auxiliary_ids": [
+        "nyt-aatip-2017"
+      ]
+    },
+    "ref-012": {
+      "section": "s01",
+      "src_ids": [
+        "src-031"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-013": {
+      "section": "s01",
+      "src_ids": [
+        "src-032"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-014": {
+      "section": "s01",
+      "src_ids": [
+        "src-033"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-015": {
+      "section": "s01",
+      "src_ids": [
+        "src-033"
+      ],
+      "auxiliary_ids": [
+        "dird-index"
+      ]
+    },
+    "ref-016": {
+      "section": "s01",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "dird-collection",
+        "dird-index"
+      ]
+    },
+    "ref-017": {
+      "section": "s01",
+      "src_ids": [
+        "src-054"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-018a": {
+      "section": "s02",
+      "src_ids": [
+        "src-055"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-018b": {
+      "section": "s02",
+      "src_ids": [
+        "src-055"
+      ],
+      "auxiliary_ids": [
+        "hibex-program-records"
+      ]
+    },
+    "ref-018": {
+      "section": "s02",
+      "src_ids": [
+        "src-055"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-019": {
+      "section": "s02",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "nasa-ochmo-tb-024"
+      ]
+    },
+    "ref-020": {
+      "section": "s02",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "human-acceleration-literature"
+      ]
+    },
+    "ref-021": {
+      "section": "s02",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "hibex-program-records"
+      ]
+    },
+    "ref-022": {
+      "section": "s02",
+      "src_ids": [
+        "src-013"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-023": {
+      "section": "s02",
+      "src_ids": [
+        "src-048",
+        "src-049"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-024": {
+      "section": "s02",
+      "src_ids": [
+        "src-048",
+        "src-049"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-025": {
+      "section": "s02",
+      "src_ids": [
+        "src-048",
+        "src-049"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-026": {
+      "section": "s02",
+      "src_ids": [
+        "src-013",
+        "src-048",
+        "src-049",
+        "src-055"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-027": {
+      "section": "s02",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "standard-atmosphere"
+      ]
+    },
+    "ref-028": {
+      "section": "s02",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "nasa-shuttle-thermal-data"
+      ]
+    },
+    "ref-029": {
+      "section": "s02",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "reentry-plasma-literature"
+      ]
+    },
+    "ref-030": {
+      "section": "s02",
+      "src_ids": [
+        "src-001"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-031": {
+      "section": "s02",
+      "src_ids": [
+        "src-001"
+      ],
+      "auxiliary_ids": [
+        "reentry-plasma-literature"
+      ]
+    },
+    "ref-032": {
+      "section": "s02",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "dod-stealth-program-records"
+      ]
+    },
+    "ref-033": {
+      "section": "s02",
+      "src_ids": [
+        "src-026"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-034": {
+      "section": "s02",
+      "src_ids": [
+        "src-026"
+      ],
+      "auxiliary_ids": [
+        "microwave-cloaking-literature"
+      ]
+    },
+    "ref-035": {
+      "section": "s02",
+      "src_ids": [
+        "src-010",
+        "src-048"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-036": {
+      "section": "s02",
+      "src_ids": [
+        "src-048",
+        "src-049"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-037": {
+      "section": "s02",
+      "src_ids": [
+        "src-010"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-038": {
+      "section": "s02",
+      "src_ids": [
+        "src-010"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-039": {
+      "section": "s02",
+      "src_ids": [
+        "src-010",
+        "src-048"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-040": {
+      "section": "s02",
+      "src_ids": [
+        "src-057",
+        "src-058"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-041": {
+      "section": "s02",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "fluid-dynamics-constants"
+      ]
+    },
+    "ref-042": {
+      "section": "s02",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "supercavitation-literature"
+      ]
+    },
+    "ref-043": {
+      "section": "s02",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "russian-shkval-spec"
+      ]
+    },
+    "ref-044": {
+      "section": "s02",
+      "src_ids": [
+        "src-001"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-045": {
+      "section": "s02",
+      "src_ids": [
+        "src-001"
+      ],
+      "auxiliary_ids": [
+        "supercavitation-literature"
+      ]
+    },
+    "ref-045a": {
+      "section": "s02",
+      "src_ids": [
+        "src-057"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-045b": {
+      "section": "s02",
+      "src_ids": [
+        "src-058"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-045c": {
+      "section": "s02",
+      "src_ids": [
+        "src-058",
+        "src-056"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-045d": {
+      "section": "s02",
+      "src_ids": [
+        "src-001",
+        "src-050",
+        "src-056",
+        "src-057",
+        "src-058"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-046": {
+      "section": "s03",
+      "src_ids": [
+        "src-048",
+        "src-049"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-047": {
+      "section": "s03",
+      "src_ids": [
+        "src-037",
+        "src-048",
+        "src-049"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-048": {
+      "section": "s03",
+      "src_ids": [
+        "src-001"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-049": {
+      "section": "s03",
+      "src_ids": [
+        "src-002"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-050": {
+      "section": "s03",
+      "src_ids": [
+        "src-003"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-051": {
+      "section": "s03",
+      "src_ids": [
+        "src-004"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-052": {
+      "section": "s03",
+      "src_ids": [
+        "src-005"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-053": {
+      "section": "s03",
+      "src_ids": [
+        "src-006"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-054": {
+      "section": "s03",
+      "src_ids": [
+        "src-007"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-055": {
+      "section": "s03",
+      "src_ids": [
+        "src-004",
+        "src-005",
+        "src-006",
+        "src-007"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-056": {
+      "section": "s03",
+      "src_ids": [
+        "src-001",
+        "src-048",
+        "src-049"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-057": {
+      "section": "s03",
+      "src_ids": [
+        "src-001",
+        "src-037"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-058": {
+      "section": "s03",
+      "src_ids": [
+        "src-014"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-059": {
+      "section": "s03",
+      "src_ids": [
+        "src-015"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-060": {
+      "section": "s03",
+      "src_ids": [
+        "src-001",
+        "src-002",
+        "src-014",
+        "src-015"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-061": {
+      "section": "s03",
+      "src_ids": [
+        "src-045"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-062": {
+      "section": "s03",
+      "src_ids": [
+        "src-045",
+        "src-046"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-063": {
+      "section": "s03",
+      "src_ids": [
+        "src-002",
+        "src-014",
+        "src-015",
+        "src-045",
+        "src-046"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-064": {
+      "section": "s03",
+      "src_ids": [
+        "src-008"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-065": {
+      "section": "s03",
+      "src_ids": [
+        "src-008",
+        "src-051"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-066": {
+      "section": "s03",
+      "src_ids": [
+        "src-009"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-067": {
+      "section": "s03",
+      "src_ids": [
+        "src-008",
+        "src-009",
+        "src-051"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-068": {
+      "section": "s04",
+      "src_ids": [
+        "src-039",
+        "src-047"
+      ],
+      "auxiliary_ids": [
+        "standard-thermochemistry-and-nuclear-data"
+      ]
+    },
+    "ref-069": {
+      "section": "s04",
+      "src_ids": [
+        "src-039"
+      ],
+      "auxiliary_ids": [
+        "standard-thermochemistry-and-nuclear-data"
+      ]
+    },
+    "ref-070": {
+      "section": "s04",
+      "src_ids": [
+        "src-039"
+      ],
+      "auxiliary_ids": [
+        "standard-thermochemistry-and-nuclear-data"
+      ]
+    },
+    "ref-071": {
+      "section": "s04",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "fusion-plasma-physics"
+      ]
+    },
+    "ref-072": {
+      "section": "s04",
+      "src_ids": [
+        "src-059"
+      ],
+      "auxiliary_ids": [
+        "nif-ignition"
+      ]
+    },
+    "ref-073": {
+      "section": "s04",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "nif-ignition"
+      ]
+    },
+    "ref-074": {
+      "section": "s04",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "iter",
+        "cfs-sparc"
+      ]
+    },
+    "ref-075": {
+      "section": "s04",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "candu-reactor-data"
+      ]
+    },
+    "ref-076": {
+      "section": "s04",
+      "src_ids": [
+        "src-039"
+      ],
+      "auxiliary_ids": [
+        "fusion-plasma-physics"
+      ]
+    },
+    "ref-077": {
+      "section": "s04",
+      "src_ids": [
+        "src-047"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-078": {
+      "section": "s04",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "oceanographic-deuterium-data"
+      ]
+    },
+    "ref-079": {
+      "section": "s04",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "heavy-water-production"
+      ]
+    },
+    "ref-080": {
+      "section": "s04",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "heavy-water-history"
+      ]
+    },
+    "ref-081": {
+      "section": "s04",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "hero-aeolipile-history"
+      ]
+    },
+    "ref-082": {
+      "section": "s04",
+      "src_ids": [
+        "src-042",
+        "src-047"
+      ],
+      "auxiliary_ids": [
+        "iter",
+        "cfs-sparc"
+      ]
+    },
+    "ref-083": {
+      "section": "s04",
+      "src_ids": [
+        "src-042",
+        "src-047",
+        "src-059"
+      ],
+      "auxiliary_ids": [
+        "iter",
+        "cfs-sparc"
+      ]
+    },
+    "ref-084": {
+      "section": "s04",
+      "src_ids": [
+        "src-048"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-085": {
+      "section": "s04",
+      "src_ids": [
+        "src-045",
+        "src-046"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-086": {
+      "section": "s04",
+      "src_ids": [
+        "src-042",
+        "src-045",
+        "src-046",
+        "src-047",
+        "src-059"
+      ],
+      "auxiliary_ids": [
+        "iter",
+        "cfs-sparc"
+      ]
+    },
+    "ref-087": {
+      "section": "s05",
+      "src_ids": [
+        "src-016"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-088": {
+      "section": "s05",
+      "src_ids": [
+        "src-016",
+        "src-053"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-089": {
+      "section": "s05",
+      "src_ids": [
+        "src-001",
+        "src-016",
+        "src-053"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-090": {
+      "section": "s05",
+      "src_ids": [
+        "src-020"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-091": {
+      "section": "s05",
+      "src_ids": [
+        "src-020"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-092": {
+      "section": "s05",
+      "src_ids": [
+        "src-018",
+        "src-019"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-093": {
+      "section": "s05",
+      "src_ids": [
+        "src-001",
+        "src-018",
+        "src-019",
+        "src-053"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-094": {
+      "section": "s05",
+      "src_ids": [
+        "src-016",
+        "src-018",
+        "src-019",
+        "src-020",
+        "src-053"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-095": {
+      "section": "s05",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "thz-sensor-literature"
+      ]
+    },
+    "ref-096": {
+      "section": "s05",
+      "src_ids": [
+        "src-016",
+        "src-053"
+      ],
+      "auxiliary_ids": [
+        "thz-sensor-literature"
+      ]
+    },
+    "ref-097": {
+      "section": "s05",
+      "src_ids": [
+        "src-040"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-098": {
+      "section": "s05",
+      "src_ids": [
+        "src-040"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-099": {
+      "section": "s05",
+      "src_ids": [
+        "src-016",
+        "src-040",
+        "src-053"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-100": {
+      "section": "s05",
+      "src_ids": [
+        "src-040"
+      ],
+      "auxiliary_ids": [
+        "emp-effects-literature"
+      ]
+    },
+    "ref-101": {
+      "section": "s05",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "emp-effects-literature",
+        "champ-program"
+      ]
+    },
+    "ref-102": {
+      "section": "s05",
+      "src_ids": [
+        "src-016",
+        "src-053"
+      ],
+      "auxiliary_ids": [
+        "emp-effects-literature"
+      ]
+    },
+    "ref-103": {
+      "section": "s06",
+      "src_ids": [
+        "src-022"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-104": {
+      "section": "s06",
+      "src_ids": [
+        "src-023"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-105": {
+      "section": "s06",
+      "src_ids": [
+        "src-025"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-106": {
+      "section": "s06",
+      "src_ids": [
+        "src-026"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-107": {
+      "section": "s06",
+      "src_ids": [
+        "src-024",
+        "src-026",
+        "src-043"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-108": {
+      "section": "s06",
+      "src_ids": [
+        "src-027"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-109": {
+      "section": "s06",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "lee-graphene-2008"
+      ]
+    },
+    "ref-110": {
+      "section": "s06",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "materials-strength-theory"
+      ]
+    },
+    "ref-111": {
+      "section": "s06",
+      "src_ids": [
+        "src-028"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-112": {
+      "section": "s06",
+      "src_ids": [
+        "src-034"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-113": {
+      "section": "s06",
+      "src_ids": [
+        "src-034"
+      ],
+      "auxiliary_ids": [
+        "betterton-krohl-patent-1938"
+      ]
+    },
+    "ref-114": {
+      "section": "s06",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "qcd-reference"
+      ]
+    },
+    "ref-115": {
+      "section": "s06",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "qgp-collider-literature"
+      ]
+    },
+    "ref-116": {
+      "section": "s06",
+      "src_ids": [
+        "src-029",
+        "src-030"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-117": {
+      "section": "s06",
+      "src_ids": [
+        "src-029",
+        "src-030"
+      ],
+      "auxiliary_ids": [
+        "qcd-reference"
+      ]
+    },
+    "ref-118": {
+      "section": "s07",
+      "src_ids": [
+        "src-001",
+        "src-006"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-119": {
+      "section": "s07",
+      "src_ids": [
+        "src-001",
+        "src-006"
+      ],
+      "auxiliary_ids": [
+        "iter",
+        "cfs-sparc",
+        "nif-ignition"
+      ]
+    },
+    "ref-120a": {
+      "section": "s07",
+      "src_ids": [
+        "src-014",
+        "src-027"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-120b": {
+      "section": "s07",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "semiconductor-history",
+        "hts-history"
+      ]
+    },
+    "ref-120c": {
+      "section": "s07",
+      "src_ids": [
+        "src-002",
+        "src-014"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-121": {
+      "section": "s08",
+      "src_ids": [
+        "src-016",
+        "src-026"
+      ],
+      "auxiliary_ids": [
+        "analog-gravity-literature"
+      ]
+    }
+  },
+  "key_judgments": {
+    "KJ-1": {
+      "src_ids": [
+        "src-048",
+        "src-049"
+      ],
+      "auxiliary_ids": []
+    },
+    "KJ-2": {
+      "src_ids": [
+        "src-001"
+      ],
+      "auxiliary_ids": []
+    },
+    "KJ-3": {
+      "src_ids": [
+        "src-005"
+      ],
+      "auxiliary_ids": []
+    },
+    "KJ-4": {
+      "src_ids": [
+        "src-013"
+      ],
+      "auxiliary_ids": []
+    },
+    "KJ-5": {
+      "src_ids": [
+        "src-059"
+      ],
+      "auxiliary_ids": [
+        "standard-thermochemistry-and-nuclear-data",
+        "nif-ignition"
+      ]
+    },
+    "KJ-6": {
+      "src_ids": [
+        "src-016"
+      ],
+      "auxiliary_ids": []
+    },
+    "KJ-7": {
+      "src_ids": [
+        "src-040"
+      ],
+      "auxiliary_ids": [
+        "nasa-ochmo-tb-024"
+      ]
+    },
+    "KJ-8": {
+      "src_ids": [
+        "src-034"
+      ],
+      "auxiliary_ids": []
+    },
+    "KJ-9": {
+      "src_ids": [
+        "src-001",
+        "src-004",
+        "src-005",
+        "src-006",
+        "src-007"
+      ],
+      "auxiliary_ids": []
+    },
+    "KJ-10a": {
+      "src_ids": [
+        "src-002",
+        "src-014",
+        "src-043"
+      ],
+      "auxiliary_ids": [
+        "iter"
+      ]
+    },
+    "KJ-10b": {
+      "src_ids": [
+        "src-048",
+        "src-049"
+      ],
+      "auxiliary_ids": []
+    }
+  }
+}

@@ -21,6 +21,8 @@ ROOT = Path(__file__).resolve().parents[1]
 EXPECTED_REGISTRY_STATUSES = {"reachable", "access_restricted", "missing"}
 BRACKETED_REFERENCE_RE = re.compile(r"\[([A-Za-z0-9_-]+)\]")
 TABLE_REFERENCE_RE = re.compile(r"\b(?:src-\d{3}|DIRD_[A-Za-z0-9]+|[a-z]+(?:-[a-z0-9]+)+)\b")
+NOTE_ID_RE = re.compile(r"ref-\d{3}[a-z]?")
+KEY_JUDGMENT_ID_RE = re.compile(r"KJ-\d+[a-z]?")
 
 
 def load_json(relative_path: str) -> object:
@@ -218,6 +220,126 @@ def validate_reference_ids(errors: list[str]) -> None:
                             )
 
 
+def validate_note_map(errors: list[str]) -> None:
+    note_map = load_json("references/note-map.json")
+    bibliography = load_json("references/bibliography.json")
+    bibliography_ids = {source["id"] for source in bibliography["sources"]}
+
+    metadata = note_map["metadata"]
+    notes = note_map["notes"]
+    key_judgments = note_map["key_judgments"]
+    auxiliary_sources = note_map["auxiliary_sources"]
+
+    if metadata["total_notes"] != len(notes):
+        errors.append(
+            "note-map metadata total_notes="
+            f"{metadata['total_notes']} != actual {len(notes)}"
+        )
+    if metadata["total_key_judgments"] != len(key_judgments):
+        errors.append(
+            "note-map metadata total_key_judgments="
+            f"{metadata['total_key_judgments']} != actual {len(key_judgments)}"
+        )
+    if metadata["total_auxiliary_sources"] != len(auxiliary_sources):
+        errors.append(
+            "note-map metadata total_auxiliary_sources="
+            f"{metadata['total_auxiliary_sources']} != actual {len(auxiliary_sources)}"
+        )
+
+    def validate_mapping_entry(
+        mapping_id: str,
+        entry: dict[str, object],
+        *,
+        pattern: re.Pattern[str],
+        require_section: bool,
+    ) -> None:
+        if not pattern.fullmatch(mapping_id):
+            errors.append(f"note-map contains invalid mapping id: {mapping_id}")
+
+        if require_section:
+            section = entry.get("section")
+            if not isinstance(section, str) or not re.fullmatch(r"s\d{2}", section):
+                errors.append(
+                    f"note-map {mapping_id} is missing a valid section id"
+                )
+
+        src_ids = entry.get("src_ids")
+        auxiliary_ids = entry.get("auxiliary_ids")
+        if not isinstance(src_ids, list) or not all(isinstance(item, str) for item in src_ids):
+            errors.append(f"note-map {mapping_id} has invalid src_ids")
+            src_ids = []
+        if not isinstance(auxiliary_ids, list) or not all(
+            isinstance(item, str) for item in auxiliary_ids
+        ):
+            errors.append(f"note-map {mapping_id} has invalid auxiliary_ids")
+            auxiliary_ids = []
+
+        if not src_ids and not auxiliary_ids:
+            errors.append(f"note-map {mapping_id} has no mapped sources")
+
+        for source_id in src_ids:
+            if source_id not in bibliography_ids:
+                errors.append(
+                    f"note-map {mapping_id} references unknown bibliography source id {source_id}"
+                )
+        for auxiliary_id in auxiliary_ids:
+            if auxiliary_id not in auxiliary_sources:
+                errors.append(
+                    f"note-map {mapping_id} references unknown auxiliary source id {auxiliary_id}"
+                )
+
+    for note_id, entry in notes.items():
+        validate_mapping_entry(
+            note_id,
+            entry,
+            pattern=NOTE_ID_RE,
+            require_section=True,
+        )
+
+    for judgment_id, entry in key_judgments.items():
+        validate_mapping_entry(
+            judgment_id,
+            entry,
+            pattern=KEY_JUDGMENT_ID_RE,
+            require_section=False,
+        )
+
+    referenced_note_ids: set[str] = set()
+    referenced_judgment_ids: set[str] = set()
+    for relative_path in ("docs/en/full-text.md", "docs/zh-TW/full-text.md"):
+        text = read_text(relative_path)
+        for candidate in BRACKETED_REFERENCE_RE.findall(text):
+            if NOTE_ID_RE.fullmatch(candidate):
+                referenced_note_ids.add(candidate)
+            if KEY_JUDGMENT_ID_RE.fullmatch(candidate):
+                referenced_judgment_ids.add(candidate)
+
+    note_ids = set(notes)
+    judgment_ids = set(key_judgments)
+
+    missing_notes = sorted(referenced_note_ids - note_ids)
+    extra_notes = sorted(note_ids - referenced_note_ids)
+    missing_judgments = sorted(referenced_judgment_ids - judgment_ids)
+    extra_judgments = sorted(judgment_ids - referenced_judgment_ids)
+
+    if missing_notes:
+        errors.append(
+            "note-map is missing canonical note ids: " + ", ".join(missing_notes)
+        )
+    if extra_notes:
+        errors.append(
+            "note-map contains unused note ids: " + ", ".join(extra_notes)
+        )
+    if missing_judgments:
+        errors.append(
+            "note-map is missing key judgment ids: " + ", ".join(missing_judgments)
+        )
+    if extra_judgments:
+        errors.append(
+            "note-map contains unused key judgment ids: " + ", ".join(extra_judgments)
+        )
+
+
 def validate_statistics(errors: list[str]) -> dict[str, int]:
     schema = load_json("data/schemas/statistics-schema.json")
     validator_cls = getattr(jsonschema, "Draft202012Validator", jsonschema.Draft7Validator)
@@ -412,6 +534,7 @@ def main() -> int:
     bibliography_summary = validate_bibliography(errors)
     registry_summary = validate_source_registry(errors)
     validate_reference_ids(errors)
+    validate_note_map(errors)
     stats_summary = validate_statistics(errors)
     validate_docs(bibliography_summary, registry_summary, stats_summary, errors)
 
