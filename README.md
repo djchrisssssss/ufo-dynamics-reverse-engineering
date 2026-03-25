@@ -85,6 +85,52 @@ After reading the book, we realized that the physical claims described — insta
 | `references/source-registry.json` | URL verification registry (34 URLs) | URL 驗證登錄 |
 | `references/per-section/` | Per-section reference documentation | 各節參考文獻 |
 
+## How to Trace Citations / 如何查找引用
+
+The maintained Markdown documents use stable inline note IDs such as `[ref-058]` and `[KJ-3]`. These labels are note identifiers, not bibliography item numbers.
+
+已維護的 Markdown 文件使用穩定的行內註記 ID，例如 `[ref-058]` 與 `[KJ-3]`。這些標記是註記識別碼，不是文末書目編號。
+
+To trace a citation back to the original source:
+
+若要從正文追到原始來源，請依照以下路徑：
+
+1. Start from the canonical reading version: [`docs/en/full-text.md`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/en/full-text.md) or [`docs/zh-TW/full-text.md`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/zh-TW/full-text.md).
+2. Identify the section where the note appears, then open the matching file under `references/per-section/` such as `s03-references.md`.
+3. Use that per-section file to find the corresponding `[src-xxx]` source entry.
+4. If you need the underlying citation record, check [`latex/main.tex`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/latex/main.tex) for the original `\cite{...}` key and [`latex/references.bib`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/latex/references.bib) for the full BibTeX entry.
+
+1. 從 canonical 閱讀版本開始：[`docs/en/full-text.md`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/en/full-text.md) 或 [`docs/zh-TW/full-text.md`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/zh-TW/full-text.md)。
+2. 先判斷該註記出現在第幾節，再打開 `references/per-section/` 下對應的檔案，例如 `s03-references.md`。
+3. 在該節 reference 檔中找到對應的 `[src-xxx]` 來源條目。
+4. 如果需要更底層的引用資訊，再到 [`latex/main.tex`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/latex/main.tex) 看原始 `\cite{...}` key，並到 [`latex/references.bib`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/latex/references.bib) 看完整 BibTeX。
+
+Example:
+
+範例：
+
+- `[ref-058]` appears in Section 3.4 on the Casimir effect.
+- Its section reference file is [`references/per-section/s03-references.md`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/references/per-section/s03-references.md).
+- In that file, the relevant source is `[src-014] Casimir, H.B.G. (1948)`.
+- The original LaTeX citation key is `Casimir1948`, and the full entry appears in [`latex/references.bib`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/latex/references.bib).
+
+- `[ref-058]` 出現在第 3.4 節的卡西米爾效應段落。
+- 它對應的分節 reference 檔是 [`references/per-section/s03-references.md`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/references/per-section/s03-references.md)。
+- 在該檔案中，可找到相關來源為 `[src-014] Casimir, H.B.G. (1948)`。
+- 其原始 LaTeX citation key 是 `Casimir1948`，完整條目則位於 [`latex/references.bib`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/latex/references.bib)。
+
+Legacy note:
+
+舊版說明：
+
+- [`report-en.md`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/report-en.md) and [`report-zh-TW.md`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/report-zh-TW.md) preserve the historical superscript export format such as `⁵⁸` and `⁸⁶`.
+- Those superscripts are note identifiers, not reliable bibliography numbers.
+- For maintained citation tracing, use the canonical Markdown documents above.
+
+- [`report-en.md`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/report-en.md) 與 [`report-zh-TW.md`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/report-zh-TW.md) 保留了舊版上標匯出格式，例如 `⁵⁸`、`⁸⁶`。
+- 這些上標是註記識別碼，不是可靠的文末書目編號。
+- 若要用目前維護中的方式追來源，請以上面的 canonical Markdown 為準。
+
 ### Source Breakdown / 來源分布
 
 | Type / 類型 | Count | % |
