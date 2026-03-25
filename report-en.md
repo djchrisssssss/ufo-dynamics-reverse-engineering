@@ -25,6 +25,8 @@ This paper presents a systematic physics-based assessment of reported UFO/UAP fl
 
 > This document is an independent scientific assessment. No classified information was used. All sources are publicly available.
 
+> Legacy citation note: This legacy Markdown preserves the historical superscript note export (for example `⁵⁸`, `⁸⁶`). Those markers are note identifiers, not reliable bibliography item numbers. For the maintained reading version with stable inline IDs such as `[ref-058]` and `[KJ-3]`, use [docs/en/full-text.md](/Users/chris/Desktop/Sui/claude_code_practice/UFO-dynamics-reverse-engineering%20/docs/en/full-text.md) or [docs/zh-TW/full-text.md](/Users/chris/Desktop/Sui/claude_code_practice/UFO-dynamics-reverse-engineering%20/docs/zh-TW/full-text.md).
+
 ---
 
 ## Methodology & Scope

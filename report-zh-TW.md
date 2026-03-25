@@ -27,6 +27,8 @@
 
 > 本文件為獨立科學評估。未使用任何機密資訊。所有來源均為公開可得。
 
+> Legacy 引用說明：此 legacy Markdown 保留了早期匯出的上標註記格式（例如 `⁵⁸`、`⁸⁶`）。這些標記是註記識別碼，不是可靠的文末書目編號。若要閱讀已維護、且使用穩定行內 ID（例如 `[ref-058]`、`[KJ-3]`）的版本，請改看 [docs/en/full-text.md](/Users/chris/Desktop/Sui/claude_code_practice/UFO-dynamics-reverse-engineering%20/docs/en/full-text.md) 或 [docs/zh-TW/full-text.md](/Users/chris/Desktop/Sui/claude_code_practice/UFO-dynamics-reverse-engineering%20/docs/zh-TW/full-text.md)。
+
 ---
 
 ## 方法論與範圍
