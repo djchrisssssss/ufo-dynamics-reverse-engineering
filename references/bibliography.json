@@ -1,7 +1,7 @@
 {
   "metadata": {
     "total_sources": 59,
-    "last_updated": "2026-03-22",
+    "last_updated": "2026-03-26",
     "categories": {
       "peer_reviewed": 31,
       "government": 9,
@@ -19,7 +19,7 @@
       "date": "1994",
       "url": "https://doi.org/10.1088/0264-9381/11/5/001",
       "doi": "10.1088/0264-9381/11/5/001",
-      "sections_cited": ["s03", "s07", "s08"],
+      "sections_cited": ["s03", "s07", "s08", "s09"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -31,7 +31,7 @@
       "date": "1997",
       "url": "https://arxiv.org/abs/gr-qc/9702026",
       "doi": null,
-      "sections_cited": ["s03", "s07", "s08"],
+      "sections_cited": ["s03", "s07", "s08", "s09"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -55,7 +55,7 @@
       "date": "2021",
       "url": "https://doi.org/10.1088/1361-6382/abe692",
       "doi": "10.1088/1361-6382/abe692",
-      "sections_cited": ["s03", "s08"],
+      "sections_cited": ["s03", "s08", "s09"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -67,7 +67,7 @@
       "date": "2022",
       "url": "https://doi.org/10.1103/PhysRevD.105.064038",
       "doi": "10.1103/PhysRevD.105.064038",
-      "sections_cited": ["s03", "s08"],
+      "sections_cited": ["s03", "s08", "s09"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -79,7 +79,7 @@
       "date": "2021",
       "url": "https://doi.org/10.1088/1361-6382/abdf6e",
       "doi": "10.1088/1361-6382/abdf6e",
-      "sections_cited": ["s03", "s07"],
+      "sections_cited": ["s03", "s07", "s09"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -91,7 +91,7 @@
       "date": "2021",
       "url": "https://arxiv.org/abs/2104.06488",
       "doi": null,
-      "sections_cited": ["s03"],
+      "sections_cited": ["s03", "s09"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -163,7 +163,7 @@
       "date": "2022",
       "url": "https://doi.org/10.1103/PhysRevLett.129.121102",
       "doi": "10.1103/PhysRevLett.129.121102",
-      "sections_cited": ["s02", "s03"],
+      "sections_cited": ["s02", "s03", "s09"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -583,7 +583,7 @@
       "date": "1973",
       "url": "https://press.princeton.edu/books/hardcover/9780691177793/gravitation",
       "doi": null,
-      "sections_cited": ["s02", "s03", "s04"],
+      "sections_cited": ["s02", "s03", "s04", "s09"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -595,7 +595,7 @@
       "date": "1984",
       "url": "https://press.uchicago.edu/ucp/books/book/chicago/G/bo5952261.html",
       "doi": null,
-      "sections_cited": ["s02", "s03"],
+      "sections_cited": ["s02", "s03", "s09"],
       "verified": true,
       "last_checked": "2026-03-20"
     },

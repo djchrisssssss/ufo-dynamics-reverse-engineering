@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.2.3] — 2026-03-26
+
+### Added
+- **Section 9 — Mathematical and Relativistic Foundations for Anomalous Flight** in the canonical English Markdown, Traditional Chinese Markdown, and LaTeX paper
+- **Section 9 reference map** via `references/per-section/s09-references.md` and new canonical note IDs `ref-122` through `ref-127`
+- **Section 9 statistics placeholder**: `data/statistics/s09-theoretical-foundations-stats.json` reserved for future empirical constraints while keeping the current section formula-centric
+
+### Changed
+- **Repository structure documentation** updated to reflect the new `s09` section in `README.md` and `CLAUDE.md`
+- **Bibliography cross-references** expanded so core GR / warp-drive sources now register `s09` in `sections_cited`
+- **Version metadata** bumped to 1.2.3 across `CITATION.cff`, `.zenodo.json`, LaTeX acknowledgments, and README citation examples
+
 ## [1.2.2] — 2026-03-22
 
 ### Changed

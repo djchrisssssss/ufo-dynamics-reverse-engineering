@@ -23,6 +23,7 @@ UFO-dynamics-reverse-engineering/
 │   │   ├── s02-observables-stats.json
 │   │   ├── s03-propulsion-stats.json
 │   │   ├── s04-energy-stats.json
+│   │   ├── s09-theoretical-foundations-stats.json
 │   │   └── s06-materials-stats.json
 │   ├── timelines/                    # Historical event CSVs
 │   │   ├── uap-investigation-history.csv
@@ -41,7 +42,8 @@ UFO-dynamics-reverse-engineering/
 │       ├── s05-references.md
 │       ├── s06-references.md
 │       ├── s07-references.md
-│       └── s08-references.md
+│       ├── s08-references.md
+│       └── s09-references.md
 ├── latex/
 │   ├── main.tex                      # REVTeX 4-2 formatted paper
 │   ├── references.bib                # BibTeX bibliography (59 entries)
@@ -60,7 +62,7 @@ UFO-dynamics-reverse-engineering/
 ### Statistics Files
 - Pattern: `sNN-descriptor-stats.json`
 - ID format: `sNN-NNN` (section + 3-digit sequential number)
-- Sections: s01–s08 (main), sA1–sA4 (appendices)
+- Sections: s01–s09 (main), sA1–sA4 (appendices)
 
 ### Reference Files
 - Per-section: `sNN-references.md`
@@ -90,6 +92,7 @@ UFO-dynamics-reverse-engineering/
 | s06 | Advanced Materials and Structural Analysis |
 | s07 | Integrated Propulsion Model — Synthesis |
 | s08 | Intelligence Gaps and Research Directions |
+| s09 | Mathematical and Relativistic Foundations for Anomalous Flight |
 | sA1 | Glossary of Terms (bilingual) |
 | sA2 | Key Equations Reference |
 | sA3 | Complete DIRD List |

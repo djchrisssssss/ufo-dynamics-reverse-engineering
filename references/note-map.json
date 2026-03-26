@@ -2,7 +2,7 @@
   "metadata": {
     "last_updated": "2026-03-26",
     "description": "Maps canonical Markdown note IDs to bibliography-backed src IDs and auxiliary source identifiers.",
-    "total_notes": 120,
+    "total_notes": 126,
     "total_key_judgments": 11,
     "total_auxiliary_sources": 35
   },
@@ -1113,6 +1113,58 @@
       "auxiliary_ids": [
         "analog-gravity-literature"
       ]
+    },
+    "ref-122": {
+      "section": "s09",
+      "src_ids": [
+        "src-013",
+        "src-048",
+        "src-049"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-123": {
+      "section": "s09",
+      "src_ids": [
+        "src-001",
+        "src-048",
+        "src-049"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-124": {
+      "section": "s09",
+      "src_ids": [
+        "src-002"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-125": {
+      "section": "s09",
+      "src_ids": [
+        "src-005"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-126": {
+      "section": "s09",
+      "src_ids": [
+        "src-006",
+        "src-007"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-127": {
+      "section": "s09",
+      "src_ids": [
+        "src-001",
+        "src-002",
+        "src-005",
+        "src-006",
+        "src-048",
+        "src-049"
+      ],
+      "auxiliary_ids": []
     }
   },
   "key_judgments": {

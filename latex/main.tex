@@ -1414,6 +1414,117 @@ For establishing UAP as beyond-current-technology:
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SECTION 9
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Mathematical and Relativistic Foundations for Anomalous Flight}\label{sec:mathfoundations}
+
+\subsection{Invariant Kinematics}\label{sec:invariant-kinematics}
+
+Any physically serious theory of anomalous flight should start from invariant
+quantities rather than raw image-plane or lab-frame acceleration. The relevant
+object is a timelike worldline $x^\mu(\tau)$ with
+\begin{equation}
+u^\mu = \frac{dx^\mu}{d\tau},\qquad
+u_\mu u^\mu = -c^2,\qquad
+a^\mu = u^\nu \nabla_\nu u^\mu,
+\label{eq:s09-kinematics}
+\end{equation}
+and proper acceleration
+\begin{equation}
+\alpha = \sqrt{a_\mu a^\mu}.
+\label{eq:s09-proper-acceleration}
+\end{equation}
+The onboard inertial load is set by $\alpha$, not by the coordinate acceleration
+inferred by a remote observer. This distinction is central: a vehicle following
+a geodesic can display extreme coordinate motion while its occupants experience
+zero proper acceleration~\cite{MTW1973,Wald1984,Touboul2022}.
+
+\subsection{A Minimal Metric Ansatz}\label{sec:minimal-metric}
+
+The natural mathematical language is the $3+1$ decomposition of spacetime,
+\begin{equation}
+ds^2 = -(N^2-\gamma_{ij}\beta^i\beta^j)c^2dt^2
++ 2\gamma_{ij}\beta^j c\,dt\,dx^i
++ \gamma_{ij}dx^i dx^j,
+\label{eq:s09-adm}
+\end{equation}
+where $N$ is the lapse, $\beta^i$ the shift vector, and $\gamma_{ij}$ the
+spatial metric. A compact toy model remains the Alcubierre family,
+\begin{equation}
+ds^2 = -c^2 dt^2 + \left(dx - v_s(t) f(r_s)\,dt\right)^2 + dy^2 + dz^2,
+\label{eq:s09-alcubierre}
+\end{equation}
+with
+\begin{equation}
+r_s = \sqrt{(x-x_s(t))^2+y^2+z^2},\qquad
+f(r_s) = \frac{\tanh[\sigma(r_s+R)]-\tanh[\sigma(r_s-R)]}{2\tanh(\sigma R)}.
+\label{eq:s09-shape}
+\end{equation}
+This isolates a small set of tunable geometric parameters: bubble radius $R$,
+wall sharpness $\Sigma = \sigma R \sim R/\Delta$, and speed profile
+$v_s(t)$~\cite{Alcubierre1994,MTW1973,Wald1984}.
+
+\subsection{Stress-Energy as the Core Constraint}\label{sec:stress-energy-core}
+
+A propulsion hypothesis only becomes physics once its supporting stress-energy
+is specified through the Einstein field equations,
+\begin{equation}
+G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}.
+\label{eq:s09-einstein}
+\end{equation}
+For Eulerian observers, the local energy density is
+$\rho_E = T_{\mu\nu}n^\mu n^\nu$. In the Alcubierre class,
+Pfenning and Ford showed that the supporting energy density becomes negative in
+the bubble wall, and later work by Santiago, Schuster, and Visser showed that
+generic warp drives violate the null energy condition. Any mathematically
+explicit UAP transport model must therefore declare up front whether it lives in
+an exotic-matter regime or in a conservative positive-energy regime~\cite{PfenningFord1997,SantiagoVisser2022}.
+
+\subsection{Conservative and Exotic Branches}\label{sec:branches}
+
+The literature now supports a useful bifurcation. In the conservative branch,
+the goal is positive-energy spacetime control and one accepts subluminal
+transport as in Bobrick and Martire's ``physical warp drives.'' In the exotic
+branch, one allows energy-condition violation to preserve the superluminal
+idealization, but then inherits the negative-energy and controllability burdens
+already identified in the classical warp-drive literature. Positive-energy
+escape routes proposed in more speculative geometries remain mathematically
+interesting, but not yet consensus~\cite{BobrickMartire2021,FellHeisenberg2021}.
+
+\subsection{Dimensionless Control Parameters}\label{sec:dimensionless-parameters}
+
+For future model-building, the most useful ``constants'' are dimensionless
+ratios rather than a single fitted number:
+\begin{equation}
+\beta = \frac{v_s}{c},\qquad
+\Sigma = \sigma R \sim \frac{R}{\Delta},\qquad
+\mathcal{A} = \frac{\alpha R}{c^2},\qquad
+\mathcal{K} = K_{\max}R^4,\qquad
+\Xi = \frac{G|E|}{R c^4},
+\label{eq:s09-dimensionless}
+\end{equation}
+where $K = R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma}$ is the Kretschmann scalar.
+As a report-specific diagnostic we define a geometric relief factor
+\begin{equation}
+\Gamma_{\mathrm{rel}} = \frac{a_{\mathrm{app}}}{\alpha},
+\label{eq:s09-relief}
+\end{equation}
+which measures how much apparent maneuvering is offloaded from proper
+acceleration into geometry. A successful anomalous-flight theory would aim for
+$\Gamma_{\mathrm{rel}} \gg 1$.
+
+\subsection{Implication for the UAP Question}\label{sec:uap-question}
+
+This framework does not prove that any UAP employs metric engineering. What it
+does provide is a disciplined mathematical filter. Any future theory intended to
+explain reported UFO behavior should: (1) keep the craft on a timelike
+worldline, (2) bound proper acceleration, (3) specify the required
+stress-energy, (4) state explicitly which energy conditions are preserved or
+violated, and (5) expose a small set of dimensionless parameters that can later
+be compared against observations. That turns the UFO question from a narrative
+claim into a falsifiable relativistic program.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% APPENDICES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \appendix
@@ -1725,7 +1836,7 @@ primarily supported literature synthesis, structure, and translation; Codex and
 GPT-5.4 assisted repository optimization, validation, metadata consistency
 checks, and disclosure/reporting refinements. AI contributions included literature
 synthesis and cross-referencing of 59 bibliography sources, equation typesetting
-in both Markdown and \LaTeX, structural organization of the eight-section
+in both Markdown and \LaTeX, structural organization of the nine-section
 architecture, bilingual parity maintenance (English and Traditional Chinese),
 data infrastructure generation (JSON Schema validation, statistics files, timeline
 CSVs, source registry), optimization and verification support, and translation of
@@ -1745,7 +1856,7 @@ in a separate data verification report available in the project repository.
 This work is released under the Creative Commons Attribution~4.0 International
 License (CC~BY~4.0).
 
-Version~1.2.2, March~2026.
+Version~1.2.3, March~2026.
 DOI: \href{https://doi.org/10.5281/zenodo.19138270}{10.5281/zenodo.19138270}.
 \end{acknowledgments}
 

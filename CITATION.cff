@@ -8,8 +8,8 @@ authors:
     email: "kriss@scallop.io"
     orcid: "https://orcid.org/0009-0000-2223-4826"
     affiliation: "Scallop Labs"
-date-released: "2026-03-22"
-version: "1.2.2"
+date-released: "2026-03-26"
+version: "1.2.3"
 license: CC-BY-4.0
 doi: "10.5281/zenodo.19138270"
 identifiers:

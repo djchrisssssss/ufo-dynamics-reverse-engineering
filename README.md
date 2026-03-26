@@ -69,6 +69,7 @@ After reading the book, we realized that the physical claims described — insta
 | 6 | Advanced Materials | 先進材料 | Metamaterials; CNT; graphene; Bi-Mg analysis; QCD bonding |
 | 7 | Integrated Model | 整合模型 | Single-mechanism synthesis; materials gap analysis |
 | 8 | Intelligence Gaps | 情報缺口 | Research priorities; definitive evidence criteria |
+| 9 | Mathematical Foundations | 數學與相對論基礎 | Proper acceleration; ADM metric; energy conditions; dimensionless transport numbers |
 | A–E | Appendices | 附錄 | Glossary; equations; DIRD list; confidence definitions; falsification criteria |
 
 ---
@@ -197,13 +198,13 @@ UFO-dynamics-reverse-engineering/
 │       └── verification-report.md
 ├── data/
 │   ├── schemas/                     # JSON Schema validation
-│   ├── statistics/                  # Per-section data (4 JSON files)
+│   ├── statistics/                  # Per-section data (5 JSON files; 45 data points)
 │   ├── timelines/                   # Historical events (2 CSVs)
 │   └── comparisons/                 # Cross-domain analysis (2 CSVs)
 ├── references/
 │   ├── bibliography.json            # 59 sources
 │   ├── source-registry.json         # URL verification
-│   └── per-section/                 # 8 reference files
+│   └── per-section/                 # 9 reference files
 ├── latex/
 │   ├── main.tex                     # REVTeX 4-2 paper
 │   ├── references.bib               # 59 BibTeX entries
@@ -226,7 +227,7 @@ This project was produced through a structured collaboration between the human a
 |---------------------|--------------------|
 | Literature synthesis / 文獻綜整 | Cross-referencing 59 sources / 交叉比對 59 筆來源 |
 | Equation typesetting / 公式排版 | Markdown + LaTeX (REVTeX 4-2) formatting / 格式化 |
-| Structural organization / 結構組織 | 8-section architecture, bilingual parity / 八章節架構、雙語對照 |
+| Structural organization / 結構組織 | 9-section architecture, bilingual parity / 九章節架構、雙語對照 |
 | Data infrastructure / 資料基礎設施 | JSON Schema, statistics, timelines, source registry / 驗證架構 |
 | Optimization & verification / 優化與驗證 | Repository cleanup, validation hardening, metadata consistency, disclosure updates / repo 整理、驗證補強、metadata 一致性與揭露更新 |
 | Translation / 翻譯 | Full Traditional Chinese parallel text / 繁體中文全文翻譯 |
@@ -245,7 +246,7 @@ This project was produced through a structured collaboration between the human a
 
 ### APA
 
-Lai, K. (2026). *Reverse Engineering the Dynamics of UFOs: A Physics-Based Assessment of Unidentified Aerial Phenomena* (Version 1.2.2). DOI: [10.5281/zenodo.19138270](https://doi.org/10.5281/zenodo.19138270).
+Lai, K. (2026). *Reverse Engineering the Dynamics of UFOs: A Physics-Based Assessment of Unidentified Aerial Phenomena* (Version 1.2.3). DOI: [10.5281/zenodo.19138270](https://doi.org/10.5281/zenodo.19138270).
 
 ### BibTeX
 
@@ -254,7 +255,7 @@ Lai, K. (2026). *Reverse Engineering the Dynamics of UFOs: A Physics-Based Asses
   title     = {Reverse Engineering the Dynamics of UFOs: A Physics-Based Assessment of Unidentified Aerial Phenomena},
   author    = {Lai, Kris},
   year      = {2026},
-  version   = {1.2.2},
+  version   = {1.2.3},
   note      = {UNCLASSIFIED --- Open Source Analysis},
   doi       = {10.5281/zenodo.19138270},
   url       = {https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering}
