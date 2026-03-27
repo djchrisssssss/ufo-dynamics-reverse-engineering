@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.2.5] — 2026-03-27
+
+### Added
+- **Section 9.8–9.10** in the canonical English Markdown, Traditional Chinese Markdown, and LaTeX paper: phenomenology-constrained oblate shell geometry, tidal/EM constraints, and a missing-time decomposition
+- **2 new peer-reviewed sources** on abduction-memory distortion and sleep paralysis in `references/bibliography.json`, `latex/references.bib`, and `references/source-registry.json`
+- **Section 9 note map expansion** via canonical note IDs `ref-132` through `ref-136` and the auxiliary phenomenology source `abduction-schema-corpus-2026`
+
+### Changed
+- **Section 9 scope** tightened so the deeper theory now explicitly separates low proper acceleration, low tidal stress, electromagnetic boundary-layer effects, and non-geometric missing-time terms
+- **Visible bibliography metadata** updated across README, canonical full-text documents, LaTeX acknowledgments, and repo docs to reflect 61 sources and 36 tracked URLs
+- **Version metadata** bumped to 1.2.5 across `CITATION.cff`, `.zenodo.json`, README citation examples, and LaTeX acknowledgments
+
 ## [1.2.4] — 2026-03-27
 
 ### Added

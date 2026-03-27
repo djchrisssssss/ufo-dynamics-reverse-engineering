@@ -961,6 +961,86 @@ Here \(T^{\mathrm{EM}}_{\mu\nu}\) and \(T^{\mathrm{plasma}}_{\mu\nu}\) describe 
 
 Under this interpretation, reports of stillness or pressure map to boundary-layer shielding and altered acoustic propagation; small luminous orbs map to auxiliary probes or localized field bubbles; suspension with no clear floor maps to a comoving geodesic interior; and breathable hoods, viscous "jelly," or head heaviness map to an environmental stabilization interface rather than proof of antigravity. A large cylindrical craft can then be treated as a carrier-class architecture for power, control, and pod deployment. These correspondences are deliberately heuristic. They do not validate the narratives, but they define a non-law-breaking target for future theory: maximize \(\Gamma_{\mathrm{rel}}\) while staying timelike, approximately subluminal, and as close as possible to positive-energy sourcing. [ref-131]
 
+### 9.8 Phenomenology-Constrained Oblate Shell Geometry
+
+If recurrent craft reports are treated as phenomenological boundary conditions rather than direct measurements, then repeated disc/oval geometry, seam-minimized metallic surfaces, curved interiors, and luminous bands suggest that an oblate shell is a more natural ansatz than a purely spherical bubble. Let
+
+$$
+\chi^2 = \frac{x^2+y^2}{R_\perp^2} + \frac{z^2}{R_z^2}, \qquad
+\varepsilon = \frac{R_z}{R_\perp} < 1,
+$$
+
+where \(R_\perp\) is the lateral radius, \(R_z\) the vertical semi-axis, and \(\varepsilon\) the aspect ratio. A smooth shell profile centered on \(\chi=1\) can be written as
+
+$$
+f(\chi) = \frac{1}{2}\left[1-\tanh\!\big(\Sigma(\chi-1)\big)\right], \qquad
+\Sigma \sim \frac{R_\perp}{\Delta},
+$$
+
+with \(\Delta\) the shell thickness. A conservative core-shell metric can then be parameterized by
+
+$$
+N = 1 + (N_0-1)f(\chi), \qquad
+\beta^i = \beta_0^i(t)\,f(\chi), \qquad
+\gamma_{ij} = \delta_{ij} + h_{ij}f(\chi).
+$$
+
+Inside the core \(f\approx 1\), outside \(f\approx 0\), and the strong gradients are localized to the shell. This turns craft morphology into a small set of geometric control parameters: aspect ratio \(\varepsilon\), sharpness \(\Sigma\), core scale \(R_\perp\), and transport shift \(\beta_0^i(t)\). [ref-132] [ref-133]
+
+### 9.9 Tidal and Electromagnetic Constraints
+
+Low proper acceleration is necessary but not sufficient for a habitable transport core. In geometric units the Eulerian proper acceleration is \(a_i = D_i \ln N\), but survivability also requires bounded tidal forces. In a local orthonormal comoving frame, geodesic deviation gives
+
+$$
+\frac{D^2 \xi^{\hat{i}}}{d\tau^2} = - R^{\hat{i}}{}_{\hat{0}\hat{j}\hat{0}}\,\xi^{\hat{j}},
+$$
+
+so for a characteristic occupant size \(L_c\),
+
+$$
+\Delta a_{\mathrm{tidal}} \lesssim c^2 L_c \sup \left|R_{\hat{0}\hat{i}\hat{0}\hat{j}}\right|.
+$$
+
+A habitable core therefore requires not only \(\alpha \ll g_\oplus\) but also
+
+$$
+\Theta = \frac{c^2 L_c}{g_\oplus}\sup \left|R_{\hat{0}\hat{i}\hat{0}\hat{j}}\right| \ll 1,
+$$
+
+where \(\Theta\) is a dimensionless tidal-habitability parameter. [ref-134]
+
+If one also wishes to model buzzing, diffuse glow, or engine disruption without invoking exotic new forces, the cleanest route is ordinary induction in a strong EM/plasma boundary layer. Faraday's law implies
+
+$$
+\mathcal{E}_{\mathrm{ind}} = -\frac{d\Phi_B}{dt}, \qquad
+\Phi_B = \int \mathbf{B}\cdot d\mathbf{A},
+$$
+
+and a simple disturbance diagnostic is
+
+$$
+\Pi_{\mathrm{EMI}} = \frac{|\mathcal{E}_{\mathrm{ind}}|}{\mathcal{E}_{\mathrm{crit}}},
+$$
+
+where \(\mathcal{E}_{\mathrm{crit}}\) is the characteristic upset threshold of nearby electronics. In this interpretation, localized interference, buzzing, and luminous boundary effects are candidate byproducts of an intense shell environment; they do not by themselves establish superluminal propulsion. [ref-135]
+
+### 9.10 Missing-Time Decomposition and Non-Claims
+
+Recurring "missing time" reports should not be modeled as pure relativistic time dilation. A more disciplined decomposition is
+
+$$
+\Delta t_{\mathrm{gap}} = \Delta t_{\mathrm{geom}} + \Delta t_{\mathrm{neuro}} + \Delta t_{\mathrm{recon}},
+$$
+
+with
+
+$$
+\Delta t_{\mathrm{geom}} = \int (1-\Lambda_t)\,dt, \qquad
+\Lambda_t = \frac{d\tau_{\mathrm{in}}}{dt_\infty}.
+$$
+
+Here \(\Delta t_{\mathrm{geom}}\) is any true clock-rate offset between interior and exterior time, \(\Delta t_{\mathrm{neuro}}\) covers impaired encoding or retrieval, and \(\Delta t_{\mathrm{recon}}\) later retrospective reconstruction. In the conservative subluminal branch developed here, one assumes \(\Lambda_t \approx 1\), so large apparent memory gaps are expected to be dominated by non-geometric terms. This is consistent both with the transport model above and with peer-reviewed findings linking some abduction-type reports to sleep paralysis / hypnopompic hallucination and to elevated memory-distortion vulnerability in some abductee-reporting groups. The resulting non-claim is important: phenomenology alone does not determine ontology. [ref-136]
+
 ---
 
 # APPENDICES
@@ -1222,6 +1302,8 @@ The warp bubble hypothesis, as applied to UAP in this assessment, generates spec
 57. [GOV] UK Ministry of Defence. "Unidentified Aerial Phenomena in the UK Air Defence Region (Project Condign)." 2000. National Archives web archive edition.
 58. [GOV] All-domain Anomaly Resolution Office. "Assessment of Reported Parallax and Forced Perspective Effects on UAP Observations." 2024.
 59. [GOV] Lawrence Livermore National Laboratory. "NIF Sets New Records for Energy Yield and Target Gain." 2025.
+60. [PR] Clancy, S.A., McNally, R.J., Schacter, D.L., Lenzenweger, M.F. & Pitman, R.K. "Memory distortion in people reporting abduction by aliens." *Journal of Abnormal Psychology* 111, 455-461 (2002). DOI: 10.1037/0021-843X.111.3.455
+61. [PR] Cheyne, J.A., Rueffer, S.D. & Newby-Clark, I.R. "Hypnagogic and Hypnopompic Hallucinations during Sleep Paralysis: Neurological and Cultural Construction of the Night-Mare." *Consciousness and Cognition* 8, 319-337 (1999). DOI: 10.1006/ccog.1999.0404
 
 ---
 
@@ -1229,7 +1311,7 @@ The warp bubble hypothesis, as applied to UAP in this assessment, generates spec
 
 This document was produced through a structured collaboration between the human author and multiple AI systems, including **Claude** (Anthropic), **Codex**, and **GPT-5.4**. Claude Opus 4 and Claude Sonnet 4 primarily supported literature synthesis, structure, and translation; Codex and GPT-5.4 assisted repository optimization, validation, metadata consistency checks, and disclosure/reporting refinements. The AI contribution included:
 
-- **Literature synthesis**: Organizing and cross-referencing 59 bibliography sources across peer-reviewed articles, government documents, DIRDs, and books.
+- **Literature synthesis**: Organizing and cross-referencing 61 bibliography sources across peer-reviewed articles, government documents, DIRDs, and books.
 - **Equation typesetting**: Formatting mathematical expressions in both Markdown (GitHub-compatible) and LaTeX (REVTeX 4-2).
 - **Structural organization**: Establishing the nine-section architecture, bilingual parity (EN ↔ ZH-TW), and appendix structure.
 - **Data infrastructure**: Generating JSON Schema validation, per-section statistics files, timeline CSVs, and the source registry.
@@ -1242,9 +1324,9 @@ This document was produced through a structured collaboration between the human 
 
 43 of the 45 quantitative data points cited in this assessment are independently cross-checked against their cited sources. Two disputed estimates are retained as low-confidence analysis. A complete audit is available in the [Data Verification Report](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/en/verification-report.md), which documents:
 
-- Source provenance and reliability tier for all 59 bibliography entries
+- Source provenance and reliability tier for all 61 bibliography entries
 - Cross-referencing of numerical values against peer-reviewed publications
-- URL verification status for all 34 tracked web sources
+- URL verification status for all 36 tracked web sources
 - Verification markers ([VERIFIED], [THEORETICAL], [SPECULATIVE]) applied per ICD 203 analytic standards
 
 ---

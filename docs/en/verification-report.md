@@ -14,13 +14,13 @@ This verification report documents the data provenance, source quality, and cros
 
 | Metric | Value |
 |--------|-------|
-| Total bibliography sources | 59 |
+| Total bibliography sources | 61 |
 | Total quantitative data points | 45 |
 | Sections with statistics | 4 (s02, s03, s04, s06) |
 | Data points independently cross-checked | 43/45 (95.6%) |
-| Tracked URLs in source registry | 34 |
-| HTTP 200/202 during 2026-03-22 automated spot check | 23/34 |
-| HTTP 403/404 during 2026-03-22 automated spot check | 11/34 |
+| Tracked URLs in source registry | 36 |
+| HTTP 200/202 during 2026-03-22 automated spot check | 24/36 |
+| HTTP 403/404 during 2026-03-22 automated spot check | 12/36 |
 
 ---
 
@@ -28,11 +28,11 @@ This verification report documents the data provenance, source quality, and cros
 
 | Source Type | Count | Percentage | Reliability Tier |
 |-------------|-------|-----------|-----------------|
-| Peer-reviewed articles | 31 | 52.5% | Tier 1 (highest) |
-| Government documents | 9 | 15.3% | Tier 1 (highest) |
-| Defense Intelligence Reference Documents | 12 | 20.3% | Tier 2 (expert-authored, govt-commissioned) |
-| Books / Monographs | 6 | 10.2% | Tier 2 (academic) |
-| Preprints | 1 | 1.7% | Tier 3 (not yet peer-reviewed) |
+| Peer-reviewed articles | 33 | 54.1% | Tier 1 (highest) |
+| Government documents | 9 | 14.8% | Tier 1 (highest) |
+| Defense Intelligence Reference Documents | 12 | 19.7% | Tier 2 (expert-authored, govt-commissioned) |
+| Books / Monographs | 6 | 9.8% | Tier 2 (academic) |
+| Preprints | 1 | 1.6% | Tier 3 (not yet peer-reviewed) |
 
 ---
 

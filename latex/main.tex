@@ -1586,6 +1586,110 @@ but they define a non-law-breaking target for future theory: maximize
 $\Gamma_{\mathrm{rel}}$ while staying timelike, approximately subluminal, and
 as close as possible to positive-energy sourcing~\cite{DIRD_Green,NASA_UAP2023}.
 
+\subsection{Phenomenology-Constrained Oblate Shell Geometry}\label{sec:oblate-shell}
+
+If recurrent craft reports are treated as phenomenological boundary conditions
+rather than direct measurements, then repeated disc/oval geometry,
+seam-minimized metallic surfaces, curved interiors, and luminous bands suggest
+that an oblate shell is a more natural ansatz than a purely spherical bubble.
+Let
+\begin{equation}
+\chi^2 = \frac{x^2+y^2}{R_\perp^2} + \frac{z^2}{R_z^2},\qquad
+\varepsilon = \frac{R_z}{R_\perp} < 1,
+\label{eq:s09-oblate}
+\end{equation}
+where $R_\perp$ is the lateral radius, $R_z$ the vertical semi-axis, and
+$\varepsilon$ the aspect ratio. A smooth shell profile centered on $\chi=1$ can
+be written as
+\begin{equation}
+f(\chi) = \frac{1}{2}\left[1-\tanh\!\big(\Sigma(\chi-1)\big)\right],\qquad
+\Sigma \sim \frac{R_\perp}{\Delta},
+\label{eq:s09-oblate-profile}
+\end{equation}
+with $\Delta$ the shell thickness. A conservative core-shell metric can then be
+parameterized by
+\begin{equation}
+N = 1 + (N_0-1)f(\chi),\qquad
+\beta^i = \beta_0^i(t)\,f(\chi),\qquad
+\gamma_{ij} = \delta_{ij} + h_{ij}f(\chi).
+\label{eq:s09-oblate-ansatz}
+\end{equation}
+Inside the core $f\approx 1$, outside $f\approx 0$, and the strong gradients
+are localized to the shell. This turns craft morphology into a small set of
+geometric control parameters: aspect ratio $\varepsilon$, sharpness $\Sigma$,
+core scale $R_\perp$, and transport shift $\beta_0^i(t)$.
+
+\subsection{Tidal and Electromagnetic Constraints}\label{sec:tidal-em}
+
+Low proper acceleration is necessary but not sufficient for a habitable
+transport core. In geometric units the Eulerian proper acceleration is
+$a_i = D_i \ln N$, but survivability also requires bounded tidal forces. In a
+local orthonormal comoving frame, geodesic deviation gives
+\begin{equation}
+\frac{D^2 \xi^{\hat{i}}}{d\tau^2} =
+- R^{\hat{i}}{}_{\hat{0}\hat{j}\hat{0}}\,\xi^{\hat{j}},
+\label{eq:s09-geodesic-deviation}
+\end{equation}
+so for a characteristic occupant size $L_c$,
+\begin{equation}
+\Delta a_{\mathrm{tidal}} \lesssim c^2 L_c
+\sup \left|R_{\hat{0}\hat{i}\hat{0}\hat{j}}\right|.
+\label{eq:s09-tidal}
+\end{equation}
+A habitable core therefore requires not only $\alpha \ll g_\oplus$ but also
+\begin{equation}
+\Theta = \frac{c^2 L_c}{g_\oplus}
+\sup \left|R_{\hat{0}\hat{i}\hat{0}\hat{j}}\right| \ll 1,
+\label{eq:s09-theta}
+\end{equation}
+where $\Theta$ is a dimensionless tidal-habitability parameter.
+
+If one also wishes to model buzzing, diffuse glow, or engine disruption without
+invoking exotic new forces, the cleanest route is ordinary induction in a
+strong EM/plasma boundary layer. Faraday's law implies
+\begin{equation}
+\mathcal{E}_{\mathrm{ind}} = -\frac{d\Phi_B}{dt},\qquad
+\Phi_B = \int \mathbf{B}\cdot d\mathbf{A},
+\label{eq:s09-faraday}
+\end{equation}
+and a simple disturbance diagnostic is
+\begin{equation}
+\Pi_{\mathrm{EMI}} = \frac{|\mathcal{E}_{\mathrm{ind}}|}{\mathcal{E}_{\mathrm{crit}}},
+\label{eq:s09-emi}
+\end{equation}
+where $\mathcal{E}_{\mathrm{crit}}$ is the characteristic upset threshold of
+nearby electronics. In this interpretation, localized interference, buzzing,
+and luminous boundary effects are candidate byproducts of an intense shell
+environment; they do not by themselves establish superluminal propulsion.
+
+\subsection{Missing-Time Decomposition and Non-Claims}\label{sec:missing-time}
+
+Recurring ``missing time'' reports should not be modeled as pure relativistic
+time dilation. A more disciplined decomposition is
+\begin{equation}
+\Delta t_{\mathrm{gap}} =
+\Delta t_{\mathrm{geom}} +
+\Delta t_{\mathrm{neuro}} +
+\Delta t_{\mathrm{recon}},
+\label{eq:s09-gap}
+\end{equation}
+with
+\begin{equation}
+\Delta t_{\mathrm{geom}} = \int (1-\Lambda_t)\,dt,\qquad
+\Lambda_t = \frac{d\tau_{\mathrm{in}}}{dt_\infty}.
+\label{eq:s09-lambda}
+\end{equation}
+Here $\Delta t_{\mathrm{geom}}$ is any true clock-rate offset between interior
+and exterior time, $\Delta t_{\mathrm{neuro}}$ covers impaired encoding or
+retrieval, and $\Delta t_{\mathrm{recon}}$ later retrospective reconstruction.
+In the conservative subluminal branch developed here, one assumes
+$\Lambda_t \approx 1$, so large apparent memory gaps are expected to be
+dominated by non-geometric terms. This is consistent both with the transport
+model above and with peer-reviewed findings linking some abduction-type reports
+to sleep paralysis / hypnopompic hallucination and to elevated memory-distortion
+vulnerability in some abductee-reporting groups. The resulting non-claim is
+important: phenomenology alone does not determine ontology~\cite{NASA_UAP2023,Clancy2002,Cheyne1999}.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% APPENDICES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1897,7 +2001,7 @@ Claude~(Anthropic), Codex, and GPT-5.4. Claude Opus~4 and Claude Sonnet~4
 primarily supported literature synthesis, structure, and translation; Codex and
 GPT-5.4 assisted repository optimization, validation, metadata consistency
 checks, and disclosure/reporting refinements. AI contributions included literature
-synthesis and cross-referencing of 59 bibliography sources, equation typesetting
+synthesis and cross-referencing of 61 bibliography sources, equation typesetting
 in both Markdown and \LaTeX, structural organization of the nine-section
 architecture, bilingual parity maintenance (English and Traditional Chinese),
 data infrastructure generation (JSON Schema validation, statistics files, timeline
@@ -1918,7 +2022,7 @@ in a separate data verification report available in the project repository.
 This work is released under the Creative Commons Attribution~4.0 International
 License (CC~BY~4.0).
 
-Version~1.2.4, March~2026.
+Version~1.2.5, March~2026.
 DOI: \href{https://doi.org/10.5281/zenodo.19138270}{10.5281/zenodo.19138270}.
 \end{acknowledgments}
 

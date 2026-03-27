@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "total_urls": 34,
-    "last_audit": "2026-03-22",
+    "total_urls": 36,
+    "last_audit": "2026-03-27",
     "audit_method": "manual_verification + automated_http_spot_check"
   },
   "urls": [
@@ -242,6 +242,20 @@
       "status": "reachable",
       "last_checked": "2026-03-21",
       "notes": "LLNL — NIF ignition achievements page including April 2025 records"
+    },
+    {
+      "url": "https://doi.org/10.1037/0021-843X.111.3.455",
+      "source_id": "src-060",
+      "status": "access_restricted",
+      "last_checked": "2026-03-27",
+      "notes": "APA DOI — Clancy et al. (2002) memory distortion paper; currently returns HTTP 403 to scripted requests"
+    },
+    {
+      "url": "https://doi.org/10.1006/ccog.1999.0404",
+      "source_id": "src-061",
+      "status": "reachable",
+      "last_checked": "2026-03-27",
+      "notes": "Academic Press DOI — Cheyne et al. (1999) sleep-paralysis hallucination paper"
     }
   ]
 }

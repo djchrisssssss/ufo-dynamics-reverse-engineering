@@ -857,6 +857,86 @@ $$
 
 在這個詮釋下，敘事中的寂靜或壓力感可映射為邊界層遮蔽與聲學傳播改變；小型發光球可映射為輔助探測器或局部場泡；無明確地板的懸浮可映射為共動測地線內部；而可呼吸的罩具、黏滯如「膠狀」的介質或頭部沉重感，則可映射為環境穩定化介面，而非反重力已被證實的證據。較大的圓柱形飛行器則可被視為提供能源、控制與艙體部署的載體級架構。這些對應刻意保持啟發式性質。它們並不驗證敘事本身，但確實為未來理論劃定了一個不主動違反已知物理的目標：在保持類時、近似次光速、並儘可能接近正能量來源的前提下，最大化 \(\Gamma_{\mathrm{rel}}\)。 [ref-131]
 
+### 9.8 受現象學約束的扁球殼幾何
+
+若將反覆出現的飛行器描述視為現象學邊界條件，而非直接量測，則反覆出現的圓盤／橢圓外形、接縫極少的金屬表面、彎曲內裝，以及發光帶，意味著比純球形泡泡更自然的假設是扁球殼。令
+
+$$
+\chi^2 = \frac{x^2+y^2}{R_\perp^2} + \frac{z^2}{R_z^2}, \qquad
+\varepsilon = \frac{R_z}{R_\perp} < 1,
+$$
+
+其中 \(R_\perp\) 為水平半徑，\(R_z\) 為垂直半軸，而 \(\varepsilon\) 為縱橫比。以 \(\chi=1\) 為中心的平滑殼層輪廓可寫為
+
+$$
+f(\chi) = \frac{1}{2}\left[1-\tanh\!\big(\Sigma(\chi-1)\big)\right], \qquad
+\Sigma \sim \frac{R_\perp}{\Delta},
+$$
+
+其中 \(\Delta\) 為殼層厚度。對應的保守核心－殼層度規可參數化為
+
+$$
+N = 1 + (N_0-1)f(\chi), \qquad
+\beta^i = \beta_0^i(t)\,f(\chi), \qquad
+\gamma_{ij} = \delta_{ij} + h_{ij}f(\chi).
+$$
+
+在核心內部 \(f\approx 1\)，在外部 \(f\approx 0\)，而強梯度被局限於殼層之中。如此便把飛行器形態轉化為一組少量幾何控制參數：縱橫比 \(\varepsilon\)、殼層銳度 \(\Sigma\)、核心尺度 \(R_\perp\)，以及運輸 shift \(\beta_0^i(t)\)。 [ref-132] [ref-133]
+
+### 9.9 潮汐與電磁限制
+
+低固有加速度對宜居運輸核心而言是必要條件，但並非充分條件。在幾何單位中，Eulerian 觀測者的固有加速度為 \(a_i = D_i \ln N\)，但生存性同時要求潮汐力受限。在局部正交且與乘員共動的參考系中，測地線偏差方程給出
+
+$$
+\frac{D^2 \xi^{\hat{i}}}{d\tau^2} = - R^{\hat{i}}{}_{\hat{0}\hat{j}\hat{0}}\,\xi^{\hat{j}},
+$$
+
+因此對於特徵乘員尺度 \(L_c\)，有
+
+$$
+\Delta a_{\mathrm{tidal}} \lesssim c^2 L_c \sup \left|R_{\hat{0}\hat{i}\hat{0}\hat{j}}\right|.
+$$
+
+所以，一個宜居核心不僅需要 \(\alpha \ll g_\oplus\)，還需要
+
+$$
+\Theta = \frac{c^2 L_c}{g_\oplus}\sup \left|R_{\hat{0}\hat{i}\hat{0}\hat{j}}\right| \ll 1,
+$$
+
+其中 \(\Theta\) 是一個無因次的潮汐宜居參數。 [ref-134]
+
+若還希望在不訴諸奇異新作用力的情況下，描述嗡鳴、漫射發光或引擎失效，那麼最乾淨的路徑就是強電磁／電漿邊界層中的普通感應。法拉第定律給出
+
+$$
+\mathcal{E}_{\mathrm{ind}} = -\frac{d\Phi_B}{dt}, \qquad
+\Phi_B = \int \mathbf{B}\cdot d\mathbf{A},
+$$
+
+而一個簡單的擾動診斷量可定義為
+
+$$
+\Pi_{\mathrm{EMI}} = \frac{|\mathcal{E}_{\mathrm{ind}}|}{\mathcal{E}_{\mathrm{crit}}},
+$$
+
+其中 \(\mathcal{E}_{\mathrm{crit}}\) 是附近電子設備的特徵失效閾值。在這種詮釋下，局部干擾、嗡鳴與發光邊界效應都是強殼層環境的候選副產物；它們本身並不足以證成超光速推進。 [ref-135]
+
+### 9.10 缺失時間的分解與非主張
+
+反覆出現的「缺失時間」敘事，不應被建模為純粹的相對論時間膨脹。更嚴謹的分解方式是
+
+$$
+\Delta t_{\mathrm{gap}} = \Delta t_{\mathrm{geom}} + \Delta t_{\mathrm{neuro}} + \Delta t_{\mathrm{recon}},
+$$
+
+其中
+
+$$
+\Delta t_{\mathrm{geom}} = \int (1-\Lambda_t)\,dt, \qquad
+\Lambda_t = \frac{d\tau_{\mathrm{in}}}{dt_\infty}.
+$$
+
+這裡 \(\Delta t_{\mathrm{geom}}\) 表示內外時間流速的真實差異，\(\Delta t_{\mathrm{neuro}}\) 涵蓋記憶編碼或提取受損，而 \(\Delta t_{\mathrm{recon}}\) 則表示事後敘事重建。在本文所發展的保守次光速分支中，我們假定 \(\Lambda_t \approx 1\)，因此大尺度的記憶空白預期主要由非幾何項主導。這同時與上述運輸模型，以及將部分綁架型報告連結到睡眠癱瘓／醒後幻覺與部分報告者較高記憶扭曲脆弱性的同儕審查研究相容。這導出一個重要的非主張：現象學本身並不能決定本體論。 [ref-136]
+
 ---
 
 # 附錄
@@ -1079,6 +1159,8 @@ AAWSAP 下委託之 38 份國防情報參考文件（2008–2010）：
 57. [GOV] UK Ministry of Defence. "Unidentified Aerial Phenomena in the UK Air Defence Region (Project Condign)." 2000。英國國家檔案館網路典藏版。
 58. [GOV] All-domain Anomaly Resolution Office. "Assessment of Reported Parallax and Forced Perspective Effects on UAP Observations." 2024.
 59. [GOV] Lawrence Livermore National Laboratory. "NIF Sets New Records for Energy Yield and Target Gain." 2025.
+60. [PR] Clancy, S.A., McNally, R.J., Schacter, D.L., Lenzenweger, M.F. & Pitman, R.K. "Memory distortion in people reporting abduction by aliens." *Journal of Abnormal Psychology* 111, 455-461 (2002). DOI: 10.1037/0021-843X.111.3.455
+61. [PR] Cheyne, J.A., Rueffer, S.D. & Newby-Clark, I.R. "Hypnagogic and Hypnopompic Hallucinations during Sleep Paralysis: Neurological and Cultural Construction of the Night-Mare." *Consciousness and Cognition* 8, 319-337 (1999). DOI: 10.1006/ccog.1999.0404
 
 ---
 
@@ -1086,7 +1168,7 @@ AAWSAP 下委託之 38 份國防情報參考文件（2008–2010）：
 
 本文件是由人類作者與多個 AI 系統進行結構化協作所產出，包括 **Claude**（Anthropic）、**Codex** 與 **GPT-5.4**。其中 Claude Opus 4 與 Claude Sonnet 4 主要協助文獻綜整、結構編排與翻譯；Codex 與 GPT-5.4 則協助 repo 優化、驗證流程、metadata 一致性檢查，以及 AI 揭露與報告修訂。AI 之貢獻包括：
 
-- **文獻綜整**：組織並交叉比對 59 筆參考書目來源，涵蓋同儕審查論文、政府文件、DIRD、學術專書及新增政府/期刊來源。
+- **文獻綜整**：組織並交叉比對 61 筆參考書目來源，涵蓋同儕審查論文、政府文件、DIRD、學術專書及新增政府/期刊來源。
 - **公式排版**：以 Markdown（GitHub 相容格式）及 LaTeX（REVTeX 4-2）格式化數學表達式。
 - **結構組織**：建立九章節架構、雙語對照（EN ↔ ZH-TW）及附錄結構。
 - **資料基礎設施**：產生 JSON Schema 驗證、各節統計資料檔、時間軸 CSV 及來源登錄。
@@ -1099,9 +1181,9 @@ AAWSAP 下委託之 38 份國防情報參考文件（2008–2010）：
 
 本評估引用的 45 個定量資料點中，有 43 個已對照其引用來源完成獨立交叉檢查；另有 2 個具爭議的估計值以低信心分析保留。完整審核記錄見[資料驗證報告](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/zh-TW/verification-report.md)，其內容涵蓋：
 
-- 全部 59 筆參考書目之來源出處及可靠性層級
+- 全部 61 筆參考書目之來源出處及可靠性層級
 - 數值資料與同儕審查出版物之交叉比對
-- 全部 34 個追蹤 URL 之驗證狀態
+- 全部 36 個追蹤 URL 之驗證狀態
 - 依 ICD 203 分析標準所標註之驗證標記（[已驗證]、[理論性]、[推測性]）
 
 ---

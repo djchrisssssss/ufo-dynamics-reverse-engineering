@@ -2,9 +2,9 @@
   "metadata": {
     "last_updated": "2026-03-27",
     "description": "Maps canonical Markdown note IDs to bibliography-backed src IDs and auxiliary source identifiers.",
-    "total_notes": 130,
+    "total_notes": 135,
     "total_key_judgments": 11,
-    "total_auxiliary_sources": 36
+    "total_auxiliary_sources": 37
   },
   "auxiliary_sources": {
     "nyt-aatip-2017": {
@@ -157,6 +157,10 @@
       "type": "book",
       "title": "The Watchers II (Raymond E. Fowler, 1995)",
       "url": "https://openlibrary.org/works/OL2728323W"
+    },
+    "abduction-schema-corpus-2026": {
+      "type": "research_note",
+      "title": "Primary-source-weighted synthesis of recurring abduction and craft descriptors (user-supplied corpus, 2026-03-27)"
     }
   },
   "notes": {
@@ -1202,6 +1206,53 @@
       ],
       "auxiliary_ids": [
         "watchers-ii-1995"
+      ]
+    },
+    "ref-132": {
+      "section": "s09",
+      "src_ids": [
+        "src-056"
+      ],
+      "auxiliary_ids": [
+        "abduction-schema-corpus-2026"
+      ]
+    },
+    "ref-133": {
+      "section": "s09",
+      "src_ids": [
+        "src-006",
+        "src-048",
+        "src-049"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-134": {
+      "section": "s09",
+      "src_ids": [
+        "src-048",
+        "src-049"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-135": {
+      "section": "s09",
+      "src_ids": [
+        "src-040",
+        "src-056"
+      ],
+      "auxiliary_ids": [
+        "abduction-schema-corpus-2026"
+      ]
+    },
+    "ref-136": {
+      "section": "s09",
+      "src_ids": [
+        "src-056",
+        "src-060",
+        "src-061"
+      ],
+      "auxiliary_ids": [
+        "abduction-schema-corpus-2026"
       ]
     }
   },

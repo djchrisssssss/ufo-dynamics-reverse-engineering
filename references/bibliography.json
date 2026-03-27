@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "total_sources": 59,
+    "total_sources": 61,
     "last_updated": "2026-03-27",
     "categories": {
-      "peer_reviewed": 31,
+      "peer_reviewed": 33,
       "government": 9,
       "dird": 12,
       "book": 6,
@@ -718,6 +718,40 @@
       "sections_cited": ["s04"],
       "verified": true,
       "last_checked": "2026-03-21"
+    },
+    {
+      "id": "src-060",
+      "type": "peer_reviewed",
+      "title": "Memory distortion in people reporting abduction by aliens",
+      "authors": [
+        "Susan A. Clancy",
+        "Richard J. McNally",
+        "Daniel L. Schacter",
+        "Mark F. Lenzenweger",
+        "Roger K. Pitman"
+      ],
+      "date": "2002",
+      "url": "https://doi.org/10.1037/0021-843X.111.3.455",
+      "doi": "10.1037/0021-843X.111.3.455",
+      "sections_cited": ["s09"],
+      "verified": true,
+      "last_checked": "2026-03-27"
+    },
+    {
+      "id": "src-061",
+      "type": "peer_reviewed",
+      "title": "Hypnagogic and Hypnopompic Hallucinations during Sleep Paralysis: Neurological and Cultural Construction of the Night-Mare",
+      "authors": [
+        "J. Allan Cheyne",
+        "Steve D. Rueffer",
+        "Ian R. Newby-Clark"
+      ],
+      "date": "1999",
+      "url": "https://doi.org/10.1006/ccog.1999.0404",
+      "doi": "10.1006/ccog.1999.0404",
+      "sections_cited": ["s09"],
+      "verified": true,
+      "last_checked": "2026-03-27"
     }
   ]
 }

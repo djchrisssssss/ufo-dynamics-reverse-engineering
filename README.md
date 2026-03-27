@@ -69,7 +69,7 @@ After reading the book, we realized that the physical claims described — insta
 | 6 | Advanced Materials | 先進材料 | Metamaterials; CNT; graphene; Bi-Mg analysis; QCD bonding |
 | 7 | Integrated Model | 整合模型 | Single-mechanism synthesis; materials gap analysis |
 | 8 | Intelligence Gaps | 情報缺口 | Research priorities; definitive evidence criteria |
-| 9 | Mathematical Foundations | 數學與相對論基礎 | Proper acceleration; ADM metric; energy conditions; layered field-shell transport |
+| 9 | Mathematical Foundations | 數學與相對論基礎 | Proper acceleration; oblate shell geometry; tidal and EM constraints |
 | A–E | Appendices | 附錄 | Glossary; equations; DIRD list; confidence definitions; falsification criteria |
 
 ---
@@ -82,8 +82,8 @@ After reading the book, we realized that the physical claims described — insta
 | `data/statistics/` | Per-section quantitative data (45 data points) | 各節定量資料 |
 | `data/timelines/` | UAP investigation history; DIRD catalog (CSV) | 調查歷程時間軸 |
 | `data/comparisons/` | Energy density; materials gap analysis (CSV) | 能量密度與材料差距比較 |
-| `references/bibliography.json` | Master bibliography (59 sources) | 主參考書目 |
-| `references/source-registry.json` | URL verification registry (34 URLs) | URL 驗證登錄 |
+| `references/bibliography.json` | Master bibliography (61 sources) | 主參考書目 |
+| `references/source-registry.json` | URL verification registry (36 URLs) | URL 驗證登錄 |
 | `references/note-map.json` | Canonical note-to-source map (`ref-*` / `KJ-*` -> `src-*` + auxiliary IDs) | canonical 註記與來源對照表 |
 | `references/per-section/` | Per-section reference documentation | 各節參考文獻 |
 
@@ -202,12 +202,12 @@ UFO-dynamics-reverse-engineering/
 │   ├── timelines/                   # Historical events (2 CSVs)
 │   └── comparisons/                 # Cross-domain analysis (2 CSVs)
 ├── references/
-│   ├── bibliography.json            # 59 sources
+│   ├── bibliography.json            # 61 sources
 │   ├── source-registry.json         # URL verification
 │   └── per-section/                 # 9 reference files
 ├── latex/
 │   ├── main.tex                     # REVTeX 4-2 paper
-│   ├── references.bib               # 59 BibTeX entries
+│   ├── references.bib               # 61 BibTeX entries
 │   └── figures/
 ├── CLAUDE.md
 ├── CITATION.cff
@@ -225,7 +225,7 @@ This project was produced through a structured collaboration between the human a
 
 | Contribution / 貢獻 | Description / 說明 |
 |---------------------|--------------------|
-| Literature synthesis / 文獻綜整 | Cross-referencing 59 sources / 交叉比對 59 筆來源 |
+| Literature synthesis / 文獻綜整 | Cross-referencing 61 sources / 交叉比對 61 筆來源 |
 | Equation typesetting / 公式排版 | Markdown + LaTeX (REVTeX 4-2) formatting / 格式化 |
 | Structural organization / 結構組織 | 9-section architecture, bilingual parity / 九章節架構、雙語對照 |
 | Data infrastructure / 資料基礎設施 | JSON Schema, statistics, timelines, source registry / 驗證架構 |
@@ -246,7 +246,7 @@ This project was produced through a structured collaboration between the human a
 
 ### APA
 
-Lai, K. (2026). *Reverse Engineering the Dynamics of UFOs: A Physics-Based Assessment of Unidentified Aerial Phenomena* (Version 1.2.4). DOI: [10.5281/zenodo.19138270](https://doi.org/10.5281/zenodo.19138270).
+Lai, K. (2026). *Reverse Engineering the Dynamics of UFOs: A Physics-Based Assessment of Unidentified Aerial Phenomena* (Version 1.2.5). DOI: [10.5281/zenodo.19138270](https://doi.org/10.5281/zenodo.19138270).
 
 ### BibTeX
 
@@ -255,7 +255,7 @@ Lai, K. (2026). *Reverse Engineering the Dynamics of UFOs: A Physics-Based Asses
   title     = {Reverse Engineering the Dynamics of UFOs: A Physics-Based Assessment of Unidentified Aerial Phenomena},
   author    = {Lai, Kris},
   year      = {2026},
-  version   = {1.2.4},
+  version   = {1.2.5},
   note      = {UNCLASSIFIED --- Open Source Analysis},
   doi       = {10.5281/zenodo.19138270},
   url       = {https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering}

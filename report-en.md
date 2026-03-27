@@ -1122,7 +1122,7 @@ The warp bubble hypothesis, as applied to UAP in this assessment, generates spec
 
 This document was produced through a structured collaboration between the human author and multiple AI systems, including **Claude** (Anthropic), **Codex**, and **GPT-5.4**. Claude Opus 4 and Claude Sonnet 4 primarily supported literature synthesis, structure, and translation; Codex and GPT-5.4 assisted repository optimization, validation, metadata consistency checks, and disclosure/reporting refinements. The AI contribution included:
 
-- **Literature synthesis**: Organizing and cross-referencing 59 bibliography sources across peer-reviewed articles, government documents, DIRDs, and books.
+- **Literature synthesis**: Organizing and cross-referencing 61 bibliography sources across peer-reviewed articles, government documents, DIRDs, and books.
 - **Equation typesetting**: Formatting mathematical expressions in both Markdown (GitHub-compatible) and LaTeX (REVTeX 4-2).
 - **Structural organization**: Establishing the eight-section architecture, bilingual parity (EN ↔ ZH-TW), and appendix structure.
 - **Data infrastructure**: Generating JSON Schema validation, per-section statistics files, timeline CSVs, and the source registry.
@@ -1135,9 +1135,9 @@ This document was produced through a structured collaboration between the human 
 
 43 of the 45 quantitative data points cited in this assessment are independently cross-checked against their cited sources. Two disputed estimates are retained as low-confidence analysis. A complete audit is available in the [Data Verification Report](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/en/verification-report.md), which documents:
 
-- Source provenance and reliability tier for all 59 bibliography entries
+- Source provenance and reliability tier for all 61 bibliography entries
 - Cross-referencing of numerical values against peer-reviewed publications
-- URL verification status for all 34 tracked web sources
+- URL verification status for all 36 tracked web sources
 - Verification markers ([VERIFIED], [THEORETICAL], [SPECULATIVE]) applied per ICD 203 analytic standards
 
 ---
