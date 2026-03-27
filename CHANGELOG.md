@@ -13,7 +13,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Changed
 - **Section 9 scope** tightened so the deeper theory now explicitly separates low proper acceleration, low tidal stress, electromagnetic boundary-layer effects, and non-geometric missing-time terms
-- **Visible bibliography metadata** updated across README, canonical full-text documents, LaTeX acknowledgments, and repo docs to reflect 61 sources and 36 tracked URLs
+- **Visible bibliography metadata** updated across README, canonical full-text documents, LaTeX acknowledgments, and repo docs to reflect 61 sources and 37 tracked URLs
 - **Version metadata** bumped to 1.2.5 across `CITATION.cff`, `.zenodo.json`, README citation examples, and LaTeX acknowledgments
 
 ## [1.2.4] — 2026-03-27

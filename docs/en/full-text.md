@@ -1326,7 +1326,7 @@ This document was produced through a structured collaboration between the human 
 
 - Source provenance and reliability tier for all 61 bibliography entries
 - Cross-referencing of numerical values against peer-reviewed publications
-- URL verification status for all 36 tracked web sources
+- URL verification status for all 37 tracked web sources
 - Verification markers ([VERIFIED], [THEORETICAL], [SPECULATIVE]) applied per ICD 203 analytic standards
 
 ---

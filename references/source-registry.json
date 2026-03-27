@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_urls": 36,
+    "total_urls": 37,
     "last_audit": "2026-03-27",
     "audit_method": "manual_verification + automated_http_spot_check"
   },
@@ -18,6 +18,13 @@
       "status": "reachable",
       "last_checked": "2026-03-21",
       "notes": "arXiv — stable preprint archive"
+    },
+    {
+      "url": "https://doi.org/10.1088/0264-9381/14/7/011",
+      "source_id": "src-002",
+      "status": "reachable",
+      "last_checked": "2026-03-27",
+      "notes": "IOP Publishing DOI — Pfenning & Ford (1997) warp drive energy constraints"
     },
     {
       "url": "https://doi.org/10.1088/1361-6382/abe692",

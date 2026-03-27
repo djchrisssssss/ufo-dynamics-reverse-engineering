@@ -83,7 +83,7 @@ After reading the book, we realized that the physical claims described — insta
 | `data/timelines/` | UAP investigation history; DIRD catalog (CSV) | 調查歷程時間軸 |
 | `data/comparisons/` | Energy density; materials gap analysis (CSV) | 能量密度與材料差距比較 |
 | `references/bibliography.json` | Master bibliography (61 sources) | 主參考書目 |
-| `references/source-registry.json` | URL verification registry (36 URLs) | URL 驗證登錄 |
+| `references/source-registry.json` | URL verification registry (37 URLs) | URL 驗證登錄 |
 | `references/note-map.json` | Canonical note-to-source map (`ref-*` / `KJ-*` -> `src-*` + auxiliary IDs) | canonical 註記與來源對照表 |
 | `references/per-section/` | Per-section reference documentation | 各節參考文獻 |
 

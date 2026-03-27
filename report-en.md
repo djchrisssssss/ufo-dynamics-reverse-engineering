@@ -1124,7 +1124,7 @@ This document was produced through a structured collaboration between the human 
 
 - **Literature synthesis**: Organizing and cross-referencing 61 bibliography sources across peer-reviewed articles, government documents, DIRDs, and books.
 - **Equation typesetting**: Formatting mathematical expressions in both Markdown (GitHub-compatible) and LaTeX (REVTeX 4-2).
-- **Structural organization**: Establishing the eight-section architecture, bilingual parity (EN ↔ ZH-TW), and appendix structure.
+- **Structural organization**: Establishing the nine-section architecture, bilingual parity (EN ↔ ZH-TW), and appendix structure.
 - **Data infrastructure**: Generating JSON Schema validation, per-section statistics files, timeline CSVs, and the source registry.
 - **Optimization and verification support**: Tightening validation workflows, synchronizing publication metadata, auditing live URLs, and refining AI disclosure sections.
 - **Translation**: Producing the Traditional Chinese (繁體中文) parallel text.
@@ -1137,7 +1137,7 @@ This document was produced through a structured collaboration between the human 
 
 - Source provenance and reliability tier for all 61 bibliography entries
 - Cross-referencing of numerical values against peer-reviewed publications
-- URL verification status for all 36 tracked web sources
+- URL verification status for all 37 tracked web sources
 - Verification markers ([VERIFIED], [THEORETICAL], [SPECULATIVE]) applied per ICD 203 analytic standards
 
 ---

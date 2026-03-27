@@ -29,8 +29,8 @@
       "title": "The unphysical nature of warp drive",
       "authors": ["Michael J. Pfenning", "Larry H. Ford"],
       "date": "1997",
-      "url": "https://arxiv.org/abs/gr-qc/9702026",
-      "doi": null,
+      "url": "https://doi.org/10.1088/0264-9381/14/7/011",
+      "doi": "10.1088/0264-9381/14/7/011",
       "sections_cited": ["s03", "s07", "s08", "s09"],
       "verified": true,
       "last_checked": "2026-03-20"

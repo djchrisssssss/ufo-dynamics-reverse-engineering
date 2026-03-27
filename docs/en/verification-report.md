@@ -18,9 +18,9 @@ This verification report documents the data provenance, source quality, and cros
 | Total quantitative data points | 45 |
 | Sections with statistics | 4 (s02, s03, s04, s06) |
 | Data points independently cross-checked | 43/45 (95.6%) |
-| Tracked URLs in source registry | 36 |
-| HTTP 200/202 during 2026-03-27 automated spot check | 24/36 |
-| HTTP 403/404 during 2026-03-27 automated spot check | 12/36 |
+| Tracked URLs in source registry | 37 |
+| HTTP 200/202 during 2026-03-27 automated spot check | 25/37 |
+| HTTP 403/404 during 2026-03-27 automated spot check | 12/37 |
 
 ---
 

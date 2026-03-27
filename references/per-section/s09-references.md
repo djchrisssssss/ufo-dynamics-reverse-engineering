@@ -8,6 +8,7 @@
 4. [src-001] Alcubierre, M. "The warp drive: hyper-fast travel within general relativity." *CQG* 11, L73 (1994).
    - DOI: https://doi.org/10.1088/0264-9381/11/5/001
 5. [src-002] Pfenning, M.J. & Ford, L.H. "The unphysical nature of 'Warp Drive'." *CQG* 14, 1743 (1997).
+   - DOI: https://doi.org/10.1088/0264-9381/14/7/011
    - arXiv: https://arxiv.org/abs/gr-qc/9702026
 6. [src-005] Santiago, J., Schuster, S. & Visser, M. "Generic warp drives violate the null energy condition." *PRD* 105, 064038 (2022).
    - DOI: https://doi.org/10.1103/PhysRevD.105.064038
