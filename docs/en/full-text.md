@@ -859,7 +859,7 @@ For establishing UAP as beyond-current-technology:
 
 ### 9.1 Invariant Kinematics
 
-Any physically serious theory of anomalous flight should start from invariant quantities rather than raw image-plane or lab-frame acceleration. The relevant object is a timelike worldline $x^\mu(\tau)$ with four-velocity $u^\mu = dx^\mu/d\tau$, normalization $u_\mu u^\mu = -c^2$, and four-acceleration $a^\mu = u^\nu \nabla_\nu u^\mu$. The onboard inertial load is set by the proper acceleration
+Any physically serious theory of anomalous flight should start from invariant quantities rather than raw image-plane or lab-frame acceleration. The relevant object is a timelike worldline x<sup>μ</sup>(τ) with four-velocity u<sup>μ</sup> = dx<sup>μ</sup>/dτ, normalization u<sub>μ</sub>u<sup>μ</sup> = -c<sup>2</sup>, and four-acceleration a<sup>μ</sup> = u<sup>ν</sup>∇<sub>ν</sub>u<sup>μ</sup>. The onboard inertial load is set by the proper acceleration
 
 $$
 \alpha = \sqrt{a_\mu a^\mu}
@@ -869,13 +869,13 @@ not by the coordinate acceleration inferred by a remote observer. This distincti
 
 ### 9.2 A Minimal Metric Ansatz
 
-The natural mathematical language is the $3+1$ decomposition of spacetime,
+The natural mathematical language is the 3+1 decomposition of spacetime,
 
 $$
 ds^2 = -(N^2-\gamma_{ij}\beta^i\beta^j)c^2dt^2 + 2\gamma_{ij}\beta^j c\,dt\,dx^i + \gamma_{ij}dx^i dx^j,
 $$
 
-where $N$ is the lapse, $\beta^i$ the shift vector, and $\gamma_{ij}$ the spatial metric. A compact toy model remains the Alcubierre family,
+where N is the lapse, β<sup>i</sup> the shift vector, and γ<sub>ij</sub> the spatial metric. A compact toy model remains the Alcubierre family,
 
 $$
 ds^2 = -c^2 dt^2 + (dx - v_s(t) f(r_s)\,dt)^2 + dy^2 + dz^2,
@@ -886,7 +886,7 @@ r_s = \sqrt{(x - x_s(t))^2 + y^2 + z^2}, \qquad
 f(r_s) = \frac{\tanh[\sigma(r_s+R)] - \tanh[\sigma(r_s-R)]}{2\tanh(\sigma R)}.
 $$
 
-This isolates a small set of tunable geometric parameters: bubble radius $R$, wall sharpness $\Sigma = \sigma R \sim R/\Delta$, and speed profile $v_s(t)$. [ref-123]
+This isolates a small set of tunable geometric parameters: bubble radius R, wall sharpness Σ = σR ∼ R/Δ, and speed profile v<sub>s</sub>(t). [ref-123]
 
 ### 9.3 Stress-Energy as the Core Constraint
 
@@ -896,7 +896,7 @@ $$
 G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}.
 $$
 
-For Eulerian observers, the local energy density is $\rho_E = T_{\mu\nu} n^\mu n^\nu$. In the Alcubierre class, Pfenning and Ford showed that the supporting energy density becomes negative in the bubble wall, and later work by Santiago, Schuster, and Visser showed that generic warp drives violate the null energy condition. In other words, a mathematically explicit UAP transport model must declare up front whether it lives in an exotic-matter regime or in a conservative positive-energy regime. [ref-124] [ref-125]
+For Eulerian observers, the local energy density is ρ<sub>E</sub> = T<sub>μν</sub> n<sup>μ</sup> n<sup>ν</sup>. In the Alcubierre class, Pfenning and Ford showed that the supporting energy density becomes negative in the bubble wall, and later work by Santiago, Schuster, and Visser showed that generic warp drives violate the null energy condition. In other words, a mathematically explicit UAP transport model must declare up front whether it lives in an exotic-matter regime or in a conservative positive-energy regime. [ref-124] [ref-125]
 
 ### 9.4 Conservative and Exotic Branches
 
@@ -914,13 +914,13 @@ $$
 \Xi = \frac{G|E|}{R c^4}.
 $$
 
-These respectively capture apparent transport speed, wall sharpness, onboard inertial load, curvature strength through the Kretschmann scalar $K = R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma}$, and energy compactness. As a report-specific diagnostic we define a geometric relief factor
+These respectively capture apparent transport speed, wall sharpness, onboard inertial load, curvature strength through the Kretschmann scalar K = R<sub>μνρσ</sub>R<sup>μνρσ</sup>, and energy compactness. As a report-specific diagnostic we define a geometric relief factor
 
 $$
 \Gamma_{\mathrm{rel}} = \frac{a_{\mathrm{app}}}{\alpha},
 $$
 
-which measures how much apparent maneuvering is offloaded from proper acceleration into geometry. A successful anomalous-flight theory would aim for $\Gamma_{\mathrm{rel}} \gg 1$. [ref-127]
+which measures how much apparent maneuvering is offloaded from proper acceleration into geometry. A successful anomalous-flight theory would aim for Γ<sub>rel</sub> ≫ 1. [ref-127]
 
 ### 9.6 Implication for the UAP Question
 
@@ -938,7 +938,7 @@ N(\mathbf{x},t)\approx N_0,\qquad
 \beta^i(\mathbf{x},t)\approx \beta^i_0(t)\qquad (r<R_c),
 $$
 
-while confining strong gradients in $N$, $\beta^i$, and $\gamma_{ij}$ to a shell of thickness $\Delta$. For Eulerian observers at rest in a stationary slicing, the proper acceleration obeys
+while confining strong gradients in N, β<sup>i</sup>, and γ<sub>ij</sub> to a shell of thickness Δ. For Eulerian observers at rest in a stationary slicing, the proper acceleration obeys
 
 $$
 a_i = D_i \ln N,
@@ -957,9 +957,9 @@ T^{\mathrm{env}}_{\mu\nu} +
 T^{\mathrm{vac}}_{\mu\nu}.
 $$
 
-Here $T^{\mathrm{EM}}_{\mu\nu}$ and $T^{\mathrm{plasma}}_{\mu\nu}$ describe confining fields and boundary-layer plasma, $T^{\mathrm{shell}}_{\mu\nu}$ the structural shell, $T^{\mathrm{env}}_{\mu\nu}$ any occupant-support medium, and $T^{\mathrm{vac}}_{\mu\nu}$ a possible bounded semiclassical correction. The conservative reading prioritizes positive-energy terms and accepts a subluminal transport shell in the Bobrick-Martire sense: a material shell moving inertially and still requiring propulsion. [ref-130]
+Here T<sup>EM</sup><sub>μν</sub> and T<sup>plasma</sup><sub>μν</sub> describe confining fields and boundary-layer plasma, T<sup>shell</sup><sub>μν</sub> the structural shell, T<sup>env</sup><sub>μν</sub> any occupant-support medium, and T<sup>vac</sup><sub>μν</sub> a possible bounded semiclassical correction. The conservative reading prioritizes positive-energy terms and accepts a subluminal transport shell in the Bobrick-Martire sense: a material shell moving inertially and still requiring propulsion. [ref-130]
 
-Under this interpretation, reports of stillness or pressure map to boundary-layer shielding and altered acoustic propagation; small luminous orbs map to auxiliary probes or localized field bubbles; suspension with no clear floor maps to a comoving geodesic interior; and breathable hoods, viscous "jelly," or head heaviness map to an environmental stabilization interface rather than proof of antigravity. A large cylindrical craft can then be treated as a carrier-class architecture for power, control, and pod deployment. These correspondences are deliberately heuristic. They do not validate the narratives, but they define a non-law-breaking target for future theory: maximize $\Gamma_{\mathrm{rel}}$ while staying timelike, approximately subluminal, and as close as possible to positive-energy sourcing. [ref-131]
+Under this interpretation, reports of stillness or pressure map to boundary-layer shielding and altered acoustic propagation; small luminous orbs map to auxiliary probes or localized field bubbles; suspension with no clear floor maps to a comoving geodesic interior; and breathable hoods, viscous "jelly," or head heaviness map to an environmental stabilization interface rather than proof of antigravity. A large cylindrical craft can then be treated as a carrier-class architecture for power, control, and pod deployment. These correspondences are deliberately heuristic. They do not validate the narratives, but they define a non-law-breaking target for future theory: maximize Γ<sub>rel</sub> while staying timelike, approximately subluminal, and as close as possible to positive-energy sourcing. [ref-131]
 
 ### 9.8 Phenomenology-Constrained Oblate Shell Geometry
 
@@ -970,14 +970,14 @@ $$
 \varepsilon = \frac{R_z}{R_\perp} < 1,
 $$
 
-where $R_\perp$ is the lateral radius, $R_z$ the vertical semi-axis, and $\varepsilon$ the aspect ratio. A smooth shell profile centered on $\chi=1$ can be written as
+where R<sub>⊥</sub> is the lateral radius, R<sub>z</sub> the vertical semi-axis, and ε the aspect ratio. A smooth shell profile centered on χ = 1 can be written as
 
 $$
 f(\chi) = \frac{1}{2}\left[1-\tanh\!\big(\Sigma(\chi-1)\big)\right], \qquad
 \Sigma \sim \frac{R_\perp}{\Delta},
 $$
 
-with $\Delta$ the shell thickness. A conservative core-shell metric can then be parameterized by
+with Δ the shell thickness. A conservative core-shell metric can then be parameterized by
 
 $$
 N = 1 + (N_0-1)f(\chi), \qquad
@@ -985,29 +985,29 @@ N = 1 + (N_0-1)f(\chi), \qquad
 \gamma_{ij} = \delta_{ij} + h_{ij}f(\chi).
 $$
 
-Inside the core $f\approx 1$, outside $f\approx 0$, and the strong gradients are localized to the shell. This turns craft morphology into a small set of geometric control parameters: aspect ratio $\varepsilon$, sharpness $\Sigma$, core scale $R_\perp$, and transport shift $\beta_0^i(t)$. [ref-132] [ref-133]
+Inside the core f ≈ 1, outside f ≈ 0, and the strong gradients are localized to the shell. This turns craft morphology into a small set of geometric control parameters: aspect ratio ε, sharpness Σ, core scale R<sub>⊥</sub>, and transport shift β<sub>0</sub><sup>i</sup>(t). [ref-132] [ref-133]
 
 ### 9.9 Tidal and Electromagnetic Constraints
 
-Low proper acceleration is necessary but not sufficient for a habitable transport core. In geometric units the Eulerian proper acceleration is $a_i = D_i \ln N$, but survivability also requires bounded tidal forces. In a local orthonormal comoving frame, geodesic deviation gives
+Low proper acceleration is necessary but not sufficient for a habitable transport core. In geometric units the Eulerian proper acceleration is a<sub>i</sub> = D<sub>i</sub> ln N, but survivability also requires bounded tidal forces. In a local orthonormal comoving frame, geodesic deviation gives
 
 $$
 \frac{D^2 \xi^{\hat{i}}}{d\tau^2} = - R^{\hat{i}}{}_{\hat{0}\hat{j}\hat{0}}\,\xi^{\hat{j}},
 $$
 
-so for a characteristic occupant size $L_c$,
+so for a characteristic occupant size L<sub>c</sub>,
 
 $$
 \Delta a_{\mathrm{tidal}} \lesssim c^2 L_c \sup \left|R_{\hat{0}\hat{i}\hat{0}\hat{j}}\right|.
 $$
 
-A habitable core therefore requires not only $\alpha \ll g_\oplus$ but also
+A habitable core therefore requires not only α ≪ g<sub>⊕</sub> but also
 
 $$
 \Theta = \frac{c^2 L_c}{g_\oplus}\sup \left|R_{\hat{0}\hat{i}\hat{0}\hat{j}}\right| \ll 1,
 $$
 
-where $\Theta$ is a dimensionless tidal-habitability parameter. [ref-134]
+where Θ is a dimensionless tidal-habitability parameter. [ref-134]
 
 If one also wishes to model buzzing, diffuse glow, or engine disruption without invoking exotic new forces, the cleanest route is ordinary induction in a strong EM/plasma boundary layer. Faraday's law implies
 
@@ -1022,7 +1022,7 @@ $$
 \Pi_{\mathrm{EMI}} = \frac{|\mathcal{E}_{\mathrm{ind}}|}{\mathcal{E}_{\mathrm{crit}}},
 $$
 
-where $\mathcal{E}_{\mathrm{crit}}$ is the characteristic upset threshold of nearby electronics. In this interpretation, localized interference, buzzing, and luminous boundary effects are candidate byproducts of an intense shell environment; they do not by themselves establish superluminal propulsion. [ref-135]
+where ℰ<sub>crit</sub> is the characteristic upset threshold of nearby electronics. In this interpretation, localized interference, buzzing, and luminous boundary effects are candidate byproducts of an intense shell environment; they do not by themselves establish superluminal propulsion. [ref-135]
 
 ### 9.10 Missing-Time Decomposition and Non-Claims
 
@@ -1039,7 +1039,7 @@ $$
 \Lambda_t = \frac{d\tau_{\mathrm{in}}}{dt_\infty}.
 $$
 
-Here $\Delta t_{\mathrm{geom}}$ is any true clock-rate offset between interior and exterior time, $\Delta t_{\mathrm{neuro}}$ covers impaired encoding or retrieval, and $\Delta t_{\mathrm{recon}}$ later retrospective reconstruction. In the conservative subluminal branch developed here, one assumes $\Lambda_t \approx 1$, so large apparent memory gaps are expected to be dominated by non-geometric terms. This is consistent both with the transport model above and with peer-reviewed findings linking some abduction-type reports to sleep paralysis / hypnopompic hallucination and to elevated memory-distortion vulnerability in some abductee-reporting groups. The resulting non-claim is important: phenomenology alone does not determine ontology. [ref-136]
+Here Δt<sub>geom</sub> is any true clock-rate offset between interior and exterior time, Δt<sub>neuro</sub> covers impaired encoding or retrieval, and Δt<sub>recon</sub> later retrospective reconstruction. In the conservative subluminal branch developed here, one assumes Λ<sub>t</sub> ≈ 1, so large apparent memory gaps are expected to be dominated by non-geometric terms. This is consistent both with the transport model above and with peer-reviewed findings linking some abduction-type reports to sleep paralysis / hypnopompic hallucination and to elevated memory-distortion vulnerability in some abductee-reporting groups. The resulting non-claim is important: phenomenology alone does not determine ontology. [ref-136]
 
 ---
 
