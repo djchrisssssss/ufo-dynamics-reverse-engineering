@@ -1456,8 +1456,11 @@ ds^2 = -c^2 dt^2 + \left(dx - v_s(t) f(r_s)\,dt\right)^2 + dy^2 + dz^2,
 \end{equation}
 with
 \begin{equation}
-r_s = \sqrt{(x-x_s(t))^2+y^2+z^2},\qquad
-f(r_s) = \frac{\tanh[\sigma(r_s+R)]-\tanh[\sigma(r_s-R)]}{2\tanh(\sigma R)}.
+\begin{aligned}
+r_s &= \sqrt{(x-x_s(t))^2+y^2+z^2},\\
+f(r_s) &= \frac{\tanh[\sigma(r_s+R)]-\tanh[\sigma(r_s-R)]}
+{2\tanh(\sigma R)}.
+\end{aligned}
 \label{eq:s09-shape}
 \end{equation}
 This isolates a small set of tunable geometric parameters: bubble radius $R$,
@@ -1496,11 +1499,13 @@ interesting, but not yet consensus~\cite{BobrickMartire2021,FellHeisenberg2021}.
 For future model-building, the most useful ``constants'' are dimensionless
 ratios rather than a single fitted number:
 \begin{equation}
-\beta = \frac{v_s}{c},\qquad
-\Sigma = \sigma R \sim \frac{R}{\Delta},\qquad
-\mathcal{A} = \frac{\alpha R}{c^2},\qquad
-\mathcal{K} = K_{\max}R^4,\qquad
-\Xi = \frac{G|E|}{R c^4},
+\begin{aligned}
+\beta &= \frac{v_s}{c},\qquad
+\Sigma = \sigma R \sim \frac{R}{\Delta},\\
+\mathcal{A} &= \frac{\alpha R}{c^2},\qquad
+\mathcal{K} = K_{\max}R^4,\\
+\Xi &= \frac{G|E|}{R c^4},
+\end{aligned}
 \label{eq:s09-dimensionless}
 \end{equation}
 where $K = R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma}$ is the Kretschmann scalar.
@@ -1540,9 +1545,11 @@ transport shell and optionally nested within a larger carrier platform. In ADM
 variables one imposes an approximately uniform interior lapse and nearly
 Euclidean spatial metric,
 \begin{equation}
-N(\mathbf{x},t)\approx N_0,\qquad
-\gamma_{ij}(\mathbf{x},t)\approx \delta_{ij},\qquad
-\beta^i(\mathbf{x},t)\approx \beta^i_0(t)\qquad (r<R_c),
+\begin{aligned}
+N(\mathbf{x},t) &\approx N_0,\\
+\gamma_{ij}(\mathbf{x},t) &\approx \delta_{ij},\\
+\beta^i(\mathbf{x},t) &\approx \beta^i_0(t)\qquad (r<R_c),
+\end{aligned}
 \label{eq:s09-core}
 \end{equation}
 while confining strong gradients in $N$, $\beta^i$, and $\gamma_{ij}$ to a
@@ -1602,16 +1609,20 @@ where $R_\perp$ is the lateral radius, $R_z$ the vertical semi-axis, and
 $\varepsilon$ the aspect ratio. A smooth shell profile centered on $\chi=1$ can
 be written as
 \begin{equation}
-f(\chi) = \frac{1}{2}\left[1-\tanh\!\big(\Sigma(\chi-1)\big)\right],\qquad
-\Sigma \sim \frac{R_\perp}{\Delta},
+\begin{aligned}
+f(\chi) &= \frac{1}{2}\left[1-\tanh\!\big(\Sigma(\chi-1)\big)\right],\\
+\Sigma &\sim \frac{R_\perp}{\Delta},
+\end{aligned}
 \label{eq:s09-oblate-profile}
 \end{equation}
 with $\Delta$ the shell thickness. A conservative core-shell metric can then be
 parameterized by
 \begin{equation}
-N = 1 + (N_0-1)f(\chi),\qquad
-\beta^i = \beta_0^i(t)\,f(\chi),\qquad
-\gamma_{ij} = \delta_{ij} + h_{ij}f(\chi).
+\begin{aligned}
+N &= 1 + (N_0-1)f(\chi),\\
+\beta^i &= \beta_0^i(t)\,f(\chi),\\
+\gamma_{ij} &= \delta_{ij} + h_{ij}f(\chi).
+\end{aligned}
 \label{eq:s09-oblate-ansatz}
 \end{equation}
 Inside the core $f\approx 1$, outside $f\approx 0$, and the strong gradients
