@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-03-26",
+    "last_updated": "2026-03-27",
     "description": "Maps canonical Markdown note IDs to bibliography-backed src IDs and auxiliary source identifiers.",
-    "total_notes": 126,
+    "total_notes": 130,
     "total_key_judgments": 11,
-    "total_auxiliary_sources": 35
+    "total_auxiliary_sources": 36
   },
   "auxiliary_sources": {
     "nyt-aatip-2017": {
@@ -152,6 +152,11 @@
     "analog-gravity-literature": {
       "type": "background",
       "title": "Analog gravity and metamaterial curved-spacetime simulation literature"
+    },
+    "watchers-ii-1995": {
+      "type": "book",
+      "title": "The Watchers II (Raymond E. Fowler, 1995)",
+      "url": "https://openlibrary.org/works/OL2728323W"
     }
   },
   "notes": {
@@ -1165,6 +1170,39 @@
         "src-049"
       ],
       "auxiliary_ids": []
+    },
+    "ref-128": {
+      "section": "s09",
+      "src_ids": [],
+      "auxiliary_ids": [
+        "watchers-ii-1995"
+      ]
+    },
+    "ref-129": {
+      "section": "s09",
+      "src_ids": [
+        "src-056"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-130": {
+      "section": "s09",
+      "src_ids": [
+        "src-006",
+        "src-048",
+        "src-049"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-131": {
+      "section": "s09",
+      "src_ids": [
+        "src-040",
+        "src-056"
+      ],
+      "auxiliary_ids": [
+        "watchers-ii-1995"
+      ]
     }
   },
   "key_judgments": {

@@ -926,6 +926,41 @@ which measures how much apparent maneuvering is offloaded from proper accelerati
 
 This framework does not prove that any UAP employs metric engineering. What it does provide is a disciplined mathematical filter. Any future theory intended to explain reported UFO behavior should: (1) keep the craft on a timelike worldline, (2) bound proper acceleration, (3) specify the required stress-energy, (4) state explicitly which energy conditions are preserved or violated, and (5) expose a small set of dimensionless parameters that can later be compared against observations. That turns the UFO question from a narrative claim into a falsifiable relativistic program. [ref-127]
 
+### 9.7 Layered Field-Shell Transport as a Conservative Particular Case
+
+One cautious way to extend the framework is to treat recurrent close-encounter motifs such as localized silence or pressure, small luminous spheres, suspension inside a bounded volume, temporary respiratory support, and larger carrier-like craft not as measurements, but as phenomenological boundary conditions for model construction. NASA's official 2023 UAP study emphasizes that current public cases remain too weakly calibrated and too poorly instrumented for definitive physical inference, so narrative reports can at most motivate candidate structures rather than establish them. [ref-128] [ref-129]
+
+As a conservative particular case, consider a habitable core enclosed by a thin transport shell and optionally nested within a larger carrier platform. In ADM variables one imposes an approximately uniform interior lapse and nearly Euclidean spatial metric,
+
+$$
+N(\mathbf{x},t)\approx N_0,\qquad
+\gamma_{ij}(\mathbf{x},t)\approx \delta_{ij},\qquad
+\beta^i(\mathbf{x},t)\approx \beta^i_0(t)\qquad (r<R_c),
+$$
+
+while confining strong gradients in \(N\), \(\beta^i\), and \(\gamma_{ij}\) to a shell of thickness \(\Delta\). For Eulerian observers at rest in a stationary slicing, the proper acceleration obeys
+
+$$
+a_i = D_i \ln N,
+$$
+
+so a nearly constant interior lapse suppresses felt acceleration even when the external shell motion is large. This does not remove the stress-energy burden; it relocates it into the shell geometry and its source fields. [ref-130]
+
+The corresponding effective source can be written schematically as
+
+$$
+T^{\mathrm{eff}}_{\mu\nu} =
+T^{\mathrm{EM}}_{\mu\nu} +
+T^{\mathrm{plasma}}_{\mu\nu} +
+T^{\mathrm{shell}}_{\mu\nu} +
+T^{\mathrm{env}}_{\mu\nu} +
+T^{\mathrm{vac}}_{\mu\nu}.
+$$
+
+Here \(T^{\mathrm{EM}}_{\mu\nu}\) and \(T^{\mathrm{plasma}}_{\mu\nu}\) describe confining fields and boundary-layer plasma, \(T^{\mathrm{shell}}_{\mu\nu}\) the structural shell, \(T^{\mathrm{env}}_{\mu\nu}\) any occupant-support medium, and \(T^{\mathrm{vac}}_{\mu\nu}\) a possible bounded semiclassical correction. The conservative reading prioritizes positive-energy terms and accepts a subluminal transport shell in the Bobrick-Martire sense: a material shell moving inertially and still requiring propulsion. [ref-130]
+
+Under this interpretation, reports of stillness or pressure map to boundary-layer shielding and altered acoustic propagation; small luminous orbs map to auxiliary probes or localized field bubbles; suspension with no clear floor maps to a comoving geodesic interior; and breathable hoods, viscous "jelly," or head heaviness map to an environmental stabilization interface rather than proof of antigravity. A large cylindrical craft can then be treated as a carrier-class architecture for power, control, and pod deployment. These correspondences are deliberately heuristic. They do not validate the narratives, but they define a non-law-breaking target for future theory: maximize \(\Gamma_{\mathrm{rel}}\) while staying timelike, approximately subluminal, and as close as possible to positive-energy sourcing. [ref-131]
+
 ---
 
 # APPENDICES

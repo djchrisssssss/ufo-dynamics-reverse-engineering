@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.2.4] — 2026-03-27
+
+### Added
+- **Section 9.7 — Layered Field-Shell Transport as a Conservative Particular Case** in the canonical English Markdown, Traditional Chinese Markdown, and LaTeX paper
+- **Section 9 note map expansion** via new canonical note IDs `ref-128` through `ref-131` and the auxiliary phenomenology source `watchers-ii-1995`
+
+### Changed
+- **Section 9 reference coverage** expanded to include NASA's 2023 UAP study and Green's DIRD on reported biological field effects
+- **Section 9 scope summary** in `README.md` updated to reflect the new layered field-shell transport case
+- **Version metadata** bumped to 1.2.4 across `CITATION.cff`, `.zenodo.json`, LaTeX acknowledgments, and README citation examples
+
 ## [1.2.3] — 2026-03-26
 
 ### Added

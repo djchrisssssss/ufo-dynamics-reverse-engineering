@@ -69,7 +69,7 @@ After reading the book, we realized that the physical claims described — insta
 | 6 | Advanced Materials | 先進材料 | Metamaterials; CNT; graphene; Bi-Mg analysis; QCD bonding |
 | 7 | Integrated Model | 整合模型 | Single-mechanism synthesis; materials gap analysis |
 | 8 | Intelligence Gaps | 情報缺口 | Research priorities; definitive evidence criteria |
-| 9 | Mathematical Foundations | 數學與相對論基礎 | Proper acceleration; ADM metric; energy conditions; dimensionless transport numbers |
+| 9 | Mathematical Foundations | 數學與相對論基礎 | Proper acceleration; ADM metric; energy conditions; layered field-shell transport |
 | A–E | Appendices | 附錄 | Glossary; equations; DIRD list; confidence definitions; falsification criteria |
 
 ---
@@ -246,7 +246,7 @@ This project was produced through a structured collaboration between the human a
 
 ### APA
 
-Lai, K. (2026). *Reverse Engineering the Dynamics of UFOs: A Physics-Based Assessment of Unidentified Aerial Phenomena* (Version 1.2.3). DOI: [10.5281/zenodo.19138270](https://doi.org/10.5281/zenodo.19138270).
+Lai, K. (2026). *Reverse Engineering the Dynamics of UFOs: A Physics-Based Assessment of Unidentified Aerial Phenomena* (Version 1.2.4). DOI: [10.5281/zenodo.19138270](https://doi.org/10.5281/zenodo.19138270).
 
 ### BibTeX
 
@@ -255,7 +255,7 @@ Lai, K. (2026). *Reverse Engineering the Dynamics of UFOs: A Physics-Based Asses
   title     = {Reverse Engineering the Dynamics of UFOs: A Physics-Based Assessment of Unidentified Aerial Phenomena},
   author    = {Lai, Kris},
   year      = {2026},
-  version   = {1.2.3},
+  version   = {1.2.4},
   note      = {UNCLASSIFIED --- Open Source Analysis},
   doi       = {10.5281/zenodo.19138270},
   url       = {https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering}
