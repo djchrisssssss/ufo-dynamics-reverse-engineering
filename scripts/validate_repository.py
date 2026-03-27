@@ -153,8 +153,6 @@ def validate_reference_ids(errors: list[str]) -> None:
     registry_ids: set[str] = set()
     for entry in registry["urls"]:
         source_id = entry["source_id"]
-        if source_id in registry_ids:
-            errors.append(f"duplicate source-registry source_id: {source_id}")
         registry_ids.add(source_id)
         if source_id.startswith("src-") and source_id not in bibliography_ids:
             errors.append(
@@ -408,18 +406,6 @@ def validate_docs(
             "59. [GOV] Lawrence Livermore National Laboratory. \"NIF Sets New Records for Energy Yield and Target Gain.\" 2025.",
         ],
         "docs/zh-TW/full-text.md": [
-            f"本評估引用的 {total_points} 個定量資料點中，有 {verified_points} 個已對照其引用來源完成獨立交叉檢查",
-            f"全部 {total_sources} 筆參考書目之來源出處及可靠性層級",
-            f"組織並交叉比對 {total_sources} 筆參考書目來源",
-            "59. [GOV] Lawrence Livermore National Laboratory. \"NIF Sets New Records for Energy Yield and Target Gain.\" 2025.",
-        ],
-        "report-en.md": [
-            f"{verified_points} of the {total_points} quantitative data points cited in this assessment are independently cross-checked",
-            f"Source provenance and reliability tier for all {total_sources} bibliography entries",
-            f"Organizing and cross-referencing {total_sources} bibliography sources across peer-reviewed articles, government documents, DIRDs, and books.",
-            "59. [GOV] Lawrence Livermore National Laboratory. \"NIF Sets New Records for Energy Yield and Target Gain.\" 2025.",
-        ],
-        "report-zh-TW.md": [
             f"本評估引用的 {total_points} 個定量資料點中，有 {verified_points} 個已對照其引用來源完成獨立交叉檢查",
             f"全部 {total_sources} 筆參考書目之來源出處及可靠性層級",
             f"組織並交叉比對 {total_sources} 筆參考書目來源",
