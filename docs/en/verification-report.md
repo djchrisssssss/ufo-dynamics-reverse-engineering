@@ -1,7 +1,7 @@
 # Data Verification Report
 
 **DOI:** [10.5281/zenodo.19138270](https://doi.org/10.5281/zenodo.19138270)
-**Report Date:** 2026-03-22
+**Report Date:** 2026-03-27
 **Auditor:** Automated + Manual Review
 
 ---
@@ -19,8 +19,8 @@ This verification report documents the data provenance, source quality, and cros
 | Sections with statistics | 4 (s02, s03, s04, s06) |
 | Data points independently cross-checked | 43/45 (95.6%) |
 | Tracked URLs in source registry | 36 |
-| HTTP 200/202 during 2026-03-22 automated spot check | 24/36 |
-| HTTP 403/404 during 2026-03-22 automated spot check | 12/36 |
+| HTTP 200/202 during 2026-03-27 automated spot check | 24/36 |
+| HTTP 403/404 during 2026-03-27 automated spot check | 12/36 |
 
 ---
 
@@ -168,4 +168,4 @@ Verification status markers:
 
 ---
 
-*Last updated: 2026-03-22*
+*Last updated: 2026-03-27*
