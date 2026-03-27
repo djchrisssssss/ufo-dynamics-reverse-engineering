@@ -123,27 +123,15 @@ Example:
 - 在該檔案中，可找到相關來源為 `[src-014] Casimir, H.B.G. (1948)`。
 - 其原始 LaTeX citation key 是 `Casimir1948`，完整條目則位於 [`latex/references.bib`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/latex/references.bib)。
 
-Legacy note:
-
-舊版說明：
-
-- [`report-en.md`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/report-en.md) and [`report-zh-TW.md`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/report-zh-TW.md) preserve the historical superscript export format such as `⁵⁸` and `⁸⁶`.
-- Those superscripts are note identifiers, not reliable bibliography numbers.
-- For maintained citation tracing, use the canonical Markdown documents above.
-
-- [`report-en.md`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/report-en.md) 與 [`report-zh-TW.md`](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/report-zh-TW.md) 保留了舊版上標匯出格式，例如 `⁵⁸`、`⁸⁶`。
-- 這些上標是註記識別碼，不是可靠的文末書目編號。
-- 若要用目前維護中的方式追來源，請以上面的 canonical Markdown 為準。
-
 ### Source Breakdown / 來源分布
 
 | Type / 類型 | Count | % |
 |-------------|-------|---|
-| Peer-reviewed / 同儕審查 | 31 | 52.5% |
-| Government / 政府文件 | 9 | 15.3% |
-| DIRD / 國防情報參考文件 | 12 | 20.3% |
-| Books / 學術專書 | 6 | 10.2% |
-| Preprints / 預印本 | 1 | 1.7% |
+| Peer-reviewed / 同儕審查 | 33 | 54.1% |
+| Government / 政府文件 | 9 | 14.8% |
+| DIRD / 國防情報參考文件 | 12 | 19.7% |
+| Books / 學術專書 | 6 | 9.8% |
+| Preprints / 預印本 | 1 | 1.6% |
 
 ### Key Government Sources / 主要政府來源
 

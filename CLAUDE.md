@@ -48,8 +48,6 @@ UFO-dynamics-reverse-engineering/
 │   ├── main.tex                      # REVTeX 4-2 formatted paper
 │   ├── references.bib                # BibTeX bibliography (61 entries)
 │   └── figures/                      # Placeholder for diagrams
-├── report-en.md                      # Original English report (legacy)
-├── report-zh-TW.md                   # Original Chinese report (legacy)
 ├── transcription.md                  # Original transcription (legacy)
 ├── CLAUDE.md                         # This file
 ├── CITATION.cff                      # Machine-readable citation

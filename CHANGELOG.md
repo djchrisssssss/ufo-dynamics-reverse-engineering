@@ -16,6 +16,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - **Visible bibliography metadata** updated across README, canonical full-text documents, LaTeX acknowledgments, and repo docs to reflect 61 sources and 37 tracked URLs
 - **Version metadata** bumped to 1.2.5 across `CITATION.cff`, `.zenodo.json`, README citation examples, and LaTeX acknowledgments
 
+### Removed
+- **Legacy root-level reports** `report-en.md` and `report-zh-TW.md` — superseded by canonical `docs/en/full-text.md` and `docs/zh-TW/full-text.md`; legacy copies lacked Section 9 and used outdated superscript citation format
+
 ## [1.2.4] — 2026-03-27
 
 ### Added
