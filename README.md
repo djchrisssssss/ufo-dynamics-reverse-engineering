@@ -21,6 +21,10 @@
 - ORCID: [0009-0000-2223-4826](https://orcid.org/0009-0000-2223-4826)
 - Affiliation: [Scallop Labs](https://www.scallop.io/)
 
+## Contributors / 貢獻者
+
+- **Andrei Tihoc** — andrewt@scallop.io
+
 ---
 
 ## Documents / 文件
