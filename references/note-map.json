@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "last_updated": "2026-03-27",
+    "last_updated": "2026-06-12",
     "description": "Maps canonical Markdown note IDs to bibliography-backed src IDs and auxiliary source identifiers.",
     "total_notes": 135,
     "total_key_judgments": 11,
@@ -121,9 +121,10 @@
       "type": "program_record",
       "title": "Counter-electronics High Power Microwave Advanced Missile Project (CHAMP)"
     },
-    "lee-graphene-2008": {
+    "takakura-cnt-2019": {
       "type": "peer_reviewed_aux",
-      "title": "Measurement of the elastic properties and intrinsic strength of monolayer graphene"
+      "title": "Strength of carbon nanotubes depends on their chemical structures",
+      "url": "https://doi.org/10.1038/s41467-019-10959-7"
     },
     "materials-strength-theory": {
       "type": "background",
@@ -1002,10 +1003,10 @@
     },
     "ref-109": {
       "section": "s06",
-      "src_ids": [],
-      "auxiliary_ids": [
-        "lee-graphene-2008"
-      ]
+      "src_ids": [
+        "src-028"
+      ],
+      "auxiliary_ids": []
     },
     "ref-110": {
       "section": "s06",
@@ -1016,10 +1017,10 @@
     },
     "ref-111": {
       "section": "s06",
-      "src_ids": [
-        "src-028"
-      ],
-      "auxiliary_ids": []
+      "src_ids": [],
+      "auxiliary_ids": [
+        "takakura-cnt-2019"
+      ]
     },
     "ref-112": {
       "section": "s06",

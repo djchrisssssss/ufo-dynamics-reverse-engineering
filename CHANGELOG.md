@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.2.6] — 2026-06-12
+
+### Fixed
+- **CNT/graphene citation integrity (§6.2)**: `latex/references.bib` entries `Bai2018` and `Zhang2019` carried metadata from unrelated metamaterial/metasurface papers. `Bai2018` corrected to the actual CNT-bundle paper (DOI 10.1038/s41565-018-0141-z); the graphene 130 GPa claim re-cited to a new `Lee2008` entry (Lee et al., *Science* 321, 385–388, 2008, DOI 10.1126/science.1157996), which also replaces the mismatched `src-028` in `bibliography.json`, the canonical full-text reference list, and `per-section/s06`. The defect-strength claim (`ref-111` / `s06-009`) is remapped to the auxiliary source Takakura et al. (*Nature Communications* 10, 3040, 2019) after the previously recorded DOI (10.1038/s41467-019-11760-8) was found to be non-resolving; the `s06-008` source URL carried the same non-resolving DOI and is corrected to the Bai 2018 DOI. Total source count remains 61 (+37 auxiliary)
+- **Nimitz acceleration kinematics (§2.2–2.3)**: the sensitivity analysis previously described the descent as "constant acceleration", which is inconsistent with the quoted magnitude. Text now states the Knuth et al. (2019) model explicitly — the object starts and ends approximately at rest (accelerate-then-decelerate profile, mean |a| = 4d/t², peak speed ≈ 46,000 mph = 2× path average) — and quotes the published estimate of ~5,370 g (previously loosely rounded to ~5,300 g), noting that a non-arresting uniform descent would imply roughly half that value. Sensitivity table rescaled (~820–5,370 g) and synced across EN/ZH Markdown, LaTeX, `s02-001`/`s02-013` statistics, per-section references, and both verification reports
+- **Alcubierre energy figure (§7.2)**: replaced the self-inconsistent "~10⁶⁴ J for a 200-meter bubble — more than the mass-energy of the observable universe" (10⁶⁴ J is ~6 orders of magnitude *below* the universe's mass-energy) with the Pfenning–Ford result: total negative energy of order −10⁶² kg in mass-equivalent terms (|E| ~ 10⁷⁹ J) for a 100 m-radius bubble, roughly ten orders of magnitude above the observable universe's mass-energy (~10⁵³ kg). Synced in EN/ZH Markdown and LaTeX
+- **Unruh temperature (§5.1)**: corrected from ~4×10⁻¹⁶ K to ~2×10⁻¹⁶ K. T = ħa/(2πck_B) at a = 5,370 g ≈ 5.3×10⁴ m/s² evaluates to 2.1×10⁻¹⁶ K (the prior figure was ~2× too high). Synced in EN Markdown, LaTeX, and per-section/s05. Conclusion ("utterly undetectable") unaffected
+- **Transmedium dynamic-pressure ratio (§2.7)**: corrected "nearly 1,000 times greater" to "approximately 830 times greater", since q = ½ρv² makes the water/air pressure ratio equal to the density ratio (~830×) already stated in the same paragraph — not ~1,000×. Synced in EN/ZH Markdown and LaTeX
+
+### Changed
+- **Version metadata** bumped to 1.2.6 across `CITATION.cff`, `.zenodo.json`, README citation examples, and LaTeX acknowledgments
+
 ## [1.2.5] — 2026-03-27
 
 ### Added
