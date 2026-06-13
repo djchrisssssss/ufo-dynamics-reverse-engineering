@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "total_urls": 37,
-    "last_audit": "2026-03-27",
+    "total_urls": 35,
+    "last_audit": "2026-06-13",
     "audit_method": "manual_verification + automated_http_spot_check"
   },
   "urls": [
@@ -167,13 +167,6 @@
       "notes": "arXiv — stable preprint archive"
     },
     {
-      "url": "https://ntrs.nasa.gov/",
-      "source_id": "nasa-ntrs",
-      "status": "reachable",
-      "last_checked": "2026-03-21",
-      "notes": "NASA Technical Reports Server — acceleration and thermal data"
-    },
-    {
       "url": "https://www.congress.gov/bill/117th-congress/senate-bill/3600",
       "source_id": "ndaa-2023",
       "status": "access_restricted",
@@ -228,13 +221,6 @@
       "status": "reachable",
       "last_checked": "2026-03-21",
       "notes": "NASA — UAP Independent Study Team report page"
-    },
-    {
-      "url": "https://webarchive.nationalarchives.gov.uk/ukgwa/20121110115327/http://www.mod.uk/DefenceInternet/FreedomOfInformation/PublicationScheme/SearchPublicationScheme/UnidentifiedAerialPhenomenauapInTheUkAirDefenceRegion.htm",
-      "source_id": "src-057",
-      "status": "reachable",
-      "last_checked": "2026-03-22",
-      "notes": "UK National Archives web archive — preserved copy of the MOD Project Condign publication page"
     },
     {
       "url": "https://www.aaro.mil/Portals/136/PDFs/Information%20Papers/AARO_Effect_of_Forced_Perspective_and_Parallax_View_on_UAP_Observations_2024.pdf",
