@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## [1.2.6] — 2026-06-12
+## [1.2.6] — 2026-06-13
 
 ### Fixed
 - **CNT/graphene citation integrity (§6.2)**: `latex/references.bib` entries `Bai2018` and `Zhang2019` carried metadata from unrelated metamaterial/metasurface papers. `Bai2018` corrected to the actual CNT-bundle paper (DOI 10.1038/s41565-018-0141-z); the graphene 130 GPa claim re-cited to a new `Lee2008` entry (Lee et al., *Science* 321, 385–388, 2008, DOI 10.1126/science.1157996), which also replaces the mismatched `src-028` in `bibliography.json`, the canonical full-text reference list, and `per-section/s06`. The defect-strength claim (`ref-111` / `s06-009`) is remapped to the auxiliary source Takakura et al. (*Nature Communications* 10, 3040, 2019) after the previously recorded DOI (10.1038/s41467-019-11760-8) was found to be non-resolving; the `s06-008` source URL carried the same non-resolving DOI and is corrected to the Bai 2018 DOI. Total source count remains 61 (+37 auxiliary)
@@ -14,6 +14,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - **Transmedium dynamic-pressure ratio (§2.7)**: corrected "nearly 1,000 times greater" to "approximately 830 times greater", since q = ½ρv² makes the water/air pressure ratio equal to the density ratio (~830×) already stated in the same paragraph — not ~1,000×. Synced in EN/ZH Markdown and LaTeX
 
 ### Changed
+- **URL spot-check registry (CI hardening)**: removed two entries from `references/source-registry.json` — `nasa-ntrs` (an orphan landing-page URL referenced by no citation) and `src-057` (the UK National Archives webarchive URL for Project Condign, which now returns HTTP 405/404 to automated checks). The Project Condign source is retained in the bibliography and inline notes; only its dead URL leaves the automated spot-check. `total_urls` 37 → 35, `last_audit` refreshed to 2026-06-13, and the HTTP-status counts in both verification reports updated to 23/35 reachable + 12/35 restricted
 - **Version metadata** bumped to 1.2.6 across `CITATION.cff`, `.zenodo.json`, README citation examples, and LaTeX acknowledgments
 
 ## [1.2.5] — 2026-03-27
