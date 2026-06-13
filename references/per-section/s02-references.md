@@ -16,7 +16,7 @@
 
 | ID | Metric | Value | Source |
 |----|--------|-------|--------|
-| s02-001 | USS Nimitz apparent acceleration | ~5,300 g | Knuth et al. 2019 (src-055) |
+| s02-001 | USS Nimitz apparent acceleration | ~5,370 g | Knuth et al. 2019 (src-055) |
 | s02-002 | Human sustained g-tolerance | ~9 g | NASA OCHMO-TB-024 |
 | s02-003 | Human brief g-tolerance | ~20 g | NASA medical literature |
 | s02-004 | HIBEX missile max acceleration | ~400 g | US Army missile program records |
@@ -41,7 +41,7 @@
 
 ## Notes
 
-- The USS Nimitz 5,300 g figure derives from Knuth et al. (2019) Bayesian analysis of SPY-1 radar tracking data (descent from ~28,000 ft to ~50 ft in ~0.78 s). The estimate is sensitive to assumed descent time (see Section 2.2 sensitivity analysis). Raw radar data remains classified.
+- The USS Nimitz 5,370 g figure derives from Knuth et al. (2019) analysis of SPY-1 radar tracking data (descent from ~28,000 ft to ~50 ft in ~0.78 s, assuming the object starts and ends approximately at rest — an accelerate-then-decelerate profile). The estimate is sensitive to the assumed descent time and velocity profile (see Section 2.2 sensitivity analysis). Raw radar data remains classified.
 - The Five Observables taxonomy was codified by Luis Elizondo during his AATIP tenure; it is not an official DOD classification system.
 - Gravitational lensing at UAP scale requires energy densities ~10²⁵× beyond current technology — effectively ruling out conventional gravitational explanations for visual distortions.
 - AARO parallax analysis (2024) demonstrated that the GoFast video is consistent with a wind-speed object at ~13,000 ft altitude, illustrating the importance of sensor artifact assessment.

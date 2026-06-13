@@ -7,15 +7,15 @@
     {
       "id": "s02-001",
       "metric": "USS Nimitz UAP estimated acceleration",
-      "value": 5300,
+      "value": 5370,
       "unit": "g",
       "date": "2004-11-14",
       "source": "Knuth, K. H., Powell, R. M., & Reali, P. A. (2019). Estimating Flight Characteristics of Anomalous Unidentified Aerial Vehicles. Entropy, 21(10), 939. https://doi.org/10.3390/e21100939",
-      "context": "Estimated from USS Princeton SPY-1 radar tracking during the 2004 Nimitz Carrier Strike Group encounters. Object reportedly dropped from 28,000 ft to sea level in 0.78 seconds.",
+      "context": "Estimated from USS Princeton SPY-1 radar tracking during the 2004 Nimitz Carrier Strike Group encounters. Object reportedly dropped from 28,000 ft to sea level in 0.78 seconds, assumed to start and end approximately at rest (accelerate-then-decelerate profile; peak speed ~46,000 mph = 2x path average).",
       "confidence": "low",
       "verification_status": "speculative",
       "verified": false,
-      "verification_note": "Derived from radar data analysis by Knuth et al. Raw radar data remains classified. The 5,300 g figure is an upper-bound estimate assuming instantaneous acceleration profiles."
+      "verification_note": "Derived from radar data analysis by Knuth et al. Raw radar data remains classified. The 5,370 g figure assumes an arrest-at-bottom (accelerate-then-decelerate) profile; a uniform-acceleration descent without arrest would imply roughly half this value (~2,700 g)."
     },
     {
       "id": "s02-002",
@@ -163,7 +163,7 @@
     {
       "id": "s02-013",
       "metric": "USS Nimitz acceleration sensitivity range",
-      "value": "800–5300",
+      "value": "820–5370",
       "unit": "g (depending on assumed descent time 0.78–2.0 s)",
       "date": "2004-11-14",
       "source": {
@@ -172,7 +172,7 @@
         "doi": "10.3390/e21100939",
         "accessed": "2026-03-21"
       },
-      "context": "Sensitivity analysis on the canonical 5,300 g estimate. At 0.78 s: ~5,300 g; at 1.0 s: ~3,200 g; at 1.5 s: ~1,420 g; at 2.0 s: ~800 g. Even the most conservative estimate exceeds HIBEX (~400 g) by 2×.",
+      "context": "Sensitivity analysis on the canonical 5,370 g estimate. At 0.78 s: ~5,370 g; at 1.0 s: ~3,270 g; at 1.5 s: ~1,450 g; at 2.0 s: ~820 g. Even the most conservative estimate exceeds HIBEX (~400 g) by 2×.",
       "confidence": "low",
       "verification_status": "speculative",
       "verified": false,

@@ -18,7 +18,7 @@
 | Metric | Value | Source |
 |--------|-------|--------|
 | DCE experimental boundary velocity | ~5% of c | src-016 |
-| Unruh temperature at 5,300 g | ~4 × 10⁻¹⁶ K | Calculated from Unruh formula |
+| Unruh temperature at 5,370 g | ~2 × 10⁻¹⁶ K | Calculated from Unruh formula |
 | THz gap frequency range | 0.1–10 THz (30 μm–3 mm) | Standard EM spectrum |
 
 ## Notes

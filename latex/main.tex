@@ -265,13 +265,18 @@ likely resolved): AARO parallax analysis~\cite{AARO_Parallax2024} found the
 apparent high speed consistent with a wind-speed object at ${\sim}\SI{13000}{ft}$
 altitude.
 
-\textbf{Sensitivity analysis on the $5{,}300\,g$ estimate.} The canonical
+\textbf{Sensitivity analysis on the $5{,}370\,g$ estimate.} The canonical
 acceleration estimate for the 2004 USS~\textit{Nimitz} encounter derives from
 Knuth, Powell, and Reali~(2019)~\cite{Knuth2019}, who analyzed SPY-1 radar data.
-The calculation assumes constant acceleration over ${\sim}\SI{0.78}{s}$. This
-figure is sensitive to the assumed time window: at \SI{0.78}{s}, the implied
-acceleration is ${\sim}5{,}300\,g$; at \SI{1.0}{s}, ${\sim}3{,}200\,g$; at
-\SI{1.5}{s}, ${\sim}1{,}420\,g$; and at \SI{2.0}{s}, ${\sim}800\,g$. Even the
+The calculation assumes the object starts and ends approximately at rest, so the
+descent follows an accelerate-then-decelerate profile with mean acceleration
+magnitude $4d/t^{2}$ and a peak speed of twice the path average
+(${\sim}46{,}000$~mph); a uniform-acceleration descent without arrest
+($2d/t^{2}$) would imply roughly half the value, ${\sim}2{,}700\,g$. The figure
+is sensitive to the assumed time window ($a \propto 1/t^{2}$ at fixed profile):
+at \SI{0.78}{s}, the implied acceleration is ${\sim}5{,}370\,g$; at \SI{1.0}{s},
+${\sim}3{,}270\,g$; at \SI{1.5}{s}, ${\sim}1{,}450\,g$; and at \SI{2.0}{s},
+${\sim}820\,g$. Even the
 most conservative estimate exceeds the highest sustained engineered acceleration
 (HIBEX, ${\sim}400\,g$) by a factor of two. The qualitative conclusion---that the
 reported behavior is anomalous---is robust to reasonable parameter variation, but
@@ -289,13 +294,15 @@ The most dramatic of the reported observables is the apparent ability to achieve
 extreme acceleration instantaneously. The canonical example is the 2004
 USS~\textit{Nimitz} encounter, in which radar operators aboard the
 USS~\textit{Princeton} reported an object descending from approximately
-\SI{28000}{ft} to \SI{50}{ft} altitude in approximately \SI{0.78}{s}---implying
-an average acceleration of approximately $5{,}300\,g$~\cite{Knuth2019}.
+\SI{28000}{ft} to \SI{50}{ft} altitude in approximately \SI{0.78}{s}---for which
+Knuth, Powell, and Reali estimated a mean acceleration of approximately
+$5{,}370\,g$, assuming the object arrests its descent (see the kinematic model
+and sensitivity analysis in Sec.~\ref{sec:data-quality})~\cite{Knuth2019}.
 
 The human body's tolerance for sustained acceleration is approximately $9\,g$ with
 anti-$g$ equipment. Brief tolerance extends to ${\sim}20\,g$ for trained
 individuals, and survivable crash impacts have been recorded at
-${\sim}100$--$215\,g$ for fractions of a second. An acceleration of $5{,}300\,g$
+${\sim}100$--$215\,g$ for fractions of a second. An acceleration of $5{,}370\,g$
 sustained for even a fraction of a second would be instantly fatal to any known
 biological organism.
 
@@ -431,7 +438,8 @@ dynamic pressure discontinuity:
   q = \frac{1}{2}\rho v^{2}\,.
 \end{equation}
 At \SI{100}{m/s}, the dynamic pressure in air is ${\sim}\SI{6}{kPa}$; in water,
-it is ${\sim}\SI{5}{MPa}$---nearly 1\,000 times greater. This represents an
+it is ${\sim}\SI{5}{MPa}$---approximately 830 times greater, matching the density
+ratio (since $q \propto \rho$ at fixed velocity). This represents an
 effectively instantaneous structural load that would destroy most aerospace
 vehicles.
 
@@ -965,8 +973,8 @@ perceives a thermal bath of radiation at temperature~\cite{Unruh1976}:
   T_{\text{Unruh}} = \frac{\hbar\,a}{2\pi\,c\,k_{B}}\,,
 \end{equation}
 where $a$ is the proper acceleration. For an acceleration of
-$5{,}300\,g$ (${\sim}\SI{5.2e4}{m/s^{2}}$), the Unruh temperature is only
-${\sim}\SI{4e-16}{K}$---utterly undetectable. However, if the spacetime curvature
+$5{,}370\,g$ (${\sim}\SI{5.3e4}{m/s^{2}}$), the Unruh temperature is only
+${\sim}\SI{2e-16}{K}$---utterly undetectable. However, if the spacetime curvature
 at the warp bubble wall involves effective accelerations approaching the Planck
 scale, the Unruh temperature could reach detectable levels.
 
@@ -1107,7 +1115,7 @@ in centimeter-long bundles~\cite{Bai2018}. Young's modulus is
 ${\sim}\SI{1.1}{TPa}$, with specific strength up to
 ${\sim}\SI{48000}{kN.m/kg}$---approximately $300\times$ greater than high-carbon
 steel. Graphene monolayer tensile strength is ${\sim}\SI{130}{GPa}$; Young's
-modulus ${\sim}\SI{1}{TPa}$~\cite{Zhang2019}.
+modulus ${\sim}\SI{1}{TPa}$~\cite{Lee2008}.
 
 The practical gap remains substantial: macroscale carbon nanotube fibers achieve
 only a few GPa due to defects, weak inter-tube shear interactions, and processing
@@ -1196,10 +1204,12 @@ most likely to require genuinely new physics rather than better engineering.
 \subsection{Energy Budget Analysis}\label{sec:energy-budget}
 
 Even the most optimistic estimates~\cite{BobrickMartire2021} for a positive-energy
-subluminal warp drive require shell energies on the order of planetary masses. The
-original Alcubierre metric requires energy equivalent to
-${\sim}\SI{e64}{J}$ for a \SI{200}{m} bubble---more than the mass-energy of the
-observable universe~\cite{PfenningFord1997}. Van~Den Broeck's
+subluminal warp drive require shell energies on the order of planetary masses. For
+the original Alcubierre metric, Pfenning and Ford calculated that a
+\SI{100}{m}-radius warp bubble would require total negative energy of order
+$-10^{62}\,$kg in mass-equivalent terms ($|E|\sim\SI{e79}{J}$)---roughly ten
+orders of magnitude more than the total mass-energy of the observable universe
+(${\sim}\SI{e53}{kg}$)~\cite{PfenningFord1997}. Van~Den Broeck's
 modification~\cite{VanDenBroeck1999} reduced this by many orders of magnitude
 through geometric insight alone, suggesting that the energy scale may be
 further reducible. Nonetheless, even the most conservative subluminal estimates
@@ -1251,7 +1261,7 @@ Fusion-to-curvature transduction & Unknown mechanism &
 Several observations emerge from this analysis. First, the gaps are quantitative,
 not qualitative. In most cases, the physics is verified at small scales or in
 limited regimes; the challenge is scaling up---a classic materials science and
-engineering problem~\cite{Bai2018,Zhang2019}. Second, historical precedent favors
+engineering problem~\cite{Casimir1948,Bai2018}. Second, historical precedent favors
 eventual closure. Semiconductor physics was understood in the 1930s; the
 transistor was not demonstrated until 1947, and integrated circuits not until
 1958---each step enabled by materials advances. Superconductivity was discovered in
@@ -2033,7 +2043,7 @@ in a separate data verification report available in the project repository.
 This work is released under the Creative Commons Attribution~4.0 International
 License (CC~BY~4.0).
 
-Version~1.2.5, March~2026.
+Version~1.2.6, June~2026.
 DOI: \href{https://doi.org/10.5281/zenodo.19138270}{10.5281/zenodo.19138270}.
 \end{acknowledgments}
 

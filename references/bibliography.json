@@ -338,14 +338,14 @@
     {
       "id": "src-028",
       "type": "peer_reviewed",
-      "title": "Defects controlled wrinkling and topological design in graphene",
-      "authors": ["Yin Zhang", "Fang-Fang Jia", "Yan-Fang Zhang", "Huan-Huan Li"],
-      "date": "2019",
-      "url": "https://doi.org/10.1038/s41598-019-40566-z",
-      "doi": "10.1038/s41598-019-40566-z",
+      "title": "Measurement of the elastic properties and intrinsic strength of monolayer graphene",
+      "authors": ["Changgu Lee", "Xiaoding Wei", "Jeffrey W. Kysar", "James Hone"],
+      "date": "2008",
+      "url": "https://doi.org/10.1126/science.1157996",
+      "doi": "10.1126/science.1157996",
       "sections_cited": ["s06"],
       "verified": true,
-      "last_checked": "2026-03-20"
+      "last_checked": "2026-06-12"
     },
     {
       "id": "src-029",

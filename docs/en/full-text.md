@@ -232,24 +232,24 @@ Before proceeding to the physics analysis of each observable, a critical assessm
 | Gimbal (2015) | ATFLIR IR video | Single sensor; no radar data released | Targeting pod, not calibrated for scientific measurement | Short clip; full encounter data not released | C (single sensor, limited context) |
 | GoFast (2015) | ATFLIR IR video | Single sensor | Targeting pod | AARO parallax analysis consistent with ~13,000 ft object at wind speed | C− (single sensor, likely resolved) |
 
-**Sensitivity analysis on the 5,300 g estimate.** The canonical acceleration estimate for the 2004 USS Nimitz encounter derives from Knuth, Powell & Reali (2019), who analyzed SPY-1 radar data reported by Senior Chief Kevin Day. [ref-018a] The calculation assumes the object descended from ~28,000 ft to ~50 ft in ~0.78 seconds under constant acceleration. This figure is sensitive to the assumed time window:
+**Sensitivity analysis on the 5,370 g estimate.** The canonical acceleration estimate for the 2004 USS Nimitz encounter derives from Knuth, Powell & Reali (2019), who analyzed SPY-1 radar data reported by Senior Chief Kevin Day. [ref-018a] The calculation assumes the object descended from ~28,000 ft to ~50 ft in ~0.78 seconds, starting and ending approximately at rest — an accelerate-then-decelerate profile whose mean acceleration magnitude is 4d/t² and whose peak speed is twice the path average (~46,000 mph). A uniform-acceleration descent without arrest (2d/t²) would imply roughly half the value, ~2,700 g. The estimate is sensitive to the assumed time window (a ∝ 1/t² at fixed profile):
 
 | Assumed descent time | Implied average acceleration |
 |---------------------|------------------------------|
-| 0.78 s (Knuth et al.) | ~5,300 g |
-| 1.0 s | ~3,200 g |
-| 1.5 s | ~1,420 g |
-| 2.0 s | ~800 g |
+| 0.78 s (Knuth et al.) | ~5,370 g |
+| 1.0 s | ~3,270 g |
+| 1.5 s | ~1,450 g |
+| 2.0 s | ~820 g |
 
-Even the most conservative estimate (~800 g at 2.0 s) exceeds the highest sustained engineered acceleration (HIBEX, ~400 g) by a factor of two. The qualitative conclusion — that the reported behavior is anomalous — is robust to reasonable parameter variation, but the specific magnitude is uncertain by roughly an order of magnitude. [ref-018b]
+Even the most conservative estimate (~820 g at 2.0 s) exceeds the highest sustained engineered acceleration (HIBEX, ~400 g) by a factor of two. The qualitative conclusion — that the reported behavior is anomalous — is robust to reasonable parameter variation, but the specific magnitude is uncertain by roughly an order of magnitude. [ref-018b]
 
 **Conditional framing.** This assessment adopts a conditional analytical posture: *"if the reported observations are accurate within reasonable bounds, what physics would be required?"* The physics analysis below is conditional on the observational inputs. It does not independently verify the raw sensor data (which remains classified) or the operator interpretations. Where data quality is low, the corresponding physics analysis inherits that uncertainty and is marked accordingly.
 
 ### 2.3 Instantaneous Acceleration
 
-The most dramatic of the reported observables is the apparent ability to achieve extreme acceleration instantaneously. The canonical example is the 2004 USS *Nimitz* encounter, in which radar operators aboard the USS *Princeton* reported an object descending from approximately 28,000 feet to 50 feet altitude in approximately 0.78 seconds — implying an average acceleration of approximately 5,300 g. [ref-018]
+The most dramatic of the reported observables is the apparent ability to achieve extreme acceleration instantaneously. The canonical example is the 2004 USS *Nimitz* encounter, in which radar operators aboard the USS *Princeton* reported an object descending from approximately 28,000 feet to 50 feet altitude in approximately 0.78 seconds — for which Knuth, Powell & Reali estimated a mean acceleration of approximately 5,370 g, assuming the object arrests its descent (see the Section 2.2 sensitivity analysis). [ref-018]
 
-**Biological constraints.** The human body's tolerance for sustained acceleration is approximately 9 g with anti-g equipment. [ref-019] Brief tolerance extends to ~20 g for trained individuals, and survivable crash impacts have been recorded at ~100–215 g for fractions of a second. [ref-020] An acceleration of 5,300 g sustained for even a fraction of a second would be instantly fatal to any known biological organism.
+**Biological constraints.** The human body's tolerance for sustained acceleration is approximately 9 g with anti-g equipment. [ref-019] Brief tolerance extends to ~20 g for trained individuals, and survivable crash impacts have been recorded at ~100–215 g for fractions of a second. [ref-020] An acceleration of 5,370 g sustained for even a fraction of a second would be instantly fatal to any known biological organism.
 
 **Structural constraints.** The highest demonstrated sustained acceleration for an engineered system is approximately 400 g (the HIBEX anti-ballistic missile interceptor). [ref-021] Artillery shell electronics routinely survive >10,000 g, but only for millisecond durations and without the requirement for continued operation of complex systems.
 
@@ -326,7 +326,7 @@ Each of these explanations involves well-understood physics and does not require
 
 Perhaps the most challenging observable from a conventional physics perspective is the reported ability to transition seamlessly between air and water without performance degradation.
 
-**The density barrier.** Water is approximately 830 times denser than air at sea level. An object entering water from air at high speed encounters an enormous dynamic pressure discontinuity: $q = \frac{1}{2}\rho v^2$. At 100 m/s, the dynamic pressure in air is ~6 kPa; in water, it is ~5 MPa — nearly 1,000 times greater. [ref-041] This represents an effectively instantaneous structural load that would destroy most aerospace vehicles.
+**The density barrier.** Water is approximately 830 times denser than air at sea level. An object entering water from air at high speed encounters an enormous dynamic pressure discontinuity: $q = \frac{1}{2}\rho v^2$. At 100 m/s, the dynamic pressure in air is ~6 kPa; in water, it is ~5 MPa — approximately 830 times greater, matching the density ratio (since $q \propto \rho$ at fixed velocity). [ref-041] This represents an effectively instantaneous structural load that would destroy most aerospace vehicles.
 
 **Supercavitation.** Supercavitation — creating a gas cavity envelope around an underwater vehicle — reduces hydrodynamic drag by approximately 90%. [ref-042] The Russian VA-111 Shkval torpedo uses this principle to achieve speeds of ~200 knots underwater. [ref-043] However, supercavitation requires deliberate cavitator design, does not eliminate drag entirely, and does not address the transition dynamics at the air-water boundary.
 
@@ -588,7 +588,7 @@ A warp bubble wall is precisely such a rapidly changing boundary condition in sp
 
 $$T_{Unruh} = \frac{\hbar a}{2\pi c k_B}$$
 
-where $a$ is the proper acceleration. For an acceleration of 5,300 g (~5.2 × 10⁴ m/s²), the Unruh temperature is only ~4 × 10⁻¹⁶ K — utterly undetectable. However, if the spacetime curvature at the warp bubble wall involves effective accelerations approaching the Planck scale, the Unruh temperature could reach detectable levels. [ref-091]
+where $a$ is the proper acceleration. For an acceleration of 5,370 g (~5.3 × 10⁴ m/s²), the Unruh temperature is only ~2 × 10⁻¹⁶ K — utterly undetectable. However, if the spacetime curvature at the warp bubble wall involves effective accelerations approaching the Planck scale, the Unruh temperature could reach detectable levels. [ref-091]
 
 **Hawking Radiation.** Hawking (1974, 1975) showed that the event horizon of a black hole emits thermal radiation at temperature: [ref-092]
 
@@ -741,7 +741,7 @@ Spacetime Distortion (warp bubble generation)
 
 Let us estimate the energy requirements for the simplest UAP-consistent scenario: a subluminal warp bubble around a 10-meter vehicle.
 
-Even the most optimistic estimates (Bobrick & Martire, 2021) for a positive-energy subluminal warp drive require shell energies on the order of planetary masses. [ref-118] The original Alcubierre metric requires energy equivalent to ~10⁶⁴ J for a 200-meter bubble — more than the mass-energy of the observable universe.
+Even the most optimistic estimates (Bobrick & Martire, 2021) for a positive-energy subluminal warp drive require shell energies on the order of planetary masses. [ref-118] For the original Alcubierre metric, Pfenning and Ford calculated that a 100-meter-radius warp bubble would require total negative energy of order −10⁶² kg in mass-equivalent terms (|E| ~ 10⁷⁹ J) — roughly ten orders of magnitude more than the total mass-energy of the observable universe (~10⁵³ kg).
 
 Scaling arguments suggest that reducing bubble size and velocity reduces energy requirements, but even the most conservative subluminal estimates remain many orders of magnitude beyond the energy output of any conceivable fusion reactor. [ref-119]
 
@@ -1255,7 +1255,7 @@ The warp bubble hypothesis, as applied to UAP in this assessment, generates spec
 25. [PR] Pendry, J.B. "Negative refraction makes a perfect lens." *Physical Review Letters* 85, 3966–3969 (2000). DOI: 10.1103/PhysRevLett.85.3966
 26. [PR] Pendry, J.B., Schurig, D. & Smith, D.R. "Controlling electromagnetic fields." *Science* 312, 1780–1782 (2006).
 27. [PR] Bai, Y. et al. "Carbon nanotube bundles with tensile strength over 80 GPa." *Nature Nanotechnology* 13, 589–595 (2018).
-28. [PR] Zhang, R. et al. "Strength of carbon nanotubes depends on their chemical structures." *Nature Communications* 10, 3848 (2019).
+28. [PR] Lee, C., Wei, X., Kysar, J.W. & Hone, J. "Measurement of the elastic properties and intrinsic strength of monolayer graphene." *Science* 321, 385–388 (2008). DOI: 10.1126/science.1157996
 29. [PR] Witten, E. "Cosmic separation of phases." *Physical Review D* 30, 272–285 (1984).
 30. [PR] Bodmer, A.R. "Collapsed nuclei." *Physical Review D* 4, 1601–1606 (1971).
 

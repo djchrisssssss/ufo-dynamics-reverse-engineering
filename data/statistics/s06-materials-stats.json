@@ -47,10 +47,10 @@
       "unit": "TPa",
       "date": "established",
       "source": {
-        "name": "Multiple experimental measurements",
-        "url": "https://doi.org/10.1038/s41467-019-11760-8",
-        "doi": "10.1038/s41467-019-11760-8",
-        "accessed": "2026-03-20"
+        "name": "Multiple experimental measurements; see Bai, Y. et al. Nature Nanotechnology 13, 589-595 (2018)",
+        "url": "https://doi.org/10.1038/s41565-018-0141-z",
+        "doi": "10.1038/s41565-018-0141-z",
+        "accessed": "2026-06-12"
       },
       "context": "Among the stiffest known materials. Sets the theoretical tensile strength limit at ~E/10 ≈ 110 GPa.",
       "confidence": "high",
@@ -137,10 +137,10 @@
       "unit": "GPa",
       "date": "2024",
       "source": {
-        "name": "Industry and academic CNT fiber data",
-        "url": "https://doi.org/10.1038/s41467-019-11760-8",
-        "doi": null,
-        "accessed": "2026-03-20"
+        "name": "Bai, Y. et al. Nature Nanotechnology 13, 589-595 (2018) — single-bundle vs. macroscale fiber comparison",
+        "url": "https://doi.org/10.1038/s41565-018-0141-z",
+        "doi": "10.1038/s41565-018-0141-z",
+        "accessed": "2026-06-12"
       },
       "context": "Gap between single-tube (~80 GPa) and bulk fiber (~few GPa) due to defects, weak inter-tube shear, processing.",
       "confidence": "high",
@@ -155,16 +155,16 @@
       "unit": "% (up to)",
       "date": "2019",
       "source": {
-        "name": "Zhang, R. et al. Nature Communications 10, 3848 (2019)",
-        "url": "https://doi.org/10.1038/s41467-019-11760-8",
-        "doi": "10.1038/s41467-019-11760-8",
-        "accessed": "2026-03-20"
+        "name": "Takakura, A. et al. Strength of carbon nanotubes depends on their chemical structures. Nature Communications 10, 3040 (2019)",
+        "url": "https://doi.org/10.1038/s41467-019-10959-7",
+        "doi": "10.1038/s41467-019-10959-7",
+        "accessed": "2026-06-12"
       },
       "context": "Defect concentration is the primary factor limiting bulk CNT material performance.",
       "confidence": "high",
       "verification_status": "verified",
       "verified": true,
-      "verification_note": "Peer-reviewed in Nature Communications"
+      "verification_note": "Source corrected in v1.2.6: previous entry cited a non-resolving DOI under a mismatched author/title. Takakura et al. (2019) experimentally link chemical structure and defect incorporation to individual CNT strength."
     },
     {
       "id": "s06-010",

@@ -73,7 +73,7 @@ All statistics files validated against `data/schemas/statistics-schema.json`:
 | Low | 2 |
 
 Key verification notes:
-- USS Nimitz 5,300 g figure retained as a low-confidence third-party estimate (Knuth et al. 2019), not an official DoD measurement
+- USS Nimitz 5,370 g figure retained as a low-confidence third-party estimate (Knuth et al. 2019), not an official DoD measurement
 - MICROSCOPE EP precision (10⁻¹⁵) verified via PRL publication (Touboul et al. 2022)
 - Shuttle reentry temperature from NASA thermal protection system data
 
