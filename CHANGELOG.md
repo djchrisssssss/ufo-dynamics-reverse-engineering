@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.2.7] — 2026-06-13
+
+### Fixed
+- **Bilingual parity in §5.1 (Electromagnetic Signatures)**: the Traditional Chinese full-text had condensed three explanatory passages out of the Dynamical Casimir / Unruh subsection. Restored to match the English canonical text — the boundary-velocity and photon-frequency variable definitions (`[ref-088]`), the warp-bubble-wall broadband-emission description spanning microwave through terahertz to X-ray (`[ref-089]`), and the Unruh-temperature evaluation (~2×10⁻¹⁶ K at 5,370 g, with the Planck-scale caveat, `[ref-091]`). English text, data, statistics, and references are unchanged.
+
+### Changed
+- **Version metadata** bumped to 1.2.7 across `CITATION.cff`, `.zenodo.json`, README citation examples, and LaTeX acknowledgments
+
 ## [1.2.6] — 2026-06-13
 
 ### Fixed

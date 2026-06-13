@@ -238,7 +238,7 @@ This project was produced through a structured collaboration between the human a
 
 ### APA
 
-Lai, K. (2026). *Reverse Engineering the Dynamics of UFOs: A Physics-Based Assessment of Unidentified Aerial Phenomena* (Version 1.2.6). DOI: [10.5281/zenodo.19138270](https://doi.org/10.5281/zenodo.19138270).
+Lai, K. (2026). *Reverse Engineering the Dynamics of UFOs: A Physics-Based Assessment of Unidentified Aerial Phenomena* (Version 1.2.7). DOI: [10.5281/zenodo.19138270](https://doi.org/10.5281/zenodo.19138270).
 
 ### BibTeX
 
@@ -247,7 +247,7 @@ Lai, K. (2026). *Reverse Engineering the Dynamics of UFOs: A Physics-Based Asses
   title     = {Reverse Engineering the Dynamics of UFOs: A Physics-Based Assessment of Unidentified Aerial Phenomena},
   author    = {Lai, Kris},
   year      = {2026},
-  version   = {1.2.6},
+  version   = {1.2.7},
   note      = {UNCLASSIFIED --- Open Source Analysis},
   doi       = {10.5281/zenodo.19138270},
   url       = {https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering}
