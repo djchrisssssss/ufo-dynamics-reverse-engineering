@@ -1,14 +1,16 @@
 {
   "metadata": {
-    "total_sources": 61,
-    "last_updated": "2026-03-27",
+    "total_sources": 71,
+    "last_updated": "2026-11-07",
     "categories": {
-      "peer_reviewed": 33,
+      "peer_reviewed": 42,
       "government": 9,
       "dird": 12,
-      "book": 6,
+      "book": 7,
       "preprint": 1
-    }
+    },
+    "further_reading": ["src-012", "src-035", "src-052"],
+    "further_reading_note": "Listed in the reference list as background but not mapped to any inline note: src-012 (LIGO) and src-052 (Kaku) are not discussed in the text; src-035 (ICD 203) is named in the estimative-language and verification-marker passages without an inline note."
   },
   "sources": [
     {
@@ -19,7 +21,7 @@
       "date": "1994",
       "url": "https://doi.org/10.1088/0264-9381/11/5/001",
       "doi": "10.1088/0264-9381/11/5/001",
-      "sections_cited": ["s03", "s07", "s08", "s09"],
+      "sections_cited": ["s02", "s03", "s05", "s07", "s08", "s09"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -41,11 +43,11 @@
       "title": "A warp drive with more reasonable total energy requirements",
       "authors": ["Chris Van Den Broeck"],
       "date": "1999",
-      "url": "https://arxiv.org/abs/gr-qc/9905084",
-      "doi": null,
-      "sections_cited": ["s03", "s07"],
+      "url": "https://doi.org/10.1088/0264-9381/16/12/314",
+      "doi": "10.1088/0264-9381/16/12/314",
+      "sections_cited": ["s03"],
       "verified": true,
-      "last_checked": "2026-03-20"
+      "last_checked": "2026-11-07"
     },
     {
       "id": "src-004",
@@ -55,7 +57,7 @@
       "date": "2021",
       "url": "https://doi.org/10.1088/1361-6382/abe692",
       "doi": "10.1088/1361-6382/abe692",
-      "sections_cited": ["s03", "s08", "s09"],
+      "sections_cited": ["s03", "s08"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -67,7 +69,7 @@
       "date": "2022",
       "url": "https://doi.org/10.1103/PhysRevD.105.064038",
       "doi": "10.1103/PhysRevD.105.064038",
-      "sections_cited": ["s03", "s08", "s09"],
+      "sections_cited": ["s03", "s07", "s08", "s09"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -87,13 +89,13 @@
       "id": "src-007",
       "type": "peer_reviewed",
       "title": "Positive energy warp drive from hidden geometric structures",
-      "authors": ["Sebastian D.B. Fell", "Lavinia Heisenberg"],
+      "authors": ["Shaun D. B. Fell", "Lavinia Heisenberg"],
       "date": "2021",
-      "url": "https://arxiv.org/abs/2104.06488",
-      "doi": null,
-      "sections_cited": ["s03", "s09"],
+      "url": "https://doi.org/10.1088/1361-6382/ac0e47",
+      "doi": "10.1088/1361-6382/ac0e47",
+      "sections_cited": ["s03", "s08", "s09"],
       "verified": true,
-      "last_checked": "2026-03-20"
+      "last_checked": "2026-11-07"
     },
     {
       "id": "src-008",
@@ -113,11 +115,11 @@
       "title": "Cool horizons for entangled black holes",
       "authors": ["Juan Maldacena", "Leonard Susskind"],
       "date": "2013",
-      "url": "https://arxiv.org/abs/1306.0533",
-      "doi": null,
+      "url": "https://doi.org/10.1002/prop.201300020",
+      "doi": "10.1002/prop.201300020",
       "sections_cited": ["s03"],
       "verified": true,
-      "last_checked": "2026-03-20"
+      "last_checked": "2026-11-07"
     },
     {
       "id": "src-010",
@@ -134,14 +136,14 @@
     {
       "id": "src-011",
       "type": "peer_reviewed",
-      "title": "No Shadow of a Doubt: The 1919 Eclipse That Confirmed Einstein's Theory of Relativity",
-      "authors": ["Daniel Kennefick"],
-      "date": "2020",
-      "url": "https://doi.org/10.1515/9780691188522",
-      "doi": "10.1515/9780691188522",
+      "title": "The 1919 eclipse results that verified general relativity and their later detractors: a story re-told",
+      "authors": ["Gerard Gilmore", "Gudrun Tausch-Pebody"],
+      "date": "2022",
+      "url": "https://doi.org/10.1098/rsnr.2020.0040",
+      "doi": "10.1098/rsnr.2020.0040",
       "sections_cited": ["s02"],
       "verified": true,
-      "last_checked": "2026-03-20"
+      "last_checked": "2026-08-03"
     },
     {
       "id": "src-012",
@@ -151,7 +153,7 @@
       "date": "2016",
       "url": "https://doi.org/10.1103/PhysRevLett.116.061102",
       "doi": "10.1103/PhysRevLett.116.061102",
-      "sections_cited": ["s03", "s08"],
+      "sections_cited": [],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -159,13 +161,13 @@
       "id": "src-013",
       "type": "peer_reviewed",
       "title": "MICROSCOPE mission: Final results of the test of the equivalence principle",
-      "authors": ["Pierre Touboul", "Gilles Metris", "Manuel Rodrigues", "Yves Andre", "Quentin Baghi", "Joel Berge", "Damien Boulanger", "Stefanie Bremer", "Ratana Chhun", "Bruno Christophe", "Valerio Cipolla", "Thibault Damour", "Pascale Defraigne", "Thomas Demorel", "Guillaume Dideron", "Michael K. Dittus", "Patrick Fayet", "Bernard Foulon", "Pierre-Yves Guidotti", "Emilie Hardy", "Phuong-Anh Huynh", "Christophe Julien", "Alain Lambrecht", "Vincent Lapeyrere", "Jean-Pierre Lienart", "Arthur Levy", "Francoise Liorzou", "Isabelle Panet", "Serge Reynaud", "Benedicte Rievers", "Alain Robert", "Hanns Selig", "Laura Serron", "Timothy Sumner", "Pieter Visser"],
+      "authors": ["Pierre Touboul", "Gilles Métris", "Manuel Rodrigues", "Joel Bergé", "Alain Robert", "Quentin Baghi", "Yves André", "Judicaël Bedouet", "Damien Boulanger", "Stefanie Bremer", "Patrice Carle", "Ratana Chhun", "Bruno Christophe", "Valerio Cipolla", "Thibault Damour", "Pascale Danto", "Louis Demange", "Hansjoerg Dittus", "Océane Dhuicque", "Pierre Fayet", "Bernard Foulon", "Pierre-Yves Guidotti", "Daniel Hagedorn", "Emilie Hardy", "Phuong-Anh Huynh", "Patrick Kayser", "Stéphanie Lala", "Claus Lämmerzahl", "Vincent Lebat", "Françoise Liorzou", "Meike List", "Frank Löffler", "Isabelle Panet", "Martin Pernot-Borràs", "Laurent Perraud", "Sandrine Pires", "Benjamin Pouilloux", "Pascal Prieur", "Alexandre Rebray", "Serge Reynaud", "Benny Rievers", "Hanns Selig", "Laura Serron", "Timothy Sumner", "Nicolas Tanguy", "Patrizia Torresi", "Pieter Visser", "MICROSCOPE Collaboration"],
       "date": "2022",
       "url": "https://doi.org/10.1103/PhysRevLett.129.121102",
       "doi": "10.1103/PhysRevLett.129.121102",
-      "sections_cited": ["s02", "s03", "s09"],
+      "sections_cited": ["s02", "s09"],
       "verified": true,
-      "last_checked": "2026-03-20"
+      "last_checked": "2026-11-07"
     },
     {
       "id": "src-014",
@@ -175,19 +177,19 @@
       "date": "1948",
       "url": "https://www.dwc.knaw.nl/DL/publications/PU00018547.pdf",
       "doi": null,
-      "sections_cited": ["s03", "s05", "s07", "s08"],
+      "sections_cited": ["s03", "s07", "s08"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
     {
       "id": "src-015",
       "type": "peer_reviewed",
-      "title": "Demonstration of the Casimir force in the 0.6 to 6 um range",
+      "title": "Demonstration of the Casimir force in the 0.6 to 6 μm range",
       "authors": ["Steve K. Lamoreaux"],
       "date": "1997",
       "url": "https://doi.org/10.1103/PhysRevLett.78.5",
       "doi": "10.1103/PhysRevLett.78.5",
-      "sections_cited": ["s03", "s05", "s07", "s08"],
+      "sections_cited": ["s03", "s07", "s08"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -211,7 +213,7 @@
       "date": "2013",
       "url": "https://doi.org/10.1073/pnas.1212705110",
       "doi": "10.1073/pnas.1212705110",
-      "sections_cited": ["s05"],
+      "sections_cited": ["s05", "s08"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -259,7 +261,7 @@
       "date": "2016",
       "url": "https://doi.org/10.1038/nphys3863",
       "doi": "10.1038/nphys3863",
-      "sections_cited": ["s05"],
+      "sections_cited": ["s05", "s08"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -319,7 +321,7 @@
       "date": "2006",
       "url": "https://doi.org/10.1126/science.1125907",
       "doi": "10.1126/science.1125907",
-      "sections_cited": ["s02", "s06"],
+      "sections_cited": ["s02", "s06", "s08"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -327,13 +329,13 @@
       "id": "src-027",
       "type": "peer_reviewed",
       "title": "Carbon nanotube bundles with tensile strength over 80 GPa",
-      "authors": ["Yunxiang Bai", "Rufan Zhang", "Xuan Ye", "Pengxiang Zhu", "Haojie Zhao", "Tao Liang", "Jingnan Zhang", "Wei Fei", "Xiao Zhang", "Bilu Liu", "Hui-Ming Cheng"],
+      "authors": ["Yunxiang Bai", "Rufan Zhang", "Xuan Ye", "Zhenxing Zhu", "Huanhuan Xie", "Boyuan Shen", "Dali Cai", "Bofei Liu", "Chenxi Zhang", "Zhao Jia", "Shenli Zhang", "Xide Li", "Fei Wei"],
       "date": "2018",
       "url": "https://doi.org/10.1038/s41565-018-0141-z",
       "doi": "10.1038/s41565-018-0141-z",
       "sections_cited": ["s06", "s07"],
       "verified": true,
-      "last_checked": "2026-03-20"
+      "last_checked": "2026-11-07"
     },
     {
       "id": "src-028",
@@ -379,7 +381,7 @@
       "date": "2021",
       "url": "https://www.dni.gov/files/ODNI/documents/assessments/Prelimary-Assessment-UAP-20210625.pdf",
       "doi": null,
-      "sections_cited": ["s01", "s02", "s08"],
+      "sections_cited": ["s01", "s08"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -391,7 +393,7 @@
       "date": "2023",
       "url": "https://www.dni.gov/files/ODNI/documents/assessments/Unclassified-2022-Annual-Report-UAP.pdf",
       "doi": null,
-      "sections_cited": ["s01"],
+      "sections_cited": ["s01", "s05"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -401,23 +403,23 @@
       "title": "Report on the Historical Record of U.S. Government Involvement with Unidentified Anomalous Phenomena (UAP), Volume I",
       "authors": ["All-domain Anomaly Resolution Office"],
       "date": "2024",
-      "url": "https://www.aaro.mil/Portals/136/PDFs/AARO_Historical_Record_Report_Vol_1_-_2024.pdf",
+      "url": "https://media.defense.gov/2024/Mar/08/2003409233/-1/-1/0/DOPSR-2024-0175-HISTORICAL-RECORD-REPORT-VOLUME-I-2024.PDF",
       "doi": null,
       "sections_cited": ["s01"],
       "verified": true,
-      "last_checked": "2026-03-20"
+      "last_checked": "2026-11-07"
     },
     {
       "id": "src-034",
       "type": "government",
-      "title": "Analysis of a Metallic Specimen (Synopsis)",
+      "title": "Synopsis: Analysis of a Metallic Specimen",
       "authors": ["All-domain Anomaly Resolution Office", "Oak Ridge National Laboratory"],
-      "date": "2022",
+      "date": "2024",
       "url": "https://www.aaro.mil/Portals/136/PDFs/Information%20Papers/ORNL-Synopsis_Analysis_of_a_Metallic_Specimen.pdf",
       "doi": null,
       "sections_cited": ["s06"],
       "verified": true,
-      "last_checked": "2026-03-22"
+      "last_checked": "2026-11-07"
     },
     {
       "id": "src-035",
@@ -427,7 +429,7 @@
       "date": "2015",
       "url": "https://www.dni.gov/files/documents/ICD/ICD-203.pdf",
       "doi": null,
-      "sections_cited": ["s01"],
+      "sections_cited": [],
       "verified": true,
       "last_checked": "2026-03-21"
     },
@@ -499,7 +501,7 @@
       "date": "2010",
       "url": "https://irp.fas.org/dia/aatip/dird07.pdf",
       "doi": null,
-      "sections_cited": ["s01", "s06"],
+      "sections_cited": ["s01"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -511,7 +513,7 @@
       "date": "2010",
       "url": "https://irp.fas.org/dia/aatip/dird09.pdf",
       "doi": null,
-      "sections_cited": ["s01", "s04"],
+      "sections_cited": ["s04"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -523,7 +525,7 @@
       "date": "2010",
       "url": "https://irp.fas.org/dia/aatip/dird22.pdf",
       "doi": null,
-      "sections_cited": ["s01", "s06"],
+      "sections_cited": ["s06"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -535,7 +537,7 @@
       "date": "2010",
       "url": "https://irp.fas.org/dia/aatip/dird19.pdf",
       "doi": null,
-      "sections_cited": ["s01", "s03"],
+      "sections_cited": ["s01"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -567,13 +569,13 @@
       "id": "src-047",
       "type": "dird",
       "title": "DIRD #30: Aneutronic Fusion Propulsion",
-      "authors": ["William Culbreth"],
+      "authors": ["V. Teofilo"],
       "date": "2010",
       "url": "https://irp.fas.org/dia/aatip/dird30.pdf",
       "doi": null,
-      "sections_cited": ["s01", "s04"],
+      "sections_cited": ["s04"],
       "verified": true,
-      "last_checked": "2026-03-20"
+      "last_checked": "2026-11-07"
     },
     {
       "id": "src-048",
@@ -583,7 +585,7 @@
       "date": "1973",
       "url": "https://press.princeton.edu/books/hardcover/9780691177793/gravitation",
       "doi": null,
-      "sections_cited": ["s02", "s03", "s04", "s09"],
+      "sections_cited": ["s02", "s03", "s09"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -607,7 +609,7 @@
       "date": "1982",
       "url": "https://doi.org/10.1017/CBO9780511622632",
       "doi": "10.1017/CBO9780511622632",
-      "sections_cited": ["s03", "s05"],
+      "sections_cited": ["s02"],
       "verified": true,
       "last_checked": "2026-03-20"
     },
@@ -629,23 +631,23 @@
       "title": "Physics of the Impossible: A Scientific Exploration into the World of Phasers, Force Fields, Teleportation, and Time Travel",
       "authors": ["Michio Kaku"],
       "date": "2008",
-      "url": "https://www.penguinrandomhouse.com/books/301702/physics-of-the-impossible-by-michio-kaku/",
+      "url": "https://www.penguinrandomhouse.com/books/89412/physics-of-the-impossible-by-michio-kaku/",
       "doi": null,
-      "sections_cited": ["s07"],
+      "sections_cited": [],
       "verified": true,
-      "last_checked": "2026-03-20"
+      "last_checked": "2026-08-03"
     },
     {
       "id": "src-053",
       "type": "preprint",
-      "title": "Dynamical Casimir analogue effect in a superluminal medium",
-      "authors": ["Ralf Schutzhold"],
+      "title": "Refractive index perturbations — Unruh effect, Hawking radiation or dynamical Casimir effect?",
+      "authors": ["Ralf Schützhold"],
       "date": "2011",
       "url": "https://arxiv.org/abs/1110.6064",
       "doi": null,
-      "sections_cited": ["s05", "s08"],
+      "sections_cited": ["s05"],
       "verified": true,
-      "last_checked": "2026-03-20"
+      "last_checked": "2026-08-03"
     },
     {
       "id": "src-054",
@@ -667,7 +669,7 @@
       "date": "2019",
       "url": "https://doi.org/10.3390/e21100939",
       "doi": "10.3390/e21100939",
-      "sections_cited": ["s02", "s07"],
+      "sections_cited": ["s02"],
       "verified": true,
       "last_checked": "2026-03-22"
     },
@@ -698,26 +700,26 @@
     {
       "id": "src-058",
       "type": "government",
-      "title": "AARO: Assessment of Reported Parallax and Forced Perspective Effects on UAP Observations",
+      "title": "Effect of Forced Perspective and Parallax View on UAP Observations",
       "authors": ["All-domain Anomaly Resolution Office"],
       "date": "2024",
       "url": "https://www.aaro.mil/Portals/136/PDFs/Information%20Papers/AARO_Effect_of_Forced_Perspective_and_Parallax_View_on_UAP_Observations_2024.pdf",
       "doi": null,
       "sections_cited": ["s02"],
       "verified": true,
-      "last_checked": "2026-03-22"
+      "last_checked": "2026-11-07"
     },
     {
       "id": "src-059",
       "type": "government",
-      "title": "NIF Sets New Records for Energy Yield and Target Gain",
+      "title": "Achieving Fusion Ignition",
       "authors": ["Lawrence Livermore National Laboratory"],
       "date": "2025",
       "url": "https://lasers.llnl.gov/science/achieving-fusion-ignition",
       "doi": null,
       "sections_cited": ["s04"],
       "verified": true,
-      "last_checked": "2026-03-21"
+      "last_checked": "2026-11-07"
     },
     {
       "id": "src-060",
@@ -752,6 +754,126 @@
       "sections_cited": ["s09"],
       "verified": true,
       "last_checked": "2026-03-27"
+    },
+    {
+      "id": "src-062",
+      "type": "peer_reviewed",
+      "title": "Constant velocity physical warp drive solution",
+      "authors": ["Jared Fuchs", "Christopher Helmerich", "Alexey Bobrick", "Luke Sellers", "Brandon Melcher", "Gianni Martire"],
+      "date": "2024",
+      "url": "https://doi.org/10.1088/1361-6382/ad26aa",
+      "doi": "10.1088/1361-6382/ad26aa",
+      "sections_cited": ["s03", "s08", "s09"],
+      "verified": true,
+      "last_checked": "2026-11-07"
+    },
+    {
+      "id": "src-063",
+      "type": "peer_reviewed",
+      "title": "Superluminal subway: The Krasnikov tube",
+      "authors": ["Allen E. Everett", "Thomas A. Roman"],
+      "date": "1997",
+      "url": "https://doi.org/10.1103/PhysRevD.56.2100",
+      "doi": "10.1103/PhysRevD.56.2100",
+      "sections_cited": ["s03"],
+      "verified": true,
+      "last_checked": "2026-11-07"
+    },
+    {
+      "id": "src-064",
+      "type": "peer_reviewed",
+      "title": "Quantum effects in the Alcubierre warp-drive spacetime",
+      "authors": ["William A. Hiscock"],
+      "date": "1997",
+      "url": "https://doi.org/10.1088/0264-9381/14/11/002",
+      "doi": "10.1088/0264-9381/14/11/002",
+      "sections_cited": ["s03"],
+      "verified": true,
+      "last_checked": "2026-11-07"
+    },
+    {
+      "id": "src-065",
+      "type": "peer_reviewed",
+      "title": "Semiclassical instability of dynamical warp drives",
+      "authors": ["Stefano Finazzi", "Stefano Liberati", "Carlos Barceló"],
+      "date": "2009",
+      "url": "https://doi.org/10.1103/PhysRevD.79.124017",
+      "doi": "10.1103/PhysRevD.79.124017",
+      "sections_cited": ["s03", "s05"],
+      "verified": true,
+      "last_checked": "2026-11-07"
+    },
+    {
+      "id": "src-066",
+      "type": "peer_reviewed",
+      "title": "Null geodesics in the Alcubierre warp-drive spacetime: the view from the bridge",
+      "authors": ["Chad Clark", "William A. Hiscock", "Shane L. Larson"],
+      "date": "1999",
+      "url": "https://doi.org/10.1088/0264-9381/16/12/313",
+      "doi": "10.1088/0264-9381/16/12/313",
+      "sections_cited": ["s03"],
+      "verified": true,
+      "last_checked": "2026-11-07"
+    },
+    {
+      "id": "src-067",
+      "type": "peer_reviewed",
+      "title": "Detailed study of null and timelike geodesics in the Alcubierre warp spacetime",
+      "authors": ["Thomas Müller", "Daniel Weiskopf"],
+      "date": "2012",
+      "url": "https://doi.org/10.1007/s10714-011-1289-0",
+      "doi": "10.1007/s10714-011-1289-0",
+      "sections_cited": ["s03"],
+      "verified": true,
+      "last_checked": "2026-11-07"
+    },
+    {
+      "id": "src-068",
+      "type": "peer_reviewed",
+      "title": "Superluminal travel requires negative energies",
+      "authors": ["Ken D. Olum"],
+      "date": "1998",
+      "url": "https://doi.org/10.1103/PhysRevLett.81.3567",
+      "doi": "10.1103/PhysRevLett.81.3567",
+      "sections_cited": ["s03"],
+      "verified": true,
+      "last_checked": "2026-11-07"
+    },
+    {
+      "id": "src-069",
+      "type": "peer_reviewed",
+      "title": "Metamaterial electromagnetic cloak at microwave frequencies",
+      "authors": ["D. Schurig", "J. J. Mock", "B. J. Justice", "S. A. Cummer", "J. B. Pendry", "A. F. Starr", "D. R. Smith"],
+      "date": "2006",
+      "url": "https://doi.org/10.1126/science.1133628",
+      "doi": "10.1126/science.1133628",
+      "sections_cited": ["s06"],
+      "verified": true,
+      "last_checked": "2026-11-07"
+    },
+    {
+      "id": "src-070",
+      "type": "peer_reviewed",
+      "title": "Invisibility exposed: physical bounds on passive cloaking",
+      "authors": ["Francesco Monticone", "Andrea Alù"],
+      "date": "2016",
+      "url": "https://doi.org/10.1364/OPTICA.3.000718",
+      "doi": "10.1364/OPTICA.3.000718",
+      "sections_cited": ["s06"],
+      "verified": true,
+      "last_checked": "2026-11-07"
+    },
+    {
+      "id": "src-071",
+      "type": "book",
+      "title": "The Watchers II",
+      "authors": ["Raymond E. Fowler"],
+      "date": "1995",
+      "url": "https://openlibrary.org/works/OL2728323W",
+      "doi": null,
+      "sections_cited": ["s09"],
+      "verified": true,
+      "last_checked": "2026-11-07"
     }
   ]
 }

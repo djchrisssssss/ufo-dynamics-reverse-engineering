@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-06-12",
+    "last_updated": "2026-11-07",
     "description": "Maps canonical Markdown note IDs to bibliography-backed src IDs and auxiliary source identifiers.",
-    "total_notes": 135,
-    "total_key_judgments": 11,
-    "total_auxiliary_sources": 37
+    "total_notes": 138,
+    "total_key_judgments": 12,
+    "total_auxiliary_sources": 46
   },
   "auxiliary_sources": {
     "nyt-aatip-2017": {
@@ -130,9 +130,9 @@
       "type": "background",
       "title": "Theoretical materials-strength limit literature (ultimate strength ~E/10)"
     },
-    "betterton-krohl-patent-1938": {
-      "type": "patent",
-      "title": "Betterton-Krohl process patent and industrial metallurgy references"
+    "betterton-kroll-process": {
+      "type": "background",
+      "title": "Betterton–Kroll debismuthizing process (Kroll, 1920s; Betterton, 1930s)"
     },
     "qcd-reference": {
       "type": "background",
@@ -150,18 +150,90 @@
       "type": "historical_reference",
       "title": "Historical references on superconductivity, high-temperature superconductors, and HTS magnets"
     },
+    "shalaev-optical-metamaterials-2007": {
+      "type": "peer_reviewed_aux",
+      "title": "Optical negative-index metamaterials",
+      "authors": ["Vladimir M. Shalaev"],
+      "date": "2007",
+      "url": "https://doi.org/10.1038/nphoton.2006.49",
+      "doi": "10.1038/nphoton.2006.49"
+    },
     "analog-gravity-literature": {
       "type": "background",
       "title": "Analog gravity and metamaterial curved-spacetime simulation literature"
     },
-    "watchers-ii-1995": {
-      "type": "book",
-      "title": "The Watchers II (Raymond E. Fowler, 1995)",
-      "url": "https://openlibrary.org/works/OL2728323W"
-    },
     "abduction-schema-corpus-2026": {
       "type": "research_note",
       "title": "Primary-source-weighted synthesis of recurring abduction and craft descriptors (user-supplied corpus, 2026-03-27)"
+    },
+    "weinberg-1989": {
+      "type": "peer_reviewed_aux",
+      "title": "The cosmological constant problem",
+      "authors": ["S. Weinberg"],
+      "date": "1989",
+      "url": "https://doi.org/10.1103/RevModPhys.61.1",
+      "doi": "10.1103/RevModPhys.61.1"
+    },
+    "icnirp-2020-rf": {
+      "type": "guideline",
+      "title": "ICNIRP guidelines for limiting exposure to electromagnetic fields (100 kHz to 300 GHz)",
+      "authors": ["International Commission on Non-Ionizing Radiation Protection"],
+      "date": "2020",
+      "url": "https://doi.org/10.1097/HP.0000000000001210",
+      "doi": "10.1097/HP.0000000000001210"
+    },
+    "icnirp-2010-lf": {
+      "type": "guideline",
+      "title": "ICNIRP guidelines for limiting exposure to time-varying electric and magnetic fields (1 Hz to 100 kHz)",
+      "authors": ["International Commission on Non-Ionizing Radiation Protection"],
+      "date": "2010",
+      "url": "https://doi.org/10.1097/HP.0b013e3181f06c86",
+      "doi": "10.1097/HP.0b013e3181f06c86"
+    },
+    "valentine-optical-cloak-2009": {
+      "type": "peer_reviewed_aux",
+      "title": "An optical cloak made of dielectrics",
+      "authors": ["J. Valentine", "J. Li", "T. Zentgraf", "G. Bartal", "X. Zhang"],
+      "date": "2009",
+      "url": "https://doi.org/10.1038/nmat2461",
+      "doi": "10.1038/nmat2461"
+    },
+    "ergin-optical-cloak-2010": {
+      "type": "peer_reviewed_aux",
+      "title": "Three-dimensional invisibility cloak at optical wavelengths",
+      "authors": ["T. Ergin", "N. Stenger", "P. Brenner", "J. B. Pendry", "M. Wegener"],
+      "date": "2010",
+      "url": "https://doi.org/10.1126/science.1186351",
+      "doi": "10.1126/science.1186351"
+    },
+    "orowan-1949": {
+      "type": "peer_reviewed_aux",
+      "title": "Fracture and strength of solids",
+      "authors": ["E. Orowan"],
+      "date": "1949",
+      "url": "https://doi.org/10.1088/0034-4885/12/1/309",
+      "doi": "10.1088/0034-4885/12/1/309"
+    },
+    "aoki-2006": {
+      "type": "peer_reviewed_aux",
+      "title": "The order of the quantum chromodynamics transition predicted by the standard model of particle physics",
+      "authors": ["Y. Aoki", "G. Endrődi", "Z. Fodor", "S. D. Katz", "K. K. Szabó"],
+      "date": "2006",
+      "url": "https://doi.org/10.1038/nature05120",
+      "doi": "10.1038/nature05120"
+    },
+    "bazavov-2019": {
+      "type": "peer_reviewed_aux",
+      "title": "Chiral crossover in QCD at zero and non-zero chemical potentials",
+      "authors": ["A. Bazavov", "HotQCD Collaboration"],
+      "date": "2019",
+      "url": "https://doi.org/10.1016/j.physletb.2019.05.013",
+      "doi": "10.1016/j.physletb.2019.05.013"
+    },
+    "aaro-ornl-supplement-2024": {
+      "type": "government_aux",
+      "title": "Supplement to Oak Ridge National Laboratory's Analysis of a Metallic Specimen (AARO, July 2024; Black Vault mirror)",
+      "url": "https://documents2.theblackvault.com/documents/dod/AAROs_Supplement_to_ORNLs_Analysis_of_a_Metallic_Specimen.pdf"
     }
   },
   "notes": {
@@ -205,7 +277,13 @@
     "ref-015": {
       "section": "s01",
       "src_ids": [
-        "src-033"
+        "src-033",
+        "src-036",
+        "src-038",
+        "src-041",
+        "src-044",
+        "src-037",
+        "src-039"
       ],
       "auxiliary_ids": [
         "dird-index"
@@ -220,7 +298,7 @@
       ]
     },
     "ref-017": {
-      "section": "s01",
+      "section": "s02",
       "src_ids": [
         "src-054"
       ],
@@ -390,7 +468,8 @@
     "ref-037": {
       "section": "s02",
       "src_ids": [
-        "src-010"
+        "src-010",
+        "src-011"
       ],
       "auxiliary_ids": []
     },
@@ -471,7 +550,6 @@
     "ref-045c": {
       "section": "s02",
       "src_ids": [
-        "src-058",
         "src-056"
       ],
       "auxiliary_ids": []
@@ -508,6 +586,16 @@
       "section": "s03",
       "src_ids": [
         "src-001"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-048a": {
+      "section": "s03",
+      "src_ids": [
+        "src-063",
+        "src-066",
+        "src-064",
+        "src-065"
       ],
       "auxiliary_ids": []
     },
@@ -559,7 +647,15 @@
         "src-004",
         "src-005",
         "src-006",
-        "src-007"
+        "src-007",
+        "src-062"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-055a": {
+      "section": "s03",
+      "src_ids": [
+        "src-062"
       ],
       "auxiliary_ids": []
     },
@@ -569,6 +665,14 @@
         "src-001",
         "src-048",
         "src-049"
+      ],
+      "auxiliary_ids": []
+    },
+    "ref-056a": {
+      "section": "s03",
+      "src_ids": [
+        "src-066",
+        "src-067"
       ],
       "auxiliary_ids": []
     },
@@ -796,10 +900,10 @@
     },
     "ref-084": {
       "section": "s04",
-      "src_ids": [
-        "src-048"
-      ],
-      "auxiliary_ids": []
+      "src_ids": [],
+      "auxiliary_ids": [
+        "weinberg-1989"
+      ]
     },
     "ref-085": {
       "section": "s04",
@@ -875,7 +979,8 @@
         "src-001",
         "src-018",
         "src-019",
-        "src-053"
+        "src-053",
+        "src-065"
       ],
       "auxiliary_ids": []
     },
@@ -919,14 +1024,16 @@
       "src_ids": [
         "src-040"
       ],
-      "auxiliary_ids": []
+      "auxiliary_ids": [
+        "icnirp-2020-rf",
+        "icnirp-2010-lf"
+      ]
     },
     "ref-099": {
       "section": "s05",
       "src_ids": [
-        "src-016",
-        "src-040",
-        "src-053"
+        "src-032",
+        "src-040"
       ],
       "auxiliary_ids": []
     },
@@ -990,9 +1097,14 @@
       "src_ids": [
         "src-024",
         "src-026",
-        "src-043"
+        "src-043",
+        "src-069",
+        "src-070"
       ],
-      "auxiliary_ids": []
+      "auxiliary_ids": [
+        "valentine-optical-cloak-2009",
+        "ergin-optical-cloak-2010"
+      ]
     },
     "ref-108": {
       "section": "s06",
@@ -1012,7 +1124,8 @@
       "section": "s06",
       "src_ids": [],
       "auxiliary_ids": [
-        "materials-strength-theory"
+        "materials-strength-theory",
+        "orowan-1949"
       ]
     },
     "ref-111": {
@@ -1027,7 +1140,9 @@
       "src_ids": [
         "src-034"
       ],
-      "auxiliary_ids": []
+      "auxiliary_ids": [
+        "aaro-ornl-supplement-2024"
+      ]
     },
     "ref-113": {
       "section": "s06",
@@ -1035,7 +1150,8 @@
         "src-034"
       ],
       "auxiliary_ids": [
-        "betterton-krohl-patent-1938"
+        "betterton-kroll-process",
+        "aaro-ornl-supplement-2024"
       ]
     },
     "ref-114": {
@@ -1049,7 +1165,9 @@
       "section": "s06",
       "src_ids": [],
       "auxiliary_ids": [
-        "qgp-collider-literature"
+        "qgp-collider-literature",
+        "aoki-2006",
+        "bazavov-2019"
       ]
     },
     "ref-116": {
@@ -1081,20 +1199,15 @@
     "ref-119": {
       "section": "s07",
       "src_ids": [
-        "src-001",
-        "src-006"
+        "src-002"
       ],
-      "auxiliary_ids": [
-        "iter",
-        "cfs-sparc",
-        "nif-ignition"
-      ]
+      "auxiliary_ids": []
     },
     "ref-120a": {
       "section": "s07",
       "src_ids": [
-        "src-014",
-        "src-027"
+        "src-002",
+        "src-005"
       ],
       "auxiliary_ids": []
     },
@@ -1118,7 +1231,9 @@
       "section": "s08",
       "src_ids": [
         "src-016",
-        "src-026"
+        "src-026",
+        "src-017",
+        "src-021"
       ],
       "auxiliary_ids": [
         "analog-gravity-literature"
@@ -1145,6 +1260,7 @@
     "ref-124": {
       "section": "s09",
       "src_ids": [
+        "src-001",
         "src-002"
       ],
       "auxiliary_ids": []
@@ -1160,7 +1276,8 @@
       "section": "s09",
       "src_ids": [
         "src-006",
-        "src-007"
+        "src-007",
+        "src-062"
       ],
       "auxiliary_ids": []
     },
@@ -1178,10 +1295,10 @@
     },
     "ref-128": {
       "section": "s09",
-      "src_ids": [],
-      "auxiliary_ids": [
-        "watchers-ii-1995"
-      ]
+      "src_ids": [
+        "src-071"
+      ],
+      "auxiliary_ids": []
     },
     "ref-129": {
       "section": "s09",
@@ -1195,7 +1312,8 @@
       "src_ids": [
         "src-006",
         "src-048",
-        "src-049"
+        "src-049",
+        "src-062"
       ],
       "auxiliary_ids": []
     },
@@ -1203,11 +1321,10 @@
       "section": "s09",
       "src_ids": [
         "src-040",
-        "src-056"
+        "src-056",
+        "src-071"
       ],
-      "auxiliary_ids": [
-        "watchers-ii-1995"
-      ]
+      "auxiliary_ids": []
     },
     "ref-132": {
       "section": "s09",
@@ -1250,7 +1367,8 @@
       "src_ids": [
         "src-056",
         "src-060",
-        "src-061"
+        "src-061",
+        "src-062"
       ],
       "auxiliary_ids": [
         "abduction-schema-corpus-2026"
@@ -1261,7 +1379,8 @@
     "KJ-1": {
       "src_ids": [
         "src-048",
-        "src-049"
+        "src-049",
+        "src-056"
       ],
       "auxiliary_ids": []
     },
@@ -1273,7 +1392,8 @@
     },
     "KJ-3": {
       "src_ids": [
-        "src-005"
+        "src-005",
+        "src-068"
       ],
       "auxiliary_ids": []
     },
@@ -1300,17 +1420,18 @@
     },
     "KJ-7": {
       "src_ids": [
+        "src-032",
         "src-040"
       ],
-      "auxiliary_ids": [
-        "nasa-ochmo-tb-024"
-      ]
+      "auxiliary_ids": []
     },
     "KJ-8": {
       "src_ids": [
         "src-034"
       ],
-      "auxiliary_ids": []
+      "auxiliary_ids": [
+        "aaro-ornl-supplement-2024"
+      ]
     },
     "KJ-9": {
       "src_ids": [
@@ -1329,13 +1450,21 @@
         "src-043"
       ],
       "auxiliary_ids": [
-        "iter"
+        "iter",
+        "shalaev-optical-metamaterials-2007"
       ]
     },
     "KJ-10b": {
       "src_ids": [
         "src-048",
         "src-049"
+      ],
+      "auxiliary_ids": []
+    },
+    "KJ-10c": {
+      "src_ids": [
+        "src-056",
+        "src-033"
       ],
       "auxiliary_ids": []
     }

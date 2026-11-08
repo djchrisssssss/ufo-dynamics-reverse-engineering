@@ -41,23 +41,23 @@
 
 ## Abstract / 摘要
 
-A systematic physics-based assessment of reported UFO/UAP flight characteristics. Evaluates whether known or theoretically plausible physical mechanisms — including Alcubierre warp metrics, nuclear fusion, dynamical Casimir effect, and metamaterials — could account for the "Five Observables" taxonomy. Concludes that most near-term barriers are **engineering and materials-science constraints**, while controlled energy-to-curvature transduction remains an unresolved physics gap.
+A source-critical physics assessment of reported UFO/UAP flight characteristics. It evaluates whether candidate mechanisms — including Alcubierre warp metrics, nuclear fusion, quantum-field effects, and metamaterials — are quantitatively compatible with the "Five Observables" taxonomy. Public UAP data are generally too poorly calibrated to establish the claimed kinematics, and mathematically valid warp metrics are not known to be physically realizable. The central unresolved problem is realizing and controlling the required stress-energy distribution, not a separate conversion of energy into curvature.
 
-以物理學為基礎，系統性評估已報告之 UFO/UAP 飛行特徵。評估已知或理論上合理之物理機制——包括阿乎庫比耶曲速度規、核融合、動態卡西米爾效應及超穎材料——能否解釋「五大可觀測特徵」分類法。結論為，多數近期障礙屬於**工程與材料科學限制**，但可控的能量到曲率轉換仍是未解的物理缺口。
+以來源批判與物理量化為基礎，評估已報告之 UFO/UAP 飛行特徵，以及阿乎庫比耶曲速度規、核融合、量子場效應與超穎材料等候選機制。公開 UAP 資料通常缺乏足以建立所稱運動學之校準與中介資料；數學上成立之曲速度規亦不等於物理上可實現。核心未解問題是如何實現並控制所需之應力—能量分布，而非另有一個「能量轉換成曲率」之交互作用。
 
-> This is an independent scientific assessment. No classified information was used. All sources are publicly available.
+> This is an independent scientific assessment. No classified information was used. All sources are publicly available, except one unpublished author-compiled narrative summary used only as phenomenological input in Section 9.7–9.10.
 
 ---
 
 ## Background / 背景
 
-This work originated from a close reading of ***Imminent: Inside the Pentagon's Hunt for UFOs*** (William Morrow, 2024) by **Luis Elizondo** — the former U.S. Army counterintelligence officer who directed the Pentagon's Advanced Aerospace Threat Identification Program (AATIP) from 2008 to 2017. Elizondo's book is the first insider account from the person who actually ran the U.S. government's modern UFO investigation program. It documents how the "Five Observables" taxonomy was created, the commissioning of 38 classified Defense Intelligence Reference Documents (DIRDs) by world-class physicists, the specific radar and sensor cases that defied conventional explanation, and the internal political battles that led to his resignation in protest.
+This work was prompted by a close reading of ***Imminent: Inside the Pentagon's Hunt for UFOs*** (William Morrow, 2024) by **Luis Elizondo**. The memoir is a secondary, participant account and is used here as a source of hypotheses rather than as validation of physical observations. AARO distinguishes the official 2009–2012 AAWSAP contract from a later informal use of the AATIP label and reports that the exploratory DIRDs were not thoroughly peer reviewed.
 
-After reading the book, we realized that the physical claims described — instantaneous acceleration, transmedium travel, absence of sonic booms — are not vague anecdotes but structured, sensor-corroborated observations that can be rigorously evaluated against known physics. This assessment was born from that realization: taking Elizondo's observational framework and the DIRD physics as a starting point, then systematically mapping each claimed observable onto established general relativity, quantum field theory, nuclear physics, and materials science to determine what is physically possible, what is theoretically plausible, and where the true engineering gaps lie.
+Claims such as instantaneous acceleration, transmedium travel, and absence of sonic booms can be translated into testable physical quantities, but the public evidence does not establish that every claimed observable occurred as described. This assessment therefore treats the Five Observables and the DIRDs as prompts for conditional analysis, separates source-dependent estimates from measurements, and asks what additional calibrated data would be required before any propulsion inference is justified.
 
-本作品起源於對 **Luis Elizondo** 所著 ***《Imminent: Inside the Pentagon's Hunt for UFOs》***（William Morrow, 2024）的深入研讀。Elizondo 曾任美國陸軍反情報特別探員，於 2008 至 2017 年間主持五角大廈「先進航太威脅識別計畫」（AATIP），是美國政府現代 UFO 調查計畫的實際負責人。本書是首部由計畫主持人以第一手視角撰寫的內部紀實，記錄了「五大可觀測特徵」分類法的建立過程、38 份由頂尖物理學家撰寫之國防情報參考文件（DIRD）的委託始末、挑戰傳統解釋的具體雷達與感測器案例，以及最終促使他辭職抗議的國防部內部政治角力。
+本作品起因於對 **Luis Elizondo** 所著 ***《Imminent: Inside the Pentagon's Hunt for UFOs》***（William Morrow, 2024）的深入研讀。該書為參與者之回憶錄，屬次級來源，本文僅將其作為假說來源，而非物理觀測之驗證。AARO 區分 2009–2012 年之官方 AAWSAP 合約與其後非正式使用之 AATIP 名稱，並指出探索性 DIRD 未經完整同儕審查。
 
-閱讀本書後我們意識到，書中所描述的物理特徵——瞬間加速、跨介質飛行、無音爆——並非模糊的軼事傳聞，而是結構化的、有感測器佐證的觀測紀錄，完全可以用已知物理學進行嚴謹檢驗。本評估即誕生於此認知：以 Elizondo 的觀測框架與 DIRD 物理學為起點，系統性地將每項聲稱之可觀測特徵對應至已建立之廣義相對論、量子場論、核物理學及材料科學，判定何者在物理上可能、何者在理論上合理、以及真正的工程差距究竟在何處。
+瞬間加速、跨介質飛行與無音爆等主張可轉換為可檢驗之物理量，但公開證據並未確立每項所稱之可觀測特徵確如描述般發生。因此本評估將五大可觀測特徵與 DIRD 視為條件式分析之起點，區分來源相依之估計與量測，並探討在任何推進推論成立之前，還需要哪些經校準之資料。
 
 ---
 
@@ -67,11 +67,11 @@ After reading the book, we realized that the physical claims described — insta
 |---|---------|--------|------------|
 | 1 | Introduction & Historical Context | 導論與歷史脈絡 | Terminology (UFO ⊂ UAP); Blue Book → AATIP → AARO; 38 DIRDs |
 | 2 | Observable Characteristics | 可觀測特徵 | Five Observables; data quality assessment; geodesic equation; equivalence principle; alternative frameworks |
-| 3 | Propulsion Mechanisms | 推進機制 | Alcubierre metric; warp bubble morphology; exotic matter; wormholes |
+| 3 | Propulsion Mechanisms | 推進機制 | Alcubierre metric; ray-tracing requirements; exotic matter; wormholes |
 | 4 | Energy Sources | 能量來源 | DT/DD fusion; NIF ignition; heavy water; vacuum energy |
 | 5 | Electromagnetic Signatures | 電磁特徵 | Dynamical Casimir; Unruh; Hawking; THz gap; biological effects |
-| 6 | Advanced Materials | 先進材料 | Metamaterials; CNT; graphene; Bi-Mg analysis; QCD bonding |
-| 7 | Integrated Model | 整合模型 | Single-mechanism synthesis; materials gap analysis |
+| 6 | Advanced Materials | 先進材料 | Metamaterials; CNT; graphene; AARO/ORNL specimen; subatomic bonding claims |
+| 7 | Integrated Model | 整合模型 | Requirements map; constraint classification |
 | 8 | Intelligence Gaps | 情報缺口 | Research priorities; definitive evidence criteria |
 | 9 | Mathematical Foundations | 數學與相對論基礎 | Proper acceleration; oblate shell geometry; tidal and EM constraints |
 | A–E | Appendices | 附錄 | Glossary; equations; DIRD list; confidence definitions; falsification criteria |
@@ -86,8 +86,8 @@ After reading the book, we realized that the physical claims described — insta
 | `data/statistics/` | Per-section quantitative data (45 data points) | 各節定量資料 |
 | `data/timelines/` | UAP investigation history; DIRD catalog (CSV) | 調查歷程時間軸 |
 | `data/comparisons/` | Energy density; materials gap analysis (CSV) | 能量密度與材料差距比較 |
-| `references/bibliography.json` | Master bibliography (61 sources) | 主參考書目 |
-| `references/source-registry.json` | URL verification registry (35 URLs) | URL 驗證登錄 |
+| `references/bibliography.json` | Master bibliography (71 sources) | 主參考書目 |
+| `references/source-registry.json` | URL verification registry (34 URLs) | URL 驗證登錄 |
 | `references/note-map.json` | Canonical note-to-source map (`ref-*` / `KJ-*` -> `src-*` + auxiliary IDs) | canonical 註記與來源對照表 |
 | `references/per-section/` | Per-section reference documentation | 各節參考文獻 |
 
@@ -131,11 +131,11 @@ Example:
 
 | Type / 類型 | Count | % |
 |-------------|-------|---|
-| Peer-reviewed / 同儕審查 | 33 | 54.1% |
-| Government / 政府文件 | 9 | 14.8% |
-| DIRD / 國防情報參考文件 | 12 | 19.7% |
-| Books / 學術專書 | 6 | 9.8% |
-| Preprints / 預印本 | 1 | 1.6% |
+| Peer-reviewed / 同儕審查 | 42 | 59.2% |
+| Government / 政府文件 | 9 | 12.7% |
+| DIRD / 國防情報參考文件 | 12 | 16.9% |
+| Books / 學術專書 | 7 | 9.9% |
+| Preprints / 預印本 | 1 | 1.4% |
 
 ### Key Government Sources / 主要政府來源
 
@@ -166,13 +166,15 @@ Compiled PDFs are published through the GitHub Actions `ufo-dynamics-paper` arti
 ## Validation / 驗證
 
 ```bash
+python3 -m pip install -r requirements.txt
+python3 -m unittest discover -s tests
 python3 scripts/validate_repository.py
-python3 scripts/validate_repository.py --check-urls --enforce-url-status
+python3 scripts/validate_repository.py --check-urls --enforce-url-status   # weekly url-audit.yml
 ```
 
-The validation script checks bibliography counts, source-registry metadata, statistics-schema compliance, and optional live HTTP spot checks.
+The validation script checks bibliography counts, source-registry metadata, statistics-schema compliance, note-map and bilingual note parity, and BibTeX/bibliography agreement. The required CI job (`validate.yml`) runs the unit tests and the offline checks only; live HTTP spot checks run separately in the weekly `url-audit.yml` workflow.
 
-驗證腳本會檢查書目計數、來源註冊 metadata、統計資料 schema 相容性，並可選擇執行即時 HTTP 抽查。
+驗證腳本會檢查書目計數、來源註冊 metadata、統計資料 schema 相容性、註記對照表與雙語註記一致性，以及 BibTeX 與書目之一致性。必要的 CI 工作（`validate.yml`）只執行單元測試與離線檢查；即時 HTTP 抽查另由每週執行的 `url-audit.yml` 工作流程負責。
 
 ---
 
@@ -194,13 +196,21 @@ UFO-dynamics-reverse-engineering/
 │   ├── timelines/                   # Historical events (2 CSVs)
 │   └── comparisons/                 # Cross-domain analysis (2 CSVs)
 ├── references/
-│   ├── bibliography.json            # 61 sources
+│   ├── bibliography.json            # 71 sources
 │   ├── source-registry.json         # URL verification
+│   ├── note-map.json                # ref-*/KJ-* → src-* + auxiliary IDs
 │   └── per-section/                 # 9 reference files
 ├── latex/
 │   ├── main.tex                     # REVTeX 4-2 paper
-│   ├── references.bib               # 61 BibTeX entries
+│   ├── references.bib               # 71 BibTeX entries
 │   └── figures/
+├── scripts/validate_repository.py   # Repository validator
+├── tests/test_validate_repository.py
+├── assets/                          # README banner image
+├── .github/workflows/               # validate.yml (required), url-audit.yml (weekly)
+├── requirements.txt
+├── transcription.md                 # Mirror of docs/zh-TW/transcription.md
+├── .zenodo.json
 ├── CLAUDE.md
 ├── CITATION.cff
 ├── CHANGELOG.md
@@ -217,7 +227,7 @@ This project was produced through a structured collaboration between the human a
 
 | Contribution / 貢獻 | Description / 說明 |
 |---------------------|--------------------|
-| Literature synthesis / 文獻綜整 | Cross-referencing 61 sources / 交叉比對 61 筆來源 |
+| Literature synthesis / 文獻綜整 | Cross-referencing 71 sources / 交叉比對 71 筆來源 |
 | Equation typesetting / 公式排版 | Markdown + LaTeX (REVTeX 4-2) formatting / 格式化 |
 | Structural organization / 結構組織 | 9-section architecture, bilingual parity / 九章節架構、雙語對照 |
 | Data infrastructure / 資料基礎設施 | JSON Schema, statistics, timelines, source registry / 驗證架構 |
@@ -228,9 +238,9 @@ This project was produced through a structured collaboration between the human a
 
 **所有科學判斷、評估及結論均為人類作者之獨立意見。**
 
-43 of 45 quantitative data points are independently cross-checked against cited sources; two contested estimates are retained as low-confidence analysis. See the [verification reports](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/en/verification-report.md) for the current audit details.
+42 of 45 quantitative records are marked as source-cross-checked in repository metadata; this is provenance review, not independent empirical confirmation. The other three are two model-dependent USS Nimitz acceleration estimates retained as low-confidence analysis and one withdrawn derived ratio (s03-004) kept as an explicit "not defined" record. See the [verification reports](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/en/verification-report.md) for the current audit details.
 
-45 個定量資料點中有 43 個已對照引用來源完成交叉檢查；另有 2 個具爭議之估計值以低信心分析保留。完整審核詳見[驗證報告](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/zh-TW/verification-report.md)。
+45 筆定量紀錄中，有 42 筆在 repo metadata 中標記為已完成來源交叉檢查（屬來源出處審查，非獨立實證確認）；其餘 3 筆為 2 筆以低信心分析保留之模型相依 USS Nimitz 加速度估計值，以及 1 筆已撤回、以「未定義」形式保留之衍生比值（s03-004）。完整審核詳見[驗證報告](https://github.com/djchrisssssss/ufo-dynamics-reverse-engineering/blob/master/docs/zh-TW/verification-report.md)。
 
 ---
 

@@ -10,19 +10,24 @@
 5. [src-019] Hawking, S.W. "Particle creation by black holes." *CMP* 43, 199 (1975).
    - DOI: https://doi.org/10.1007/BF02345020
 6. [src-021] Steinhauer, J. "Observation of quantum Hawking radiation." *Nature Phys.* 12, 959 (2016).
-7. [src-053] Schutzhold, R. "The analogy between DCE and Hawking/Unruh radiation." arXiv: 1110.6064 (2011).
+7. [src-053] Schützhold, R. "Refractive index perturbations -- Unruh effect, Hawking radiation or dynamical Casimir effect?" arXiv: 1110.6064 (2011).
+   - arXiv: https://arxiv.org/abs/1110.6064
 8. [src-040] Green, K. "Anomalous Acute and Subacute Field Effects on Human Biological Tissues." DIRD #26.
+9. [src-065] Finazzi, S., Liberati, S. & Barceló, C. "Semiclassical instability of dynamical warp drives." *PRD* 79, 124017 (2009).
+   - DOI: https://doi.org/10.1103/PhysRevD.79.124017
+   - arXiv: https://arxiv.org/abs/0904.0141
 
 ## Data Points Referenced
 
 | Metric | Value | Source |
 |--------|-------|--------|
-| DCE experimental boundary velocity | ~5% of c | src-016 |
-| Unruh temperature at 5,370 g | ~2 × 10⁻¹⁶ K | Calculated from Unruh formula |
+| DCE effective electrical-boundary modulation | Apparatus-specific; often summarized as ~5% of c | src-016 |
+| Unruh temperature if proper acceleration were 5,370 g | ~2 × 10⁻¹⁶ K; not applicable to a geodesic observer | Calculated from Unruh formula |
 | THz gap frequency range | 0.1–10 THz (30 μm–3 mm) | Standard EM spectrum |
 
 ## Notes
 
-- DCE, Unruh, and Hawking effects are understood as different manifestations of the same underlying physics: quantum vacuum instability under external perturbations.
-- The THz gap in sensor coverage represents a critical blind spot for UAP detection.
-- Biological effects (skin burns, nausea, temporary blindness) are consistent with standard EM radiation exposure — no exotic mechanism required.
+- Wilson et al. establish microwave DCE in a deliberately modulated superconducting boundary, not a warp-wall or UAP spectrum.
+- Schützhold studies laser-driven refractive-index perturbations in dielectric media; it does not derive generic warp radiation.
+- Hawking-like flux requires a specified horizon, surface gravity, and quantum state. No cited calculation selects a universal THz band for a subluminal bubble.
+- Reported symptoms are nonspecific. General EM effects do not establish exposure, dose, or UAP causation.

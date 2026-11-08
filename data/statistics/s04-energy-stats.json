@@ -1,8 +1,8 @@
 {
   "section": "s04",
   "title": "Energy Sources — Nuclear Fusion and Beyond",
-  "last_updated": "2026-03-20",
-  "data_note": "Energy density values from standard nuclear/particle physics references. NIF data from LLNL press releases. Deuterium abundance from oceanographic surveys.",
+  "last_updated": "2026-11-07",
+  "data_note": "Specific-energy values from nuclear and particle physics references, separated from reactor-system performance. NIF gain is target gain, not wall-plug gain, and specific energy alone does not establish suitability for propulsion or metric engineering.",
   "statistics": [
     {
       "id": "s04-001",
@@ -16,7 +16,7 @@
         "doi": null,
         "accessed": "2026-03-20"
       },
-      "context": "Baseline reference for energy density comparison. Hydrogen-oxygen combustion represents the highest chemical energy density.",
+      "context": "Baseline: stoichiometric H2-O2 propellant mixture (~13.4 MJ/kg LHV, ~15.9 MJ/kg HHV per kg of mixture). Some chemical reactions (e.g., Be-O2, Li-F2) exceed this per kg of reactants.",
       "confidence": "high",
       "verification_status": "verified",
       "verified": true,
@@ -43,7 +43,7 @@
     {
       "id": "s04-003",
       "metric": "Deuterium-tritium fusion specific energy",
-      "value": 3.4e14,
+      "value": 3.37e14,
       "unit": "J/kg",
       "date": "established",
       "source": {
@@ -52,11 +52,11 @@
         "doi": null,
         "accessed": "2026-03-20"
       },
-      "context": "Approximately 2.4 × 10⁷ times chemical. Highest verified energy density of any known fuel source. NIF demonstrated ignition.",
+      "context": "Approximately 2.4 × 10^7 times the listed hydrogen-oxygen value. D-T is the most experimentally accessible high-yield fusion reaction, not the highest-specific-energy known process; the same file lists matter-antimatter annihilation at 9e16 J/kg. Reactor gain, efficiency, breeding, shielding, mass, and heat rejection determine usable system performance.",
       "confidence": "high",
       "verification_status": "verified",
       "verified": true,
-      "verification_note": "Confirmed by NIF ignition experiments (Dec 2022)"
+      "verification_note": "Specific energy calculated from the measured D-T reaction Q-value (17.589 MeV) and combined reactant mass (5.030 u), giving 3.37e14 J/kg. NIF ignition verifies target gain in an inertial-confinement experiment, not a compact power plant."
     },
     {
       "id": "s04-004",
@@ -79,7 +79,7 @@
     {
       "id": "s04-005",
       "metric": "Proton-boron-11 aneutronic fusion specific energy",
-      "value": 7.3e13,
+      "value": 7.0e13,
       "unit": "J/kg",
       "date": "established",
       "source": {
@@ -88,11 +88,11 @@
         "doi": null,
         "accessed": "2026-03-20"
       },
-      "context": "Produces no neutrons (3 alpha particles + 8.7 MeV). Enables direct energy conversion. Requires ~10⁹ K.",
+      "context": "The primary p-B11 branch produces three alpha particles and 8.7 MeV, allowing a possible direct-conversion route. Secondary reactions and impurities still produce a residual neutron field. Reactor-relevant temperatures are of order 1e9 K and ignition remains undemonstrated.",
       "confidence": "high",
       "verification_status": "verified",
       "verified": true,
-      "verification_note": "Standard nuclear physics value; cross-section data from ENDF"
+      "verification_note": "Primary reaction Q-value and products are established. 'Aneutronic' describes the dominant branch and must not be interpreted as zero neutron production in a reactor plasma."
     },
     {
       "id": "s04-006",
@@ -106,7 +106,7 @@
         "doi": "10.1002/andp.19053221004",
         "accessed": "2026-03-20"
       },
-      "context": "Theoretical maximum for mass-to-energy conversion. Antimatter production rate globally is ~nanograms/year.",
+      "context": "Theoretical maximum for mass-to-energy conversion. Per kg of total annihilated mass (matter + antimatter); equivalent to ~1.8 × 10^17 J per kg of antimatter carried. In proton–antiproton annihilation a large fraction is carried away by neutrinos and is not usable. Antimatter production rate globally is ~nanograms/year.",
       "confidence": "high",
       "verification_status": "verified",
       "verified": true,
@@ -158,13 +158,13 @@
         "name": "Lawrence Livermore National Laboratory",
         "url": "https://lasers.llnl.gov/science/achieving-fusion-ignition",
         "doi": null,
-        "accessed": "2026-03-21"
+        "accessed": "2026-08-02"
       },
-      "context": "2.08 MJ laser input → 8.6 MJ fusion output. Shot date: April 7, 2025. 8th ignition event. Prior record: gain 2.44 (Feb 2025). Progressive improvement from Dec 2022 baseline.",
+      "context": "2.08 MJ laser input produced 8.6 MJ fusion output on April 7, 2025, for target gain 4.13. LLNL reported eleven ignition experiments through June 20, 2026; this shot remains the record listed on its ignition page. Wall-plug gain remains far below unity.",
       "confidence": "high",
       "verification_status": "verified",
       "verified": true,
-      "verification_note": "LLNL official announcement and DOE confirmation. Independently verified March 2026 against LLNL ignition achievements page (src-059)."
+      "verification_note": "Checked against LLNL's official ignition achievements page on 2026-08-02. Target gain must not be described as facility or electric breakeven."
     },
     {
       "id": "s04-010",
@@ -187,7 +187,7 @@
     {
       "id": "s04-011",
       "metric": "Deuterium concentration in seawater",
-      "value": 33,
+      "value": 34,
       "unit": "g/m³",
       "date": "established",
       "source": {
@@ -196,7 +196,7 @@
         "doi": null,
         "accessed": "2026-03-20"
       },
-      "context": "Deuterium is abundant: 1 in every 6,420 hydrogen atoms in ocean water.",
+      "context": "Deuterium is abundant: 1 in every 6,420 hydrogen atoms in ocean water (D/H ≈ 156 ppm), i.e. ~34 g of deuterium per m³ of seawater; consistent with the ~4.6e13 t ocean total in s04-012.",
       "confidence": "high",
       "verification_status": "verified",
       "verified": true,
@@ -259,7 +259,7 @@
     {
       "id": "s04-015",
       "metric": "Quantum vacuum energy theoretical density",
-      "value": "~1e113",
+      "value": "~4.6e113",
       "unit": "J/m³",
       "date": "theoretical",
       "source": {
@@ -268,7 +268,7 @@
         "doi": "10.1103/RevModPhys.61.1",
         "accessed": "2026-03-20"
       },
-      "context": "Naive QFT calculation. 10¹²⁰ times larger than observed cosmological constant — the cosmological constant problem.",
+      "context": "Naive QFT calculation with a Planck-scale cutoff; roughly 1e123 times the observed dark-energy density (~6e-10 J/m³). The commonly quoted ~1e120 depends on the cutoff convention.",
       "confidence": "low",
       "verification_status": "theoretical",
       "verified": true,
@@ -286,7 +286,7 @@
         "doi": "10.1103/RevModPhys.61.1",
         "accessed": "2026-03-20"
       },
-      "context": "One of the deepest unsolved problems in physics. Ratio of theoretical vacuum energy to observed dark energy.",
+      "context": "One of the deepest unsolved problems in physics. Ratio of theoretical vacuum energy to observed dark energy. The commonly quoted ~1e120 depends on the cutoff convention; a Planck-scale cutoff (~4.6e113 J/m³, s04-015) compared with the observed dark-energy density (~6e-10 J/m³) gives roughly 1e123.",
       "confidence": "high",
       "verification_status": "verified",
       "verified": true,

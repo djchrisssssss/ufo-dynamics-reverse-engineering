@@ -1,13 +1,13 @@
-\documentclass[aps,prd,twocolumn,superscriptaddress,nofootinbib]{revtex4-2}
+\documentclass[aps,prd,twocolumn,superscriptaddress,nofootinbib,floatfix]{revtex4-2}
 
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{graphicx}
-\usepackage{hyperref}
 \usepackage{booktabs}
 \usepackage{siunitx}
 \usepackage{multirow}
 \usepackage{url}
+\usepackage{hyperref}
 
 \hypersetup{
   colorlinks=true,
@@ -18,7 +18,7 @@
 
 \begin{document}
 
-\title{Reverse Engineering the Dynamics of UFOs:\\
+\title{Reverse Engineering the Dynamics of UFOs:\texorpdfstring{\\}{ }
 A Physics-Based Assessment of Unidentified Aerial Phenomena}
 
 \author{Kris Lai}
@@ -29,29 +29,177 @@ A Physics-Based Assessment of Unidentified Aerial Phenomena}
 \date{March 2026}
 
 \begin{abstract}
-This paper presents a systematic physics-based assessment of the reported flight
-characteristics of unidentified aerial phenomena~(UAP). Drawing upon publicly available
-peer-reviewed literature, declassified government documents, and open-source intelligence,
-we evaluate whether known or theoretically plausible physical mechanisms could account
-for the ``Five Observables'' taxonomy---instantaneous acceleration, hypersonic velocity
-without signatures, low observability, anti-gravity lift, and transmedium travel---as
-well as associated electromagnetic signatures and biological effects. The analysis is
-grounded in established general relativity, quantum field theory, nuclear physics,
-electromagnetic theory, and materials science. Candidate propulsion mechanisms
-(Alcubierre warp metric, traversable wormholes), energy sources (deuterium-based
-nuclear fusion, vacuum energy), predicted electromagnetic signatures (dynamical
-Casimir effect, Unruh and Hawking radiation), and advanced materials
-(metamaterials, carbon nanotubes, bismuth--magnesium layered specimens) are
-evaluated against the hierarchy of scientific evidence: experimentally verified,
-theoretically sound, or speculative. We find that no reported UAP behavior violates
-known physics in principle, conditional on the accuracy of the observational data; the constraints are engineering and materials science
-maturity, not fundamental theory. However, the energy-to-curvature transduction gap---the absence of any known mechanism for converting energy into controlled spacetime curvature---represents the single deepest barrier and is categorized as missing physics, not missing engineering. The gap between theoretical possibility and
-practical realization is quantified across multiple domains, and recommended
-research directions---including terahertz-band sensor deployment, dynamical Casimir
-effect scaling, and compact fusion development---are identified.
+This paper presents a systematic physics-based assessment of reported UFO/UAP
+flight characteristics. Drawing upon publicly available peer-reviewed literature,
+declassified government documents, and open-source intelligence, it evaluates
+whether known or theoretically plausible physical mechanisms---including
+Alcubierre warp metrics, nuclear fusion, the dynamical Casimir effect, and
+metamaterials---could account for the ``Five Observables'' taxonomy. The analysis
+is grounded in established general relativity, quantum field theory, nuclear
+physics, electromagnetic theory, and materials science.
+\textbf{Principal finding:} Public UAP data are generally too poorly calibrated to
+establish the extreme kinematics and absent signatures used as inputs. General
+relativity admits mathematical warp metrics, but no physically realizable,
+conserved, stable, and controllable source for the required stress-energy has
+been demonstrated. GR already couples stress-energy to curvature; the unresolved
+issue is source realization and control, not a separate energy-to-curvature
+conversion interaction. Claims of medium isolation, universal THz/DCE emission, or
+morphology--velocity sequences are not derived by the cited literature.
 \end{abstract}
 
 \maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% KEY JUDGMENTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Key Judgments}
+
+Confidence levels and estimative language follow Intelligence Community
+Directive~203 (Appendix~\ref{app:confidence}). The bracketed tags refer to the
+notes that follow the judgments.
+
+\begin{enumerate}
+  \item We assess with \textbf{high confidence} that the public UAP record is not
+    sufficiently calibrated to establish the extreme trajectories, absent
+    signatures, or transmedium performance used as inputs in this report. General
+    relativity admits mathematical geometries with unusual coordinate motion, but
+    that fact does not establish that the required stress-energy is physically
+    realizable or that any UAP followed such a trajectory. [KJ-1] All mechanism
+    comparisons in this assessment are therefore conditional and model-dependent.
+  \item We assess with \textbf{high confidence} that the Alcubierre warp metric
+    (1994) is a valid solution to the Einstein field equations that would, in
+    principle, permit apparent superluminal motion without local violation of
+    special relativity. [KJ-2] However, we assess with \textbf{high confidence}
+    that all superluminal warp drive configurations require exotic matter
+    (negative energy density) that has not been produced in macroscopic
+    quantities. [KJ-3]
+  \item\label{kj:tidal} We assess with \textbf{high confidence} that a chosen
+    geodesic worldline has zero proper acceleration. This does \emph{not} imply
+    zero tidal loading across a finite vehicle, nor does it validate the
+    source-dependent \textit{Nimitz} acceleration estimate. Habitability requires a
+    specified dynamical metric and explicit bounds on geodesic deviation
+    throughout the occupied volume. [KJ-4]
+  \item We assess with \textbf{high confidence} that deuterium--tritium fusion
+    releases approximately $3.37\times10^{14}$~J/kg of combined reactants and is
+    the most experimentally accessible high-yield fusion reaction. It is not the
+    highest-specific-energy known process, and specific energy alone does not
+    establish it as a viable power source for metric engineering. [KJ-5] Compact,
+    mobile fusion remains undemonstrated and its timeline is uncertain.
+  \item We assess with \textbf{high confidence} that the cited dynamical Casimir
+    experiment demonstrates microwave photon production in a deliberately
+    time-modulated superconducting boundary. We also assess with \textbf{high
+    confidence} that this result does not, by itself, predict any electromagnetic
+    spectrum for a hypothetical warp metric: no cited calculation establishes
+    broadband, terahertz, or soft-X-ray emission from a subluminal warp
+    configuration. [KJ-6]
+  \item We assess with \textbf{high confidence} that some reported symptoms, such
+    as erythema or burns, can be produced by sufficiently intense electromagnetic
+    exposure, but we have \textbf{low confidence} in attributing any reported case
+    to such exposure, because the symptoms are nonspecific and public cases
+    generally lack measured field spectra, dose, clinical documentation, controls,
+    and exclusion of alternative causes. Neither electromagnetic exposure nor UAP
+    causation is established. [KJ-7]
+  \item We assess with \textbf{high confidence}, following the AARO/Oak Ridge
+    National Laboratory analysis, that the tested bismuth--magnesium specimen was
+    manufactured terrestrially and was highly unlikely to function as a bismuth
+    terahertz waveguide. Its chain of custody and original purpose remain
+    unresolved; AARO assesses it as likely a test object, manufacturing product or
+    byproduct, or component of mid-20th-century magnesium-alloy aerospace studies.
+    The official analyses do not identify it as Betterton--Kroll dross. [KJ-8]
+  \item We assess with \textbf{high confidence} that no single propulsion framework
+    in the current literature explains the full spectrum of reported UAP
+    observables simultaneously. The integration of spacetime engineering, compact
+    energy sources, and advanced materials into a coherent propulsion system
+    remains beyond the horizon of current theoretical physics. [KJ-9]
+  \item We assess with \textbf{high confidence} that mathematical validity of a
+    warp metric is not evidence of physical realizability. Energy-condition
+    violations, quantum inequalities, formation, stability, matter coupling, and
+    control are foundational constraints that materials improvements alone do not
+    resolve. [KJ-10a]
+  \item We assess with \textbf{moderate confidence} that the most productive UAP
+    research priority is calibrated, synchronized, multi-sensor collection with
+    complete metadata and quantified uncertainties. Fusion, materials,
+    quantum-field experiments, and analog gravity remain valuable independent
+    research programs, but none is presently a validated proxy for UAP propulsion
+    and no universal terahertz signature has been derived. [KJ-10c]
+  \item We assess with \textbf{high confidence} that general relativity already
+    couples every form of stress-energy to curvature through the Einstein field
+    equations, and that the unresolved problem is realizing, dynamically forming,
+    and controlling the particular stress-energy tensor required by a target
+    metric---including its magnitude, sign, anisotropy, gradients, conservation,
+    and stability. This is a source/configuration/control problem, not a separate
+    energy-to-curvature conversion interaction. [KJ-10b]
+\end{enumerate}
+
+\paragraph{Notes to the Key Judgments.}
+\begin{description}
+  \item[KJ-1] General relativity relates geometry to a conserved stress-energy
+    tensor; it does not guarantee that an arbitrarily selected geometry has a
+    physically realizable source. NASA's 2023 UAP study emphasizes the lack of
+    calibrated, reproducible public data needed for physical
+    inference~\cite{MTW1973,Wald1984,NASA_UAP2023}. [\textsc{Verified}---GR
+    relation and data limitation; UAP mechanism unverified]
+  \item[KJ-2] Alcubierre, ``The warp drive: hyper-fast travel within general
+    relativity''~\cite{Alcubierre1994}. [\textsc{Theoretical}---valid GR
+    solution, physical realizability unverified]
+  \item[KJ-3] Santiago, Schuster, and Visser, ``Generic warp drives violate the
+    null energy condition''~\cite{SantiagoVisser2022}. This is a proof for
+    Nat\'ario-class warp drives (unit lapse, flat spatial slices), which include
+    the Alcubierre, Nat\'ario, Lentz, and Fell--Heisenberg constructions. Olum,
+    ``Superluminal travel requires negative energies''~\cite{Olum1998}, proves
+    weak-energy-condition violation for superluminal travel under a generic
+    condition. [\textsc{Theoretical}---mathematical proofs within GR under stated
+    assumptions]
+  \item[KJ-4] The equivalence principle is verified to ${\sim}10^{-15}$ precision
+    by MICROSCOPE~\cite{Touboul2022}, but zero proper acceleration applies to a
+    specified geodesic worldline. Finite-body tidal loading must be calculated
+    from geodesic deviation. [\textsc{Verified} principle; model-dependent
+    application]
+  \item[KJ-5] Deuterium--tritium fusion specific energy:
+    ${\sim}3.37\times10^{14}$~J/kg of combined reactants. NIF achieved target
+    gain ${\sim}4.13$ in April 2025, while wall-plug gain remained far below
+    unity~\cite{LLNL_NIF2025}. [\textsc{Verified}]
+  \item[KJ-6] Wilson et al.\ demonstrated microwave DCE radiation in a
+    deliberately modulated superconducting circuit~\cite{Wilson2011}. The
+    experiment did not test a warp metric or derive a UAP, THz, or X-ray
+    signature. [\textsc{Verified} experiment; unsupported extrapolation removed]
+  \item[KJ-7] Biological effects of sufficiently intense EM exposure are
+    established, but DIRD~\#26~\cite{DIRD_Green} does not establish exposure or
+    causation in individual UAP reports. ODNI's 2022 Annual Report on UAP
+    reported no encounter confirmed to contribute directly to adverse
+    health-related effects~\cite{ODNI2023}. [\textsc{Verified} general effects;
+    case attribution unverified]
+  \item[KJ-8] AARO/ORNL Synopsis: ``Analysis of a Metallic
+    Specimen''~\cite{AARO_ORNL2024}. ORNL assessed terrestrial manufacture with
+    high confidence and a bismuth THz-waveguide function as highly unlikely; chain
+    of custody and original purpose remain unresolved. [\textsc{Verified}
+    laboratory analysis]
+  \item[KJ-9] No unified theory of UAP propulsion exists in peer-reviewed
+    literature as of March
+    2026~\cite{Alcubierre1994,Lentz2021,SantiagoVisser2022,BobrickMartire2021,FellHeisenberg2021}.
+    [\textsc{Assessed}]
+  \item[KJ-10a] Pfenning and Ford derive quantum-inequality constraints for a
+    specific Alcubierre profile, while Santiago, Schuster, and Visser establish
+    generic null-energy-condition violations under standard-GR
+    assumptions~\cite{PfenningFord1997,SantiagoVisser2022}. These are not
+    established materials scale-up targets~\cite{Casimir1948,DIRD_Shvets}. GR
+    already couples stress-energy to curvature; the missing task is realizing and
+    controlling the required source. [\textsc{Theoretical} and model-dependent]
+  \item[KJ-10b] The Einstein field equations,
+    $G_{\mu\nu}+\Lambda g_{\mu\nu}=(8\pi G/c^{4})T_{\mu\nu}$, already couple the
+    full stress-energy tensor to spacetime curvature~\cite{MTW1973,Wald1984}. No
+    separate energy-to-curvature interaction is missing; whether a conserved,
+    stable source matching a chosen target metric can be physically realized,
+    dynamically formed, and controlled is not established (see
+    Secs.~\ref{sec:propulsion} and~\ref{sec:mathfoundations}).
+    [\textsc{Theoretical}---standard GR relation; source realizability
+    unverified]
+  \item[KJ-10c] The NASA UAP Independent Study Team (2023) and AARO's Historical
+    Record Report (2024) both identify the scarcity of calibrated, multi-sensor
+    data with complete metadata as the principal limitation on resolving UAP
+    cases~\cite{NASA_UAP2023,AARO2024}. This is a research-priority judgment, not
+    a physical measurement. [\textsc{Assessed}]
+\end{description}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% SECTION 1
@@ -60,28 +208,21 @@ effect scaling, and compact fusion development---are identified.
 
 \subsection{Background and Motivation}\label{sec:background}
 
-This work originated from a close reading of \textit{Imminent: Inside the
+This work was prompted by a close reading of \textit{Imminent: Inside the
 Pentagon's Hunt for UFOs}~(William Morrow, 2024) by Luis
-Elizondo~\cite{Elizondo2024}---the former U.S.\ Army counterintelligence
-officer who directed the Pentagon's Advanced Aerospace Threat Identification
-Program~(AATIP) from 2008 to 2017. Elizondo's book is the first insider
-account from the person who actually ran the U.S.\ government's modern UFO
-investigation program. It documents how the ``Five Observables'' taxonomy was
-created, the commissioning of 38 classified Defense Intelligence Reference
-Documents~(DIRDs) by world-class physicists, the specific radar and sensor
-cases that defied conventional explanation, and the internal political battles
-that led to his resignation in protest.
+Elizondo~\cite{Elizondo2024}. The memoir is a secondary, participant account and
+is used here as a source of hypotheses rather than as validation of physical
+observations. AARO distinguishes the official 2009--2012 AAWSAP contract from a
+later informal use of the AATIP label and reports that the exploratory DIRDs were
+not thoroughly peer reviewed~\cite{AARO2024}.
 
-After reading the book, we realized that the physical claims
-described---instantaneous acceleration, transmedium travel, absence of sonic
-booms---are not vague anecdotes but structured, sensor-corroborated
-observations that can be rigorously evaluated against known physics. This
-assessment was born from that realization: taking Elizondo's observational
-framework and the DIRD physics as a starting point, then systematically mapping
-each claimed observable onto established general relativity, quantum field
-theory, nuclear physics, and materials science to determine what is physically
-possible, what is theoretically plausible, and where the true engineering gaps
-lie.
+Claims such as instantaneous acceleration, transmedium travel, and absence of
+sonic booms can be translated into testable physical quantities, but the public
+evidence does not establish that every claimed observable occurred as described.
+This assessment therefore treats the Five Observables and the DIRDs as prompts for
+conditional analysis, separates source-dependent estimates from measurements, and
+asks what additional calibrated data would be required before any propulsion
+inference is justified.
 
 \subsection{Terminology: UFO, UAP, and Scope of This Document}\label{sec:terminology}
 
@@ -94,9 +235,13 @@ throughout this document and the broader literature:
     A UFO refers specifically to an \emph{observed airborne object} whose
     identity cannot be determined by the observer. The term implies a discrete
     physical object in flight.
-  \item[UAP (Unidentified Aerial Phenomena)] The broader category adopted by the
-    U.S.\ Department of Defense~(2020) and the intelligence community. UAP
-    encompasses not only flying objects~(UFOs) but also airborne sensor
+  \item[UAP (Unidentified Anomalous Phenomena; formerly Unidentified Aerial
+    Phenomena)] The broader category used by the U.S.\ Department of Defense and
+    the intelligence community. The ``aerial'' form was in DoD use by 2020 (UAP
+    Task Force); the FY2023 National Defense Authorization Act (Public
+    Law~117-263, December~2022) redefined UAP as unidentified \emph{anomalous}
+    phenomena, explicitly covering airborne, submerged, and transmedium objects.
+    UAP encompasses not only flying objects~(UFOs) but also airborne sensor
     anomalies, transmedium phenomena, underwater detections, and events that may
     not correspond to a physical object at all (e.g., atmospheric plasma,
     electronic spoofing, optical illusions).
@@ -123,34 +268,43 @@ objects, not the full breadth of anomalous phenomena.
 The systematic investigation of unidentified aerial phenomena by the United States
 government spans more than seven decades. Project Sign~(1947), Project
 Grudge~(1949), and Project Blue Book~(1952--1969) collectively examined over
-12\,000 reports. Blue Book's final report, conducted under the direction of
-Dr.~Edward Condon at the University of Colorado, concluded that further study was
-unlikely to advance scientific knowledge---a judgment that effectively ended
-official investigation for nearly four decades~\cite{ODNI2021}.
+12\,000 reports. A separate USAF-funded study at the University of Colorado,
+directed by physicist Dr.~Edward Condon (released January~1969), concluded that
+further extensive study of UFOs was unlikely to advance scientific knowledge; the
+Air Force terminated Blue Book in December~1969, effectively ending official
+investigation for nearly four decades~\cite{AARO2024}.
 
 The landscape shifted dramatically in December~2017, when investigative reporting
 by the \textit{New York Times} revealed the existence of the Advanced Aerospace
-Threat Identification Program~(AATIP), a Pentagon initiative that had operated
-from 2007 to 2012 with \$22 million in funding secured by Senators Harry Reid,
-Ted Stevens, and Daniel Inouye~\cite{ODNI2021}. The program was administered
-under the broader Advanced Aerospace Weapon System Applications
-Program~(AAWSAP), with the contract awarded to Bigelow Aerospace Advanced Space
-Studies~(BAASS).
+Threat Identification Program~(AATIP), which the \textit{Times} described as a
+Pentagon initiative that operated from 2007 to 2012 with \$22 million in funding
+secured by Senator Harry Reid with support from Senators Ted Stevens and Daniel
+Inouye. AARO's 2024 historical review identifies the official program as the
+DIA-managed Advanced Aerospace Weapon System Applications Program~(AAWSAP,
+2009--2012), funded by \$22 million appropriated in fiscal years 2008 and 2010
+and contracted to Bigelow Aerospace Advanced Space Studies~(BAASS); it states that
+the AATIP name was used interchangeably but that AATIP ``was never an official DoD
+program''~\cite{AARO2024}.
 
 In June~2021, the Office of the Director of National Intelligence~(ODNI)
 published its \textit{Preliminary Assessment: Unidentified Aerial Phenomena},
 cataloguing 144 UAP reports from November~2004 to March~2021~\cite{ODNI2021}.
-The 2022 annual update expanded the total to 510 reports, of which 171 remained
-``uncharacterized'' and exhibited ``unusual flight characteristics or performance
-capabilities''~\cite{ODNI2023}.
+The 2022 annual report (released January~2023) catalogued 510 reports in total:
+the 144 from the preliminary assessment plus 366 newly identified reports. Of the
+366, an initial characterization attributed 195 to balloon-like objects~(163),
+UAS-like objects~(26), or clutter~(6), leaving 171 uncharacterized and
+unattributed; ODNI stated that \emph{some} of these appeared to demonstrate
+unusual flight characteristics or performance capabilities~\cite{ODNI2023}.
 
 In July~2022, the Department of Defense established the All-domain Anomaly
 Resolution Office~(AARO) to provide a permanent institutional home for UAP
 investigation. AARO's Historical Record Report, Volume~1 (March~2024), reviewed
-the entire history of U.S.\ government UAP investigation and stated that AARO had
-found ``no verifiable evidence that any UAP sighting has represented
-extraterrestrial activity'' or that the U.S.\ government or private industry has
-``ever had access to extraterrestrial technology''~\cite{AARO2024}.
+the entire history of U.S.\ government UAP investigation and stated that AARO
+``found no evidence that any USG investigation, academic-sponsored research, or
+official review panel has confirmed that any sighting of a UAP represented
+extraterrestrial technology,'' and ``no empirical evidence for claims that the USG
+and private companies have been reverse-engineering extraterrestrial
+technology''~\cite{AARO2024}.
 
 This report does not take a position on the origin of UAP. Instead, it asks a
 narrower question: \textbf{what does established physics tell us about the
@@ -158,36 +312,53 @@ feasibility of the reported flight characteristics?}
 
 \subsection{The AAWSAP/AATIP Program and the 38 DIRDs}\label{sec:dirds}
 
-Between 2008 and 2010, the Defense Intelligence Agency~(DIA) commissioned 38
-technical papers under the AAWSAP contract, each designated a Defense
-Intelligence Reference Document~(DIRD). These papers were authored by recognized
-experts---including Dr.~Harold Puthoff (EarthTech International), Dr.~Eric Davis
-(EarthTech International), Dr.~Friedwardt Winterberg (University of Nevada,
-Reno), and Dr.~Ulf Leonhardt (University of St.~Andrews)---and surveyed the
-frontiers of physics and engineering relevant to advanced aerospace
-propulsion~\cite{DIRD_Puthoff,DIRD_Davis_Wormholes}.
+Under the DIA-managed AAWSAP contract, the contractor (BAASS) delivered 38 Defense
+Intelligence Reference Document~(DIRD) entries to the DIA; the released copies are
+dated between December~2009 and January~2011. These papers were authored by
+recognized experts---including Dr.~Harold Puthoff (EarthTech International),
+Dr.~Eric Davis (EarthTech International), Dr.~Friedwardt Winterberg (University of
+Nevada, Reno), and Dr.~Ulf Leonhardt (University of St.~Andrews)---and surveyed
+the frontiers of physics and engineering relevant to advanced aerospace
+propulsion~\cite{AARO2024,DIRD_ObousyDavis,DIRD_Puthoff,DIRD_Davis_Wormholes,DIRD_Winterberg,DIRD_Leonhardt,DIRD_Davis_Antigravity}.
 
-The DIRDs covered a remarkable breadth of topics: spacetime physics (warp drives,
-traversable wormholes, negative energy, high-frequency gravitational waves);
-propulsion (vacuum engineering, positron propulsion, MHD air-breathing
-propulsion); energy (inertial electrostatic confinement fusion, aneutronic
-fusion, quantum vacuum energy extraction); materials (metallic glasses,
-metamaterials, programmable matter); and detection and effects (hypersonic vehicle
-tracking, invisibility cloaking, biological field
-effects)~\cite{DIRD_Green,DIRD_Leonhardt,DIRD_Miley,DIRD_Shvets}.
+The DIRDs covered a remarkable breadth of topics:
+\begin{itemize}
+  \item \textbf{Spacetime physics:} warp drives, traversable wormholes, negative
+        energy, dark energy manipulation, high-frequency gravitational waves.
+  \item \textbf{Propulsion:} vacuum engineering, positron propulsion, laser
+        lightcraft, MHD air-breathing propulsion, negative mass propulsion.
+  \item \textbf{Energy:} inertial electrostatic confinement fusion, advanced
+        nuclear propulsion, aneutronic fusion, quantum vacuum energy extraction,
+        ultracapacitors.
+  \item \textbf{Materials:} metallic glasses, metamaterials, programmable matter,
+        biomaterials, metallic spintronics.
+  \item \textbf{Detection and effects:} hypersonic vehicle tracking, invisibility
+        cloaking, biological field effects.
+  \item \textbf{Other:} brain--machine interfaces, quantum computing, quantum
+        entanglement communications, the Drake equation.
+\end{itemize}
 
-Thirty-seven of the 38 DIRDs were declassified and released via FOIA on
-March~25, 2022. The 38th---on high-energy laser weapons---retained its
-SECRET/NOFORN classification. These documents serve as a crucial reference for
-this assessment, as they represent the most comprehensive official effort to map
-UAP observables onto known and theoretical physics.
+DIA released 37 DIRDs (1\,473 pages) under FOIA on March~25, 2022, in response to
+a 2018 request by The Black Vault; the documents are marked UNCLASSIFIED//FOR
+OFFICIAL USE ONLY and were withheld only in part (e.g., author names) under FOIA
+exemptions (b)(3) and (b)(6). The 38th entry on the DIA list is a SECRET/NOFORN
+version of the high-energy laser weapons DIRD, whose unclassified version (\#23)
+was released.
+
+These documents are used here as a survey of frontier and speculative aerospace
+topics commissioned under AAWSAP. AARO reports that UAP investigation was not
+specifically part of the contract's statement of work and that these exploratory
+papers were never thoroughly peer reviewed; they are therefore not treated as an
+official mapping of UAP observables onto physics~\cite{AARO2024}.
 
 \subsection{Scope and Methodology}\label{sec:scope}
 
 This report adopts the following methodology:
 \begin{enumerate}
   \item \textbf{Identify reported observables} from official government sources
-        (ODNI reports, AARO assessments, DIRD analyses).
+        (ODNI and AARO reports) and from participant accounts (e.g., the Five
+        Observables as popularized by Elizondo), keeping the two categories
+        distinct.
   \item \textbf{Map each observable} onto the relevant domain of physics.
   \item \textbf{Evaluate feasibility} using the verified $\to$ theoretical
         $\to$ speculative hierarchy.
@@ -200,22 +371,25 @@ This report adopts the following methodology:
 
 The goal is not to prove or disprove any specific claim about UAP, but to provide
 a rigorous scientific framework for evaluating them. Each claim is evaluated
-against the hierarchy of scientific evidence. The primary framework is
-experimentally verified physics. Theoretical extensions (mathematically rigorous
-but unverified) are considered where relevant, with explicit notation. Speculative
-hypotheses are included only where they illuminate the boundaries of current
-knowledge.
+against the hierarchy of scientific evidence and annotated, where relevant, with
+the verification markers defined in Appendix~\ref{app:confidence}
+(\textsc{Verified}, \textsc{Theoretical}, \textsc{Speculative}, and
+\textsc{Assessed}). Origin hypotheses (extraterrestrial, interdimensional,
+adversarial technology, etc.), witness credibility assessment or sociological
+analysis, and classified sensor data or unreleased government analyses are outside
+the scope of this assessment.
 
 \textbf{Evidence hierarchy and DIRD weighting.} This assessment draws on sources
 of varying evidential authority. Peer-reviewed articles published in recognized
-journals carry the highest evidential weight. Government documents from ODNI, AARO,
-and DoD are treated as authoritative primary sources for observational claims and
-policy context. The 37 declassified Defense Intelligence Reference
-Documents~(DIRDs), while authored by recognized physicists and commissioned by DIA,
-were not subject to independent peer review in the conventional sense; they are
-treated as Tier~2 expert technical assessments whose theoretical claims are
-cross-checked against peer-reviewed literature wherever possible. Preprints carry
-the lowest evidential weight.
+journals (e.g., \textit{Physical Review}, \textit{Nature}, \textit{Classical and
+Quantum Gravity}) carry the highest evidential weight. Government documents from
+ODNI, AARO, and DoD are treated as authoritative primary sources for observational
+claims and policy context. The 37 FOIA-released Defense Intelligence Reference
+Documents~(DIRDs), while authored by recognized physicists and delivered to the
+DIA under the AAWSAP contract, were never thoroughly peer reviewed (AARO,
+2024)~\cite{AARO2024}; they are treated as Tier~2 expert technical assessments
+whose theoretical claims are cross-checked against peer-reviewed literature
+wherever possible. Preprints carry the lowest evidential weight.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% SECTION 2
@@ -224,10 +398,13 @@ the lowest evidential weight.
 
 \subsection{Five Observables Taxonomy}\label{sec:five-observables}
 
-During his tenure directing AATIP, Luis Elizondo codified five categories of
-reported UAP behavior that conventional aerospace technology cannot readily
-explain. These ``Five Observables'' have become the standard taxonomy for
-classifying anomalous flight characteristics:
+Luis Elizondo---who states that he directed AATIP, a role the Department of
+Defense has publicly disputed and that is difficult to reconcile with AARO's
+description of post-2010 ``AATIP'' as an informal effort without dedicated
+personnel or budget---popularized five categories of reported UAP behavior that
+conventional aerospace technology cannot readily explain. These ``Five
+Observables'' are widely cited but are not a DoD, ODNI, or AARO classification
+scheme~\cite{Elizondo2024}:
 
 \begin{enumerate}
   \item \textbf{Instantaneous acceleration}---sudden changes in velocity without
@@ -245,7 +422,8 @@ classifying anomalous flight characteristics:
 To these, subsequent analyses have added: (6)~biological effects---physiological
 symptoms reported by individuals in proximity to UAP; and
 (7)~electromagnetic interference---disruption of electronic systems and
-communications near UAP~\cite{DIRD_Green}.
+communications near UAP. This section examines each observable through the lens
+of established physics.
 
 \subsection{Observational Data Quality Assessment}\label{sec:data-quality}
 
@@ -255,139 +433,198 @@ sensor-derived estimates as inputs; the physics analysis that follows is only as
 strong as those inputs.
 
 \textbf{Data provenance framework.} The core UAP cases cited in this report vary
-significantly in data quality. The 2004 USS~\textit{Nimitz} encounter receives a
-quality grade of~B (multi-sensor, uncalibrated): SPY-1 radar plus ATFLIR infrared
-plus multiple visual witnesses, but radar was operational-grade (not science-grade)
-and original radar data remains classified. The Gimbal~(2015) video receives
-grade~C (single sensor, limited context): ATFLIR infrared only, no radar data
-released, short clip. The GoFast~(2015) video receives grade~C$-$ (single sensor,
-likely resolved): AARO parallax analysis~\cite{AARO_Parallax2024} found the
-apparent high speed consistent with a wind-speed object at ${\sim}\SI{13000}{ft}$
-altitude.
+significantly in data quality; we grade key cases by sensor corroboration,
+calibration status, and chain of custody. The 2004 USS~\textit{Nimitz} encounter
+receives grade~C (source-dependent, uncalibrated): its primary data are witness
+accounts of SPY-1 tracks, an ATFLIR infrared clip, and visual reports. Multiple
+modalities were reported, but the specific rapid-descent estimate was not
+independently reproduced across public sensors; the radar was operational-grade,
+detailed track data are not public, and ATFLIR is not calibrated for
+photogrammetry; and the acceleration estimate relies on witness-reported track
+parameters rather than released detailed radar data. The Gimbal~(2015) ATFLIR
+video receives grade~C (single sensor, limited context): no radar data were
+released, the targeting pod is not calibrated for scientific measurement, and only
+a short clip---not the full encounter data---has been released. The GoFast~(2015)
+ATFLIR video receives grade~C$-$ (single sensor, likely resolved): the NASA UAP
+Independent Study Team's analysis is consistent with an object at
+${\sim}\SI{13000}{ft}$ moving at ${\sim}\SI{40}{mph}$ (wind-like), with aircraft
+wind neglected~\cite{NASA_UAP2023}.
 
-\textbf{Sensitivity analysis on the $5{,}370\,g$ estimate.} The canonical
-acceleration estimate for the 2004 USS~\textit{Nimitz} encounter derives from
-Knuth, Powell, and Reali~(2019)~\cite{Knuth2019}, who analyzed SPY-1 radar data.
-The calculation assumes the object starts and ends approximately at rest, so the
-descent follows an accelerate-then-decelerate profile with mean acceleration
-magnitude $4d/t^{2}$ and a peak speed of twice the path average
-(${\sim}46{,}000$~mph); a uniform-acceleration descent without arrest
-($2d/t^{2}$) would imply roughly half the value, ${\sim}2{,}700\,g$. The figure
-is sensitive to the assumed time window ($a \propto 1/t^{2}$ at fixed profile):
-at \SI{0.78}{s}, the implied acceleration is ${\sim}5{,}370\,g$; at \SI{1.0}{s},
-${\sim}3{,}270\,g$; at \SI{1.5}{s}, ${\sim}1{,}450\,g$; and at \SI{2.0}{s},
-${\sim}820\,g$. Even the
-most conservative estimate exceeds the highest sustained engineered acceleration
-(HIBEX, ${\sim}400\,g$) by a factor of two. The qualitative conclusion---that the
-reported behavior is anomalous---is robust to reasonable parameter variation, but
-the specific magnitude is uncertain by roughly an order of magnitude.
+\textbf{Model sensitivity of the $5{,}370\,g$ scenario.} Knuth, Powell, and
+Reali~(2019) modeled a SPY-1 descent reported by Senior Chief Kevin Day; they did
+not have the detailed radar track needed to independently reconstruct the
+motion~\cite{Knuth2019}. For a witness-reported descent of $8{,}530\pm90$~m in
+$0.78\pm0.08$~s, with the object assumed to start and end approximately at rest,
+their Monte Carlo model yielded a modal acceleration of
+$5{,}370\,(+1{,}430/{-}820)\,g$. The ${-}820\,g$ term is the lower uncertainty on
+that modal estimate, not a measured lower endpoint. The result depends on an
+assumed accelerate-then-decelerate profile and scales as $a=4d/t^{2}$
+(Table~\ref{tab:nimitz-sensitivity}).
+
+\begin{table}[tb]
+\caption{Sensitivity of the implied average acceleration in the 2004
+USS~\textit{Nimitz} descent scenario to the assumed descent time. The
+1.0--2.0~s rows are hypothetical sensitivity examples, not observed timing
+bounds.}
+\label{tab:nimitz-sensitivity}
+\begin{tabular}{@{}p{0.36\columnwidth}p{0.56\columnwidth}@{}}
+\toprule
+Assumed descent time & Implied average acceleration \\
+\midrule
+$0.78\pm0.08$~s (reported/model input) & ${\sim}5{,}720\,g$ from $4d/t^{2}$;
+  Knuth et al.\ Monte Carlo mode $5{,}370\,(+1{,}430/{-}820)\,g$ \\
+1.0~s (hypothetical) & ${\sim}3{,}500\,g$ from $4d/t^{2}$ \\
+1.5~s (hypothetical) & ${\sim}1{,}550\,g$ from $4d/t^{2}$ \\
+2.0~s (hypothetical) & ${\sim}870\,g$ from $4d/t^{2}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The 1.0--2.0~s rows are sensitivity examples, not observed timing bounds;
+\SI{2.0}{s} lies far outside the uncertainty used by Knuth et al. Consequently,
+neither ${\sim}870\,g$ nor $5{,}370\,g$ should be treated as a validated
+measurement, and the public information does not support a robust
+anomalous-acceleration conclusion~\cite{Knuth2019}.
 
 \textbf{Conditional framing.} This assessment adopts a conditional analytical
 posture: \emph{``if the reported observations are accurate within reasonable
-bounds, what physics would be required?''} The physics analysis is conditional on
-the observational inputs. It does not independently verify the raw sensor data
-(which remains classified) or the operator interpretations.
+bounds, what physics would be required?''} The physics analysis below is
+conditional on the observational inputs. It does not independently verify the raw
+sensor data (which remains classified) or the operator interpretations. Where data
+quality is low, the corresponding physics analysis inherits that uncertainty and
+is marked accordingly.
 
 \subsection{Instantaneous Acceleration}\label{sec:acceleration}
 
-The most dramatic of the reported observables is the apparent ability to achieve
-extreme acceleration instantaneously. The canonical example is the 2004
-USS~\textit{Nimitz} encounter, in which radar operators aboard the
-USS~\textit{Princeton} reported an object descending from approximately
-\SI{28000}{ft} to \SI{50}{ft} altitude in approximately \SI{0.78}{s}---for which
-Knuth, Powell, and Reali estimated a mean acceleration of approximately
-$5{,}370\,g$, assuming the object arrests its descent (see the kinematic model
-and sensitivity analysis in Sec.~\ref{sec:data-quality})~\cite{Knuth2019}.
+The most dramatic claimed observable is extreme acceleration. For the 2004
+USS~\textit{Nimitz} encounter, Knuth, Powell, and Reali used witness-reported
+parameters for a descent from approximately \SI{28000}{ft} to \SI{50}{ft} in
+$0.78\pm0.08$~s and obtained a model-dependent modal estimate of
+$5{,}370\,(+1{,}430/{-}820)\,g$. Detailed radar tracks are not public, so the
+value is a source-dependent scenario estimate rather than a measurement (see
+Sec.~\ref{sec:data-quality})~\cite{Knuth2019}.
 
-The human body's tolerance for sustained acceleration is approximately $9\,g$ with
-anti-$g$ equipment. Brief tolerance extends to ${\sim}20\,g$ for trained
-individuals, and survivable crash impacts have been recorded at
-${\sim}100$--$215\,g$ for fractions of a second. An acceleration of $5{,}370\,g$
-sustained for even a fraction of a second would be instantly fatal to any known
-biological organism.
+\textbf{Biological constraints.} The human body's tolerance for sustained
+acceleration is approximately $9\,g$ with anti-$g$ equipment. Brief tolerance
+extends to ${\sim}20\,g$ for trained individuals, and survivable crash impacts
+have been recorded at ${\sim}100$--$215\,g$ for fractions of a second. An
+acceleration of $5{,}370\,g$ sustained for even a fraction of a second would be
+instantly fatal to any known biological organism.
 
-\textbf{The equivalence principle resolution.}\ Einstein's equivalence
-principle---verified to ${\sim}10^{-15}$ precision by the MICROSCOPE
-satellite~\cite{Touboul2022}---states that gravitational and inertial acceleration
-are locally indistinguishable. The contrapositive is equally important: \emph{an
-object in free fall along a geodesic experiences zero proper acceleration},
-regardless of its coordinate trajectory as observed by external observers.
+\textbf{Structural constraints.} Rocket-boosted interceptors have demonstrated
+accelerations of a few hundred $g$ (${\approx}400\,g$ reported for the HIBEX
+booster). Gun-launched projectiles, including their hardened fuzes and guidance
+electronics, survive $>10{,}000\,g$, but only for milliseconds during launch;
+laboratory ultracentrifuges sustain ${\sim}10^{6}\,g$ only for small,
+purpose-built rotors. Neither corresponds to sustained maneuvering of a complex
+vehicle.
 
-If a vehicle could modify the spacetime geometry around it---creating a local
-geodesic path that corresponds to extreme coordinate acceleration as seen by
-outside observers---the vehicle and its occupants would experience no inertial
-forces whatsoever. The geodesic equation governing this motion is:
+\textbf{Proper acceleration and tidal loading.}\ Einstein's equivalence
+principle is verified to ${\sim}10^{-15}$ precision by the MICROSCOPE
+satellite~\cite{Touboul2022}. A freely falling point particle follows a geodesic
+and its accelerometer reads zero proper acceleration; this is not a contrapositive
+inference and does not by itself describe a finite craft~\cite{MTW1973,Wald1984}.
+
+If a specified metric placed a chosen reference worldline on a geodesic, that
+worldline could have zero proper acceleration while displaying coordinate
+acceleration. Occupants separated across a finite cabin can nevertheless
+experience relative acceleration from curvature. The reference-worldline equation
+is:
 \begin{equation}\label{eq:geodesic}
   \frac{d^{2}x^{\mu}}{d\tau^{2}}
   + \Gamma^{\mu}{}_{\alpha\beta}\,
     \frac{dx^{\alpha}}{d\tau}\,\frac{dx^{\beta}}{d\tau} = 0\,,
 \end{equation}
 where $x^{\mu}$ are spacetime coordinates, $\tau$ is proper time, and
-$\Gamma^{\mu}{}_{\alpha\beta}$ are the Christoffel symbols encoding spacetime
-curvature~\cite{MTW1973,Wald1984}. An object following
-Eq.~\eqref{eq:geodesic} experiences zero proper acceleration by
-definition---it is simply following the natural ``straightest possible path''
-through curved spacetime.
+$\Gamma^{\mu}{}_{\alpha\beta}$ are the Christoffel symbols of the metric
+(coordinate-dependent connection coefficients; curvature itself is encoded in the
+Riemann tensor)~\cite{MTW1973,Wald1984}. For a finite craft, survivability
+additionally requires bounding geodesic deviation,
+$D^{2}\xi^{\hat{i}}/d\tau^{2}=-c^{2}R^{\hat{i}}{}_{\hat{0}\hat{j}\hat{0}}\,\xi^{\hat{j}}$,
+throughout the occupied volume.
 
 This is not speculative physics---it is the same principle that keeps astronauts
 in weightless free fall aboard the International Space Station, despite orbiting
 Earth at ${\sim}\SI{7.7}{km/s}$ with a centripetal acceleration of
-${\sim}\SI{8.7}{m/s^{2}}$.
+${\sim}\SI{8.7}{m/s^{2}}$. The astronauts follow a geodesic and feel no
+force~\cite{MTW1973,Wald1984}.
 
-\textbf{Assessment:} The apparent contradiction between extreme observed
-acceleration and the absence of structural failure or biological harm is
-\emph{fully resolvable} within general relativity, provided the vehicle operates
-by modifying local spacetime geometry rather than generating conventional thrust.
-The challenge is not theoretical but engineering: generating the required
-spacetime curvature.
+\textbf{Assessment:} Zero proper acceleration on a selected geodesic is an
+established local statement, but its application to UAP is conditional on
+unverified kinematics and a fully specified metric. It does not eliminate tidal
+loading, matter interaction, bubble formation, or source constraints. General
+relativity therefore supplies a modeling possibility, not an explanation of the
+\textit{Nimitz} claim~\cite{Touboul2022,MTW1973,Wald1984,Knuth2019}.
 
 \subsection{Hypersonic Velocity Without Signatures}\label{sec:hypersonic}
 
 Conventional objects moving through Earth's atmosphere at hypersonic speeds
-($>\text{Mach}\;5$) produce several inevitable signatures: a sonic boom (shock
-wave cone when exceeding the local speed of sound,
-${\sim}\SI{343}{m/s}$); aerodynamic heating raising surface temperatures to
-thousands of kelvin (the Space Shuttle experienced ${\sim}\SI{1650}{\degreeCelsius}$
-during reentry at approximately Mach~25); and visible exhaust plumes from
-conventional propulsion systems~\cite{BirrellDavies1982}.
-
+($>\text{Mach}\;5$) produce several inevitable signatures:
+\begin{itemize}
+  \item \textbf{Sonic boom:} a shock wave cone forms when an object exceeds the
+        local speed of sound (${\sim}\SI{343}{m/s}$ in air at \SI{20}{\celsius}). This is a
+        fundamental consequence of wave mechanics and cannot be avoided by
+        aerodynamic design alone.
+  \item \textbf{Thermal signature:} aerodynamic heating at hypersonic speeds
+        raises surface temperatures to thousands of kelvin. The Space Shuttle's
+        thermal protection system experienced ${\sim}\SI{1650}{\degreeCelsius}$
+        during reentry at approximately Mach~25.
+  \item \textbf{Exhaust plume:} conventional propulsion (turbojets, ramjets,
+        scramjets, rockets) produces visible and infrared-detectable exhaust.
+\end{itemize}
 Multiple UAP reports describe objects traveling at hypersonic speeds without any
-of these signatures. Plasma sheath formation at hypersonic speeds can partially
-absorb radar signals, but does not eliminate sonic booms or thermal signatures.
+of these signatures.
 
-Within the warp bubble framework (Sec.~\ref{sec:alcubierre}), the vehicle is
-stationary relative to its local spacetime. The surrounding air is not displaced
-by the vehicle---rather, spacetime itself contracts ahead and expands behind.
-Consequently: no shock wave forms because no air molecules are pushed faster than
-the speed of sound; no aerodynamic heating occurs because there is no relative
-motion between the vehicle surface and the immediately adjacent air; and no
-exhaust exists because no propellant is expelled~\cite{Alcubierre1994}.
+\textbf{Conventional explanations.} Plasma sheath formation at hypersonic speeds
+can partially absorb radar signals and modify the electromagnetic signature of a
+vehicle---a well-studied phenomenon in re-entry vehicle design. However, plasma
+formation does not eliminate sonic booms or thermal signatures; if anything, it
+intensifies them.
 
-\textbf{Assessment:} The absence of sonic booms and thermal signatures at
-hypersonic speeds is \emph{inconsistent} with any known conventional propulsion
-or aerodynamic mechanism. A spacetime-isolation mechanism (warp bubble) provides a
-\emph{theoretically consistent} explanation but remains unverified.
+\textbf{Matter coupling in a warp metric.} Being locally at rest in a coordinate
+construction does not make a vehicle impermeable to surrounding matter. The
+Alcubierre metric alone supplies no material boundary and does not establish that
+air is excluded from the bubble. Particle trajectories and interactions must be
+solved for the chosen metric and quantum/classical state~\cite{Alcubierre1994}:
+\begin{itemize}
+  \item published test-particle calculations allow external matter to enter or
+        accumulate near parts of a warp geometry;
+  \item particle energies and directions can be shifted by the geometry;
+  \item shock formation, heating, drag, and wake therefore require an explicit
+        matter-coupling calculation.
+\end{itemize}
+
+\textbf{Assessment:} A confirmed material object moving hypersonically through air
+without shock or heating would require explanation, but the public reports do not
+yet establish all of those conditions simultaneously. A generic warp metric does
+not, by itself, predict isolation from air and therefore cannot currently explain
+the claimed absence of signatures~\cite{Alcubierre1994}.
 
 \subsection{Low Observability}\label{sec:low-observability}
 
 Low observability---reduced detectability by radar and/or visual means---is the
-most readily explicable of the Five Observables. Radar cross-section reduction is
-a mature technology: the F-117 Nighthawk achieved radar cross-sections reportedly
-on the order of $0.001$--$\SI{0.01}{m^{2}}$, compared to
-${\sim}5$--$\SI{100}{m^{2}}$ for conventional fighter aircraft.
+most readily explicable of the Five Observables, as significant conventional
+technology exists in this domain.
 
-Pendry, Schurig, and Smith~(2006) provided the theoretical foundation for
-electromagnetic cloaking via transformation optics---using metamaterials to guide
-electromagnetic waves around an object~\cite{PendrySchurig2006}. Experimental
-demonstrations have been achieved at microwave frequencies but remain impractical
-at optical wavelengths due to bandwidth limitations, absorption losses, and
-fabrication constraints~\cite{Smith2000,Shelby2001}.
+\textbf{Radar cross-section reduction} is a mature technology. The F-117 Nighthawk
+(operational 1983--2008) achieved radar cross-sections reportedly on the order of
+$0.001$--$\SI{0.01}{m^{2}}$, compared to ${\sim}5$--$\SI{100}{m^{2}}$ for
+conventional fighter aircraft. Modern stealth technology employs geometric
+shaping, radar-absorbing materials~(RAM), and active cancellation systems.
 
-In principle, if a vehicle distorts spacetime sufficiently, light rays passing
-near it would be deflected, potentially rendering the vehicle partially or wholly
-invisible from certain viewing angles. However, the energy requirements for
-producing detectable gravitational lensing at human-accessible scales are
-extraordinarily high (see Sec.~\ref{sec:lensing}).
+\textbf{Metamaterial cloaking.} Pendry, Schurig, and Smith~(2006) provided the
+theoretical foundation for electromagnetic cloaking via transformation
+optics---using metamaterials to guide electromagnetic waves around an
+object~\cite{PendrySchurig2006}. Experimental demonstrations have been achieved at
+microwave frequencies but remain impractical at optical wavelengths due to
+bandwidth limitations, absorption losses, and fabrication constraints.
+
+\textbf{Gravitational lensing as concealment.} In principle, if a vehicle distorts
+spacetime sufficiently, light rays passing near it would be deflected,
+potentially rendering the vehicle partially or wholly invisible from certain
+viewing angles. However, the energy requirements for producing detectable
+gravitational lensing at human-accessible scales are extraordinarily high (see
+Sec.~\ref{sec:lensing})~\cite{DysonEddington1920,MTW1973}.
 
 \textbf{Assessment:} Low observability is \emph{achievable} with conventional
 technology and does not require exotic physics. Metamaterial-based invisibility is
@@ -397,110 +634,170 @@ a concealment mechanism is \emph{speculative} and energetically implausible.
 \subsection{Gravitational Lensing Effect}\label{sec:lensing}
 
 Several UAP reports describe visual distortions around the object---a ``shimmer''
-or ``haze'' suggestive of light refraction or bending. General relativity predicts
+or ``haze'' suggestive of light refraction or bending. Some analysts have
+attributed this to localized gravitational lensing.
+
+\textbf{Established physics of gravitational lensing.} General relativity predicts
 that mass-energy curves spacetime, and light follows geodesics through this curved
 geometry. The deflection angle for a light ray passing a mass $M$ at impact
-parameter $b$ is~\cite{DysonEddington1920,Kennefick2020}:
+parameter $b$ is~\cite{MTW1973,Wald1984}:
 \begin{equation}\label{eq:light-deflection}
-  \theta = \frac{4GM}{c^{2}\,b}\,,
+  \theta = \frac{4GM}{c^{2}\,b}\,.
 \end{equation}
-first confirmed during the total solar eclipse of May~29, 1919, by Dyson,
-Eddington, and Davidson, who measured a deflection of \SI{1.75}{arcsec} for
-starlight grazing the Sun---in agreement with Einstein's
-prediction~\cite{DysonEddington1920}.
+This was first confirmed during the total solar eclipse of May~29, 1919, by Dyson,
+Eddington, and Davidson, whose Sobral and Pr\'{\i}ncipe plates gave deflections of
+about \SI{1.98}{arcsec} and \SI{1.61}{arcsec} for starlight at the solar
+limb---consistent with Einstein's \SI{1.75}{arcsec} prediction and not with the
+Newtonian \SI{0.87}{arcsec}~\cite{DysonEddington1920,GilmoreTauschPebody2022}.
+Gravitational lensing is now a cornerstone of observational cosmology, used to map
+dark matter distributions and detect exoplanets via
+microlensing~\cite{DysonEddington1920}.
 
-To produce a visually detectable lensing effect ($>$\SI{1}{arcsec}) at a distance
-of ${\sim}\SI{1}{km}$, an object would need to warp spacetime with an effective
-mass-energy on the order of a compact stellar object. Scaling to UAP dimensions
-(${\sim}\SI{10}{m}$) at ${\sim}\SI{1}{km}$ distance would require energy
-densities approximately $10^{25}$ times greater than anything achievable with
-known technology. An object generating such curvature would also produce
-overwhelming tidal forces on its surroundings---effects that are conspicuously
-absent from UAP reports.
+\textbf{Energy scale problem.} A point-mass estimate illustrates the scale without
+implying that a warp stress tensor is point-like. For a \SI{1}{arcsec}
+deflection, Eq.~\eqref{eq:light-deflection} gives $M\approx1.6\times10^{22}$~kg at
+$b=\SI{10}{m}$ and $M\approx1.6\times10^{24}$~kg at $b=\SI{1}{km}$,
+corresponding to $1.5\times10^{39}$--$1.5\times10^{41}$~J. These are dwarf-planet
+to planetary mass-equivalents, not compact stellar masses, but a local source would
+still produce catastrophic gravity and tides. An extended warp geometry requires
+full null-geodesic ray tracing rather than this point-mass
+scaling~\cite{DysonEddington1920,MTW1973}. An object generating such curvature
+would also produce overwhelming tidal forces on its surroundings---effects that
+are conspicuously absent from UAP reports.
 
-Alternative explanations for visual distortions include heated air (thermal
-mirage), plasma formation, refractive index gradients from intense electromagnetic
-fields, and optical sensor artifacts---each involving well-understood physics.
+\textbf{Alternative explanations.} Visual distortions around UAP could result from
+heated air (thermal mirage effects) from high-energy systems, plasma formation in
+the surrounding atmosphere, refractive index gradients from intense
+electromagnetic fields, or optical artifacts from sensor systems. Each of these
+explanations involves well-understood physics and does not require gravitational
+effects~\cite{Condign2000,AARO_Parallax2024}.
 
 \textbf{Assessment:} While gravitational lensing is \emph{verified} astrophysics,
 its application to UAP-scale phenomena is \emph{energetically implausible} by many
-orders of magnitude. Observed visual distortions are more \emph{likely}
+orders of magnitude. The observed visual distortions are more \emph{likely}
 attributable to thermal, plasma, or electromagnetic effects.
 
 \subsection{Transmedium Travel}\label{sec:transmedium}
 
 Perhaps the most challenging observable from a conventional physics perspective is
 the reported ability to transition seamlessly between air and water without
-performance degradation. Water is approximately 830 times denser than air at sea
-level. An object entering water from air at high speed encounters an enormous
+performance degradation.
+
+\textbf{The density barrier.} Water is approximately 830 times denser than air at
+sea level. An object entering water from air at high speed encounters an enormous
 dynamic pressure discontinuity:
 \begin{equation}\label{eq:dynamic-pressure}
   q = \frac{1}{2}\rho v^{2}\,.
 \end{equation}
 At \SI{100}{m/s}, the dynamic pressure in air is ${\sim}\SI{6}{kPa}$; in water,
 it is ${\sim}\SI{5}{MPa}$---approximately 830 times greater, matching the density
-ratio (since $q \propto \rho$ at fixed velocity). This represents an
-effectively instantaneous structural load that would destroy most aerospace
-vehicles.
+ratio (since $q \propto \rho$ at fixed velocity). This represents an effectively
+instantaneous structural load that would destroy most aerospace vehicles.
 
-Supercavitation---creating a gas cavity envelope around an underwater
-vehicle---reduces hydrodynamic drag by approximately 90\%. The Russian VA-111
-Shkval torpedo uses this principle to achieve speeds of ${\sim}200$ knots
-underwater. However, supercavitation does not address the transition dynamics at
-the air--water boundary.
+\textbf{Supercavitation.} Supercavitation---creating a gas cavity envelope around
+an underwater vehicle---reduces hydrodynamic drag by approximately 90\%. The
+Russian VA-111 Shkval torpedo uses this principle to achieve speeds of
+${\sim}200$ knots underwater. However, supercavitation requires deliberate
+cavitator design, does not eliminate drag entirely, and does not address the
+transition dynamics at the air--water boundary.
 
-Within the warp bubble framework, the vehicle is decoupled from the surrounding
-medium entirely. Whether the external environment is air, water, vacuum, or any
-other medium is irrelevant---the vehicle is stationary in its local reference
-frame while spacetime moves around it~\cite{Alcubierre1994}. This would explain:
-no deceleration at the air--water boundary, no cavitation or wake, and no
-hydrodynamic noise.
+\textbf{Matter coupling across media.} A warp coordinate construction does not
+decouple a vehicle from air or water and supplies no impermeable interface.
+Whether matter enters, accumulates, shocks, or transfers momentum depends on a
+specified metric, vehicle boundary, and interaction model~\cite{Alcubierre1994}.
+Consequently, it does not by itself predict zero deceleration at the air--water
+boundary, the absence of cavitation or wake, or the absence of hydrodynamic noise
+or heating.
 
-\textbf{Assessment:} Seamless transmedium travel without performance degradation
-is \emph{inconsistent} with conventional fluid dynamics. Medium-independent
-propulsion via spacetime isolation is \emph{theoretically consistent} but entirely
-\emph{speculative} in terms of practical realization.
+\textbf{Assessment:} If seamless transmedium travel without performance
+degradation were established by calibrated above- and below-surface sensors, it
+would strongly constrain conventional vehicles. Current public data do not
+establish that trajectory, and ``spacetime isolation'' is an additional
+unsupported assumption rather than a result of the Alcubierre
+metric~\cite{Alcubierre1994}.
 
 \subsection{Alternative and Competing Explanatory Frameworks}\label{sec:alternatives}
 
 Before adopting any single analytical framework, it is necessary to evaluate the
-principal competing hypotheses proposed to explain UAP observations.
+principal competing hypotheses that have been proposed to explain UAP
+observations. Each hypothesis is assessed for its ability to account for the full
+Five Observables taxonomy.
 
 \textbf{1.\ Atmospheric plasma and ball lightning.} The UK Ministry of Defence's
-Project Condign study~\cite{Condign2000} concluded that many UAP sightings are
-attributable to buoyant charged plasma formations. Plasma can account for
-luminosity, apparent rapid motion, electromagnetic interference, and some
-biological effects. However, plasma cannot explain solid radar returns from
-structured objects, transmedium travel, geometric consistency across multiple
-viewing angles, or sustained hypersonic velocity. The plasma hypothesis is a valid
-partial explanation for a subset of UAP but cannot unify all Five Observables.
+Project Condign study (2000, declassified 2006) concluded that many UAP sightings
+are attributable to buoyant charged plasma formations in the atmosphere---a
+natural phenomenon capable of producing luminous, rapidly moving aerial
+phenomena~\cite{Condign2000}. Plasma can account for luminosity, apparent rapid
+motion, electromagnetic interference, and some biological effects
+(microwave-frequency heating). However, plasma formations cannot explain solid
+radar returns from structured objects, transmedium travel (air-to-water
+transition), geometric consistency across multiple viewing angles, or sustained
+hypersonic velocity. The plasma hypothesis is a valid partial explanation for a
+subset of UAP but cannot unify all Five Observables.
 
-\textbf{2.\ Sensor artifacts and misinterpretation.} AARO's parallax
-analysis~\cite{AARO_Parallax2024} demonstrated that the ``GoFast'' video is
-consistent with a wind-speed object at ${\sim}\SI{13000}{ft}$, with apparent speed
-from parallax illusion. Cases with multi-sensor corroboration---such as the 2004
-USS~\textit{Nimitz} encounter---are substantially more resistant to single-sensor
-explanations. The NASA UAP Independent Study
-Team~\cite{NASA_UAP2023} recommended improved calibration to reduce ambiguity.
+\textbf{2.\ Sensor artifacts and misinterpretation.} The NASA UAP Independent
+Study Team (2023) used the on-screen range, elevation angle, and aircraft altitude
+in the ``GoFast'' video---one of the three canonical Pentagon UAP videos---to
+estimate that the object was at about \SI{13000}{ft} and moving at roughly
+\SI{40}{mph}, consistent with drifting in the wind, with the impression of high
+speed due largely to the fast-moving sensor and parallax; the panel noted residual
+uncertainty because wind effects on the aircraft were
+neglected~\cite{NASA_UAP2023}. AARO's 2024 information paper on forced perspective
+and parallax explains how these effects can produce apparently excessive sizes and
+speeds in UAP reports~\cite{AARO_Parallax2024}. Independent analysts have shown
+that FLIR video artifacts (gimbal derotation, infrared glare, parallax) can create
+the appearance of extraordinary maneuvers from mundane objects. This is a
+critically important filter: many individual UAP cases may be resolvable through
+careful sensor analysis alone. However, cases reported to involve several
+modalities---such as the 2004 USS~\textit{Nimitz} encounter (witness-reported
+SPY-1 tracks, visual reports, and an ATFLIR clip recorded on a later
+sortie)---would be more resistant to single-sensor-artifact explanations if the
+underlying multi-sensor data were released; in the public record they are not
+(Sec.~\ref{sec:data-quality}). The NASA UAP Independent Study Team (2023)
+recommended improved sensor calibration and data collection standards to reduce
+this ambiguity~\cite{NASA_UAP2023}.
 
-\textbf{3.\ Adversarial technology.} Foreign aerospace technology is a plausible
-explanation for some UAP, but reported flight characteristics ($>1{,}000\,g$,
-transmedium travel, no exhaust) exceed any known capability by orders of magnitude.
-If the observations are accurate and the objects are adversarial, the technology
-itself requires the same physics analysis this paper provides.
+\textbf{3.\ Adversarial technology.} Foreign aerospace technology---advanced
+drones, hypersonic vehicles, or novel electronic warfare systems---is a plausible
+explanation for some fraction of UAP, particularly those observed near military
+installations or training areas. However, the reported flight characteristics
+(accelerations of order $10^{3}\,g$, transmedium travel, absence of exhaust or
+propulsive signatures), if accurate, would exceed any demonstrated flight-vehicle
+capability (cf.\ ${\sim}400\,g$ for the HIBEX booster). If the observations are
+accurate and the objects are adversarial technology, the technology itself
+requires the same physics analysis this paper provides---the question shifts from
+``what are they?'' to ``what physics enables them?''
 
 \textbf{4.\ Cognitive and perceptual bias.} Observer expectation effects,
-pareidolia, and memory distortion can produce anomalous perceptions but do not
-explain calibrated radar returns or multi-sensor confirmations. Cognitive bias
-diminishes in explanatory power as independent sensor count increases.
+pareidolia, attention-driven motion illusions, and memory distortion are
+well-documented psychological phenomena that can produce or amplify anomalous
+perceptions. These factors may explain a significant fraction of witness reports
+that lack instrumental corroboration. They do not, however, explain calibrated
+radar returns, infrared signatures recorded on targeting systems, or observations
+confirmed by multiple independent sensor systems. Cognitive bias is a valid concern
+for single-witness visual reports but diminishes in explanatory power as the
+number of independent, calibrated sensors increases.
 
 \textbf{Framework selection rationale.} This assessment adopts the warp bubble
-framework as its primary analytical lens---not because it is the most probable
-explanation, but because it is the only single-mechanism hypothesis that
-simultaneously addresses all Five Observables within GR and QFT. It is used as a
-maximal-parsimony analytical tool, not as an origin claim. The alternative
-frameworks should be considered active competitors; future calibrated sensor data
-may favor one or more alternatives over the spacetime distortion hypothesis.
+(spacetime distortion) framework as its primary conditional lens. That is not
+because it is the most probable explanation for UAP, nor because it has been shown
+to explain the Five Observables: Secs.~\ref{sec:acceleration},
+\ref{sec:hypersonic}, \ref{sec:transmedium}, and~\ref{sec:warp-bubble} show that a
+generic warp metric does not by itself predict tidal-load-free acceleration, the
+absence of shocks and heating, or seamless transmedium travel without explicit
+matter-coupling, radiation, and ray-tracing calculations, and it requires
+stress-energy that has not been shown to be physically realizable. It is used
+because it is a frequently invoked single-mechanism proposal (e.g., DIRDs~\#13
+and~\#15~\cite{DIRD_ObousyDavis,DIRD_Puthoff}) and provides a well-defined
+general-relativistic setting. The plasma, sensor artifact, adversarial technology,
+and cognitive bias hypotheses each explain subsets of the observables, and the
+warp framework is not more parsimonious than they are, because it does not yet
+explain any observable quantitatively. It is therefore used here as a ``what would
+it take?'' exercise in physics, not as a claim about what UAP actually are. The
+alternative frameworks discussed above should be considered active competitors;
+future calibrated sensor data (Sec.~\ref{sec:research}) may favor one or more of
+these alternatives over the spacetime distortion
+hypothesis~\cite{Alcubierre1994,BirrellDavies1982,NASA_UAP2023,Condign2000,AARO_Parallax2024}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% SECTION 3
@@ -526,7 +823,7 @@ A key feature of GR is that it can be solved ``in reverse'': one can specify a
 desired spacetime geometry and then determine what matter-energy distribution
 would be required to produce it. This approach---sometimes called ``metric
 engineering'' or ``spacetime engineering''---is the foundation of warp drive
-research~\cite{DIRD_Puthoff}.
+research~\cite{DIRD_Puthoff,MTW1973,Wald1984}.
 
 \subsection{Alcubierre Warp Drive}\label{sec:alcubierre}
 
@@ -545,198 +842,207 @@ satisfying $f(0)=1$ and $f(r\to\infty)=0$.
 
 \textbf{Physical interpretation:} Space contracts ahead of the bubble and expands
 behind it. The vehicle inside the bubble rides a ``wave'' of spacetime, analogous
-to a surfer on an ocean wave. Crucially: the vehicle is locally stationary (zero
-proper velocity); no local speed limit is violated---each patch of spacetime obeys
-special relativity; the effective speed is determined by how fast spacetime itself
-is deformed; and occupants experience zero proper acceleration (they are on a
-geodesic).
+to a surfer on an ocean wave. Crucially:
+\begin{itemize}
+  \item the vehicle is at rest relative to the local Eulerian (normal) observers
+        inside the bubble, even though its coordinate velocity is $v_{s}$;
+  \item no local speed limit is violated---each patch of spacetime obeys special
+        relativity;
+  \item the effective speed is determined by how fast spacetime itself is being
+        deformed;
+  \item in this idealized metric (unit lapse), observers at rest in the flat
+        interior ($f\approx1$) follow geodesics and experience zero proper
+        acceleration; finite-body tidal loads and non-ideal profiles must be
+        evaluated separately (Secs.~\ref{sec:acceleration}
+        and~\ref{sec:tidal-em});
+  \item these statements describe a prescribed metric, not a control mechanism.
+        For $v_{s}>c$ an observer at the bubble centre is causally disconnected
+        from the outer part of the bubble wall, so the bubble can be neither
+        created on demand nor steered from inside (Everett and Roman
+        1997)~\cite{EverettRoman1997}. The configuration develops horizons
+        (Clark, Hiscock, and Larson 1999)~\cite{ClarkHiscockLarson1999}, and
+        semiclassical calculations find the renormalized stress-energy growing
+        without bound at the front wall, a quantum instability (Hiscock 1997;
+        Finazzi, Liberati, and Barcel\'o 2009)~\cite{Hiscock1997,Finazzi2009}.
+\end{itemize}
 
 \textbf{The exotic matter problem.} Alcubierre's original analysis already noted
 that the required energy density violates the weak energy condition~(WEC)---meaning
 it requires ``exotic matter'' with negative energy density. Subsequent analyses
-have quantified this constraint: Pfenning and Ford~(1997) showed that the bubble
-wall thickness must be on the order of the Planck length
-(${\sim}10^{-35}\;\text{m}$) and the total negative energy exceeds the
-mass-energy of the observable universe for a \SI{200}{m}
-ship~\cite{PfenningFord1997}. Van~Den Broeck~(1999) reduced the energy requirement to
-approximately one solar mass by modifying the internal geometry of the
-bubble~\cite{VanDenBroeck1999}. Lentz~(2021) proposed superluminal soliton
-solutions sourced entirely by positive energy~\cite{Lentz2021}; however,
-Santiago, Schuster, and Visser~(2022) demonstrated that negative energy density
-regions persist when checked for all timelike observers~\cite{SantiagoVisser2022}.
-Bobrick and Martire~(2021) presented the first general model for subluminal warp
-drives using only positive energy, though subluminal warp drives offer no
-advantage over conventional propulsion~\cite{BobrickMartire2021}. Fell and
-Heisenberg~(2021) explored additional positive-energy geometries, further
-contributing to the subluminal positive-energy landscape~\cite{FellHeisenberg2021}.
+have quantified this constraint:
+\begin{itemize}
+  \item \textbf{Pfenning and Ford (1997)} applied the Ford--Roman quantum
+        inequality to Alcubierre's $\tanh$ profile. With their sampling-time
+        choice, the wall thickness must satisfy
+        $\Delta \lesssim 10^{2}\,v_{b}\,L_{\mathrm{P}}$ ($v_{b}$ in units of $c$),
+        i.e., about a hundred to a few hundred Planck lengths (order
+        $10^{-33}$~m) for $v_{b}\sim1$. This is not an exact fabrication
+        specification. For a \SI{100}{m}-radius bubble the integrated negative
+        energy is then $E/c^{2} \lesssim -6.2\times10^{62}\,v_{b}$~kg (a negative
+        mass-equivalent of at least this magnitude),
+        which they note is roughly ten orders of magnitude more than the mass of
+        the visible universe. The result depends strongly on the chosen profile,
+        sampling time, and semiclassical
+        assumptions~\cite{PfenningFord1997}.
+  \item \textbf{Van~Den Broeck (1999)} reduced the integrated negative energy in
+        his illustrative construction to a few solar masses by modifying the
+        internal geometry, while retaining extreme wall/source
+        constraints~\cite{VanDenBroeck1999}.
+  \item \textbf{Lentz (2021)} proposed superluminal soliton solutions sourced
+        entirely by positive energy (conducting plasma and electromagnetic
+        fields)~\cite{Lentz2021}. However, \textbf{Santiago, Schuster, and Visser
+        (2022)} demonstrated that Lentz's analysis only checked energy conditions
+        for co-moving observers, not all timelike observers as required by the
+        WEC. Their analysis showed negative energy density regions
+        persist~\cite{SantiagoVisser2022}.
+  \item \textbf{Bobrick and Martire (2021)} proposed a general framework in which
+        any warp drive is a shell of regular or exotic material moving
+        inertially, and argued that subluminal, spherically symmetric
+        configurations could in principle be sourced by positive energy. Their
+        positive-energy argument evaluates only the Eulerian energy density, and
+        Santiago, Schuster, and Visser (2022) dispute their specific spherically
+        symmetric example. Bobrick and Martire also argue that every warp drive,
+        positive-energy or not, must be accelerated by conventional momentum
+        exchange: the shell moves inertially and supplies no propulsion of its
+        own~\cite{BobrickMartire2021,SantiagoVisser2022}.
+  \item \textbf{Fell and Heisenberg (2021)} claimed superluminal solitonic
+        configurations with positive semi-definite Eulerian energy density and
+        total energy about four orders of magnitude below a solar mass. Like
+        Lentz's construction, the claim examines only Eulerian observers and lies
+        in the Nat\'ario class, so the Santiago--Schuster--Visser analysis implies
+        weak-energy-condition violation for other
+        observers~\cite{FellHeisenberg2021,SantiagoVisser2022}.
+  \item \textbf{Fuchs et al.\ (2024)} numerically constructed the first
+        constant-velocity, subluminal warp solution reported to satisfy the null,
+        weak, strong, and dominant energy conditions: a positive-ADM-mass matter
+        shell (2.365 Jupiter masses between radii of \SI{10}{m} and \SI{20}{m})
+        with an interior shift of $0.02c$. Its non-unit lapse and non-flat
+        spatial metric place it outside the Nat\'ario class covered by the
+        Santiago--Schuster--Visser theorem. The authors identify acceleration
+        without energy-condition violation as unsolved~\cite{Fuchs2024}.
+\end{itemize}
 
 \textbf{Current consensus:} As of 2026, all known superluminal warp drive
-configurations require exotic matter. Subluminal positive-energy warp drives are
-mathematically valid but offer no propulsion advantage.
+configurations require exotic matter. Positive-energy warp solutions that satisfy
+the point-wise energy conditions are known only for constant subluminal velocity
+(Fuchs et al.\ 2024). Like any massive shell, they move inertially, must still be
+accelerated by conventional momentum exchange, and no
+energy-condition-satisfying accelerating solution has been published. The field
+remains active, with ongoing research into energy condition relaxations in
+modified gravity
+theories~\cite{Lentz2021,SantiagoVisser2022,BobrickMartire2021,FellHeisenberg2021,Fuchs2024}.
 
 \subsection{Warp Bubble Mechanics}\label{sec:warp-bubble}
 
-Despite the engineering challenges, the warp bubble concept provides the most
-parsimonious theoretical explanation for the full spectrum of UAP observables. If
-a device could create and control a local spacetime distortion---regardless of
-whether it achieves superluminal speeds---the consequences follow directly from
-GR, as summarized in Table~\ref{tab:warp-observables}.
+The warp-bubble label does not by itself provide a model of UAP observables. A
+testable proposal must specify the metric, supporting stress-energy, formation
+history, vehicle boundary, external matter, quantum state, and observer. Only then
+can geodesics, fields, loads, spectra, and images be
+calculated~\cite{Alcubierre1994,MTW1973,Wald1984}.
+Table~\ref{tab:warp-observables} maps each reported observable to what a warp
+model would have to calculate.
 
 \begin{table*}[t]
-\caption{Warp bubble explanation of the reported UAP observables. Each
-observable is a direct consequence of local spacetime distortion within the
-framework of general relativity.}
+\caption{Requirements map relating the reported UAP observables to the warp
+bubble framework. The table is a list of calculations a specified model would have
+to supply, not an explanatory fit.}
 \label{tab:warp-observables}
-\begin{tabular}{ll}
+\begin{tabular}{@{}p{0.27\textwidth}p{0.66\textwidth}@{}}
 \toprule
 Observable & Warp Bubble Explanation \\
 \midrule
-Instantaneous acceleration & Vehicle follows geodesic; zero proper acceleration \\
-No sonic boom & No relative motion between vehicle and local air \\
-No thermal signature & No aerodynamic heating (no friction) \\
-Transmedium travel & Vehicle isolated from external medium \\
-Low observability & Light deflection around curved spacetime \\
-Gravitational lensing & Direct consequence of local curvature \\
-EM emissions & Dynamical Casimir effect from moving bubble wall \\
-Biological effects & EM radiation from bubble wall \\
+Instantaneous acceleration & Conditional: a selected worldline may be geodesic;
+  public kinematics and tidal loads remain unresolved \\
+No sonic boom & Not predicted without an atmosphere--metric interaction
+  calculation \\
+No thermal signature & Not predicted without matter, boundary, and radiation
+  calculations \\
+Transmedium travel & Not predicted; a metric is not an impermeable interface \\
+Low observability & Requires observer-specific null-geodesic ray tracing \\
+Gravitational lensing & Curvature affects null geodesics, but magnitude and image
+  require a specified metric \\
+EM emissions & No generic DCE, THz, or X-ray spectrum has been derived \\
+Biological effects & Requires measured exposure and dose; no UAP attribution is
+  established \\
 \bottomrule
 \end{tabular}
 \end{table*}
 
-The elegance of this framework lies in its economy: a \emph{single mechanism}
-(local spacetime distortion) simultaneously explains \emph{all} reported
-observables. This does not prove that UAP use warp bubbles, but it demonstrates
-that the Five Observables are not independently inexplicable---they are precisely
-the \emph{expected signature set} of a spacetime distortion engine.
+The table is a requirements map, not an explanatory fit. Because the same
+uncalibrated reports motivated both the hypothesis and the proposed signatures,
+treating agreement as confirmation would be circular. No cited source establishes
+the Five Observables as the expected signature set of a spacetime-distortion
+engine~\cite{Alcubierre1994,DIRD_Puthoff}.
 
-\subsection{Warp Bubble Intensity and Observed Morphology}\label{sec:morphology}
+\subsubsection{Apparent Morphology Requires Ray Tracing}\label{sec:morphology}
 
-A key prediction of the warp bubble framework is that the \emph{apparent shape}
-of a vehicle as seen by external observers is not determined by the physical
-geometry of the craft itself, but by the \emph{intensity of the surrounding
-spacetime distortion}. As the bubble's energy density increases, the curvature
-gradient at the bubble wall steepens, altering the geodesic paths of photons
-traversing the region and thus changing the visual profile perceived by distant
-observers.
+Apparent shape cannot be inferred from bubble speed or a scalar ``intensity''
+alone. It requires integrating null geodesics through a fully specified metric for
+a defined emitter, spectrum, vehicle surface, observer position, and observation
+time. Published Alcubierre ray-tracing studies (Clark, Hiscock, and Larson 1999;
+M\"uller and Weiskopf 2012) find observer- and direction-dependent aberration,
+redshift/blueshift, and horizon features for particular metrics; they do not
+derive a universal disc $\to$ sphere $\to$ ovoid $\to$ cigar
+sequence~\cite{ClarkHiscockLarson1999,MullerWeiskopf2012}.
 
-\paragraph{Physical mechanism.}
-Light rays passing through or near the warp bubble are deflected by the local
-spacetime curvature according to the geodesic equation. The deflection angle
-$\theta$ at the bubble boundary depends on the metric perturbation amplitude:
-\begin{equation}\label{eq:deflection}
-  \theta \;\sim\; \frac{4\,G\,\mathcal{E}_{\text{shell}}}{c^{4}\,b}\,,
-\end{equation}
-where $\mathcal{E}_{\text{shell}}$ is the energy density integrated over the
-bubble wall cross-section and $b$ is the photon's impact parameter. As
-$\mathcal{E}_{\text{shell}}$ increases, photon trajectories are bent more
-severely, producing progressively distorted visual profiles.
+A Lorentz-factor-style morphology factor such as
+$\gamma_{\mathrm{eff}}=(1-v_{s}^{2}f^{2}/c^{2})^{-1/2}$ is not an image-formation
+solution, and applying the point-mass lens equation to an anisotropic warp stress
+tensor is not justified. In general relativity, light that couples only to the
+metric follows null geodesics that are achromatic in the geometric-optics limit.
+This holds inside the bubble wall's stress-energy as well as in vacuum.
+Wavelength-dependent fringing would instead indicate a dispersive medium such as
+plasma, a material optical element, or wave-optics effects.
 
-For the Alcubierre metric with shaping function $f(r_{s})$, the apparent
-profile observed at angle $\psi$ relative to the direction of motion depends on
-the bubble velocity parameter $v_{s}$ and the wall thickness parameter $\sigma$.
-The effective contraction factor along the direction of travel is
-\begin{equation}\label{eq:gamma-eff}
-  \gamma_{\text{eff}}(\psi)
-    = \left(1 - \frac{v_{s}^{2}\,f(r_{s})^{2}}{c^{2}}\right)^{-1/2}.
-\end{equation}
-At low bubble velocities ($v_{s}\ll c$), $\gamma_{\text{eff}}\approx 1$ and the
-profile remains nearly undistorted. As $v_{s}\to c$, the profile is compressed
-along the velocity axis, transitioning through a sequence of apparent geometries.
-
-\begin{table*}[t]
-\caption{Warp bubble morphology matrix: mapping bubble intensity regimes to
-predicted apparent UAP shapes as seen by external observers. The effective
-velocity ratio $v_{s}/c$ parametrizes the spacetime distortion strength.}
-\label{tab:morphology}
-\begin{tabular}{@{}lllll@{}}
-\toprule
-Regime & $v_{s}/c$ & Front/Rear Profile & Apparent Shape & Physical Mechanism \\
-\midrule
-I --- Low Power & $\ll 0.1$ & Slightly oblate & Disc / saucer &
-  Minimal curvature; photon paths nearly rectilinear \\
-II --- Moderate & $\sim 0.1$--$0.3$ & Spherical & Sphere / orb &
-  Isotropic lensing; all viewing angles yield similar profile \\
-III --- High Power & $\sim 0.3$--$0.6$ & Prolate (egg) & Ovoid / tic-tac &
-  Asymmetric contraction ahead vs.\ expansion behind \\
-IV --- Very High & $\sim 0.6$--$0.9$ & Elongated ellipsoid & Cigar / cylinder &
-  Strong Lorentz-like contraction along velocity axis \\
-V --- Extreme & $\to 1.0$ & Infinite elongation & Streak / beam &
-  Curvature approaches horizon formation at leading edge \\
-\bottomrule
-\end{tabular}
-\end{table*}
-
-\paragraph{Resolving the shape paradox.}
-Witness reports describe UAP in widely inconsistent shapes---disc, sphere,
-tic-tac, cigar, luminous streak---often for what tracking data suggests is the
-same object at different times. Within the warp bubble framework, this is not a
-contradiction but an \emph{expected consequence}: the same craft operating at
-different bubble intensities would genuinely appear as different shapes to
-external observers, because the photon geodesics traversing the bubble change
-with intensity.
-
-This is analogous to gravitational lensing in astrophysics, where a single
-background galaxy can appear as an arc, ring, or multiple point images depending
-on the mass distribution of the foreground lens~\cite{MTW1973}. The lens
-geometry determines the image geometry---not the source geometry. Similarly, the
-warp bubble geometry determines the apparent craft geometry.
-
-\paragraph{Observable predictions.}
-The morphology matrix yields four testable predictions:
-\begin{enumerate}
-  \item Shape transitions should correlate with acceleration events (bubble
-    intensity changes during maneuvers).
-  \item Objects should appear most disc-like when stationary or slow-moving, and
-    most elongated when at high velocity.
-  \item The transition disc $\to$ sphere $\to$ ovoid $\to$ cigar should be
-    continuous, not abrupt.
-  \item Optical spectroscopy during shape transitions should reveal
-    wavelength-dependent distortion (shorter wavelengths deflected more,
-    producing chromatic fringing).
-\end{enumerate}
-
-\paragraph{Assessment.}
-The warp bubble morphology matrix provides a \emph{theoretically consistent}
-explanation for the diversity of reported UAP shapes within a single-vehicle
-framework. The predictions are \emph{testable} with calibrated multi-spectral
-imaging. Verification would constitute strong evidence for the spacetime
-distortion hypothesis.
+\textbf{Assessment:} No morphology--velocity matrix or chromatic signature is
+established. A defensible prediction requires numerical ray tracing from an
+explicit metric and uncertainty-aware comparison with calibrated, multi-angle
+imagery. Until such a calculation exists, reported shape diversity neither
+supports nor falsifies a warp
+hypothesis~\cite{Alcubierre1994,MTW1973,Wald1984,DIRD_Puthoff}.
 
 \subsection{Negative Energy and the Quantum Vacuum}\label{sec:negative-energy}
 
 The central obstacle to practical spacetime engineering is the exotic matter
-requirement. The Casimir effect demonstrates that quantum vacuum fluctuations are
-real and can produce measurable forces---including configurations with negative
-energy density between closely spaced conducting plates~\cite{Casimir1948}. First
+requirement. What does physics say about negative energy?
+
+\textbf{The Casimir effect} demonstrates that quantum vacuum fluctuations are real
+and can produce measurable forces---including configurations with negative energy
+density between closely spaced conducting plates~\cite{Casimir1948}. First
 predicted by Casimir~(1948) and experimentally confirmed by Lamoreaux~(1997), the
-effect arises because boundary conditions imposed by the plates restrict the modes
-of virtual photons between them, creating a lower energy density than the
+effect arises because the boundary conditions imposed by the plates restrict the
+modes of virtual photons between them, creating a lower energy density than the
 surrounding vacuum~\cite{Lamoreaux1997}.
 
-However, the magnitude of Casimir negative energy densities is extraordinarily
-small---on the order of $\SI{e-3}{J/m^{3}}$ for plate separations of
-${\sim}\SI{100}{nm}$. The warp drive requires negative energy densities on the
-order of $\SI{e65}{J/m^{3}}$---a gap of approximately 68 orders of
-magnitude~\cite{PfenningFord1997}.
+For ideal, perfectly conducting parallel plates, the renormalized energy density
+is $u=-\pi^{2}\hbar c/(720a^{4})$. At $a=\SI{100}{nm}$ this gives approximately
+$-\SI{4.33}{J/m^{3}}$. Real materials require
+finite-conductivity, temperature, and geometry corrections. No universal warp
+target density can be quoted without a matched metric and wall
+profile~\cite{Alcubierre1994,PfenningFord1997,Casimir1948,Lamoreaux1997}.
 
-Quantum vacuum energy extraction was explored in DIRD~\#24~\cite{DIRD_Davis_Vacuum}
-and DIRD~\#36~\cite{DIRD_Davis_Tomography}. While the quantum vacuum contains
-enormous theoretical energy density, extracting usable work from it faces
-fundamental thermodynamic constraints---the vacuum is, by definition, the lowest
-energy state, and one cannot extract energy from a system already in its ground
-state without changing the boundary conditions.
+\textbf{Quantum vacuum energy extraction} was explored in DIRD~\#24 (Davis,
+``Concepts for Extracting Energy from the Quantum
+Vacuum'')~\cite{DIRD_Davis_Vacuum}. While the quantum vacuum contains enormous
+theoretical energy density, extracting usable work from it faces fundamental
+thermodynamic constraints---the vacuum is, by definition, the lowest energy state,
+and one cannot extract energy from a system already in its ground state without
+changing the boundary conditions~\cite{DIRD_Davis_Vacuum,DIRD_Davis_Tomography}.
 
-\textbf{Assessment:} Negative energy exists in nature (Casimir effect), but only
-in quantities approximately 68 orders of magnitude below what spacetime
-engineering would require. No known mechanism bridges this gap. This represents
-the \emph{single most significant} physics barrier to practical warp drive
-technology.
+\textbf{Assessment:} Casimir-force measurements support boundary-dependent quantum
+vacuum stress, and the idealized calculation contains negative renormalized energy
+density relative to the exterior vacuum. They do not demonstrate a stockpileable
+exotic material or a scalable route to an arbitrarily specified negative
+stress-energy tensor. Because proposed warp requirements depend strongly on
+metric, profile, speed, and quantum-inequality assumptions, a single
+Casimir-to-warp ``gap factor'' is not scientifically
+defined~\cite{PfenningFord1997,Casimir1948,Lamoreaux1997,DIRD_Davis_Vacuum,DIRD_Davis_Tomography}.
 
 \subsection{Traversable Wormholes}\label{sec:wormholes}
 
 An alternative to the warp drive is the traversable wormhole---a topological
 shortcut through spacetime connecting distant regions. The Morris--Thorne
-metric~(1988) provided the first mathematical framework for a traversable
+metric~(1988) provided the standard mathematical framework for a traversable
 (non-collapsing) wormhole~\cite{MorrisThorne1988}:
 \begin{equation}\label{eq:morris-thorne}
   ds^{2} = -e^{2\Phi(r)}\,c^{2}\,dt^{2}
@@ -758,7 +1064,7 @@ macroscopic traversable wormholes.
 \textbf{Assessment:} Traversable wormholes are \emph{theoretically valid} within
 GR but face the same exotic matter barrier as warp drives. The ER=EPR conjecture
 is an active area of theoretical research with \emph{no experimental
-verification}.
+verification}~\cite{MorrisThorne1988,MaldacenaSusskind2013,Visser1995}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% SECTION 4
@@ -768,13 +1074,14 @@ verification}.
 \subsection{Energy Density Comparison}\label{sec:energy-density}
 
 Any advanced propulsion system requires an energy source commensurate with its
-demands. Table~\ref{tab:energy-density} compares the specific energy of candidate
-fuel sources.
+demands. Table~\ref{tab:energy-density} compares the specific energy (energy per
+unit mass) of candidate fuel
+sources~\cite{DIRD_Winterberg,DIRD_Teofilo}.
 
-\begin{table}[b]
+\begin{table}[tb]
 \caption{Specific energy comparison of candidate fuel sources for advanced
-propulsion. The seven-order-of-magnitude jump from chemical to nuclear energy
-explains why fusion is the primary candidate for high-energy propulsion.}
+propulsion. Specific energy alone does not select a propulsion system (see
+text).}
 \label{tab:energy-density}
 \begin{tabular}{lcc}
 \toprule
@@ -786,22 +1093,27 @@ Li-ion battery & ${\sim}7\times10^{5}$ & 0.05$\times$ \\
 $^{235}$U fission & ${\sim}8.2\times10^{13}$ & ${\sim}6\times10^{6}\times$ \\
 D--T fusion & ${\sim}3.4\times10^{14}$ & ${\sim}2.4\times10^{7}\times$ \\
 D--D fusion & ${\sim}8.7\times10^{13}$ & ${\sim}6\times10^{6}\times$ \\
-p--$^{11}$B (aneutronic) & ${\sim}7.3\times10^{13}$ & ${\sim}5\times10^{6}\times$ \\
-Matter--antimatter & ${\sim}9\times10^{16}$ & ${\sim}6\times10^{9}\times$ \\
-Vacuum energy & Unknown & --- \\
+p--$^{11}$B (aneutronic) & ${\sim}7.0\times10^{13}$ & ${\sim}5\times10^{6}\times$ \\
+\begin{tabular}[c]{@{}l@{}}Matter--antimatter\\(per kg of total\\annihilated mass)\end{tabular}
+  & ${\sim}9\times10^{16}$ & ${\sim}6\times10^{9}\times$ \\
+\begin{tabular}[c]{@{}l@{}}Vacuum energy\\(theoretical max)\end{tabular}
+  & Unknown & --- \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-The jump from chemical to nuclear energy is approximately seven orders of
-magnitude. This single fact explains why nuclear fusion is the primary candidate
-for advanced propulsion: it provides the energy density necessary to power systems
-operating at extreme power levels.
+D--T fusion releases approximately $3.37\times10^{14}$~J/kg of combined reactants,
+about $2.4\times10^{7}$ times the table's hydrogen--oxygen value. Matter--antimatter
+annihilation has a higher theoretical and experimentally verified mass-to-energy
+yield, but production and storage make it impractical as a fuel. Specific energy
+alone does not select a propulsion system: usable power depends on system gain,
+efficiency, reactor mass, breeding, shielding, heat rejection, and thrust
+coupling~\cite{DIRD_Winterberg}.
 
 \subsection{Deuterium--Tritium Fusion}\label{sec:dt-fusion}
 
 Deuterium--tritium~(DT) fusion is the most experimentally accessible fusion
-reaction:
+reaction~\cite{DIRD_Winterberg}:
 \begin{equation}\label{eq:dt-fusion}
   {}^{2}_{1}\text{D} + {}^{3}_{1}\text{T}
   \;\longrightarrow\;
@@ -810,29 +1122,34 @@ reaction:
 The reaction releases \SI{17.6}{MeV} per event ($\SI{2.8e-12}{J}$), with 80\% of
 the energy carried by the neutron.
 
-\textbf{Lawson criterion.}\ For a self-sustaining fusion reaction, the plasma must
-satisfy the Lawson criterion~\cite{MTW1973}:
+\textbf{Lawson criterion.}\ For ignition---alpha-particle heating alone balancing
+energy losses in a 50:50 D--T plasma---the plasma must satisfy the Lawson
+criterion:
 \begin{equation}\label{eq:lawson}
-  n\,\tau_{E} > \frac{12\,k_{B}\,T}{E_{f}\,\langle\sigma v\rangle}\,,
+  n\,\tau_{E} \ge \frac{12\,k_{B}\,T}{E_{\mathrm{ch}}\,\langle\sigma v\rangle}\,,
 \end{equation}
 where $n$ is plasma density, $\tau_{E}$ is energy confinement time, $T$ is plasma
-temperature, $E_{f}$ is energy released per reaction, and
-$\langle\sigma v\rangle$ is the temperature-averaged reaction rate. For DT fusion
-at optimal temperature (${\sim}\SI{14}{keV} \approx \SI{1.6e8}{K}$), the Lawson
-criterion requires
-$n\tau_{E} > \SI{1.5e20}{s/m^{3}}$.
+temperature, $E_{\mathrm{ch}}\approx\SI{3.5}{MeV}$ is the charged-particle (alpha)
+energy retained in the plasma per reaction (the \SI{14.1}{MeV} neutron escapes),
+and $\langle\sigma v\rangle$ is the temperature-averaged reactivity. The minimum is
+$n\tau_{E}\approx\SI{1.5e20}{s/m^{3}}$ near \SI{25}{keV}; the triple product
+$nT\tau_{E}\gtrsim\SI{3e21}{keV.s/m^{3}}$ is minimized near \SI{14}{keV}
+(${\approx}\SI{1.6e8}{K}$), where $n\tau_{E}\approx\SI{2e20}{s/m^{3}}$.
 
 \textbf{Current status.}\ The National Ignition Facility~(NIF) at Lawrence
-Livermore National Laboratory achieved scientific breakeven (target gain~$>1$) on
-December~5, 2022, with \SI{2.05}{MJ} of laser energy producing \SI{3.15}{MJ} of
-fusion output. Subsequent shots have achieved progressively higher gains, as shown
-in Table~\ref{tab:nif}.
+Livermore National Laboratory achieved target gain~$>1$ on December~5, 2022, with
+\SI{2.05}{MJ} of laser energy producing \SI{3.15}{MJ} of fusion output. LLNL
+reported eleven ignition experiments through June~20, 2026 (post-cutoff update,
+checked 2026-08-02); the record listed on its ignition page remains the April~7,
+2025 shot at \SI{8.6}{MJ} output from \SI{2.08}{MJ} delivered to the
+target~\cite{LLNL_NIF2025}. Representative shots are listed in
+Table~\ref{tab:nif}.
 
-\begin{table}[b]
-\caption{NIF inertial confinement fusion progress toward ignition. Note that the
-``wall-plug'' gain remains far below unity because the NIF laser system consumes
-approximately \SI{300}{MJ} of electrical energy to deliver ${\sim}\SI{2}{MJ}$ to
-the target.}
+\begin{table}[tb]
+\caption{NIF inertial confinement fusion shots with target gain above unity. Note
+that the ``wall-plug'' gain remains far below unity because the NIF laser system
+consumes approximately \SI{300}{MJ} of electrical energy to deliver
+${\sim}\SI{2}{MJ}$ to the target.}
 \label{tab:nif}
 \begin{tabular}{lccc}
 \toprule
@@ -848,11 +1165,17 @@ Apr 2025 & 2.08 & 8.6  & 4.13 \\
 \end{tabular}
 \end{table}
 
-ITER (International Thermonuclear Experimental Reactor), under construction in
-southern France, targets $Q=10$ (\SI{500}{MW} fusion from \SI{50}{MW} heating) by
-the 2030s. High-temperature superconducting~(HTS) magnets---demonstrated by
-Commonwealth Fusion Systems' SPARC project---represent a potentially
-transformative advance in tokamak design.
+\textbf{Critical caveat:} NIF's laser system consumes approximately \SI{300}{MJ}
+of electrical energy to deliver \SI{2}{MJ} to the target. The ``wall-plug'' gain
+remains far below unity. Practical fusion energy requires either dramatically
+improving laser efficiency or achieving ignition through magnetic confinement.
+
+\textbf{ITER} (International Thermonuclear Experimental Reactor), under
+construction in southern France, retains a mission target of $Q\ge10$
+(\SI{500}{MW} fusion from \SI{50}{MW} heating). Under the approved 2024 baseline,
+deuterium--tritium operation begins in 2039. High-temperature
+superconducting~(HTS) magnets are a potentially important tokamak technology, but
+no HTS tokamak has yet demonstrated fusion power gain.
 
 \subsection{DD and Aneutronic Fusion}\label{sec:dd-aneutronic}
 
@@ -871,38 +1194,55 @@ probability:
   \label{eq:dd2}
 \end{align}
 DD fusion requires approximately $10\times$ higher plasma temperatures than DT
-(${\sim}10^{9}\;\text{K}$ vs.\ ${\sim}10^{8}\;\text{K}$).
+(${\sim}10^{9}\;\text{K}$ vs.\ ${\sim}10^{8}\;\text{K}$), making it substantially
+more challenging~\cite{DIRD_Winterberg}.
 
 \textbf{Aneutronic fusion}---particularly proton--boron-11
-(p--$^{11}$B)---produces no neutrons, enabling direct energy conversion and
-dramatically reducing radiation shielding requirements:
+(p--$^{11}$B)---has a primary reaction branch that produces charged alpha
+particles rather than neutrons, enabling a possible route to direct energy
+conversion~\cite{DIRD_Teofilo}:
 \begin{equation}\label{eq:pb11}
   p + {}^{11}_{5}\text{B}
   \;\longrightarrow\;
   3\;{}^{4}_{2}\text{He} + \SI{8.7}{MeV}\,.
 \end{equation}
-However, p--$^{11}$B requires temperatures approximately $10\times$ higher than DT
-(${\sim}10^{9}\;\text{K}$) and has a much lower cross-section, making ignition
-exceedingly difficult with current technology~\cite{DIRD_Culbreth}.
+However, p--$^{11}$B requires temperatures approximately $10\times$ higher than
+D--T (${\sim}10^{9}\;\text{K}$), has a much lower effective reactivity under
+reactor conditions, and still produces a residual neutron field through secondary
+reactions and impurities. It is therefore more accurate to call the primary branch
+aneutronic than to claim zero neutrons.
 
 \subsection{Heavy Water as Fuel}\label{sec:heavy-water}
 
 Deuterium is one of the most abundant isotopes in the universe. In Earth's oceans,
-approximately 1 in every 6\,420 hydrogen atoms is deuterium, yielding a
-concentration of ${\sim}\SI{33}{g/m^{3}}$ of seawater. The world's oceans contain
-approximately $\SI{4.6e13}{tonnes}$ of deuterium---enough to power DD fusion for
-billions of years at current global energy consumption rates.
+approximately 1 in every 6\,420 hydrogen atoms is deuterium
+($\text{D}/\text{H}\approx156$~ppm), yielding ${\sim}\SI{34}{g}$ of deuterium per
+cubic metre of seawater. The world's oceans contain approximately
+$\SI{4.6e13}{tonnes}$ of deuterium---enough to power DD fusion for billions of
+years at current global energy consumption rates.
 
 Heavy water~(D$_{2}$O)---water in which both hydrogen atoms are replaced by
 deuterium---is the most convenient form for deuterium storage and extraction. It
 is produced industrially via the Girdler sulfide process and electrolysis, with
-global production capacity of hundreds of tonnes per year. The strategic
-importance of heavy water was recognized during the Manhattan Project and the
-Norwegian heavy water sabotage operations of 1942--1944.
+global production capacity of hundreds of tonnes per year.
+
+\textbf{Historical note:} The strategic importance of heavy water was recognized
+during the Manhattan Project and the Norwegian heavy water sabotage operations of
+1942--1944. Today, heavy water serves as a neutron moderator in CANDU fission
+reactors and as a potential fuel feedstock for future fusion systems.
+
+The transition from chemical to nuclear energy in propulsion echoes a long arc of
+engineering history. Hero of Alexandria's aeolipile (1st century CE)---a simple
+steam-powered rotating sphere---contained the essential principle of reaction
+propulsion, yet nearly two millennia elapsed before the steam turbine became a
+practical power source. Similarly, the physics of nuclear fusion is well
+understood, but the engineering required to harness it for compact propulsion
+systems remains formidable.
 
 \subsection{Compact Fusion Concepts}\label{sec:compact-fusion}
 
-Several approaches to compact fusion are under active development:
+Several approaches to compact fusion are under active
+development~\cite{DIRD_Miley,DIRD_Teofilo}:
 \begin{itemize}
   \item \textbf{Magnetized target fusion~(MTF):} General Fusion---uses pistons to
         compress a magnetized plasma target.
@@ -911,159 +1251,196 @@ Several approaches to compact fusion are under active development:
   \item \textbf{Z-pinch:} Zap Energy---uses electric current through plasma to
         create self-confining magnetic fields.
   \item \textbf{Inertial electrostatic confinement~(IEC):} Explored in
-        DIRD~\#9~\cite{DIRD_Miley}---uses electrostatic fields to accelerate and
-        confine ions.
+        DIRD~\#9 (Miley)~\cite{DIRD_Miley}---uses electrostatic fields to
+        accelerate and confine ions.
 \end{itemize}
 None of these approaches have demonstrated net energy production as of 2026.
 The path from laboratory demonstration to a compact, mobile fusion reactor
-suitable for aerospace propulsion remains long and uncertain.
+suitable for aerospace propulsion remains long and
+uncertain~\cite{DIRD_Miley,DIRD_Teofilo,LLNL_NIF2025}.
 
 \subsection{Exotic Energy Sources}\label{sec:exotic-energy}
 
-Quantum field theory predicts that the quantum vacuum possesses a non-zero energy
-density. The naive calculation yields a spectacularly large
-value---approximately $\SI{e113}{J/m^{3}}$---which is $10^{120}$ times larger
-than the observed cosmological constant. This discrepancy, known as the
+\textbf{Vacuum energy.} Quantum field theory predicts that the quantum vacuum
+possesses a non-zero energy density. The naive calculation with a Planck-scale
+cutoff yields a spectacularly large value---of order the Planck energy density,
+${\sim}\SI{4.6e113}{J/m^{3}}$---roughly $10^{123}$ times the observed dark-energy density
+(${\sim}\SI{6e-10}{J/m^{3}}$); the commonly quoted ``${\sim}10^{120}$''
+discrepancy depends on the cutoff convention. This discrepancy, known as the
 ``cosmological constant problem,'' is one of the deepest unsolved problems in
-physics~\cite{BirrellDavies1982}.
+physics.
 
 Even if vacuum energy could be extracted, fundamental thermodynamic arguments
 suggest that the vacuum---as the lowest energy state---cannot serve as a
-conventional energy source. DIRD~\#24~\cite{DIRD_Davis_Vacuum} and
-DIRD~\#36~\cite{DIRD_Davis_Tomography} explored this question without identifying
-a practical extraction mechanism.
+conventional energy source. DIRD~\#24 (Davis) and DIRD~\#36 (Davis, ``Quantum
+Tomography of Negative Energy States in the Vacuum'') explored this question
+without identifying a practical extraction
+mechanism~\cite{DIRD_Davis_Vacuum,DIRD_Davis_Tomography}.
 
-\textbf{Assessment:} Nuclear fusion provides the most plausible high-energy-density
-power source for advanced propulsion. Compact fusion reactors are under active
-development but remain pre-commercial. Vacuum energy extraction faces fundamental
-theoretical obstacles and is \emph{speculative}.
+\textbf{Assessment:} Fusion is a well-established nuclear energy process and a
+legitimate candidate for future high-power propulsion studies. No compact mobile
+reactor has demonstrated net electric power, and fusion falls many orders of
+magnitude short of the source requirements in published strongly curved warp
+examples. It should not be described as the demonstrated or uniquely most
+plausible power source for metric engineering. Vacuum energy extraction faces
+fundamental theoretical obstacles and is
+\emph{speculative}~\cite{DIRD_Miley,DIRD_Davis_Vacuum,DIRD_Davis_Tomography,DIRD_Teofilo,LLNL_NIF2025}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% SECTION 5
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Electromagnetic Signatures}\label{sec:em-signatures}
 
-\subsection{Predicted EM from Spacetime Manipulation}\label{sec:em-prediction}
+\subsection{Model-Dependent Quantum-Field Signatures}\label{sec:em-prediction}
 
-If a propulsion system operates by distorting spacetime, quantum field theory
-predicts several electromagnetic consequences. These predictions are grounded in
-experimentally verified or theoretically rigorous physics.
+Quantum-field radiation is not determined by the phrase ``spacetime
+manipulation.'' A calculation must specify the time-dependent metric or material
+boundary, quantum field, initial state, observer, and detector response. The
+laboratory and curved-spacetime effects below are established in their own
+regimes, but they do not supply a universal UAP spectrum.
 
-\textbf{The Dynamical Casimir Effect (DCE).}\ When a boundary condition in the
-quantum vacuum changes rapidly---such as a mirror moving at a significant fraction
-of the speed of light---virtual photon pairs are promoted to real photon pairs.
-This effect was experimentally demonstrated by Wilson et al.~(2011) using a
-superconducting circuit whose effective length was modulated at ${\sim}5\%$ of the
-speed of light via a SQUID~\cite{Wilson2011}. The photon production rate scales
-as:
-\begin{equation}\label{eq:dce}
-  \frac{dN}{dt} \propto
-  \left(\frac{v_{\text{wall}}}{c}\right)^{\!2}\;\omega\,,
-\end{equation}
-where $v_{\text{wall}}$ is the velocity of the boundary and $\omega$ is the
-photon frequency~\cite{Lahteenmaki2013}. A warp bubble wall is precisely such a
-rapidly changing boundary condition in spacetime. The bubble wall's effective
-velocity would produce copious photon emission across a broad spectrum, from
-microwave through terahertz and potentially to X-ray frequencies, depending on the
-sharpness and speed of the curvature gradient~\cite{Schutzhold2011}.
+\textbf{The Dynamical Casimir Effect (DCE).}\ Rapidly changing electromagnetic
+boundary conditions can mix field modes and produce correlated photons. Wilson et
+al.~(2011) demonstrated microwave DCE radiation in a superconducting transmission
+line whose electrical boundary condition was deliberately modulated with a
+SQUID~\cite{Wilson2011}. Photon rate and spectrum depend on the apparatus, drive
+waveform, resonances, losses, and field state; a simplified
+effective-boundary-velocity scaling is not a universal emission
+law~\cite{Wilson2011,Schutzhold2011}.
 
-\textbf{The Unruh Effect.}\ An observer accelerating through the quantum vacuum
-perceives a thermal bath of radiation at temperature~\cite{Unruh1976}:
+An Alcubierre bubble wall is a metric gradient, not automatically a conducting or
+reflecting electromagnetic boundary. The cited DCE papers study superconducting
+circuits or laser-driven refractive-index perturbations and do not derive
+microwave, terahertz, or X-ray emission from a warp
+metric~\cite{Alcubierre1994,Wilson2011,Schutzhold2011}.
+
+\textbf{The Unruh Effect.}\ A uniformly accelerating observer has an associated
+temperature~\cite{Unruh1976}
 \begin{equation}\label{eq:unruh}
   T_{\text{Unruh}} = \frac{\hbar\,a}{2\pi\,c\,k_{B}}\,,
 \end{equation}
-where $a$ is the proper acceleration. For an acceleration of
-$5{,}370\,g$ (${\sim}\SI{5.3e4}{m/s^{2}}$), the Unruh temperature is only
-${\sim}\SI{2e-16}{K}$---utterly undetectable. However, if the spacetime curvature
-at the warp bubble wall involves effective accelerations approaching the Planck
-scale, the Unruh temperature could reach detectable levels.
+where $a$ is that observer's \emph{proper} acceleration. Substituting the
+source-dependent $5{,}370\,g$ coordinate-motion scenario gives
+${\sim}\SI{2e-16}{K}$ only if it is also the observer's proper acceleration. A
+geodesic observer instead has $a=0$. ``Planck-scale effective acceleration'' is not
+a defined input and supplies no detector prediction~\cite{Unruh1976}.
 
-\textbf{Hawking Radiation.}\ Hawking~(1974, 1975) showed that the event horizon
-of a black hole emits thermal radiation at
-temperature~\cite{Hawking1974,Hawking1975}:
+\textbf{Hawking-like radiation.}\ Hawking radiation is associated with a horizon
+and quantum state, not curvature in general~\cite{Hawking1974,Hawking1975}. For a
+black hole of mass $M$ the Hawking temperature is
 \begin{equation}\label{eq:hawking}
   T_{\text{Hawking}} = \frac{\hbar\,c^{3}}{8\pi\,G\,M\,k_{B}}\,.
 \end{equation}
-The connection to warp drives is through the analogy between horizons: a
-superluminal warp bubble would possess a horizon at its leading edge, potentially
-emitting Hawking-like radiation. For subluminal configurations, the analogy
-weakens but does not vanish entirely~\cite{Steinhauer2016}.
+Specific dynamically formed \emph{superluminal} warp metrics can possess horizons
+and have been calculated to generate Hawking-like flux and semiclassical
+instability, with the spectrum controlled by surface gravity. A generic subluminal
+bubble has no such warp horizon, so black-hole mass--temperature formulas such as
+Eq.~\eqref{eq:hawking} cannot be transferred to
+it~\cite{Alcubierre1994,Schutzhold2011,Finazzi2009}.
 
-\textbf{Synthesis:} These three effects---DCE, Unruh, and Hawking---are
-understood as different manifestations of the same underlying physics: quantum
-vacuum instability under external perturbations~\cite{Schutzhold2011}. A
-spacetime manipulation engine would almost certainly produce electromagnetic
-radiation as a byproduct. The specific spectrum would serve as a \emph{diagnostic
-fingerprint} of the propulsion mechanism.
+\textbf{Synthesis:} DCE, Unruh, and Hawking radiation involve different physical
+setups and observer/state dependence. Analogies among them can guide explicit
+calculations but do not establish that a hypothetical engine emits
+electromagnetic radiation, much less a unique broadband
+fingerprint~\cite{Wilson2011,Hawking1974,Hawking1975,Unruh1976,Schutzhold2011}.
 
 \subsection{Terahertz Radiation Analysis}\label{sec:thz}
 
 The terahertz frequency band (\SIrange{0.1}{10}{THz}, wavelength
-\SI{30}{\micro\metre}--\SI{3}{\milli\metre}) occupies the ``THz gap'' between microwave electronics
-and infrared photonics. Both generation and detection of THz radiation remain
-technically challenging, which means: (1)~if UAP produce significant THz
-emissions, they would be largely invisible to most existing sensor systems;
-(2)~purpose-built THz detectors would be among the most valuable instruments for
-UAP study; and (3)~the THz band is precisely where DCE photon production would be
-significant for plausible warp bubble parameters.
+\SI{30}{\micro\metre}--\SI{3}{\milli\metre}) occupies the ``THz gap'' between
+microwave electronics and infrared photonics. Both generation and detection of THz
+radiation remain technically challenging, which means:
+\begin{enumerate}
+  \item a source emitting primarily in the THz band could be missed by sensor
+        suites without that coverage;
+  \item purpose-built THz detectors may add useful information when integrated
+        with calibrated multi-band instruments;
+  \item no parameter set in the cited warp literature establishes a preferential
+        \SIrange{0.1}{10}{THz} band.
+\end{enumerate}
 
-This convergence---the theoretical prediction of THz emissions from spacetime
-manipulation, combined with the current gap in THz detection
-capabilities---represents a critical intelligence gap (see
-Sec.~\ref{sec:research}).
+THz instrumentation can close a real sensor-coverage gap, but no cited warp
+calculation predicts a THz flux above detector backgrounds. THz observations should
+therefore be justified as broad spectral characterization, not as a privileged DCE
+or warp-propulsion test~\cite{Wilson2011,Schutzhold2011}.
 
 \subsection{Biological Effects}\label{sec:bio-effects}
 
-DIRD~\#26~\cite{DIRD_Green} documented patterns of biological effects reported by
-individuals in proximity to UAP. Common symptoms include skin burns (erythema),
-temporary visual disturbances, nausea and disorientation, and temporary
-neurological effects. The biological effects of electromagnetic radiation exposure
-are well-characterized across the spectrum, as summarized in
-Table~\ref{tab:bio-effects}.
+DIRD~\#26 (Green, ``Anomalous Acute and Subacute Field Effects on Human Biological
+Tissues'') compiled anecdotal reports of biological effects that witnesses
+attributed to proximity to UAP~\cite{DIRD_Green}. Reported symptoms include:
+\begin{itemize}
+  \item skin erythema or burns (nonspecific; thermal, chemical, ultraviolet and
+        other causes are possible; soft X-rays below ${\sim}\SI{5}{keV}$ are
+        absorbed within ${\sim}0.2$--\SI{20}{cm} of sea-level air, so a distant
+        soft-X-ray source is physically implausible);
+  \item temporary visual disturbances (e.g., flash blindness from intense visible
+        or near-IR light, among other causes);
+  \item nausea and disorientation (nonspecific; no cited dosimetry links them to
+        radiofrequency or microwave exposure);
+  \item temporary neurological effects.
+\end{itemize}
+The biological effects of electromagnetic radiation exposure are well-characterized
+across the spectrum, as summarized in Table~\ref{tab:bio-effects}~\cite{DIRD_Green}.
 
-\begin{table}[b]
-\caption{Biological effects of electromagnetic radiation by frequency range.
-Each reported UAP proximity effect maps onto known EM radiation
-mechanisms without requiring exotic explanations.}
+\begin{table*}[t]
+\caption{Biological effects of electromagnetic radiation by frequency range. The
+table summarizes general exposure mechanisms; it does not establish exposure or
+causation in any UAP report.}
 \label{tab:bio-effects}
-\begin{tabular}{lll}
+\begin{tabular}{@{}p{0.3\textwidth}p{0.38\textwidth}p{0.24\textwidth}@{}}
 \toprule
 Frequency Range & Biological Effect & Mechanism \\
 \midrule
-ELF (3--\SI{30}{Hz}) & Neural entrainment & Induced currents \\
-MW (1--\SI{300}{GHz}) & Tissue heating & Dielectric heating \\
-THz (0.1--\SI{10}{THz}) & Surface heating & H$_{2}$O absorption \\
+ELF (3--\SI{30}{Hz}) & Nerve and muscle stimulation, magnetophosphenes (at high
+  field strength) & Induced electric fields and currents \\
+Microwave (1--\SI{300}{GHz}) & Tissue heating, burns & Dielectric heating \\
+THz (0.1--\SI{10}{THz}) & Surface heating & Water absorption \\
 IR (10--\SI{400}{THz}) & Thermal burns & Tissue absorption \\
-Visible & Retinal damage & Photochemical \\
-UV & DNA damage, burns & Photochemical \\
-Soft X-ray & Ionization & Ionizing radiation \\
+Visible (400--\SI{800}{THz}) & Retinal damage & Photochemical/thermal \\
+UV (\SI{800}{THz}--\SI{30}{PHz}) & DNA damage, burns & Photochemical \\
+X-ray (\SI{30}{PHz}--\SI{30}{EHz}; ``soft'' below
+  ${\sim}\SI{10}{keV}\approx\SI{2.4}{EHz}$) & Ionization, tissue damage &
+  Ionizing radiation \\
 \bottomrule
 \end{tabular}
-\end{table}
+\end{table*}
 
-\textbf{Assessment:} The reported biological effects are \emph{fully consistent}
-with exposure to broadband electromagnetic radiation of high intensity. A
-spacetime manipulation engine producing DCE-type emissions across this spectrum
-would be expected to cause precisely these symptoms. No exotic biological mechanism
-is required.
+\textbf{Assessment:} The symptoms are nonspecific and compatible with multiple
+thermal, ionizing, neurological, environmental, and unrelated causes. Without
+measured spectrum and dose, contemporaneous clinical records, timing, controls, and
+exclusion of alternatives, neither EM exposure nor UAP causation is established.
+ODNI's 2022 Annual Report on UAP stated that no UAP encounter had been confirmed to
+contribute directly to adverse health-related effects in
+observers~\cite{ODNI2023,DIRD_Green}.
 
 \subsection{Electronic Interference}\label{sec:electronic-interference}
 
 Reported electromagnetic interference effects near UAP---including vehicle engine
 failure, radio disruption, compass deviation, and electronic equipment
-malfunction---are consistent with exposure to high-power electromagnetic fields.
-The U.S.\ military has developed and deployed high-power microwave~(HPM) weapons
+malfunction---are anecdotal, and if real they would require different physical
+agents: compass deviation requires a quasi-static magnetic field comparable to
+Earth's ${\sim}25$--\SI{65}{\micro\tesla} field at the compass, whereas radio
+disruption and electronic upset can be produced by sufficiently strong
+radiofrequency or microwave fields~\cite{DIRD_Green}.
+
+\textbf{Electromagnetic pulse~(EMP)} effects on electronics are thoroughly studied
+in the context of nuclear weapons effects and directed energy weapons. High-power
+microwave~(HPM) sources can disable electronic systems at ranges of hundreds of
+meters to kilometers. The U.S.\ military has developed and deployed HPM weapons
 (e.g., the Counter-electronics High Power Microwave Advanced Missile Project,
-CHAMP) capable of disabling electronic systems at ranges of hundreds of meters to
-kilometers.
+CHAMP).
 
-A warp drive-type system producing broadband EM radiation as a byproduct of
-spacetime manipulation would produce EMP-like effects on nearby electronics as a
-natural consequence---not as an intentional weapon system, but as unavoidable
-``exhaust.''
+Sufficiently strong conventional electromagnetic fields can disrupt electronics,
+but no cited warp calculation predicts such a field or dose. Electronic-interference
+reports therefore cannot be used to infer DCE or spacetime
+manipulation~\cite{Wilson2011,Schutzhold2011}.
 
-\textbf{Assessment:} Electronic interference near UAP is \emph{fully explicable}
-by conventional electromagnetic physics.
+\textbf{Assessment:} Reported electronic interference is compatible with several
+conventional causes, including electromagnetic fields, equipment faults,
+environmental conditions, and reporting error. Attribution requires synchronized
+field measurements and instrument diagnostics; compatibility alone is not evidence
+of a warp-related source.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% SECTION 6
@@ -1079,91 +1456,165 @@ simultaneously negative permittivity~($\varepsilon$) and
 permeability~($\mu$)~\cite{Veselago1968}, experimentally realized by Smith et
 al.~(2000)~\cite{Smith2000}.
 
-Key demonstrated properties include negative refractive index, reversed Doppler
-effect, reversed Cherenkov radiation (confirmed in 2017), and
-sub-diffraction-limit imaging via Pendry's ``perfect lens''~\cite{Pendry2000}.
+Key demonstrated properties include negative refractive index (light bends in the
+opposite direction from conventional materials), a reversed Doppler effect
+(frequency shifts are inverted for objects moving relative to the medium),
+reversed Cherenkov radiation (experimentally confirmed in 2017), and
+sub-diffraction-limit imaging: Pendry's ``perfect lens''~(2000) showed that a
+negative-index slab amplifies evanescent waves, enabling imaging below the
+diffraction limit~\cite{Pendry2000}.
 
 \textbf{Transformation optics} (Pendry, Schurig \& Smith, 2006) provides the
 mathematical framework for electromagnetic cloaking: by prescribing a coordinate
 transformation, one can determine the metamaterial parameters needed to guide EM
-waves around an object~\cite{PendrySchurig2006}. The required material parameters are
-derived from the Jacobian of the transformation:
+waves around an object~\cite{PendrySchurig2006}. The required material parameters
+are derived from the Jacobian of the transformation:
 \begin{equation}\label{eq:transformation-optics}
-  \varepsilon'^{ij} = \mu'^{ij}
-  = \frac{\Lambda^{i}{}_{k}\;\Lambda^{j}{}_{l}\;\varepsilon^{kl}}
-         {\det(\Lambda)}\,,
+\begin{aligned}
+  \varepsilon'^{ij} &= [\det(\Lambda)]^{-1}\,
+    \Lambda^{i}{}_{k}\,\Lambda^{j}{}_{l}\,\varepsilon^{kl}\,,\\
+  \mu'^{ij} &= [\det(\Lambda)]^{-1}\,
+    \Lambda^{i}{}_{k}\,\Lambda^{j}{}_{l}\,\mu^{kl}\,,
+\end{aligned}
 \end{equation}
-where $\Lambda^{i}{}_{j} = \partial x'^{i}/\partial x^{j}$ is the coordinate
-transformation Jacobian.
+where $\Lambda^{i}{}_{k} = \partial x'^{i}/\partial x^{k}$ is the coordinate
+transformation Jacobian; for a cloak designed from free space
+($\varepsilon=\mu=1$ in relative units), $\varepsilon'=\mu'$.
 
-Current limitations include that metamaterial cloaking has been demonstrated at
-microwave frequencies but faces fundamental challenges at optical wavelengths:
-required feature sizes approach nanometers, absorption losses near resonance are
-severe, and bandwidth is inherently
-limited~\cite{Shelby2001,DIRD_Leonhardt,DIRD_Shvets}.
+\textbf{Current limitations:} Transformation-optics cloaking was first
+demonstrated at microwave frequencies for a two-dimensional object (Schurig et
+al.\ 2006), and reduced-parameter ``carpet'' cloaks have since been shown at
+near-infrared and optical wavelengths for small objects on a reflecting surface.
+Full-parameter optical cloaks require nanometre-scale features and suffer severe
+absorption near resonance. More fundamentally, passivity and causality bound the
+bandwidth and scattering reduction achievable by any passive, linear cloak, and
+the bound tightens as the object grows relative to the wavelength (Monticone \&
+Al\`u
+2016)~\cite{Shelby2001,PendrySchurig2006,DIRD_Shvets,Schurig2006,MonticoneAlu2016}.
+
+\textbf{Relevance to UAP:} Metamaterials are a credible route to reduced
+signatures in selected bands, but broadband visible-light invisibility of a
+vehicle-sized object with passive materials is limited by these physical bounds,
+not merely by current capabilities.
 
 \subsection{Extreme-Strength Materials}\label{sec:extreme-materials}
 
-A vehicle undergoing extreme acceleration---even if the occupants are shielded by
-spacetime manipulation---must still maintain structural integrity relative to
-external forces during non-geodesic phases of operation (e.g., during bubble
-formation or dissolution).
+Whatever the propulsion hypothesis, a vehicle's structure must carry the loads it
+actually experiences: proper acceleration during any non-geodesic phase, tidal
+(geodesic-deviation) stresses across its finite size even on a geodesic worldline
+(Key Judgment~\ref{kj:tidal}), and pressure and thermal loads wherever it
+interacts with air or water. Because none of these load cases is measured for UAP
+(Sec.~\ref{sec:materials-gap}), the figures below describe present materials
+capability, not a demonstrated requirement.
 
-Carbon nanotubes~(CNTs) exhibit a theoretical tensile strength of
-${\sim}100$--$\SI{200}{GPa}$; experimentally demonstrated at ${\sim}\SI{80}{GPa}$
-in centimeter-long bundles~\cite{Bai2018}. Young's modulus is
-${\sim}\SI{1.1}{TPa}$, with specific strength up to
-${\sim}\SI{48000}{kN.m/kg}$---approximately $300\times$ greater than high-carbon
-steel. Graphene monolayer tensile strength is ${\sim}\SI{130}{GPa}$; Young's
-modulus ${\sim}\SI{1}{TPa}$~\cite{Lee2008}.
+\textbf{Current state of the art:}
+\begin{itemize}
+  \item \textbf{Carbon nanotubes~(CNTs):} theoretical tensile strength
+        ${\sim}100$--\SI{200}{GPa}; centimetre-long bundles of ultralong CNTs
+        reached ${\sim}\SI{80}{GPa}$ on the nanotube-wall cross-section
+        (${\approx}\SI{43}{GPa}$ engineering strength) (Bai et al.,
+        2018)~\cite{Bai2018}. Young's modulus ${\sim}\SI{1}{TPa}$. Specific
+        strength is of order $10^{4}$~kN\,m/kg---e.g., ${\sim}36{,}000$~kN\,m/kg
+        for \SI{80}{GPa} on a wall cross-section of graphitic density
+        (${\sim}\SI{2200}{kg/m^{3}}$), or the often-quoted
+        ${\sim}48{,}000$~kN\,m/kg for \SI{63}{GPa} at a bulk density of
+        ${\sim}\SI{1300}{kg/m^{3}}$---roughly 200--$300\times$ high-carbon steel
+        (${\sim}154$~kN\,m/kg).
+  \item \textbf{Graphene:} monolayer tensile strength ${\sim}\SI{130}{GPa}$;
+        Young's modulus ${\sim}\SI{1}{TPa}$~\cite{Lee2008}.
+  \item \textbf{Ideal-strength estimate:} the ideal (theoretical) strength of a
+        defect-free crystal is of order $E/10$, where $E$ is the Young's
+        modulus---an order-of-magnitude estimate set by interatomic bonding, not
+        a strict upper bound. For sp$^{2}$ carbon ($E\sim\SI{1}{TPa}$) it gives
+        ${\sim}\SI{100}{GPa}$, comparable to the measured intrinsic strength of
+        defect-free graphene (${\sim}\SI{130}{GPa}\approx E/8$).
+\end{itemize}
 
-The practical gap remains substantial: macroscale carbon nanotube fibers achieve
-only a few GPa due to defects, weak inter-tube shear interactions, and processing
-limitations. Defect concentration can reduce strength by up to 85\%. Bridging the
-gap between single-tube and bulk performance remains a central challenge in
-materials science.
+\textbf{The practical gap:} Macroscale carbon nanotube fibers achieve only a few
+GPa due to defects, weak inter-tube shear interactions, and processing
+limitations. Even individual, structure-defined single-walled CNTs measured only
+${\sim}25$--\SI{66}{GPa}, well below the 100--\SI{200}{GPa} ideal predictions,
+with strength depending on chirality and on stress concentration at unavoidable
+structural defects. Bridging the gap between single-tube and bulk performance
+remains a central challenge in materials science.
 
 \subsection{Bismuth--Magnesium Analysis}\label{sec:bismuth-mg}
 
 The so-called ``Art's Parts''---bismuth--magnesium layered specimens claimed to
 have been recovered from a 1947 UAP event---have been the subject of considerable
-public attention. AARO commissioned Oak Ridge National Laboratory~(ORNL) to
-analyze the specimens~\cite{AARO_ORNL2022}. Key findings: the material is a
-magnesium alloy containing zinc, bismuth, lead, and trace elements; the bismuth
-layers are not pure enough to function as a terahertz waveguide; the multi-layer
-structure would disrupt any waveguide capability; and ``all data strongly support
-that the material is terrestrial in origin.''
+public attention.
 
-The Betterton--Krohl process (patented 1938) for removing bismuth impurities from
-lead uses molten magnesium as a reagent. The resulting slag naturally forms layered
-magnesium--bismuth structures closely matching the ``Art's Parts'' specimens.
+\textbf{AARO/ORNL analysis (contracted 2022; ORNL synopsis April~2024; AARO
+supplement July~2024).} The All-domain Anomaly Resolution Office contracted Oak
+Ridge National Laboratory~(ORNL) to analyze the specimen---a single parent sample
+and three previously derived subsamples of the same material, made available
+through DEVCOM from February~2023. Key findings~\cite{AARO_ORNL2024}:
+\begin{itemize}
+  \item the material is a magnesium alloy containing zinc, bismuth, lead, and
+        trace elements;
+  \item the bismuth-rich layers are nanocrystalline/amorphous and co-located with
+        lead in a ${\sim}1{:}1$ ratio, not the pure single-crystalline bismuth
+        layer postulated for a terahertz waveguide;
+  \item multiple repeating Bi--Pb layers, rather than a single layer, would likely
+        interfere with rather than enable waveguide function; magnesium and lead
+        isotope ratios fall within terrestrial ranges;
+  \item ``all data strongly support that the material is terrestrial in
+        origin.''
+\end{itemize}
 
-\textbf{Assessment:} The bismuth--magnesium material is \emph{confirmed
-terrestrial} in origin. Claims of non-terrestrial or advanced metamaterial
-properties are \emph{not supported} by laboratory analysis.
+\textbf{Proposed industrial analogy:} The Betterton--Kroll process removes bismuth
+from molten lead by adding calcium and magnesium, which form a
+calcium--magnesium bismuthide dross; it has been informally suggested as a
+possible context. Neither the ORNL synopsis nor AARO's July~2024 supplement
+mentions it, and the specimen's composition (${\sim}97.5\%$ Mg, ${\sim}2\%$ Zn,
+with Pb and Bi each only ${\sim}0.3$--$0.4\%$ in co-located bands) has not been
+compared with such dross. AARO instead found the specimen consistent with
+mid-20th-century Mg--Zn alloy research (including studies of Pb and Bi additives)
+and assessed it as likely a test object, a manufacturing product or byproduct, or
+a component of aerospace materials studies~\cite{AARO_ORNL2024}.
+
+\textbf{Assessment:} ORNL assessed with high confidence that the tested specimen
+was manufactured terrestrially and found a bismuth THz-waveguide function highly
+unlikely. Claims of a non-terrestrial or advanced metamaterial function are not
+supported by the tested sample, while chain of custody and original purpose remain
+unresolved.
 
 \subsection{Subatomic Bonding Concepts}\label{sec:subatomic-bonding}
 
-The strong nuclear force, described by quantum chromodynamics~(QCD), operates
-between quarks via gluon exchange. Its key feature is confinement: quarks cannot
-exist in isolation and are permanently bound into hadrons. The strong force
-coupling constant is ${\sim}1$ at nuclear distance scales
-(${\sim}10^{-15}\;\text{m}$), compared to ${\sim}10^{-2}$ for the electromagnetic
-force---meaning strong-force bonds are approximately $100\times$ stronger than
-electromagnetic bonds.
+The book that inspired this report discusses the concept of ``subatomic
+bonds''---bonding mechanisms at scales below the atomic level that could yield
+materials with extraordinary properties.
 
-Under extreme conditions (density $>5$--$10\times$ nuclear density, temperature
-$>10^{12}\;\text{K}$), QCD predicts a phase transition from hadronic matter to
-quark-gluon plasma~(QGP)~\cite{Witten1984,Bodmer1971}. QGP has been produced at
-RHIC and the LHC, but only for ${\sim}10^{-23}\;\text{s}$.
+\textbf{Strong nuclear force basics.} The strong interaction, described by quantum
+chromodynamics~(QCD), operates between quarks via gluon exchange. Its key feature
+is confinement: quarks cannot exist in isolation and are permanently bound into
+hadrons (protons, neutrons, and other composite particles). The QCD coupling runs
+with energy scale and becomes non-perturbative near confinement. Comparing a rough
+order-unity QCD coupling with the electromagnetic fine-structure constant does not
+yield a ratio of bond or material strengths.
 
-The strange matter hypothesis~\cite{Witten1984,Bodmer1971} proposes that matter
-containing roughly equal numbers of up, down, and strange quarks might be the
-absolute ground state of strongly interacting matter. Hypothetical materials bonded
-by strong-force interactions rather than electromagnetic interactions would be
-${\sim}100\times$ stronger than any chemical bond---but no mechanism exists to
-extend strong-force bonding to macroscopic scales. The strong force is inherently
-short-range (${\sim}10^{-15}\;\text{m}$).
+\textbf{Quark matter.} At temperatures of roughly $1.8\times10^{12}$~K
+($T\approx\SI{155}{MeV}$) and low net-baryon density---and possibly at several
+(${\sim}5$--10) times nuclear density in cold matter---hadronic matter converts to
+a quark-gluon plasma~(QGP) in which quarks and gluons are deconfined; lattice QCD
+shows that at near-zero baryon density this is a smooth crossover rather than a
+sharp phase transition. QGP has been produced at RHIC (Brookhaven) and the LHC
+(CERN), but only for ${\sim}10^{-23}\;\text{s}$ in heavy-ion collisions.
+
+\textbf{Strange matter hypothesis.} Witten~(1984) and Bodmer~(1971) proposed that
+``strange matter''---matter containing roughly equal numbers of up, down, and
+strange quarks---might be the absolute ground state of strongly interacting
+matter~\cite{Witten1984,Bodmer1971}. If true, strange matter would be more stable
+than ordinary nuclear matter and could exist in macroscopic quantities (strange
+stars). The hypothesis remains unverified.
+
+\textbf{Relevance to materials:} Nuclear binding energies are typically MeV per
+nucleon whereas chemical bonds are eV-scale, but nuclear interactions act over
+femtometre distances and stable ordinary solids are organized by electromagnetic
+bonding. Neither the energy-scale comparison nor a coupling-constant ratio predicts
+macroscopic tensile strength. No cited source supports a material that is
+``$100\times$ stronger'' because it uses subatomic
+bonding~\cite{Witten1984,Bodmer1971}.
 
 \textbf{Assessment:} While the strong force is \emph{verified} physics, the
 concept of macroscopic materials bonded by subatomic forces is \emph{speculative}
@@ -1176,127 +1627,130 @@ with no known physical mechanism for realization.
 
 \subsection{How the Pieces Fit}\label{sec:pieces}
 
-The preceding sections have examined the UAP observables and candidate physics
-individually. Here we attempt a synthesis: could a single coherent propulsion
-system produce all reported observables?
+The preceding sections do not establish a unified propulsion model. They identify
+the minimum calculations that any metric-engineering hypothesis would have to
+supply, in sequence:
+\begin{enumerate}
+  \item calibrated observations with uncertainties;
+  \item an explicit target metric and formation history;
+  \item a conserved supporting stress-energy $T_{\mu\nu}$, from which each of the
+        following must then be calculated:
+        \begin{itemize}
+          \item the reference worldline and finite-body tidal loads;
+          \item matter coupling, shocks, heating, drag, and wake;
+          \item null-geodesic images for defined observers;
+          \item the quantum-field state and model-specific radiation;
+          \item stability, control, shutdown, and environmental effects.
+        \end{itemize}
+\end{enumerate}
 
-The warp bubble framework provides the closest approximation to a unified
-explanation. The proposed chain is: an energy source (fusion reactor) feeds an
-energy conversion mechanism (unknown) that generates a spacetime
-distortion (warp bubble), from which all observables follow as
-consequences---apparent acceleration via geodesic motion, absence of sonic boom
-via medium non-interaction, absence of thermal signature via lack of friction,
-transmedium capability via medium isolation, low observability via light
-deflection, EM emissions via the dynamical Casimir effect, and biological and
-electronic effects via broadband EM radiation.
-
-\textbf{The transduction gap.} The link from energy conversion to spacetime
-distortion in the chain above represents the most profound gap in this model.
-Unlike the other links---where the physics is understood but the engineering is
-immature---this step lacks even a theoretical mechanism. No known interaction in
-the Standard Model or general relativity provides a pathway for converting
-electromagnetic, nuclear, or any other form of energy into controlled spacetime
-curvature. This is not a scaling problem amenable to materials science advances; it
-is a conceptual vacuum. The transduction mechanism is undefined, making it the
-single most fundamental barrier to the integrated propulsion model---and the one
-most likely to require genuinely new physics rather than better engineering.
+General relativity already couples energy and momentum to curvature. The missing
+step is not a separate ``energy conversion'' interaction but a physically
+realizable, conserved, stable, and controllable source with the required sign,
+anisotropy, gradients, and dynamics. Fusion power, a Casimir cavity, and a
+mathematical metric cannot simply be concatenated into an engine; each step above
+requires its own quantitative model.
 
 \subsection{Energy Budget Analysis}\label{sec:energy-budget}
 
-Even the most optimistic estimates~\cite{BobrickMartire2021} for a positive-energy
-subluminal warp drive require shell energies on the order of planetary masses. For
-the original Alcubierre metric, Pfenning and Ford calculated that a
-\SI{100}{m}-radius warp bubble would require total negative energy of order
-$-10^{62}\,$kg in mass-equivalent terms ($|E|\sim\SI{e79}{J}$)---roughly ten
-orders of magnitude more than the total mass-energy of the observable universe
-(${\sim}\SI{e53}{kg}$)~\cite{PfenningFord1997}. Van~Den Broeck's
-modification~\cite{VanDenBroeck1999} reduced this by many orders of magnitude
-through geometric insight alone, suggesting that the energy scale may be
-further reducible. Nonetheless, even the most conservative subluminal estimates
-remain many orders of magnitude beyond the energy output of any conceivable fusion
-reactor.
+There is no geometry-independent energy budget for a ``10-meter warp bubble.'' A
+budget must state the metric, speed profile, wall function and thickness,
+stress-energy definition, formation history, and desired observable effect.
 
-The energy gap is the fundamental constraint. Even if all other physics challenges
-were resolved, powering a warp drive-type system with any known or foreseeable
-energy source appears impossible by current understanding.
+Bobrick and Martire construct a family continuous from near-Minkowski material
+shells to more strongly curved configurations. Their Earth-mass/\SI{10}{m} example
+produces only a small clock-rate change and is not a universal planetary-mass
+lower bound~\cite{Alcubierre1994,BobrickMartire2021}. By contrast, Pfenning and
+Ford's quantum-inequality analysis of a specific Alcubierre profile gives a wall of
+roughly a few hundred Planck lengths and, for a \SI{100}{m}-radius example,
+$E/c^{2}\sim-6.2\times10^{62}\,v_{b}$~kg
+($|E|\sim5.6\times10^{79}\,v_{b}$~J), where $v_{b}$ is the bubble speed in units
+of $c$. These numbers describe different constructions and must not be combined
+into a universal target density~\cite{PfenningFord1997}.
 
-\subsection{Materials Science Maturity Gap}\label{sec:materials-gap}
+\textbf{Assessment:} Strongly curved published examples can have fantastically
+large and/or negative source requirements, but no single number applies to all
+subluminal metrics. Energy claims must remain model-dependent and should not be
+presented as a fusion-reactor sizing exercise.
 
-A recurring theme throughout this assessment deserves explicit treatment: in
-nearly every domain analyzed, the theoretical physics is sound but the materials
-science is not yet mature enough to realize it. This distinction is critical
-because it reframes the problem from ``impossible'' to ``not yet engineered.''
-Table~\ref{tab:materials-gap} maps theoretical requirements to materials science
-barriers.
+\subsection{Constraint Classification}\label{sec:materials-gap}
+
+Calling every discrepancy a materials gap conflates measured engineering
+limitations with theoretical consistency conditions, as summarized in
+Table~\ref{tab:materials-gap}.
 
 \begin{table*}[t]
-\caption{Materials science maturity gap analysis. For each theoretical
-requirement identified in this assessment, we list the corresponding materials
-barrier, the current state of the art, and the approximate gap factor. In most
-cases the gaps are quantitative (scale, precision, loss reduction) rather than
-qualitative (physics violation).}
+\caption{Classification of the principal requirements and claims analyzed in this
+assessment. Measured engineering limitations are distinguished from theoretical
+consistency conditions; no single ``gap factor'' is assigned where none is
+scientifically defined.}
 \label{tab:materials-gap}
-\begin{tabular}{llll}
+\begin{tabular}{@{}p{0.25\textwidth}p{0.36\textwidth}p{0.31\textwidth}@{}}
 \toprule
-Theoretical Requirement & Materials Barrier & Current State & Gap Factor \\
+Requirement or claim & Current evidence & Appropriate classification \\
 \midrule
-Warp bubble wall (${\sim}10^{-35}\;\text{m}$) & Nanofabrication precision &
-  Best lithography: ${\sim}\SI{3}{nm}$ & ${\sim}10^{26}\times$ \\
-Negative energy (macro scale) & Casimir cavity engineering &
-  ${\sim}\SI{100}{nm}$ plate separation & ${\sim}10^{68}\times$ \\
-Compact fusion containment & HTS magnets &
-  SPARC-scale demonstrated & ${\sim}10^{1}$--$10^{2}\times$ \\
-Extreme-$g$ structural integrity & Bulk CNT composites &
-  Individual: \SI{80}{GPa}; bulk: \SI{3}{GPa} & ${\sim}30\times$ \\
-Optical metamaterial cloaking & Low-loss nanoscale metamaterials &
-  Microwave cloaking demonstrated & Qualitative gap \\
-Broadband THz detection & THz source/sensor technology &
-  Narrow-band THz demonstrated & Coverage gap \\
-Fusion-to-curvature transduction & Unknown mechanism &
-  No candidate identified & Undefined \\
+Quantum-inequality wall bound in Pfenning--Ford & Derived for a specific idealized
+  profile; order a few hundred Planck lengths for $v\sim c$ & Model-dependent
+  semiclassical constraint, not a lithography target \\
+Macroscopic negative stress-energy & Ideal Casimir plates give
+  $-\SI{4.33}{J/m^{3}}$ at \SI{100}{nm}; no freely configurable macroscopic source
+  demonstrated & Fundamental/source-realization problem; no universal gap factor \\
+Compact fusion power & Fusion reactions and target gain demonstrated; no compact
+  mobile net-electric reactor & Reactor engineering problem, not a demonstrated
+  warp power chain \\
+Extreme structural loading & Material strengths are measured, but UAP loads and
+  tidal tensor are not & Load case undefined; no defensible strength-gap factor \\
+Optical metamaterial cloaking & Limited demonstrations with loss and bandwidth
+  constraints & Materials and optical-engineering problem; passive broadband
+  cloaking of large objects is additionally bounded by passivity and causality \\
+THz coverage & Detectors exist but coverage can be sparse & Instrumentation issue,
+  not evidence for a propulsion signature \\
+Controlled target stress-energy & No physically realizable source or
+  formation/control model specified & Foundational source/configuration/control
+  problem \\
 \bottomrule
 \end{tabular}
 \end{table*}
 
-Several observations emerge from this analysis. First, the gaps are quantitative,
-not qualitative. In most cases, the physics is verified at small scales or in
-limited regimes; the challenge is scaling up---a classic materials science and
-engineering problem~\cite{Casimir1948,Bai2018}. Second, historical precedent favors
-eventual closure. Semiconductor physics was understood in the 1930s; the
-transistor was not demonstrated until 1947, and integrated circuits not until
-1958---each step enabled by materials advances. Superconductivity was discovered in
-1911; high-temperature superconductors were not found until 1986, and HTS magnets
-suitable for fusion are only now being demonstrated. In each case the gap between
-theoretical prediction and materials realization spanned 75 years.
-
-Third, some gaps may be unbridgeable with known physics. The $10^{68}\times$
-Casimir-to-warp-drive energy density gap may reflect a fundamental limitation.
-Planck-scale fabrication precision may be inherently impossible due to quantum
-uncertainty. Fourth, the ``unknown transduction'' gap is the deepest. Even if
-exotic matter, extreme materials, and compact fusion were all solved independently,
-no known mechanism converts fusion energy into spacetime curvature. This is a
-missing-physics problem, not a materials-science problem.
+\begin{enumerate}
+  \item \textbf{Mathematical existence is not physical realization.} A solution of
+        the Einstein equations can require stress-energy that violates classical
+        energy conditions or semiclassical quantum bounds. This is qualitatively
+        different from scaling a demonstrated
+        device~\cite{PfenningFord1997,SantiagoVisser2022}.
+  \item \textbf{Historical analogies do not set a probability of closure.}
+        Semiconductor and superconductor development cannot establish that
+        negative-energy, horizon, or stress-tensor constraints will yield to
+        materials research. Such analogies may motivate investigation but are
+        not evidence for feasibility.
+  \item \textbf{Casimir measurements do not define a warp-material roadmap.} They
+        support boundary-dependent vacuum stress in specific geometries; they
+        neither create a stockpileable substance nor justify a fixed
+        amplification factor~\cite{PfenningFord1997,Casimir1948}.
+\end{enumerate}
 
 \subsection{Fundamental Constraints Reassessed}\label{sec:constraints}
 
-In light of the materials science analysis, the barriers are more accurately
-characterized as follows:
+The principal constraints are more accurately characterized as follows:
 \begin{enumerate}
-  \item \textbf{Exotic matter} (materials science + possible fundamental limit):
-        The Casimir effect confirms negative energy at microscopic scales. Whether
-        scaling to macroscopic quantities is a materials engineering challenge or a
-        fundamental impossibility remains an open question. \emph{Confidence: Low.}
-  \item \textbf{Energy scale} (materials science): The energy requirements may be
-        reducible---as Van~Den Broeck reduced Alcubierre's requirements by many
-        orders of magnitude through geometric insight alone. \emph{Confidence:
-        Moderate.}
-  \item \textbf{Control mechanism} (missing physics + materials science): No
-        theory describes how to shape a warp bubble, and no materials exist to
-        serve as the ``actuator.'' \emph{Confidence: Low.}
-  \item \textbf{Energy-to-curvature transduction} (missing physics): No
-        mechanism---even in principle---has been proposed for converting
-        conventional energy into controlled spacetime curvature at useful scales.
-        \emph{Confidence: Very Low.}
+  \item \textbf{Observational input:} Public UAP cases generally lack calibrated
+        data and metadata sufficient to establish the target trajectory or
+        signatures. \emph{Confidence: High.}
+  \item \textbf{Source realization:} Strongly curved warp examples require
+        enormous, anisotropic and often negative stress-energy; compatibility
+        with quantum inequalities and stability is unresolved.
+        \emph{Confidence: High for published model requirements; low for
+        generalization.}
+  \item \textbf{Formation and control:} A complete model must generate, move,
+        stabilize and remove the source while satisfying conservation and
+        causality. No demonstrated implementation exists. \emph{Confidence:
+        High.}
+  \item \textbf{Matter and field coupling:} Isolation, shock suppression,
+        radiation and imaging are calculation outputs, not automatic properties
+        of a metric. \emph{Confidence: High.}
+  \item \textbf{Ordinary engineering:} Fusion, magnets, optical metamaterials and
+        sensors have genuine engineering gaps, but progress in them does not by
+        itself solve the source-realization problem. \emph{Confidence: High.}
 \end{enumerate}
 
 \subsection{What Is Physically Possible vs.\ Claimed}\label{sec:possible-vs-claimed}
@@ -1306,38 +1760,46 @@ barrier, and UAP claim compatibility for each major aspect of the integrated
 propulsion model.
 
 \begin{table*}[t]
-\caption{Assessment of physics status versus reported UAP claims. ``Compatible''
-indicates the claim is consistent with the stated physics; ``Materials-limited''
-indicates the physics is sound but current materials cannot realize it. In no case
-does a reported UAP observable require a violation of known physical law.}
+\caption{Assessment of physics status versus reported UAP claims. Compatibility
+entries are conditional on the stated physics and are not evidence for any UAP
+propulsion mechanism.}
 \label{tab:physics-vs-claims}
-\begin{tabular}{llll}
+\begin{tabular}{@{}p{0.17\textwidth}p{0.27\textwidth}p{0.29\textwidth}p{0.19\textwidth}@{}}
 \toprule
-Aspect & Physics Status & Materials Barrier & Claim Compatibility \\
+Aspect & Physics Status & Materials Barrier & UAP Claim Compatibility \\
 \midrule
-Zero-$g$ acceleration & Valid GR (geodesic) & None (theoretical) & Compatible \\
-Warp bubble concept & Valid GR metric & Planck-scale; exotic matter & Compatible (in principle) \\
-No sonic boom & Spacetime isolation & Requires warp bubble & Compatible (if bubble exists) \\
-Transmedium travel & Spacetime isolation & Requires warp bubble & Compatible (if bubble exists) \\
-Exotic matter & Exists (Casimir) & $10^{68}\times$ too small & Materials-limited \\
-Energy requirements & Exceed all sources & Compact fusion; conversion & Materials-limited \\
-Structural integrity & CNTs at \SI{80}{GPa} & Bulk composite gap (${\sim}30\times$) & Materials-limited \\
-Metamaterial cloaking & MW demonstrated & Optical loss engineering & Materials-limited \\
-EM signatures & Predicted by QFT & N/A (detection side) & Compatible \\
-Biological effects & Standard EM effects & N/A & Compatible \\
+Zero proper acceleration & Valid for a selected geodesic; finite-body tides
+  remain & Requires explicit metric and tidal bounds & \textbf{Conditional, not
+  evidential} \\
+Warp metric & Mathematical solutions exist & Physical source, formation,
+  stability and control unresolved & \textbf{Not established as realizable} \\
+No sonic boom & Not implied by a generic metric & Atmosphere--metric--vehicle
+  interaction undefined & \textbf{Undetermined} \\
+Transmedium travel & Not implied by a generic metric & Matter boundary and
+  coupling undefined & \textbf{Undetermined} \\
+Negative stress-energy & Idealized QFT states can be negative relative to a
+  reference & Macroscopic configurable source not demonstrated; quantum bounds
+  apply & \textbf{Model-dependent fundamental constraint} \\
+Energy requirements & Depend strongly on metric and desired effect & Cannot be
+  reduced to compact-fusion sizing & \textbf{Model-dependent} \\
+Structural integrity & CNT/graphene strengths measured & Relevant inertial,
+  pressure and tidal loads not measured & \textbf{Undetermined} \\
+Metamaterial cloaking & Limited-frequency demonstrations exist & Optical
+  bandwidth and loss remain & \textbf{Engineering research, not UAP evidence} \\
+EM signatures & Require explicit quantum-field calculation & No universal
+  DCE/THz prediction & \textbf{Undetermined} \\
+Biological effects & General exposure mechanisms known & Exposure and UAP
+  causation unestablished & \textbf{Underdetermined} \\
 \bottomrule
 \end{tabular}
 \end{table*}
 
-\textbf{Bottom line:} The theoretical framework is internally consistent---general
-relativity and quantum field theory together predict exactly the observable
-signature set reported for UAP. The gap is not in theory but in engineering and
-materials science: the energy scales, exotic matter requirements, and material
-properties needed exceed current capabilities by extraordinary margins. Crucially,
-in most domains the barriers are quantitative (scale, precision, loss reduction)
-rather than qualitative (physics violation). This distinction---between
-``impossible'' and ``not yet engineered''---is the central finding of this
-assessment.
+\textbf{Bottom line:} The present literature supports conditional calculations,
+not a coherent UAP propulsion architecture. General relativity needs no separate
+energy-to-curvature interaction, but no physically realizable and controlled
+source for the required metric has been demonstrated. Claimed acceleration, medium
+isolation, morphology, EM spectrum, and biological effects remain source-dependent
+or model-dependent rather than mutually confirming evidence.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% SECTION 8
@@ -1348,67 +1810,82 @@ assessment.
 
 The following represent the most significant gaps in our understanding:
 \begin{enumerate}
-  \item \textbf{Can negative energy be produced at macroscopic scales?} The
-        Casimir effect proves the concept but not the scale. This is the single
-        most important open question.
-  \item \textbf{Does positive-energy spacetime manipulation exist?}
-        Lentz~(2021) claimed yes; Santiago--Visser~(2022) argued no. The question
-        remains open in modified gravity theories.
+  \item \textbf{Can a physically admissible target stress-energy be realized and
+        controlled?} Casimir experiments validate boundary-dependent vacuum
+        stress in specific geometries but do not supply a configurable
+        macroscopic source.
+  \item \textbf{Can warp-type transport be sourced by positive energy?}
+        Lentz~(2021) and Fell and Heisenberg~(2021) claimed superluminal
+        positive-energy solitons. Santiago, Schuster, and Visser~(2022) showed
+        that such Nat\'ario-class constructions still violate the weak energy
+        condition and, under mild assumptions, the null energy condition. Fuchs
+        et al.~(2024) constructed a constant-velocity subluminal shell that
+        satisfies all point-wise energy conditions, but no positive-energy
+        accelerating or superluminal solution is known. Whether modified gravity
+        relaxes these constraints remains open.
   \item \textbf{What is the actual electromagnetic spectrum of UAP?}
         High-quality, calibrated, multi-spectral sensor data from UAP encounters
         is almost nonexistent. Without this data, all propulsion hypotheses remain
         underdetermined.
-  \item \textbf{What is the energy source?} No known energy source bridges the
-        gap between fusion (${\sim}\SI{e14}{J/kg}$) and the requirements of
-        spacetime engineering (${\sim}10^{60+}\;\text{J}$).
+  \item \textbf{What metric and source are actually being proposed?} Without a
+        target metric, conserved $T_{\mu\nu}$, formation history, and desired
+        observable effect, there is no geometry-independent energy requirement to
+        compare with fusion or any other source.
 \end{enumerate}
 
 \subsection{Recommended Observation Priorities}\label{sec:observation}
 
 \begin{enumerate}
-  \item \textbf{Deploy terahertz-band sensors} in UAP-frequent areas. The THz gap
-        in current sensor coverage is a critical blind spot precisely where warp
-        bubble emissions are predicted.
+  \item \textbf{Deploy calibrated, synchronized multi-sensor systems} with
+        complete timing, geometry, environmental data, raw measurements,
+        uncertainty budgets, and chain of custody. Add THz coverage where
+        practical as one band among many; no privileged warp frequency is
+        predicted.
   \item \textbf{Calibrate multi-spectral imaging} across the full EM spectrum
         (radio through gamma) for high-temporal-resolution observation.
-  \item \textbf{Establish gravitational wave monitoring} at local scales.
-        Purpose-built detectors sensitive to nearby, small-scale spacetime
-        distortions could provide definitive evidence.
-  \item \textbf{Collect atmospheric samples} near UAP encounter sites. Unusual
-        isotope ratios (particularly deuterium/hydrogen) could indicate
-        fusion-based energy systems.
+  \item \textbf{Define detector sensitivity before deployment.} Gravimeters or
+        strain sensors are useful only when a candidate model predicts an
+        amplitude, waveform, bandwidth, range, and background-discrimination
+        criterion.
+  \item \textbf{Collect environmental samples under a preregistered protocol}
+        with blanks, controls, custody records, and baseline distributions.
+        Isotope anomalies alone would not identify fusion or a propulsion
+        mechanism.
 \end{enumerate}
 
 \subsection{Promising Research Avenues}\label{sec:avenues}
 
 \begin{enumerate}
-  \item \textbf{Dynamical Casimir effect scaling:} Laboratory experiments to
-        determine whether DCE photon production can be scaled up by many orders of
-        magnitude, potentially using metamaterial-enhanced cavities.
+  \item \textbf{Explicit quantum-field calculations:} For any proposed
+        time-dependent metric, specify the field, state, boundary conditions,
+        observer, spectrum, and flux before selecting a detector band. Laboratory
+        DCE remains an independent quantum-electronics topic, not a validated
+        proxy for warp propulsion.
   \item \textbf{Modified gravity theories:} Frameworks beyond standard GR (e.g.,
         $f(R)$ gravity, scalar-tensor theories) may relax energy conditions for
-        warp geometries.
-  \item \textbf{Compact fusion:} Even partial success in compact reactor design
-        (e.g., HTS tokamaks) would dramatically advance the energy-density
-        frontier.
-  \item \textbf{Metamaterial spacetime analogs:} Using metamaterials to simulate
-        curved spacetime geometries in laboratory settings---``analog gravity''
-        experiments---can test predictions about EM signatures of spacetime
-        distortion.
+        warp geometries. This is an active area of theoretical research.
+  \item \textbf{Compact fusion:} While the path to commercial fusion is long, even
+        partial success in compact reactor design (e.g., HTS tokamaks) would
+        dramatically advance the energy-density frontier.
+  \item \textbf{Analog-gravity systems:} Metamaterials and fluids can test the
+        dynamics of their stated analog model. They do not reproduce
+        Einstein-equation sourcing and cannot by themselves validate a propulsion
+        interpretation~\cite{Wilson2011,PendrySchurig2006,Lahteenmaki2013,Steinhauer2016}.
 \end{enumerate}
 
 \subsection{What Would Constitute Definitive Evidence}\label{sec:evidence}
 
 For a spacetime manipulation propulsion system:
 \begin{enumerate}
-  \item Detection of broadband EM radiation from a UAP consistent with DCE
-        spectral predictions.
-  \item Measurement of local spacetime curvature anomalies correlated with UAP
-        presence (via precision gravimeters or local gravitational wave detectors).
-  \item Isotopic anomalies in atmospheric or material samples consistent with
-        fusion byproducts.
-  \item Simultaneous multi-sensor confirmation across radar, IR, visible, UV,
-        THz, and gravitational channels, ruling out sensor artifacts.
+  \item A preregistered, metric-specific prediction of kinematics, curvature,
+        matter coupling, and any quantum-field spectrum before an event.
+  \item Repeatable measurements matching those quantitative predictions across
+        independent, calibrated instruments with adequate sensitivity.
+  \item A physically characterized source whose measured stress-energy and
+        dynamics generate the predicted geometry while satisfying conservation and
+        stated stability conditions.
+  \item Independent replication with raw data, metadata, uncertainty propagation,
+        and conventional alternatives tested.
 \end{enumerate}
 
 For establishing UAP as beyond-current-technology:
@@ -1418,9 +1895,10 @@ For establishing UAP as beyond-current-technology:
         calibrated sensor systems.
   \item Confirmed transmedium transition observed simultaneously by above-surface
         and below-surface sensors.
-  \item Material recovery with properties inconsistent with terrestrial
-        manufacturing processes (noting that ``Art's Parts'' have been confirmed
-        terrestrial).
+  \item Material recovery with secure chain of custody and reproducible
+        properties inconsistent with terrestrial processes (ORNL assessed the
+        tested ``Art's Parts'' specimen as terrestrially manufactured with high
+        confidence, while its original purpose remains unresolved).
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1486,23 +1964,32 @@ G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}.
 \label{eq:s09-einstein}
 \end{equation}
 For Eulerian observers, the local energy density is
-$\rho_E = T_{\mu\nu}n^\mu n^\nu$. In the Alcubierre class,
-Pfenning and Ford showed that the supporting energy density becomes negative in
-the bubble wall, and later work by Santiago, Schuster, and Visser showed that
-generic warp drives violate the null energy condition. Any mathematically
-explicit UAP transport model must therefore declare up front whether it lives in
-an exotic-matter regime or in a conservative positive-energy regime~\cite{PfenningFord1997,SantiagoVisser2022}.
+$\rho_E = T_{\mu\nu}n^\mu n^\nu$. For the Alcubierre metric, Alcubierre showed
+that
+\begin{equation}
+\rho_E = -\frac{c^{2}v_s^{2}}{32\pi G}\,\frac{y^{2}+z^{2}}{r_s^{2}}
+\left(\frac{df}{dr_s}\right)^{2} < 0
+\label{eq:s09-rhoE}
+\end{equation}
+wherever the wall gradient is nonzero. Pfenning and Ford then showed that quantum
+inequalities confine this negative energy to an extremely thin wall with an
+enormous integrated magnitude, and Santiago, Schuster, and Visser showed that
+generic warp drives violate the null energy condition. In other words, a
+mathematically explicit UAP transport model must declare up front whether it lives
+in an exotic-matter regime or in a conservative positive-energy
+regime~\cite{Alcubierre1994,PfenningFord1997,SantiagoVisser2022}.
 
 \subsection{Conservative and Exotic Branches}\label{sec:branches}
 
 The literature now supports a useful bifurcation. In the conservative branch,
 the goal is positive-energy spacetime control and one accepts subluminal
-transport as in Bobrick and Martire's ``physical warp drives.'' In the exotic
-branch, one allows energy-condition violation to preserve the superluminal
-idealization, but then inherits the negative-energy and controllability burdens
-already identified in the classical warp-drive literature. Positive-energy
-escape routes proposed in more speculative geometries remain mathematically
-interesting, but not yet consensus~\cite{BobrickMartire2021,FellHeisenberg2021}.
+transport as in Bobrick and Martire's ``physical warp drives'' and the explicit
+constant-velocity shell of Fuchs et al.~(2024). In the exotic branch, one allows
+energy-condition violation to preserve the superluminal idealization, but then
+inherits the negative-energy and controllability burdens already identified in the
+classical warp-drive literature. Positive-energy escape routes proposed in more
+speculative geometries remain mathematically interesting, but not yet
+consensus~\cite{BobrickMartire2021,FellHeisenberg2021,Fuchs2024}.
 
 \subsection{Dimensionless Control Parameters}\label{sec:dimensionless-parameters}
 
@@ -1510,23 +1997,30 @@ For future model-building, the most useful ``constants'' are dimensionless
 ratios rather than a single fitted number:
 \begin{equation}
 \begin{aligned}
-\beta &= \frac{v_s}{c},\qquad
+\beta_s &= \frac{v_s}{c},\qquad
 \Sigma = \sigma R \sim \frac{R}{\Delta},\\
 \mathcal{A} &= \frac{\alpha R}{c^2},\qquad
 \mathcal{K} = K_{\max}R^4,\\
-\Xi &= \frac{G|E|}{R c^4},
+\Xi &= \frac{G|E|}{R c^4}.
 \end{aligned}
 \label{eq:s09-dimensionless}
 \end{equation}
-where $K = R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma}$ is the Kretschmann scalar.
-As a report-specific diagnostic we define a geometric relief factor
+These respectively capture apparent transport speed, wall sharpness, onboard
+inertial load, curvature strength through the Kretschmann scalar
+$K = R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma}$, and energy compactness. As a
+report-specific diagnostic we define a geometric relief factor
 \begin{equation}
 \Gamma_{\mathrm{rel}} = \frac{a_{\mathrm{app}}}{\alpha},
 \label{eq:s09-relief}
 \end{equation}
-which measures how much apparent maneuvering is offloaded from proper
-acceleration into geometry. A successful anomalous-flight theory would aim for
-$\Gamma_{\mathrm{rel}} \gg 1$.
+where $a_{\mathrm{app}}$ is the coordinate acceleration of the reference worldline
+in the frame of a specified external observer. $\Gamma_{\mathrm{rel}}$ measures how
+much apparent maneuvering is offloaded from proper acceleration into geometry. It
+is observer-dependent and diverges for exactly geodesic transport ($\alpha=0$); in
+that limit one should quote the reciprocal $\alpha/a_{\mathrm{app}}$, which
+vanishes. A successful anomalous-flight theory would aim for
+$\Gamma_{\mathrm{rel}} \gg 1$ (equivalently $\alpha/a_{\mathrm{app}}\ll1$)%
+~\cite{Alcubierre1994,PfenningFord1997,SantiagoVisser2022,BobrickMartire2021,MTW1973,Wald1984}.
 
 \subsection{Implication for the UAP Question}\label{sec:uap-question}
 
@@ -1548,7 +2042,11 @@ carrier-like craft not as measurements, but as phenomenological boundary
 conditions for model construction. NASA's official 2023 UAP study emphasizes
 that current public cases remain too weakly calibrated and too poorly
 instrumented for definitive physical inference, so narrative reports can at
-most motivate candidate structures rather than establish them~\cite{NASA_UAP2023}.
+most motivate candidate structures rather than establish them. The motif list is
+drawn from narrative literature (principally Fowler, \textit{The Watchers~II},
+1995) and an unpublished, author-compiled summary of abduction and craft
+descriptors; neither is a calibrated, peer-reviewed, or publicly reproducible
+dataset~\cite{Fowler1995,NASA_UAP2023}.
 
 As a conservative particular case, consider a habitable core enclosed by a thin
 transport shell and optionally nested within a larger carrier platform. In ADM
@@ -1563,15 +2061,16 @@ N(\mathbf{x},t) &\approx N_0,\\
 \label{eq:s09-core}
 \end{equation}
 while confining strong gradients in $N$, $\beta^i$, and $\gamma_{ij}$ to a
-shell of thickness $\Delta$. For Eulerian observers at rest in a stationary
-slicing, the proper acceleration obeys
+shell of thickness $\Delta$. For the Eulerian (normal) observers of the
+foliation, whatever the shift, the proper acceleration is
 \begin{equation}
-a_i = D_i \ln N,
+a_i = c^{2} D_i \ln N,
 \label{eq:s09-lapse}
 \end{equation}
-so a nearly constant interior lapse suppresses felt acceleration even when the
-external shell motion is large. This does not remove the stress-energy burden;
-it relocates it into the shell geometry and its source fields~\cite{MTW1973,Wald1984,BobrickMartire2021}.
+so occupants co-moving with the interior Eulerian flow feel no acceleration where
+$N$ is spatially uniform, even when the external shell motion is large. This does
+not remove the stress-energy burden; it relocates it into the shell geometry and
+its source fields~\cite{BobrickMartire2021,MTW1973,Wald1984,Fuchs2024}.
 
 The corresponding effective source can be written schematically as
 \begin{equation}
@@ -1589,7 +2088,8 @@ structural shell, $T^{\mathrm{env}}_{\mu\nu}$ any occupant-support medium, and
 $T^{\mathrm{vac}}_{\mu\nu}$ a possible bounded semiclassical correction. The
 conservative reading prioritizes positive-energy terms and accepts a
 subluminal transport shell in the Bobrick--Martire sense: a material shell
-moving inertially and still requiring propulsion~\cite{BobrickMartire2021}.
+moving inertially and still requiring
+propulsion~\cite{BobrickMartire2021,Fuchs2024}.
 
 Under this interpretation, reports of stillness or pressure map to
 boundary-layer shielding and altered acoustic propagation; small luminous orbs
@@ -1601,7 +2101,8 @@ as a carrier-class architecture for power, control, and pod deployment. These
 correspondences are deliberately heuristic. They do not validate the narratives,
 but they define a non-law-breaking target for future theory: maximize
 $\Gamma_{\mathrm{rel}}$ while staying timelike, approximately subluminal, and
-as close as possible to positive-energy sourcing~\cite{DIRD_Green,NASA_UAP2023}.
+as close as possible to positive-energy
+sourcing~\cite{DIRD_Green,NASA_UAP2023,Fowler1995}.
 
 \subsection{Phenomenology-Constrained Oblate Shell Geometry}\label{sec:oblate-shell}
 
@@ -1609,7 +2110,10 @@ If recurrent craft reports are treated as phenomenological boundary conditions
 rather than direct measurements, then repeated disc/oval geometry,
 seam-minimized metallic surfaces, curved interiors, and luminous bands suggest
 that an oblate shell is a more natural ansatz than a purely spherical bubble.
-Let
+Because apparent shape is an observer-dependent ray-tracing output
+(Sec.~\ref{sec:morphology}), reported outlines cannot be read directly as the
+shell's aspect ratio; the oblate form is a modeling choice motivated by
+narratives, not an inference from images. Let
 \begin{equation}
 \chi^2 = \frac{x^2+y^2}{R_\perp^2} + \frac{z^2}{R_z^2},\qquad
 \varepsilon = \frac{R_z}{R_\perp} < 1,
@@ -1625,30 +2129,40 @@ f(\chi) &= \frac{1}{2}\left[1-\tanh\!\big(\Sigma(\chi-1)\big)\right],\\
 \end{aligned}
 \label{eq:s09-oblate-profile}
 \end{equation}
-with $\Delta$ the shell thickness. A conservative core-shell metric can then be
-parameterized by
+with $\Delta$ the equatorial shell thickness (the polar thickness is
+$\varepsilon\Delta$, because $\chi$ rescales $z$ by $R_z$). A core-shell metric can
+then be parameterized by
 \begin{equation}
 \begin{aligned}
 N &= 1 + (N_0-1)f(\chi),\\
 \beta^i &= \beta_0^i(t)\,f(\chi),\\
-\gamma_{ij} &= \delta_{ij} + h_{ij}f(\chi).
+\gamma_{ij} &= \delta_{ij} + 4\,h_{ij}\,f(\chi)\,[1-f(\chi)].
 \end{aligned}
 \label{eq:s09-oblate-ansatz}
 \end{equation}
-Inside the core $f\approx 1$, outside $f\approx 0$, and the strong gradients
-are localized to the shell. This turns craft morphology into a small set of
-geometric control parameters: aspect ratio $\varepsilon$, sharpness $\Sigma$,
-core scale $R_\perp$, and transport shift $\beta_0^i(t)$.
+Inside the core $f\approx 1$ (so $N\approx N_0$, $\beta^i\approx\beta_0^i$, and
+$\gamma_{ij}\approx\delta_{ij}$, as required in Sec.~\ref{sec:lfsht}), outside
+$f\approx 0$, and the strong gradients are localized to the shell. This turns the
+assumed shell morphology into a small set of geometric control parameters: aspect
+ratio $\varepsilon$, sharpness $\Sigma$, core scale $R_\perp$, and transport shift
+$\beta_0^i(t)$~\cite{NASA_UAP2023,BobrickMartire2021,MTW1973,Wald1984}. With
+$N_0=1$ and $h_{ij}=0$ the ansatz reduces to the Nat\'ario class (unit lapse, flat
+slices), which Santiago, Schuster, and Visser prove violates the weak energy
+condition. A positive-energy realization therefore requires a positive-mass shell
+with non-unit lapse and/or non-flat spatial metric, as in the constant-velocity
+solution of Fuchs et al.~(2024). No energy-condition check of this ansatz has been
+performed here, so ``conservative'' denotes a target, not a demonstrated
+property~\cite{SantiagoVisser2022,Fuchs2024}.
 
 \subsection{Tidal and Electromagnetic Constraints}\label{sec:tidal-em}
 
 Low proper acceleration is necessary but not sufficient for a habitable
-transport core. In geometric units the Eulerian proper acceleration is
-$a_i = D_i \ln N$, but survivability also requires bounded tidal forces. In a
-local orthonormal comoving frame, geodesic deviation gives
+transport core. The Eulerian proper acceleration is $a_i = c^{2} D_i \ln N$, but
+survivability also requires bounded tidal forces. In a local orthonormal comoving
+frame, geodesic deviation gives
 \begin{equation}
 \frac{D^2 \xi^{\hat{i}}}{d\tau^2} =
-- R^{\hat{i}}{}_{\hat{0}\hat{j}\hat{0}}\,\xi^{\hat{j}},
+- c^{2} R^{\hat{i}}{}_{\hat{0}\hat{j}\hat{0}}\,\xi^{\hat{j}},
 \label{eq:s09-geodesic-deviation}
 \end{equation}
 so for a characteristic occupant size $L_c$,
@@ -1657,13 +2171,15 @@ so for a characteristic occupant size $L_c$,
 \sup \left|R_{\hat{0}\hat{i}\hat{0}\hat{j}}\right|.
 \label{eq:s09-tidal}
 \end{equation}
-A habitable core therefore requires not only $\alpha \ll g_\oplus$ but also
+A habitable core therefore requires not only $\alpha \lesssim g_\oplus$ (more
+generally, $\alpha$ within sustained human tolerance) but also
 \begin{equation}
 \Theta = \frac{c^2 L_c}{g_\oplus}
 \sup \left|R_{\hat{0}\hat{i}\hat{0}\hat{j}}\right| \ll 1,
 \label{eq:s09-theta}
 \end{equation}
-where $\Theta$ is a dimensionless tidal-habitability parameter.
+where $\Theta$ is a dimensionless tidal-habitability
+parameter~\cite{MTW1973,Wald1984}.
 
 If one also wishes to model buzzing, diffuse glow, or engine disruption without
 invoking exotic new forces, the cleanest route is ordinary induction in a
@@ -1681,7 +2197,8 @@ and a simple disturbance diagnostic is
 where $\mathcal{E}_{\mathrm{crit}}$ is the characteristic upset threshold of
 nearby electronics. In this interpretation, localized interference, buzzing,
 and luminous boundary effects are candidate byproducts of an intense shell
-environment; they do not by themselves establish superluminal propulsion.
+environment; they do not by themselves establish superluminal
+propulsion~\cite{DIRD_Green,NASA_UAP2023}.
 
 \subsection{Missing-Time Decomposition and Non-Claims}\label{sec:missing-time}
 
@@ -1696,20 +2213,27 @@ time dilation. A more disciplined decomposition is
 \end{equation}
 with
 \begin{equation}
-\Delta t_{\mathrm{geom}} = \int (1-\Lambda_t)\,dt,\qquad
+\Delta t_{\mathrm{geom}} = \int (1-\Lambda_t)\,dt_\infty,\qquad
 \Lambda_t = \frac{d\tau_{\mathrm{in}}}{dt_\infty}.
 \label{eq:s09-lambda}
 \end{equation}
 Here $\Delta t_{\mathrm{geom}}$ is any true clock-rate offset between interior
 and exterior time, $\Delta t_{\mathrm{neuro}}$ covers impaired encoding or
 retrieval, and $\Delta t_{\mathrm{recon}}$ later retrospective reconstruction.
-In the conservative subluminal branch developed here, one assumes
-$\Lambda_t \approx 1$, so large apparent memory gaps are expected to be
-dominated by non-geometric terms. This is consistent both with the transport
-model above and with peer-reviewed findings linking some abduction-type reports
-to sleep paralysis / hypnopompic hallucination and to elevated memory-distortion
-vulnerability in some abductee-reporting groups. The resulting non-claim is
-important: phenomenology alone does not determine ontology~\cite{NASA_UAP2023,Clancy2002,Cheyne1999}.
+In the shell ansatz of Secs.~\ref{sec:lfsht}--\ref{sec:oblate-shell}, occupants
+co-moving with the interior Eulerian flow have $\Lambda_t = N_0$. A positive-mass
+shell gives $N_0<1$, with $1-N_0$ of order the compactness $\Xi$. The
+constant-velocity positive-energy shell of Fuchs et al.~(2024) has
+$GM/(Rc^{2})\approx0.17$ at its outer radius, so $N_0\lesssim0.82$. The geometric
+term is therefore at most a fractional clock-rate offset of order $\Xi$ during the
+encounter, and $\Lambda_t\approx1$ holds only for $\Xi\ll1$. Apparent gaps much
+longer than about $\Xi$ times the encounter duration are expected to be dominated
+by non-geometric terms. This is consistent both with the transport model above and
+with peer-reviewed findings linking some abduction-type reports to sleep paralysis
+/ hypnopompic hallucination and to elevated memory-distortion vulnerability in
+some abductee-reporting groups. The resulting non-claim is important:
+phenomenology alone does not determine
+ontology~\cite{NASA_UAP2023,Clancy2002,Cheyne1999,Fuchs2024}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% APPENDICES
@@ -1721,14 +2245,16 @@ important: phenomenology alone does not determine ontology~\cite{NASA_UAP2023,Cl
 \begin{description}
   \item[Alcubierre metric] A spacetime metric permitting apparent FTL travel by
     contracting space ahead and expanding it behind a bubble.
-  \item[Aneutronic fusion] Fusion reactions that produce no neutrons, enabling
-    direct energy conversion.
+  \item[Aneutronic fusion] Fusion reactions whose primary branch releases
+    charged particles rather than neutrons (secondary reactions still yield a
+    small neutron flux), enabling direct energy conversion.
   \item[Casimir effect] Measurable force between closely spaced conductors due
     to quantum vacuum fluctuations.
   \item[Christoffel symbols] Mathematical objects encoding how coordinate bases
     change across curved spacetime.
-  \item[Cosmological constant] The energy density of empty space in Einstein's
-    field equations.
+  \item[Cosmological constant] The constant $\Lambda$ in Einstein's field
+    equations; equivalent to a uniform vacuum energy density
+    $\rho_{\Lambda}c^{2}=\Lambda c^{4}/(8\pi G)$.
   \item[Deuterium] Hydrogen isotope with one proton and one neutron.
   \item[Dynamical Casimir effect] Photon pair production from rapidly changing
     vacuum boundary conditions.
@@ -1736,8 +2262,9 @@ important: phenomenology alone does not determine ontology~\cite{NASA_UAP2023,Cl
     relating spacetime curvature to matter-energy.
   \item[Equivalence principle] The principle that gravitational and inertial
     acceleration are locally indistinguishable.
-  \item[Exotic matter] Matter with negative energy density, required for
-    superluminal warp drives.
+  \item[Exotic matter] Matter or fields violating classical energy conditions
+    (e.g., negative energy density or null-energy-condition violation); required
+    by known superluminal warp-drive solutions.
   \item[Geodesic] The straightest possible path through curved spacetime; objects
     in free fall follow geodesics.
   \item[Gravitational lensing] The bending of light by spacetime curvature.
@@ -1752,8 +2279,10 @@ important: phenomenology alone does not determine ontology~\cite{NASA_UAP2023,Cl
   \item[Metric tensor] Mathematical object defining distances and angles in
     spacetime.
   \item[Morris--Thorne metric] Mathematical framework for traversable wormholes.
-  \item[Null energy condition] The requirement that energy density be non-negative
-    for all null (lightlike) observers.
+  \item[Null energy condition] The requirement
+    $T_{\mu\nu}k^{\mu}k^{\nu}\ge0$ for every null (lightlike) vector $k^{\mu}$;
+    for a perfect fluid, $\rho c^{2}+p\ge0$. It is weaker than the weak energy
+    condition.
   \item[Proper acceleration] Acceleration measured by an onboard accelerometer.
   \item[QCD] Quantum chromodynamics---the theory of the strong nuclear force
     between quarks.
@@ -1772,9 +2301,11 @@ important: phenomenology alone does not determine ontology~\cite{NASA_UAP2023,Cl
   \item[Traversable wormhole] A topological shortcut through spacetime that
     permits passage.
   \item[Tritium] Hydrogen isotope with one proton and two neutrons.
-  \item[UAP] Unidentified Aerial Phenomena---the broad category encompassing all
-    unidentified airborne or transmedium anomalies. Adopted by DoD/ODNI~(2020).
-    See Sec.~\ref{sec:terminology}.
+  \item[UAP] Unidentified Anomalous Phenomena (formerly Unidentified Aerial
+    Phenomena)---the broad category encompassing unidentified airborne,
+    submerged, or transmedium anomalies (objects, sensor returns, optical
+    events). The ``aerial'' form was in DoD use by 2020; renamed ``anomalous'' by
+    the FY2023 NDAA. See Sec.~\ref{sec:terminology}.
   \item[UFO] Unidentified Flying Object---a subset of UAP referring specifically
     to a discrete physical airborne object of unknown identity
     ($\text{UFO}\subset\text{UAP}$). See Sec.~\ref{sec:terminology}.
@@ -1827,7 +2358,7 @@ below with cross-references to the sections where they are derived.
   \item \textbf{Lawson Criterion} (Sec.~\ref{sec:dt-fusion},
     Eq.~\ref{eq:lawson}):
     \[
-      n\,\tau_{E} > \frac{12\,k_{B}\,T}{E_{f}\,\langle\sigma v\rangle}
+      n\,\tau_{E} \ge \frac{12\,k_{B}\,T}{E_{\mathrm{ch}}\,\langle\sigma v\rangle}
     \]
   \item \textbf{Unruh Temperature} (Sec.~\ref{sec:em-prediction},
     Eq.~\ref{eq:unruh}):
@@ -1844,34 +2375,40 @@ below with cross-references to the sections where they are derived.
     \[
       q = \tfrac{1}{2}\rho v^{2}
     \]
-  \item \textbf{DCE Photon Production Rate} (Sec.~\ref{sec:em-prediction},
-    Eq.~\ref{eq:dce}):
+  \item \textbf{Mass-Energy Equivalence}:
     \[
-      \frac{dN}{dt} \propto
-      \left(\frac{v_{\text{wall}}}{c}\right)^{\!2}\;\omega
+      E = mc^{2}
     \]
   \item \textbf{Transformation Optics Jacobian} (Sec.~\ref{sec:metamaterials},
     Eq.~\ref{eq:transformation-optics}):
     \[
-      \varepsilon'^{ij} = \mu'^{ij}
-      = \frac{\Lambda^{i}{}_{k}\;\Lambda^{j}{}_{l}\;\varepsilon^{kl}}
-             {\det(\Lambda)}
+      \begin{aligned}
+      \varepsilon'^{ij} &= [\det(\Lambda)]^{-1}\,
+        \Lambda^{i}{}_{k}\,\Lambda^{j}{}_{l}\,\varepsilon^{kl}\\
+      \mu'^{ij} &= [\det(\Lambda)]^{-1}\,
+        \Lambda^{i}{}_{k}\,\Lambda^{j}{}_{l}\,\mu^{kl}
+      \end{aligned}
     \]
 \end{enumerate}
 
 \section{Complete DIRD List}\label{app:dirds}
 
-The 38 Defense Intelligence Reference Documents commissioned under AAWSAP
-(2008--2010) are listed in Table~\ref{tab:dirds}. Thirty-seven of the 38
-documents were declassified and released via FOIA on March~25, 2022. DIRD~\#38
-retains its SECRET/NOFORN classification.
+The 38 Defense Intelligence Reference Document entries produced under the AAWSAP
+contract are listed in Table~\ref{tab:dirds}. Numbering follows the DIA
+FOIA-00159-2018 inventory; released copies are dated December~2009--January~2011;
+author names are redacted in the released copies and are taken from the DIA title
+list; the E.~Davis co-attribution for \#13 is from secondary sources, not the
+DIA list. DIA released documents 01--37 (1\,473 pages; UNCLASSIFIED//FOUO, withheld in
+part under FOIA exemptions (b)(3)/(b)(6)) on March~25, 2022 (FOIA-00159-2018).
+Entry 38 is the SECRET/NOFORN version of DIRD~23 and has not been released.
 
 \begin{table*}[htbp]
-\caption{Complete list of the 38 Defense Intelligence Reference Documents (DIRDs)
-commissioned by the Defense Intelligence Agency under the Advanced Aerospace
-Weapon System Applications Program (AAWSAP), 2008--2010.}
+\caption{Complete list of the 38 Defense Intelligence Reference Document (DIRD)
+entries produced for the Defense Intelligence Agency under the Advanced Aerospace
+Weapon System Applications Program (AAWSAP) contract; released copies are dated
+December~2009--January~2011.}
 \label{tab:dirds}
-\begin{tabular}{rll}
+\begin{tabular}{@{}r p{0.68\textwidth} l@{}}
 \toprule
 \# & Title & Author(s) \\
 \midrule
@@ -1886,33 +2423,44 @@ Weapon System Applications Program (AAWSAP), 2008--2010.}
 09 & Inertial Electrostatic Confinement Fusion & G.\ Miley \\
 10 & Metallic Spintronics & --- \\
 11 & Advanced Nuclear Propulsion for Manned Deep Space Missions & F.\ Winterberg \\
-12 & Controlling External Devices Without Limb Interfaces & --- \\
-13 & Warp Drive, Dark Energy, and Extra Dimensions & R.\ Obousy, E.\ Davis \\
+12 & Technological Approaches to Controlling External Devices in the Absence of
+  Limb-Operated Interfaces & --- \\
+13 & Warp Drive, Dark Energy, and the Manipulation of Extra Dimensions &
+  R.\ Obousy, E.\ Davis \\
 14 & The Role of Superconductors in Gravity Research & G.\ Hathaway \\
-15 & Advanced Space Propulsion Based on Vacuum Engineering & H.\ Puthoff \\
-16 & Quantum Entanglement and Nonlocality for Space Communications & --- \\
+15 & Advanced Space Propulsion Based on Vacuum (Spacetime Metric) Engineering &
+  H.\ Puthoff \\
+16 & The Space Communication Implications of Quantum Entanglement and Nonlocality
+  & --- \\
 17 & Maverick Inventor Versus Corporate Inventor & G.\ Hathaway \\
 18 & Traversable Wormholes, Stargates, and Negative Energy & E.\ Davis \\
 19 & Antigravity for Aerospace Applications & E.\ Davis \\
 20 & Biosensors and BioMEMS & B.\ Towe \\
 21 & High-Frequency Gravitational Wave Communications & R.\ Baker \\
 22 & Metamaterials for Aerospace Applications & G.\ Shvets \\
-23 & High-Energy Laser Weapons (State of the Art) & J.\ Albertine \\
+23 & State of the Art and Evolution of High-Energy Laser Weapons
+  (UNCLASSIFIED//FOUO version) & J.\ Albertine \\
 24 & Concepts for Extracting Energy from the Quantum Vacuum & E.\ Davis \\
 25 & An Introduction to the Statistical Drake Equation & C.\ Maccone \\
-26 & Anomalous Field Effects on Human Biological Tissues & K.\ Green \\
+26 & Anomalous Acute and Subacute Field Effects on Human Biological Tissues &
+  K.\ Green \\
 27 & Laser Lightcraft Nanosatellites & E.\ Davis \\
 28 & Cockpits in the Era of Breakthrough Flight & --- \\
 29 & Negative Mass Propulsion & F.\ Winterberg \\
-30 & Aneutronic Fusion Propulsion & W.\ Culbreth \\
-31 & Detection and Tracking of Hypersonic Vehicles & W.\ Culbreth \\
+30 & Aneutronic Fusion Propulsion & V.\ Teofilo \\
+31 & Detection and High Resolution Tracking of Vehicles at Hypersonic Velocities &
+  W.\ Culbreth \\
 32 & Ultracapacitors as Energy and Power Storage Devices & J.\ Golightly \\
-33 & MHD Air Breathing Propulsion and Power & S.\ Macheret \\
-34 & Cognitive Limits on Simultaneous Control of Multiple Spacecraft & --- \\
-35 & Quantum Computing and Organic Molecules in Automation & R.\ Genik \\
+33 & MHD Air Breathing Propulsion and Power for Aerospace Applications &
+  S.\ Macheret \\
+34 & Cognitive Limits on Simultaneous Control of Multiple Unmanned Spacecraft &
+  --- \\
+35 & Quantum Computing and Utilizing Organic Molecules in Automation Technology &
+  R.\ Genik \\
 36 & Quantum Tomography of Negative Energy States in the Vacuum & E.\ Davis \\
-37 & Aneutronic Fusion Propulsion~II & --- \\
-38 & High-Energy Laser Weapons (CLASSIFIED) & J.\ Albertine \\
+37 & Aneutronic Fusion Propulsion~II & W.\ Culbreth \\
+38 & State of the Art and Evolution of High-Energy Laser Weapons (SECRET/NOFORN
+  version; unreleased) & J.\ Albertine \\
 \bottomrule
 \end{tabular}
 \end{table*}
@@ -1923,7 +2471,7 @@ Following the methodology of Intelligence Community Directive~(ICD)~203, this
 report employs the confidence levels and estimative language defined in
 Tables~\ref{tab:confidence} and~\ref{tab:estimative}.
 
-\begin{table}[b]
+\begin{table}[tb]
 \caption{Confidence levels used in this assessment. High confidence is not a
 statement of certainty; it reflects the strength of the underlying evidence.}
 \label{tab:confidence}
@@ -1937,7 +2485,7 @@ statement of certainty; it reflects the strength of the underlying evidence.}
       \end{description}
 \end{table}
 
-\begin{table}[b]
+\begin{table}[tb]
 \caption{Estimative probability terms consistent with ICD~203 conventions.}
 \label{tab:estimative}
 \begin{tabular}{lc}
@@ -1957,54 +2505,56 @@ Remote & 1--5\% \\
 
 Verification status markers used throughout this assessment:
 \begin{description}
-  \item[\textsc{Verified}] Experimentally confirmed and published in
-    peer-reviewed literature.
-  \item[\textsc{Theoretical}] Mathematically consistent within established
+  \item[\normalfont\textsc{Verified}] Experimentally confirmed and peer-reviewed
+    or, for observational and policy facts, documented in an authoritative
+    primary government record.
+  \item[\normalfont\textsc{Theoretical}] Mathematically consistent within established
     frameworks; not yet experimentally verified.
-  \item[\textsc{Speculative}] Hypothetical extrapolation beyond established
+  \item[\normalfont\textsc{Speculative}] Hypothetical extrapolation beyond established
     theory; no mathematical proof or experimental basis.
+  \item[\normalfont\textsc{Assessed}] Analytic judgment by the author drawn from
+    the cited sources; not itself an experimental or peer-reviewed result.
 \end{description}
 
 \section{Falsification Criteria}\label{app:falsification}
 
-The warp bubble hypothesis, as applied to UAP in this assessment, generates
-specific testable predictions. The framework should be considered weakened or
-falsified if any of the following conditions are demonstrated:
+The generic label ``warp bubble'' is not yet a sufficiently specified empirical
+hypothesis to produce a unique spectrum, morphology, or medium-interaction
+prediction. It becomes falsifiable only when a model states its metric, supporting
+stress-energy, formation history, matter coupling, quantum state, observer, and
+detector thresholds in advance. Appropriate tests would then include:
 
 \begin{enumerate}
-  \item \textbf{No broadband EM emissions detected.} If multiple high-quality,
-    calibrated, multi-spectral sensor deployments in UAP-active areas consistently
-    detect no broadband electromagnetic radiation---particularly in the terahertz
-    band predicted by the dynamical Casimir effect (Sec.~\ref{sec:em-signatures})---the
-    warp bubble framework's EM signature prediction would be contradicted.
-  \item \textbf{Absence of spacetime curvature anomalies.} If precision
-    gravimeters or local gravitational wave detectors deployed near confirmed UAP
-    encounters measure no curvature anomalies above noise, the fundamental
-    prediction of local spacetime distortion would be unsupported.
-  \item \textbf{All Five Observables individually resolvable.} If each observable
-    can be individually explained by conventional mechanisms without requiring a
-    unified framework, the parsimony argument for the warp bubble collapses.
-  \item \textbf{Exotic matter proven impossible.} If quantum gravity demonstrates
-    that negative energy density cannot exist at any macroscopic scale, the
-    theoretical foundation for superluminal warp drives would be
-    removed. Note: this would not falsify subluminal positive-energy warp
-    concepts~\cite{BobrickMartire2021}.
-  \item \textbf{UAP behavior inconsistent with geodesic motion.} If calibrated
-    multi-sensor data shows UAP experiencing structural deformation during
-    high-acceleration maneuvers, generating sonic booms at hypersonic speeds, or
-    causing occupant injury consistent with proper acceleration, the
-    geodesic-motion prediction would be directly contradicted.
-  \item \textbf{Morphology does not correlate with velocity.} If high-quality,
-    multi-angle, time-resolved observations show no systematic correlation between
-    apparent UAP shape and speed or acceleration state, the bubble-intensity model
-    would be weakened.
+  \item \textbf{Kinematic prediction failure.} A preregistered model must predict
+    invariant or observer-specific trajectories with uncertainty, including the
+    proper acceleration of the vehicle and occupants. Repeatable calibrated
+    measurements outside that prediction would falsify that model. Examples are
+    structural deformation or onboard accelerometer readings showing large proper
+    acceleration where the model predicts geodesic transport.
+  \item \textbf{Curvature prediction failure.} A null result constrains a model
+    only when the model predicts a curvature or strain signal above the
+    instrument's stated sensitivity and backgrounds.
+  \item \textbf{Matter-coupling prediction failure.} Claims of suppressed shock,
+    drag, heating, cavitation, or wake require quantitative fluid/matter
+    calculations. Observations inconsistent with those preregistered outputs
+    would falsify that construction.
+  \item \textbf{Radiation prediction failure.} Absence of a band is probative only
+    after an explicit quantum-field calculation predicts a spectrum and flux
+    above detector thresholds (Sec.~\ref{sec:em-signatures}). There is currently
+    no generic DCE or THz prediction to falsify.
+  \item \textbf{Source inconsistency.} A proposed metric is physically undermined
+    if its source violates its own stated conservation, energy-condition,
+    quantum-inequality, causality, formation, or stability requirements.
+  \item \textbf{Conventional resolution of the observations.} If calibrated data
+    establish ordinary causes for the motivating cases, the evidential motivation
+    for applying any warp model to those cases collapses even though the
+    mathematical metric remains a valid formal solution.
 \end{enumerate}
 
-Falsification of the warp bubble framework as applied to UAP does not falsify the
-Alcubierre metric itself, which remains a valid solution to the Einstein field
-equations regardless of whether UAP employ it. Similarly, none of the above
-conditions would preclude other exotic propulsion mechanisms; they would only
-constrain the specific spacetime distortion hypothesis analyzed in this paper.
+\textbf{Note:} No morphology--velocity sequence has been derived, so absence of
+such a correlation is not a valid falsification criterion. Tests constrain a
+specified physical model, not general relativity or every possible exotic
+propulsion proposal.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% ACKNOWLEDGMENTS
@@ -2014,7 +2564,9 @@ This assessment was prepared as an independent contribution to the growing body
 of serious scientific inquiry into unidentified aerial phenomena. No classified
 information was used in its preparation. The analysis draws upon publicly
 available peer-reviewed literature, declassified government documents, and
-open-source intelligence.
+open-source intelligence; all sources are publicly available, except one
+unpublished author-compiled narrative summary used only as phenomenological input
+in Secs.~\ref{sec:lfsht}--\ref{sec:missing-time}.
 
 \textbf{AI collaboration.}\ This manuscript was produced through a structured
 collaboration between the human author and multiple AI systems, including
@@ -2022,7 +2574,8 @@ Claude~(Anthropic), Codex, and GPT-5.4. Claude Opus~4 and Claude Sonnet~4
 primarily supported literature synthesis, structure, and translation; Codex and
 GPT-5.4 assisted repository optimization, validation, metadata consistency
 checks, and disclosure/reporting refinements. AI contributions included literature
-synthesis and cross-referencing of 61 bibliography sources, equation typesetting
+synthesis and cross-referencing of 71 bibliography sources across peer-reviewed
+articles, government documents, DIRDs, and books, equation typesetting
 in both Markdown and \LaTeX, structural organization of the nine-section
 architecture, bilingual parity maintenance (English and Traditional Chinese),
 data infrastructure generation (JSON Schema validation, statistics files, timeline
@@ -2033,12 +2586,18 @@ are solely those of the human author. The AI did not independently generate any
 physics claims; it served as a research assistant for organization, formatting,
 and cross-referencing.
 
-\textbf{Data verification.}\ 43 of the 45 quantitative data points cited in this
-assessment are independently cross-checked against their cited sources; two
-contested estimates are retained as low-confidence analysis. Source provenance,
-reliability tiers, URL verification status, and verification markers
-(\textsc{Verified}, \textsc{Theoretical}, \textsc{Speculative}) are documented
-in a separate data verification report available in the project repository.
+\textbf{Data verification.}\ 42 of the 45 quantitative records cited in this
+assessment are marked as source-cross-checked in repository metadata (provenance
+review, not independent empirical confirmation). Two model-dependent
+USS~\textit{Nimitz} acceleration estimates are retained as low-confidence
+analysis, and one withdrawn derived ratio (s03-004) is retained as an explicit
+``not defined'' record. Source provenance and reliability tier for all 71
+bibliography entries, cross-referencing of numerical values against peer-reviewed
+publications, URL verification status for all 34 tracked web sources, and
+verification markers (\textsc{Verified}, \textsc{Theoretical},
+\textsc{Speculative}, \textsc{Assessed}) applied per ICD~203 analytic standards~\cite{ICD203} are
+documented in a separate data verification report available in the project
+repository.
 
 This work is released under the Creative Commons Attribution~4.0 International
 License (CC~BY~4.0).
@@ -2046,6 +2605,11 @@ License (CC~BY~4.0).
 Version~1.2.7, June~2026.
 DOI: \href{https://doi.org/10.5281/zenodo.19138270}{10.5281/zenodo.19138270}.
 \end{acknowledgments}
+
+%% Bibliography entries that the text above does not cite directly. They are
+%% part of the 71-source inventory and must still appear in the compiled
+%% reference list.
+\nocite{AbbottLIGO2016,Kaku2008}
 
 \bibliography{references}
 
