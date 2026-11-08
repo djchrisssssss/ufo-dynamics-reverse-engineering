@@ -1,21 +1,21 @@
 {
   "section": "s02",
   "title": "Observable Characteristics",
-  "last_updated": "2026-03-21",
-  "data_note": "Quantitative benchmarks for observed UAP performance characteristics compared to known aerospace, physics, and engineering limits. Values are drawn from declassified military reports, peer-reviewed physics, and publicly available aerospace data.",
+  "last_updated": "2026-11-07",
+  "data_note": "Quantitative benchmarks and source-dependent UAP scenario estimates. Engineering and physics reference values are distinguished from uncalibrated observations; the Nimitz acceleration entries are model outputs from witness-reported parameters, not official or independently reproduced radar measurements.",
   "statistics": [
     {
       "id": "s02-001",
-      "metric": "USS Nimitz UAP estimated acceleration",
+      "metric": "USS Nimitz modeled acceleration (source-dependent scenario)",
       "value": 5370,
-      "unit": "g",
+      "unit": "g (modal model estimate)",
       "date": "2004-11-14",
       "source": "Knuth, K. H., Powell, R. M., & Reali, P. A. (2019). Estimating Flight Characteristics of Anomalous Unidentified Aerial Vehicles. Entropy, 21(10), 939. https://doi.org/10.3390/e21100939",
-      "context": "Estimated from USS Princeton SPY-1 radar tracking during the 2004 Nimitz Carrier Strike Group encounters. Object reportedly dropped from 28,000 ft to sea level in 0.78 seconds, assumed to start and end approximately at rest (accelerate-then-decelerate profile; peak speed ~46,000 mph = 2x path average).",
+      "context": "Knuth et al. modeled witness-reported parameters for a descent of 8530 +/- 90 m in 0.78 +/- 0.08 s, assuming symmetric acceleration and deceleration with the object starting and ending approximately at rest. Their Monte Carlo result was a modal 5370 +1430/-820 g. Detailed radar tracks were not available to the authors or released for independent reconstruction.",
       "confidence": "low",
       "verification_status": "speculative",
       "verified": false,
-      "verification_note": "Derived from radar data analysis by Knuth et al. Raw radar data remains classified. The 5,370 g figure assumes an arrest-at-bottom (accelerate-then-decelerate) profile; a uniform-acceleration descent without arrest would imply roughly half this value (~2,700 g)."
+      "verification_note": "Source and model inputs checked against Knuth et al. The result is not an official DoD measurement, and the paper states that acceleration cannot be known without detailed radar data. Retained only as a low-confidence, model-dependent scenario."
     },
     {
       "id": "s02-002",
@@ -71,7 +71,7 @@
     },
     {
       "id": "s02-006",
-      "metric": "Speed of sound at sea level (ISA conditions)",
+      "metric": "Speed of sound in dry air at 20 °C, 1 atm",
       "value": 343,
       "unit": "m/s",
       "date": "2025-01-01",
@@ -162,9 +162,9 @@
     },
     {
       "id": "s02-013",
-      "metric": "USS Nimitz acceleration sensitivity range",
-      "value": "820–5370",
-      "unit": "g (depending on assumed descent time 0.78–2.0 s)",
+      "metric": "USS Nimitz acceleration model and hypothetical time sensitivity",
+      "value": "modal 5370 (+1430/-820); hypothetical 2 s case approximately 870",
+      "unit": "g",
       "date": "2004-11-14",
       "source": {
         "name": "Knuth, Powell & Reali (2019), Entropy 21(10), 939",
@@ -172,11 +172,11 @@
         "doi": "10.3390/e21100939",
         "accessed": "2026-03-21"
       },
-      "context": "Sensitivity analysis on the canonical 5,370 g estimate. At 0.78 s: ~5,370 g; at 1.0 s: ~3,270 g; at 1.5 s: ~1,450 g; at 2.0 s: ~820 g. Even the most conservative estimate exceeds HIBEX (~400 g) by 2×.",
+      "context": "The published model used 0.78 +/- 0.08 s and returned a modal 5370 +1430/-820 g. Substituting 1.0, 1.5, and 2.0 s into a = 4d/t^2 with d = 8530 m gives approximately 3480, 1550, and 870 g. Those alternative times are hypothetical sensitivity examples; 2.0 s is not an observed bound and must not be presented as an empirical lower endpoint.",
       "confidence": "low",
       "verification_status": "speculative",
       "verified": false,
-      "verification_note": "Derived from Knuth et al. 2019 radar data analysis. The range reflects uncertainty in the assumed descent time window. All values exceed engineered sustained acceleration limits."
+      "verification_note": "The previous 820-5370 g range incorrectly implied an empirical timing range. The -820 g in the paper is the lower uncertainty on the 5370 g modal result, while a separate 2.0 s substitution is an unsupported hypothetical. No robust anomalous-acceleration conclusion follows from public data."
     }
   ]
 }

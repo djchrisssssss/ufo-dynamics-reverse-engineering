@@ -11,7 +11,7 @@
 4. [src-042] Miley, G. "Inertial Electrostatic Confinement Fusion." DIRD #9.
 5. [src-045] Davis, E. "Concepts for Extracting Energy from the Quantum Vacuum." DIRD #24.
 6. [src-046] Davis, E. "Quantum Tomography of Negative Energy States in the Vacuum." DIRD #36.
-7. [src-047] Culbreth, W. "Aneutronic Fusion Propulsion." DIRD #30.
+7. [src-047] Teofilo, V. "Aneutronic Fusion Propulsion." DIRD #30.
 8. [src-039] Winterberg, F. "Advanced Nuclear Propulsion for Manned Deep Space Missions." DIRD #11.
 
 ## Data Points Referenced
@@ -22,27 +22,27 @@
 | s04-002 | U-235 fission specific energy | ~8.2 × 10¹³ J/kg | Nuclear physics constants |
 | s04-003 | DT fusion specific energy | ~3.4 × 10¹⁴ J/kg | Nuclear physics constants |
 | s04-004 | DD fusion specific energy | ~8.7 × 10¹³ J/kg | Nuclear physics constants |
-| s04-005 | p-B11 specific energy | ~7.3 × 10¹³ J/kg | Nuclear physics constants |
+| s04-005 | p-B11 specific energy | ~7.0 × 10¹³ J/kg | Nuclear physics constants |
 | s04-006 | Antimatter specific energy | ~9 × 10¹⁶ J/kg | E = mc² |
 | s04-007 | DT reaction energy | 17.6 MeV/event | Nuclear physics |
 | s04-008 | NIF Dec 2022 gain | 1.54 | nif-ignition |
 | s04-009 | NIF Apr 2025 gain | 4.13 | LLNL press releases |
 | s04-010 | NIF laser electrical input | ~300 MJ | nif-about |
-| s04-011 | Deuterium in seawater | ~33 g/m³ | Oceanographic data |
+| s04-011 | Deuterium in seawater | ~34 g/m³ | Oceanographic data |
 | s04-012 | Global ocean deuterium | ~4.6 × 10¹³ tonnes | Derived from s04-011 |
 | s04-013 | Global tritium production | ~4 kg/year | CANDU reactor data |
 | s04-014 | Tritium half-life | 12.3 years | Nuclear data tables |
 | s04-015 | Vacuum energy theoretical density | ~10¹¹³ J/m³ | QFT calculation |
-| s04-016 | Cosmological constant discrepancy | ~10¹²⁰ | src-048 (MTW) |
+| s04-016 | Cosmological constant discrepancy | ~10¹²⁰ (cutoff-dependent; ~10¹²³ for a Planck cutoff) | Weinberg 1989 (Rev. Mod. Phys. 61, 1) |
 
 ## Additional Sources (v1.2.1)
 
-9. [src-059] Lawrence Livermore National Laboratory. "NIF Sets New Records for Energy Yield and Target Gain." April 2025.
+9. [src-059] Lawrence Livermore National Laboratory. "Achieving Fusion Ignition." LLNL NIF web page (accessed 2026-08-02).
    - URL: https://lasers.llnl.gov/science/achieving-fusion-ignition
 
 ## Notes
 
 - NIF "wall-plug" gain remains far below unity (~300 MJ electrical → ~2 MJ laser → ~8.6 MJ fusion for Apr 2025 shot).
 - NIF April 2025 gain of 4.13 independently verified against LLNL and DOE sources as of March 2026 (src-059).
-- ITER targets Q = 10 (500 MW fusion from 50 MW heating) by the 2030s.
+- ITER retains a Q ≥ 10 mission goal (500 MW fusion from 50 MW heating); under Baseline 2024, D–T operation begins in 2039.
 - Hero of Alexandria's aeolipile analogy illustrates the ~2000-year gap between principle and practical realization.

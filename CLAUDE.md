@@ -23,8 +23,8 @@ UFO-dynamics-reverse-engineering/
 │   │   ├── s02-observables-stats.json
 │   │   ├── s03-propulsion-stats.json
 │   │   ├── s04-energy-stats.json
-│   │   ├── s09-theoretical-foundations-stats.json
-│   │   └── s06-materials-stats.json
+│   │   ├── s06-materials-stats.json
+│   │   └── s09-theoretical-foundations-stats.json
 │   ├── timelines/                    # Historical event CSVs
 │   │   ├── uap-investigation-history.csv
 │   │   └── dird-publications.csv
@@ -32,8 +32,9 @@ UFO-dynamics-reverse-engineering/
 │       ├── energy-density-comparison.csv
 │       └── materials-gap-analysis.csv
 ├── references/
-│   ├── bibliography.json             # Master bibliography (61 sources)
+│   ├── bibliography.json             # Master bibliography (71 sources)
 │   ├── source-registry.json          # URL verification registry
+│   ├── note-map.json                 # ref-*/KJ-* note IDs → src-* + auxiliary IDs
 │   └── per-section/                  # Per-section reference lists
 │       ├── s01-references.md
 │       ├── s02-references.md
@@ -46,9 +47,20 @@ UFO-dynamics-reverse-engineering/
 │       └── s09-references.md
 ├── latex/
 │   ├── main.tex                      # REVTeX 4-2 formatted paper
-│   ├── references.bib                # BibTeX bibliography (61 entries)
+│   ├── references.bib                # BibTeX bibliography (71 entries)
 │   └── figures/                      # Placeholder for diagrams
-├── transcription.md                  # Original transcription (legacy)
+├── scripts/
+│   └── validate_repository.py        # Repository validator
+├── tests/
+│   └── test_validate_repository.py   # Validator unit tests
+├── assets/
+│   └── uap-public-release-still.jpg  # README banner image
+├── .github/workflows/
+│   ├── validate.yml                  # Required CI: unit tests + offline validation + LaTeX build
+│   └── url-audit.yml                 # Weekly live URL audit
+├── requirements.txt                  # Pinned validator dependency (jsonschema)
+├── transcription.md                  # Byte-identical mirror of docs/zh-TW/transcription.md
+├── .zenodo.json                      # Zenodo deposit metadata
 ├── CLAUDE.md                         # This file
 ├── CITATION.cff                      # Machine-readable citation
 ├── CHANGELOG.md                      # Version history
@@ -60,7 +72,7 @@ UFO-dynamics-reverse-engineering/
 ### Statistics Files
 - Pattern: `sNN-descriptor-stats.json`
 - ID format: `sNN-NNN` (section + 3-digit sequential number)
-- Sections: s01–s09 (main), sA1–sA4 (appendices)
+- Sections: s01–s09 (main), sA1–sA4 (appendices A–D; Appendix E has no statistics file)
 
 ### Reference Files
 - Per-section: `sNN-references.md`
@@ -74,9 +86,9 @@ UFO-dynamics-reverse-engineering/
 
 - **Dates**: ISO 8601 (`YYYY-MM-DD`)
 - **Units**: SI units preferred; scientific notation for extreme values
-- **Sources**: Government > peer-reviewed > expert reports > preprints
+- **Sources**: peer-reviewed for physical claims; official documents for institutional facts; DIRDs as commissioned analyses; preprints only with caveat
 - **Confidence levels**: Following ICD 203 (High / Moderate / Low)
-- **Verification markers**: `[VERIFIED]` / `[THEORETICAL]` / `[SPECULATIVE]`
+- **Verification markers**: `[VERIFIED]` / `[THEORETICAL]` / `[SPECULATIVE]` / `[ASSESSED]` (analytic judgment by the author)
 
 ## Section Structure
 
@@ -95,6 +107,7 @@ UFO-dynamics-reverse-engineering/
 | sA2 | Key Equations Reference |
 | sA3 | Complete DIRD List |
 | sA4 | Confidence Level Definitions |
+| E | Falsification Criteria (no statistics ID) |
 
 ## Bilingual Parity
 
@@ -115,8 +128,10 @@ pdflatex main.tex
 ## Validation
 
 ```bash
+python3 -m pip install -r requirements.txt
+python3 -m unittest discover -s tests
 python3 scripts/validate_repository.py
-python3 scripts/validate_repository.py --check-urls
+python3 scripts/validate_repository.py --check-urls --enforce-url-status   # weekly url-audit.yml
 ```
 
 ## Commit Convention

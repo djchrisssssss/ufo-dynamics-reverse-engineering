@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "total_urls": 35,
-    "last_audit": "2026-06-13",
+    "total_urls": 34,
+    "last_audit": "2026-11-07",
     "audit_method": "manual_verification + automated_http_spot_check"
   },
   "urls": [
@@ -85,16 +85,16 @@
     {
       "url": "https://www.dni.gov/files/ODNI/documents/assessments/Prelimary-Assessment-UAP-20210625.pdf",
       "source_id": "src-031",
-      "status": "reachable",
-      "last_checked": "2026-03-21",
-      "notes": "ODNI — US Government official document. Note: filename contains typo 'Prelimary' in original URL"
+      "status": "access_restricted",
+      "last_checked": "2026-11-07",
+      "notes": "ODNI — US Government official document. Note: filename contains typo 'Prelimary' in original URL; returns HTTP 403 to scripted requests as of 2026-11-07"
     },
     {
       "url": "https://www.dni.gov/files/ODNI/documents/assessments/Unclassified-2022-Annual-Report-UAP.pdf",
       "source_id": "src-032",
-      "status": "reachable",
-      "last_checked": "2026-03-21",
-      "notes": "ODNI — US Government official document"
+      "status": "access_restricted",
+      "last_checked": "2026-11-07",
+      "notes": "ODNI — US Government official document; returns HTTP 403 to scripted requests as of 2026-11-07"
     },
     {
       "url": "https://media.defense.gov/2024/Mar/08/2003409233/-1/-1/0/DOPSR-2024-0175-HISTORICAL-RECORD-REPORT-VOLUME-I-2024.PDF",
@@ -113,16 +113,16 @@
     {
       "url": "https://www.dni.gov/files/documents/ICD/ICD-203.pdf",
       "source_id": "src-035",
-      "status": "reachable",
-      "last_checked": "2026-03-21",
-      "notes": "ODNI — Intelligence Community Directive, updated official document path"
+      "status": "access_restricted",
+      "last_checked": "2026-11-07",
+      "notes": "ODNI — Intelligence Community Directive, updated official document path; returns HTTP 403 to scripted requests as of 2026-11-07"
     },
     {
       "url": "https://irp.fas.org/dia/aatip-list.pdf",
       "source_id": "dird-index",
-      "status": "reachable",
-      "last_checked": "2026-03-21",
-      "notes": "FAS — DIRD master list (declassified)"
+      "status": "access_restricted",
+      "last_checked": "2026-11-07",
+      "notes": "FAS — DIRD master list; returns HTTP 202 with an empty body (bot challenge) to scripted requests as of 2026-11-07"
     },
     {
       "url": "https://documents2.theblackvault.com/documents/dia/AAWSAP-DIRDs/",
@@ -163,15 +163,8 @@
       "url": "https://arxiv.org/abs/1110.6064",
       "source_id": "src-053",
       "status": "reachable",
-      "last_checked": "2026-03-21",
-      "notes": "arXiv — stable preprint archive"
-    },
-    {
-      "url": "https://www.congress.gov/bill/117th-congress/senate-bill/3600",
-      "source_id": "ndaa-2023",
-      "status": "access_restricted",
-      "last_checked": "2026-03-21",
-      "notes": "Congress.gov — NDAA 2023 with UAP provisions; currently returns HTTP 403 to scripted requests"
+      "last_checked": "2026-08-03",
+      "notes": "arXiv — Ralf Schützhold, 'Refractive index perturbations — Unruh effect, Hawking radiation or dynamical Casimir effect?'"
     },
     {
       "url": "https://oversight.house.gov/hearing/unidentified-anomalous-phenomena-implications-on-national-security-public-safety-and-government-transparency/",

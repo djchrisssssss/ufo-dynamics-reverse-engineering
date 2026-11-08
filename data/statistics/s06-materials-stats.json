@@ -1,8 +1,8 @@
 {
   "section": "s06",
   "title": "Advanced Materials and Structural Analysis",
-  "last_updated": "2026-03-20",
-  "data_note": "Materials data from peer-reviewed literature and AARO/ORNL analysis. Strong force parameters from QCD standard values.",
+  "last_updated": "2026-11-07",
+  "data_note": "Materials data from peer-reviewed literature and official sources. QCD and electromagnetic couplings are scale-dependent parameters in different theories and must not be interpreted as a ratio of chemical-bond or macroscopic tensile strengths.",
   "statistics": [
     {
       "id": "s06-001",
@@ -11,10 +11,10 @@
       "unit": "GPa",
       "date": "established",
       "source": {
-        "name": "Theoretical calculations (molecular dynamics)",
-        "url": "https://doi.org/10.1038/s41565-018-0141-z",
-        "doi": "10.1038/s41565-018-0141-z",
-        "accessed": "2026-03-20"
+        "name": "Takakura, A. et al. Strength of carbon nanotubes depends on their chemical structures. Nature Communications 10, 3040 (2019) — cites the 100–200 GPa theoretical range",
+        "url": "https://doi.org/10.1038/s41467-019-10959-7",
+        "doi": "10.1038/s41467-019-10959-7",
+        "accessed": "2026-11-07"
       },
       "context": "Range depends on chirality, diameter, and defect density of individual nanotubes.",
       "confidence": "high",
@@ -34,7 +34,7 @@
         "doi": "10.1038/s41565-018-0141-z",
         "accessed": "2026-03-20"
       },
-      "context": "Achieved in centimeter-long CNT bundles. Highest experimental measurement as of 2026.",
+      "context": "Achieved in centimetre-long CNT bundles (wall-area basis; 43 GPa engineering). Highest reported for multi-tube bundles; individual MWCNT shells have reached ~100 GPa (Peng et al. 2008).",
       "confidence": "high",
       "verification_status": "verified",
       "verified": true,
@@ -43,16 +43,16 @@
     {
       "id": "s06-003",
       "metric": "Carbon nanotube Young's modulus",
-      "value": 1.1,
+      "value": 1.0,
       "unit": "TPa",
       "date": "established",
       "source": {
-        "name": "Multiple experimental measurements; see Bai, Y. et al. Nature Nanotechnology 13, 589-595 (2018)",
-        "url": "https://doi.org/10.1038/s41565-018-0141-z",
-        "doi": "10.1038/s41565-018-0141-z",
-        "accessed": "2026-06-12"
+        "name": "Takakura, A. et al. Strength of carbon nanotubes depends on their chemical structures. Nature Communications 10, 3040 (2019)",
+        "url": "https://doi.org/10.1038/s41467-019-10959-7",
+        "doi": "10.1038/s41467-019-10959-7",
+        "accessed": "2026-11-07"
       },
-      "context": "Among the stiffest known materials. Sets the theoretical tensile strength limit at ~E/10 ≈ 110 GPa.",
+      "context": "Among the stiffest known materials. The ideal-strength estimate of order E/10 gives ~100 GPa; this is an order-of-magnitude estimate, not a strict upper bound.",
       "confidence": "high",
       "verification_status": "verified",
       "verified": true,
@@ -65,16 +65,16 @@
       "unit": "kN·m/kg",
       "date": "established",
       "source": {
-        "name": "Derived from tensile strength and density (~1300 kg/m³)",
-        "url": "https://doi.org/10.1038/s41565-018-0141-z",
-        "doi": null,
-        "accessed": "2026-03-20"
+        "name": "Derived: 63 GPa (Yu et al., Science 287, 637, 2000) ÷ ~1,300 kg/m³; convention-dependent",
+        "url": "https://doi.org/10.1126/science.287.5453.637",
+        "doi": "10.1126/science.287.5453.637",
+        "accessed": "2026-11-07"
       },
-      "context": "Approximately 300× greater than high-carbon steel. Key metric for aerospace structural applications.",
+      "context": "Of order 10^4 kN·m/kg and convention-dependent: ~48,000 kN·m/kg for 63 GPa at a bulk density of ~1,300 kg/m³, or ~36,000 kN·m/kg for 80 GPa on a wall cross-section of graphitic density (~2,200 kg/m³); roughly 200–300× high-carbon steel (~154 kN·m/kg).",
       "confidence": "high",
       "verification_status": "verified",
       "verified": true,
-      "verification_note": "Calculated from measured tensile strength and known CNT density"
+      "verification_note": "Calculated from a measured tensile strength and an assumed density; the result depends on the strength cross-section and density convention."
     },
     {
       "id": "s06-005",
@@ -114,35 +114,35 @@
     },
     {
       "id": "s06-007",
-      "metric": "Theoretical ultimate tensile strength limit (any material)",
+      "metric": "Ideal (theoretical) strength of a defect-free crystal (order-of-magnitude estimate)",
       "value": "~E/10",
       "unit": "relationship to Young's modulus",
       "date": "established",
       "source": {
-        "name": "Frenkel (1926) theoretical analysis of ideal crystal strength",
-        "url": "https://doi.org/10.1007/BF01349680",
-        "doi": null,
-        "accessed": "2026-03-20"
+        "name": "Orowan, E. Fracture and strength of solids. Rep. Prog. Phys. 12, 185 (1949) — ideal cohesive strength ~E/10; cf. Frenkel, Z. Phys. 37, 572 (1926) for ideal shear strength ~G/2π",
+        "url": "https://doi.org/10.1088/0034-4885/12/1/309",
+        "doi": "10.1088/0034-4885/12/1/309",
+        "accessed": "2026-11-07"
       },
-      "context": "For carbon-based materials (E ~ 1 TPa), this gives ~100 GPa, closely matching individual CNT measurements.",
+      "context": "An order-of-magnitude estimate set by interatomic bonding, not a strict upper bound. For sp² carbon (E ~ 1 TPa) it gives ~100 GPa, comparable to the measured intrinsic strength of defect-free graphene (~130 GPa ≈ E/8).",
       "confidence": "high",
       "verification_status": "verified",
       "verified": true,
-      "verification_note": "Classical result in materials science; validated by CNT and graphene data"
+      "verification_note": "Classical order-of-magnitude estimate; graphene's measured ~E/8 shows that E/10 is not a strict limit. The previous source DOI (10.1007/BF01349680) resolved to an unrelated 1921 paper."
     },
     {
       "id": "s06-008",
       "metric": "Macroscale CNT fiber tensile strength",
       "value": "few",
       "unit": "GPa",
-      "date": "2024",
+      "date": "2018",
       "source": {
         "name": "Bai, Y. et al. Nature Nanotechnology 13, 589-595 (2018) — single-bundle vs. macroscale fiber comparison",
         "url": "https://doi.org/10.1038/s41565-018-0141-z",
         "doi": "10.1038/s41565-018-0141-z",
         "accessed": "2026-06-12"
       },
-      "context": "Gap between single-tube (~80 GPa) and bulk fiber (~few GPa) due to defects, weak inter-tube shear, processing.",
+      "context": "Gap between centimetre-long bundles (~80 GPa) and macroscale fibres (~few GPa) due to defects, weak inter-tube shear, processing.",
       "confidence": "high",
       "verification_status": "verified",
       "verified": true,
@@ -150,9 +150,9 @@
     },
     {
       "id": "s06-009",
-      "metric": "Defect-induced strength reduction in CNTs",
-      "value": 85,
-      "unit": "% (up to)",
+      "metric": "Measured strength of structure-defined individual SWCNTs",
+      "value": "25–66",
+      "unit": "GPa",
       "date": "2019",
       "source": {
         "name": "Takakura, A. et al. Strength of carbon nanotubes depends on their chemical structures. Nature Communications 10, 3040 (2019)",
@@ -160,11 +160,11 @@
         "doi": "10.1038/s41467-019-10959-7",
         "accessed": "2026-06-12"
       },
-      "context": "Defect concentration is the primary factor limiting bulk CNT material performance.",
+      "context": "Strength depends primarily on chiral structure; defects concentrate stress. Measured values fall well below the 100–200 GPa ideal predictions.",
       "confidence": "high",
       "verification_status": "verified",
       "verified": true,
-      "verification_note": "Source corrected in v1.2.6: previous entry cited a non-resolving DOI under a mismatched author/title. Takakura et al. (2019) experimentally link chemical structure and defect incorporation to individual CNT strength."
+      "verification_note": "Checked against Takakura et al. (2019), who measured 25–66 GPa for 16 structure-defined SWCNTs. The previously listed 'up to 85%' defect-induced reduction does not appear in that paper and was removed."
     },
     {
       "id": "s06-010",
@@ -178,11 +178,11 @@
         "doi": null,
         "accessed": "2026-03-20"
       },
-      "context": "QCD coupling αs ≈ 1 at ~10⁻¹⁵ m scale. Compared to EM coupling α ≈ 1/137 ≈ 7.3 × 10⁻³.",
+      "context": "The QCD coupling runs with renormalization scale and becomes non-perturbative near confinement. A rough order-unity value at hadronic scales cannot be divided by the electromagnetic fine-structure constant to infer bond or material strength.",
       "confidence": "high",
       "verification_status": "verified",
       "verified": true,
-      "verification_note": "Standard QCD; PDG recommended values"
+      "verification_note": "PDG supports the running QCD coupling. The entry is a theory parameter, not a mechanical-property measurement."
     },
     {
       "id": "s06-011",
@@ -196,11 +196,11 @@
         "doi": null,
         "accessed": "2026-03-20"
       },
-      "context": "Strong force bonds are ~100× stronger than electromagnetic bonds at relevant scales.",
+      "context": "The fine-structure constant characterizes electromagnetic interaction strength. Its ratio to a QCD coupling at another scale is not a ratio of bond energies or tensile strengths. Nuclear binding is confined to femtometre scales and does not imply a macroscopic material 100 times stronger than chemical solids.",
       "confidence": "high",
       "verification_status": "verified",
       "verified": true,
-      "verification_note": "One of the most precisely measured constants in physics"
+      "verification_note": "The constant is precisely measured; the previous 100x strong-force material inference was unsupported and has been removed."
     },
     {
       "id": "s06-012",

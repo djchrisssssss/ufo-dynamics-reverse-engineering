@@ -4,6 +4,35 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [Unreleased]
+
+Scientific-validation audit (five referee-style reviews of physics, numbers, citations, metadata and validation). Release metadata (`CITATION.cff`, `.zenodo.json`, README citation examples, LaTeX acknowledgments) still says 1.2.7 and will be bumped when this is released.
+
+### Fixed — physics and numbers
+- **Section 3 (s03-001…004)**: Pfenning–Ford's model-dependent wall bound (~1.6 × 10⁻³³ m for v_b ~ c) replaces the "Planck-length" wall; ideal-plate Casimir density at 100 nm corrected to −4.33 J/m³; the 100 m example is −6.2 × 10⁶² kg mass-equivalent per unit v_b; the 10⁶⁸ Casimir-to-warp ratio is withdrawn (s03-004 "not defined", `verified: false`); P&F dates set to 1997-07.
+- **Nimitz acceleration (s02-001, s02-013)**: modal 5,370 (+1,430/−820) g restated as a model output from witness-reported inputs; the former "820–5,370 g" range withdrawn (−820 g is an uncertainty; 2.0 s is a hypothetical ≈ 870 g).
+- **Energy (s04)**: D–T 3.37 × 10¹⁴ J/kg; p-¹¹B 7.0 × 10¹³ J/kg and "aneutronic" qualified; deuterium ~34 g/m³ of seawater; antimatter value defined per kg of total annihilated mass; H₂–O₂ no longer called the highest chemical energy density; cosmological-constant ratio marked cutoff-dependent; NIF target gain distinguished from wall-plug gain.
+- **Materials (s06)**: s06-009 "up to 85%" defect reduction (not in the cited paper) replaced by Takakura et al.'s 25–66 GPa; E/10 restated as an order-of-magnitude ideal-strength estimate (source corrected from an unrelated 1921 DOI to Orowan 1949); CNT modulus ~1 TPa; specific strength made convention-dependent; CNT 80 GPa identified as a bundle, wall-area value.
+- **Comparison and timeline data**: unsupported universal gap factors removed from `materials-gap-analysis.csv`; `energy-density-comparison.csv` p-¹¹B row corrected; `uap-investigation-history.csv` separates the Condon report (Jan 1969) from the Blue Book termination (Dec 1969), dates AAWSAP to 2009, re-sources the Nimitz row to Knuth et al., removes a duplicate ODNI row and the "no verifiable evidence" paraphrase; `dird-publications.csv` records the DIRDs as FOIA-released UNCLASSIFIED//FOUO documents dated 2009–2011, entry 38 as the SECRET/NOFORN version of #23, and DIRD #30 as V. Teofilo.
+
+### Fixed — citations
+- **Bibliography metadata**: author lists for MICROSCOPE (src-013) and Bai et al. (src-027) replaced with the Crossref lists; Fell (src-007) is Shaun D. B. Fell; DOIs added for src-003/007/009; AARO/ORNL specimen synopsis (src-034) dated 2024; AARO parallax paper (src-058) given its real title, "Effect of Forced Perspective and Parallax View on UAP Observations" (May 2024); LLNL page (src-059) titled "Achieving Fusion Ignition"; one URL per source for src-033, src-057 and src-058.
+- **BibTeX**: DIRD titles match the released documents (#07, #19, #24, #26) and carry DIA numbers for #13/#15; Elizondo ISBN corrected (invalid check digit) and Kaku ISBN reverted to the 2008 Doubleday edition; Knuth, Elizondo, Condign and parallax notes corrected; keys renamed `Kennefick2020` → `GilmoreTauschPebody2022` and `AARO_ORNL2022` → `AARO_ORNL2024`.
+- **New sources**: 10 sources cited in the corrected text added as src-062…src-071 (Fuchs et al. 2024; Everett & Roman 1997; Hiscock 1997; Finazzi, Liberati & Barceló 2009; Clark, Hiscock & Larson 1999; Müller & Weiskopf 2012; Olum 1998; Schurig et al. 2006; Monticone & Alù 2016; Fowler 1995). The bibliography now has 71 sources (42 peer-reviewed, 9 government, 12 DIRD, 7 books, 1 preprint).
+- **Note map**: GoFast analysis attributed to NASA's UAP Independent Study Team (ref-045c) rather than AARO; ODNI 2022 health statement mapped to src-032 (ref-099, KJ-7); 1919 eclipse note adds Gilmore & Tausch-Pebody; Pfenning–Ford numbers (ref-119) and energy-condition notes (ref-120a) mapped to the papers that contain them; new notes ref-048a, ref-055a, ref-056a and key judgment KJ-10c; unlinked DIRDs and analog-gravity papers linked; Betterton–Kroll auxiliary renamed (no "1938 patent"); further-reading sources (src-012, src-035, src-052) documented in `bibliography.json` metadata. `sections_cited` is now the union of per-section listings and note-map sections.
+- **Source registry**: the orphan `ndaa-2023` entry (it pointed at an unrelated bill) removed; ODNI/ICD 203 and FAS URLs recorded as access-restricted after the 2026-11-07 audit (34 URLs: 19 reachable, 15 restricted).
+
+### Fixed — attribution
+- Elizondo's memoir treated as a participant account (README zh-TW background, per-section notes, BibTeX note); the AARO/ORNL specimen is no longer described as Betterton–Krohl "slag"; the AARO parallax paper no longer carries the GoFast analysis.
+
+### Changed
+- **Data verification**: 42/45 (93.3%) records marked source-cross-checked in metadata (was 43/45); the remaining three are two low-confidence model estimates and one withdrawn ratio. Wording now says provenance review, not empirical confirmation.
+- **zh-TW / LaTeX resync**: README zh-TW background, the zh-TW verification report, the zh-TW full text (note IDs, counts, references 1–71 at parity with English) and `latex/main.tex` (which had drifted from v1.2.7 and still carried the withdrawn 10⁶⁸ gap, Planck-length wall and "energy-to-curvature transduction" framing; now includes a Key Judgments section) resynced with the corrected English text.
+- **Validator**: header-aware per-section table parsing (no false positives from "Gap" columns); count, book and NIF snippets follow the audit wording; new checks for uncited BibTeX keys, BibTeX ↔ `bibliography.json` DOI/title/year agreement, unmapped sources, `sections_cited` in both directions, non-canonical note IDs, withdrawn-claim tokens in either full text, and unverified records that are neither low-confidence nor withdrawn; an empty HTTP 202 counts as access-restricted. Unit tests cover these paths and add a whole-repository smoke test.
+- **Statistics schema**: closed objects (`additionalProperties: false`); `confidence`, `verification_status`, `verification_note` required; ID pattern `^(s0[1-9]|sA[1-4])`.
+- **CI**: actions pinned by SHA; the required job runs unit tests plus offline validation; live URL audit moved to the weekly `url-audit.yml`; `requirements.txt` pins `jsonschema==4.25.1`; the LaTeX job fails on undefined citations or references.
+- **Docs**: README and CLAUDE.md project structure, validation commands and section table updated; Zenodo keyword "warp bubble morphology" removed, and removed from `CITATION.cff`.
+
 ## [1.2.7] — 2026-06-13
 
 ### Fixed
